@@ -1,3 +1,7 @@
+# Layout
+ 
+- [ ] Change to flexbox 
+
 # Framework
 
 ## L11nManager
@@ -58,6 +62,9 @@
 Uninstalling with constraints is rather difficult. need to remove constraints from all modules if there are any before 
 table drop is possible.
 
+- [ ] Install for navigation should have an interface? Or a global module interface for this
+- [ ] Navigation needs a uninstall directory in order to not only install navigation elements but also remove them. Actually navigation can do this on it's own but other modules might not be able!
+
 ## Business
 
 - [ ] Fix positions
@@ -78,7 +85,7 @@ table drop is possible.
 
 - [ ] Adjust tables
 - [ ] Create datamapper
- 
+
 ## Charts
 
 ### Charts types
@@ -113,6 +120,7 @@ table drop is possible.
 - [ ] Create Math test
 - [x] Model test
 - [x] Module test
+- [ ] Remove almost all createdAt setters. Testing should use reflection!!!
 
 # Dev splash screen
 
