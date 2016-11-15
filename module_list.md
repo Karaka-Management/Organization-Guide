@@ -55,3 +55,4 @@
 * 1005500000 - OMS Workflow
 * 1005600000 - OMS Database
 * 1005700000 - OMS Job
+* 1005800000 - OMS Comments
