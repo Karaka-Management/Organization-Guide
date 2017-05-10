@@ -58,3 +58,4 @@
 * 1005800000 - OMS Kanban
 * 1005900000 - OMS Knowledgebase
 * 1006000000 - OMS QA
+* 1006100000 - OMS Comments
