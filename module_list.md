@@ -55,3 +55,6 @@
 * 1005500000 - OMS Workflow
 * 1005600000 - OMS Database
 * 1005700000 - OMS Job
+* 1005800000 - OMS Kanban
+* 1005900000 - OMS Knowledgebase
+* 1006000000 - OMS QA
