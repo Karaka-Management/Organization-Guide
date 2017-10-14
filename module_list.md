@@ -59,3 +59,8 @@
 * 1005900000 - OMS Knowledgebase
 * 1006000000 - OMS QA
 * 1006100000 - OMS Comments
+* 1006200000 - OMS Auditor
+* 1006300000 - OMS Human Resource Time Recording
+* 1006400000 - OMS P&L
+* 1006500000 - OMS Balance
+* 1006600000 - OMS AssetManagement
