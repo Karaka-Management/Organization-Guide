@@ -64,3 +64,5 @@
 * 1006400000 - OMS P&L
 * 1006500000 - OMS Balance
 * 1006600000 - OMS AssetManagement
+* 1006700000 - OMS StockTaking
+* 1006800000 - OMS StockTaking
