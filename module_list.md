@@ -67,3 +67,4 @@
 * 1006700000 - OMS StockTaking
 * 1006800000 - OMS Help
 * 1006900000 - OMS Home
+* 1007000000 - OMS Exchange
