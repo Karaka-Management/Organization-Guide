@@ -157,12 +157,13 @@ In the following a ranking of numbers (1-10) will be used where 10 is the highes
 | Code execution                          | request    | running   | running    | running   | running    | running   | running    | request    |
 | Code quality tools                      | 10         | ?         | ?          | ?         | ?          | ?         | ?          | ?          |
 | Availability of libs (e.g. pdf, excel)  | 10         | ?         | ?          | ?         | ?          | ?         | ?          | ?          |
-| Easy to install                         | no         | yes       | yes        | yes       | yes        | yes       | no         | no         |
+| Easy to install on own server/pc        | no         | yes       | yes        | yes       | yes        | yes       | no         | no         |
+| Availability on third party hosts       | 10         | 7         | 7          | 7         | 7          | 7         | 8          | 9          |
 
 The decision why Orange Management decided to use PHP came down to the following points:
 
 1. Since the web applications are supposed to run on all sizes of organizations and businesses PHP has the advantage with availability on simple (cheap) webservers
-2. The request based code execution makes it less susceptible against errors (re-starting and monitoring the application etc.)
+2. The request based code execution makes it less susceptible against errors (re-starting and monitoring the application etc.) and therefore better for non-tech people.
 
 # Action Plan
 
