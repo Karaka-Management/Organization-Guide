@@ -172,3 +172,4 @@ The decision why Orange Management decided to use PHP came down to the following
 5. Create reports based on exiting data
 6. Implement modify and create functionaly for the above mention imported modules (data)
 7. Further implement basic modules (news, profile, wiki, kanban, Q&A, calendar, messaging)
+8. Create new design
