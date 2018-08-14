@@ -95,8 +95,6 @@ A basic package should not cost more than 10 EUR per month as this is comparable
 
 Ease of use needs to be visible to the customer even before he purchases a package. In order portray that of course the modules themself have to be designed in a very intuitive way but also the available documentation has to be very easy to understand. Very often documentations expect a certain amount of pre-knowledge which confuses new users if they try to follow a documentation step-by-step. At the same time videos are very important for small organizations as they may rather watch a video than read through the documentation. 
 
-####### Videos
-
 The videos should not have a long introduction and an outro which are very annoying if you want to go through some videos very fast and have to waste your time on intros and outros. The solution will be to only show a 3 sec image or splash screen as intro and an 3 sec outro image with contact, website and documentation details.
 
 The videos shoud be around 5 - 15 minutes long. Shorter than 5 minutes will lead to a large amount of videos which take time to search through and longer than 15 minutes will discourage users since they might not want to invest the time.
@@ -162,7 +160,7 @@ In the following a ranking of numbers (1-10) will be used where 10 is the highes
 
 The decision why Orange Management decided to use PHP came down to the following points:
 
-1. Since the web applications are supposed to run on all sizes of organizations and businesses PHP has the advantage with availability on simple (cheap) webservers
+1. Since the web applications are supposed to run on all sizes of organizations and businesses PHP has the advantage with availability on simple (cheap) webservers.
 2. The request based code execution makes it less susceptible against errors (re-starting and monitoring the application etc.) and therefore better for non-tech people.
 
 # Action Plan
