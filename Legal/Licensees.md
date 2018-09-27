@@ -1,4 +1,4 @@
-# Licenses #
+# Licensees #
 
 ## Schütz Dental
 
