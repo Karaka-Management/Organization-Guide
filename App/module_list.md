@@ -71,3 +71,4 @@
 * 1007100000 - OMS InvestmentManagement
 * 1007200000 - OMS KPI
 * 1007300000 - OMS CLM
+* 1007400000 - OMS DatabaseEditor
