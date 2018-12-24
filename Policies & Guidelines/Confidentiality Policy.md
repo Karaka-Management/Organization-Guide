@@ -26,7 +26,7 @@ Members, participants and affiliates may have different levels of authorized acc
 * Shred confidential documents when they're no longer needed
 * Make sure you only view confidential information on secure devices
 * Only disclose information to other members when it's necessary and authorized
-* Return confidential documents befor leaving or discontinuing the relationship with the organization and delete copies from personal devices.
+* Return confidential documents before leaving or discontinuing the relationship with the organization and delete copies from personal devices.
 
 ## Don'ts
 

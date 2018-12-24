@@ -15,7 +15,7 @@
 13. Regular backups must be ensured (also required for data security reasons)
 14. Unique invoice numbers
 15. Consecutive invoice numbers
-16. Correct invoice (delivery addrass, invoice address, date, vat id, items, amounts, single price, values, tax, discount, delivery terms, payment terms, skonti, currency, exchange rate, person who created invoice)
+16. Correct invoice (delivery address, invoice address, date, vat id, items, amounts, single price, values, tax, discount, delivery terms, payment terms, skonti, currency, exchange rate, person who created invoice)
 17. Document correct working by logging every activity (e.g. invoice reduces stock and the stock log needs to reference the invoice id etc.)
 18. Every posting has to be related to a voucher
 19. Comment for posting possible

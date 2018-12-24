@@ -4,7 +4,7 @@
 
 The Orange Management organization is located Germany and founded in November 2015 by Dennis Eichhorn for developing the Orange Management application and sub-components which incorporates functions such as CRM, SRM, CMS, Shop and many more. 
 
-The main goal of the organization is to create products for companies and organizations of all sizes which allow them to manage their opperations from one application and interconnect them.
+The main goal of the organization is to create products for companies and organizations of all sizes which allow them to manage their operations from one application and interconnect them.
 
 ## SWOT
 
@@ -17,7 +17,7 @@ The main goal of the organization is to create products for companies and organi
 * Easy to use with modern visuals and layouts. 
 * Good performance
 * Modular. The customer can decide which modules he needs
-* Real world oriented. Features are drafted and tested by business specialsts in the respective fields.
+* Real world oriented. Features are drafted and tested by business specialists in the respective fields.
 * Optimized for mobile and desktop
 * Flexible setup (local or remote)
 * Regular updates. Either manually or automatically
@@ -33,7 +33,7 @@ The main goal of the organization is to create products for companies and organi
 
 #### Customer 
 
-* Installation for non-tech people is difficult (not the actuall app installation but the WAMP or LAMP installation)
+* Installation for non-tech people is difficult (not the actual app installation but the WAMP or LAMP installation)
 
 #### Technical
 
@@ -69,13 +69,13 @@ The main goal of the organization is to create products for companies and organi
 
 Orange Management tools are used by at least 1.000 organizations in 2023
 
-### Startegy
+### Strategy
 
 #### Initial Phase
 
 ##### Customer
 
-In the beginning the goal is to reach a large amount of organizations no matter the size. As it is easier to address smaller organizations since they usually are less invested in existing software solutions they will be the initial target group. For them no customizations will be done unless they can be integrated for everyone.
+In the beginning the goal is to reach a large amount of organizations no matter the size. As it is easier to address smaller organizations since they usually are less invested in existing software solutions they will be the initial target group. For them no customization will be done unless they can be integrated for everyone.
 
 For these customers the following points are most important:
 
@@ -85,7 +85,7 @@ For these customers the following points are most important:
 
 ###### Price
 
-The price should be very competitive. This could be achieved by providing a cheap basic package which includes the essentials for most organizations with a licence for up to **5** users. There could be different packages for different types of organizations. However a small organization should look at a package and immediately recognize that this basically contains everything they need. Small organizations need to have trust in a product without having to understand all the technical details of functionaltiy which may be required for larger organizations.
+The price should be very competitive. This could be achieved by providing a cheap basic package which includes the essentials for most organizations with a licence for up to **5** users. There could be different packages for different types of organizations. However a small organization should look at a package and immediately recognize that this basically contains everything they need. Small organizations need to have trust in a product without having to understand all the technical details of functionality which may be required for larger organizations.
 
 At the same time the customer needs to be informed, that he can customize his package if he wants to (e.g. add additional modules). Only after providing these information the customer needs to be informed that he can also completely customize his modules if he so desires without a basic package. For mid- to large sized organizations other price strategies could be better.
 
@@ -93,15 +93,15 @@ A basic package should not cost more than 10 EUR per month as this is comparable
 
 ###### Ease of use
 
-Ease of use needs to be visible to the customer even before he purchases a package. In order portray that of course the modules themself have to be designed in a very intuitive way but also the available documentation has to be very easy to understand. Very often documentations expect a certain amount of pre-knowledge which confuses new users if they try to follow a documentation step-by-step. At the same time videos are very important for small organizations as they may rather watch a video than read through the documentation. 
+Ease of use needs to be visible to the customer even before he purchases a package. In order portray that of course the modules themselves have to be designed in a very intuitive way but also the available documentation has to be very easy to understand. Very often documentations expect a certain amount of pre-knowledge which confuses new users if they try to follow a documentation step-by-step. At the same time videos are very important for small organizations as they may rather watch a video than read through the documentation. 
 
 The videos should not have a long introduction and an outro which are very annoying if you want to go through some videos very fast and have to waste your time on intros and outros. The solution will be to only show a 3 sec image or splash screen as intro and an 3 sec outro image with contact, website and documentation details.
 
-The videos shoud be around 5 - 15 minutes long. Shorter than 5 minutes will lead to a large amount of videos which take time to search through and longer than 15 minutes will discourage users since they might not want to invest the time.
+The videos should be around 5 - 15 minutes long. Shorter than 5 minutes will lead to a large amount of videos which take time to search through and longer than 15 minutes will discourage users since they might not want to invest the time.
 
 ###### Key modules
 
-The key modules in one package must give the user the impresseion that this includes all the basics he needs to manage the organization.
+The key modules in one package must give the user the impression that this includes all the basics he needs to manage the organization.
 
 Recommended modules for businesses are:
 
@@ -123,7 +123,7 @@ Recommended modules for businesses are:
 * VoucherManagement
 * TaxManagement
 
-With these modules almost every small business could opperate. Smart advertisments could help to sell extending modules such as charting, balancing, cost center accounting, cost object accounting, warehousing etc.
+With these modules almost every small business could operate. Smart advertisements could help to sell extending modules such as charting, balancing, cost center accounting, cost object accounting, warehousing etc.
 
 # Products & Services
 
@@ -144,7 +144,7 @@ In the following a ranking of numbers (1-10) will be used where 10 is the highes
 
 | Description                             | PHP        | C/C++     | C#         | GO        | Java       | Rust      | NodeJS     | Python     |
 | --------------------------------------- | ---------- | --------- | ---------- | --------- | ---------- | --------- | ---------- | ---------- |
-| Language experieance                    | 10         | 4         | 6          | 1         | 3          | 2         | 2          | 1          |
+| Language experience                     | 10         | 4         | 6          | 1         | 3          | 2         | 2          | 1          |
 | Performance (runtime)                   | 5          | 10        | 9          | 9         | 9          | 10        | 7          | 3          |
 | Web integration (tools, api, libs)      | 10         | 4         | 10         | 9         | 9          | 4         | 10         | 9          |
 | Package management system               | 10         | 4         | 7          | ?         | 4          | 7         | 5          | ?          |
@@ -168,8 +168,8 @@ The decision why Orange Management decided to use PHP came down to the following
 1. First real world tests on testing company (admin, organization, task & reporter module)
 2. Create reports for the reporter module for the testing company
 3. Test importer module and import testing company data into application
-4. Let modules display importet data (read-only) (customers, suppliers, accounts, cost centers, cost objects, articles, invoices)
+4. Let modules display imported data (read-only) (customers, suppliers, accounts, cost centers, cost objects, articles, invoices)
 5. Create reports based on exiting data
-6. Implement modify and create functionaly for the above mention imported modules (data)
+6. Implement modify and create functionality for the above mention imported modules (data)
 7. Further implement basic modules (news, profile, wiki, kanban, Q&A, calendar, messaging)
 8. Create new design
