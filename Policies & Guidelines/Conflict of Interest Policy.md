@@ -22,7 +22,7 @@ Conflict of interest is defined as:
 
 ## Does
 
-When an employee understands or suspects that a conflict of interest exists, they should bring this matter to the attention of senior organization members so corrective actions may be taken. Senior members ust also keep an eye on potential conflict of interests of other members, partners and affiliates.
+When an employee understands or suspects that a conflict of interest exists, they should bring this matter to the attention of senior organization members so corrective actions may be taken. Senior members must also keep an eye on potential conflict of interests of other members, partners and affiliates.
 
 In general it is advised to refrain from letting personal and/or financial interests and external activities come into opposition with the organization's fundamental interests.
 
