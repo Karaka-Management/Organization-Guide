@@ -24,7 +24,7 @@
 * 1002400000 - OMS Human Resource Management
 * 1002500000 - OMS Clocking
 * 1002600000 - OMS Accounting
-* 1002700000 - OMS Reporter
+* 1002700000 - OMS Helper
 * 1002800000 - OMS Controlling
 * 1002900000 - OMS Support
 * 1003000000 - OMS Risk Management

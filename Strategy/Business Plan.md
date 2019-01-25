@@ -165,8 +165,8 @@ The decision why Orange Management decided to use PHP came down to the following
 
 # Action Plan
 
-1. First real world tests on testing company (admin, organization, task & reporter module)
-2. Create reports for the reporter module for the testing company
+1. First real world tests on testing company (admin, organization, task & helper module)
+2. Create reports for the helper module for the testing company
 3. Test importer module and import testing company data into application
 4. Let modules display imported data (read-only) (customers, suppliers, accounts, cost centers, cost objects, articles, invoices)
 5. Create reports based on exiting data
