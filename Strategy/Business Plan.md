@@ -2,9 +2,9 @@
 
 # Organization
 
-The Orange Management organization is located Germany and founded in November 2015 by Dennis Eichhorn for developing the Orange Management application and sub-components which incorporates functions such as CRM, SRM, CMS, Shop and many more. 
+The Orange Management organization is located Germany and founded in November 2015 by Dennis Eichhorn for developing the Orange Management application and sub-components which incorporates functions such as CRM, SRM, CMS, Shop and many more.
 
-The main goal of the organization is to create products for companies and organizations of all sizes which allow them to manage their operations from one application and interconnect them.
+The main goal of the organization is to create solutions for companies and organizations of all sizes which allow them to seamless manage their operations from one application and interconnect them.
 
 ## SWOT
 
@@ -14,7 +14,7 @@ The main goal of the organization is to create products for companies and organi
 
 * Everything in one application. Organizations and businesses no longer have to use multiple services from different providers and potentially integrate them into their existing applications
 * Cheap for the customer compared to many other solutions
-* Easy to use with modern visuals and layouts. 
+* Easy to use with modern visuals and layouts.
 * Good performance
 * Modular. The customer can decide which modules he needs
 * Real world oriented. Features are drafted and tested by business specialists in the respective fields.
@@ -31,7 +31,7 @@ The main goal of the organization is to create products for companies and organi
 
 ### Weaknesses
 
-#### Customer 
+#### Customer
 
 * Installation for non-tech people is difficult (not the actual app installation but the WAMP or LAMP installation)
 
@@ -69,6 +69,24 @@ The main goal of the organization is to create products for companies and organi
 
 Orange Management tools are used by at least 1.000 organizations in 2023
 
+#### Goal
+
+1. Focus on the solution of the problem
+2. Financially attractiveness for as many end-users as possible
+3. Solve a wide range of problems
+4. Integrate solutions for seamless workflows
+5. Accessible for everyone (desktop, tablet, phone, for disabled people, online/offline)
+6. Fast user interface feedback and good performance
+
+#### How To Achieve?
+
+1. Use it during development incl. user feedback
+2. Modular system and fair pricing
+3. Speak to users and implement common workflows
+4. One philosophy and one core system for every module
+5. Put the user experience above ease of implementation
+6. Custom and specialized software implementations instead of generalized solutions.
+
 ### Strategy
 
 #### Initial Phase
@@ -93,7 +111,7 @@ A basic package should not cost more than 10 EUR per month as this is comparable
 
 ###### Ease of use
 
-Ease of use needs to be visible to the customer even before he purchases a package. In order portray that of course the modules themselves have to be designed in a very intuitive way but also the available documentation has to be very easy to understand. Very often documentations expect a certain amount of pre-knowledge which confuses new users if they try to follow a documentation step-by-step. At the same time videos are very important for small organizations as they may rather watch a video than read through the documentation. 
+Ease of use needs to be visible to the customer even before he purchases a package. In order portray that of course the modules themselves have to be designed in a very intuitive way but also the available documentation has to be very easy to understand. Very often documentations expect a certain amount of pre-knowledge which confuses new users if they try to follow a documentation step-by-step. At the same time videos are very important for small organizations as they may rather watch a video than read through the documentation.
 
 The videos should not have a long introduction and an outro which are very annoying if you want to go through some videos very fast and have to waste your time on intros and outros. The solution will be to only show a 3 sec image or splash screen as intro and an 3 sec outro image with contact, website and documentation details.
 

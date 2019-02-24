@@ -9,7 +9,7 @@
 * Ease of use
   * User interface
   * Pre-selected installation packages
-  * PC/Mobile
+  * PC/Mobile/Tablet
   * Training videos
   * Servers (local/web)
 * Functionality
