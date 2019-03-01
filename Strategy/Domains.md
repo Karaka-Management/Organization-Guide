@@ -33,7 +33,7 @@ Used for all emails of the organization.
 
 ### orange-management.info
 
-Don't know yet, some general info?
+Used for documentation.
 
 ### orange-management.live
 
