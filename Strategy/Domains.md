@@ -8,6 +8,10 @@ The following list shows the domains and their purpose/reasoning:
 
 Organization page
 
+### orange-management.net
+
+Same as .org. Maybe this tld will be used as some form of collection of domains (e.g. stackexchange)
+
 ### orange-management.dev
 
 Used for development information such as:
