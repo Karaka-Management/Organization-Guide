@@ -45,7 +45,14 @@ Used for services (microservices) or services provided by the organization (e.g.
 
 ### orange-management.shop
 
-Shop to purchase the application and modules
+Shop to purchase the application and modules.
+
+Categories:
+
+* Basic packages
+* Modules
+* Services
+* Merch
 
 ### orange-management.solutions
 
