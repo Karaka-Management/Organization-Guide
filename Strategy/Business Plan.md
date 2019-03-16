@@ -17,7 +17,7 @@ The main goal of the organization is to create solutions for companies and organ
 * Easy to use with modern visuals and layouts.
 * Good performance
 * Modular. The customer can decide which modules he needs
-* Real world oriented. Features are drafted and tested by business specialists in the respective fields.
+* Solves real problems. Features are drafted and tested by business specialists in the respective fields.
 * Optimized for mobile and desktop
 * Flexible setup (local or remote)
 * Regular updates. Either manually or automatically
@@ -33,7 +33,7 @@ The main goal of the organization is to create solutions for companies and organ
 
 #### Customer
 
-* Installation for non-tech people is difficult (not the actual app installation but the WAMP or LAMP installation)
+* Installation for non-tech people is "difficult" (not the actual app installation but the WAMP or LAMP installation)
 
 #### Technical
 
