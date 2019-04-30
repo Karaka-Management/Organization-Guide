@@ -2,40 +2,41 @@
 
 # Organization
 
-The Orange Management organization is located Germany and founded in November 2015 by Dennis Eichhorn for developing the Orange Management application and sub-components which incorporates functions such as CRM, SRM, CMS, Shop and many more.
+The Orange Management organization is located in Germany and founded in November 2015 by Dennis Eichhorn for developing the Orange Management application and sub-components which incorporates solutions such as CRM, SRM, CMS, ERP, Shop and many more.
 
-The main goal of the organization is to create solutions for companies and organizations of all sizes which allow them to seamless manage their operations from one application and interconnect them.
+The main goal of the organization is to create solutions for companies and organizations of all sizes which allow them to seamless manage their operations from one application.
 
 ## SWOT
 
 ### Strengths
 
-#### Customer
+#### From Customer PoV
 
 * Everything in one application. Organizations and businesses no longer have to use multiple services from different providers and potentially integrate them into their existing applications
 * Cheap for the customer compared to many other solutions
-* Easy to use with modern visuals and layouts.
+* Easy to use with modern visuals and layouts
 * Good performance
 * Modular. The customer can decide which modules he needs
-* Solves real problems. Features are drafted and tested by business specialists in the respective fields.
+* Solves real problems. Features are drafted and tested by business specialists in the respective fields
 * Optimized for mobile and desktop
 * Flexible setup (local or remote)
 * Regular updates. Either manually or automatically
-* Large amount of modules
+* Large amount of modules and functionality
 
-#### Technical
+#### Technical PoV
 
 * Modular structure is designed in a very scalable way
 * Multiple database support (mssql, mysql, postgresql)
 * Multiple cache support (file, memcache, redis)
+* Easily scalable
 
 ### Weaknesses
 
-#### Customer
+#### From Customer PoV
 
 * Installation for non-tech people is "difficult" (not the actual app installation but the WAMP or LAMP installation)
 
-#### Technical
+#### Technical PoV
 
 * Request based code execution. Database and cache connection is request based and not persistent etc.
 * Concurrency is difficult to solve due to the request based code execution
@@ -47,7 +48,7 @@ The main goal of the organization is to create solutions for companies and organ
 * Public free software tests (without registration)
 * Growing demand for managing data (also for small businesses)
 
-#### Technical
+#### Technical PoV
 
 * Programming language performance improvement through JIT implementation
 * Programming language performance improvement through usage of typehints during compilation
@@ -57,7 +58,7 @@ The main goal of the organization is to create solutions for companies and organ
 #### External
 
 * Regulations. There are many different regulations for different regions and business fields that must be upheld
-* Small customers still want to own software and not rent it and pay for it every year.
+* Small customers still want to own software and not rent it and pay for it every year
 
 #### Internal
 
@@ -67,7 +68,8 @@ The main goal of the organization is to create solutions for companies and organ
 
 ### Vision
 
-Orange Management tools are used by at least 1.000 organizations in 2023
+* **Early:** Orange Management solutions are used by at least 1.000 organizations/businesses in 2025
+* **Late:** Orange Management is one of the industry standard solution provider for organizations and businesses
 
 #### Goal
 
@@ -85,7 +87,7 @@ Orange Management tools are used by at least 1.000 organizations in 2023
 3. Speak to users and implement common workflows
 4. One philosophy and one core system for every module
 5. Put the user experience above ease of implementation
-6. Custom and specialized software implementations instead of generalized solutions.
+6. Specialized software implementations instead of generalized solutions.
 
 ### Strategy
 
@@ -107,7 +109,7 @@ The price should be very competitive. This could be achieved by providing a chea
 
 At the same time the customer needs to be informed, that he can customize his package if he wants to (e.g. add additional modules). Only after providing these information the customer needs to be informed that he can also completely customize his modules if he so desires without a basic package. For mid- to large sized organizations other price strategies could be better.
 
-A basic package should not cost more than 10 EUR per month as this is comparable to other competitors. Competitors offer overall much less but compared to the basic package they are similar features.
+A basic package should not cost more than 10 EUR per month as this is comparable to other competitors. Competitors offer overall much less but compared to the *basic* package they either provide similar features or the user will have a difficult time to understand why he has to pay more.
 
 ###### Ease of use
 
@@ -116,6 +118,8 @@ Ease of use needs to be visible to the customer even before he purchases a packa
 The videos should not have a long introduction and an outro which are very annoying if you want to go through some videos very fast and have to waste your time on intros and outros. The solution will be to only show a 3 sec image or splash screen as intro and an 3 sec outro image with contact, website and documentation details.
 
 The videos should be around 5 - 15 minutes long. Shorter than 5 minutes will lead to a large amount of videos which take time to search through and longer than 15 minutes will discourage users since they might not want to invest the time.
+
+Some of the demo applications need to be targeted to small sized organizations so that they can immediately see and test the application and modules that they would also use themselves. Additionally the UI needs to look modern and simple in order to convey the ease of use.
 
 ###### Key modules
 
@@ -129,6 +133,7 @@ Recommended modules for businesses are:
 * Tasks
 * Media
 * Calendar
+* Message
 * Accounting
 * P&L
 * ClientManagement
@@ -147,14 +152,35 @@ With these modules almost every small business could operate. Smart advertisemen
 
 ## Products
 
-1. CRM
-2. SRM
-3. ERP
-4. Intranet
-5. Shop
-6. CMS
+Key solutions (consisting of multiple modules) which must be available are:
 
-# Business Decissions
+* CRM
+* SRM
+* ERP
+* Intranet
+* Shop
+* CMS
+* BI
+* Office
+
+## Services
+
+Key services that should be implemented are:
+
+Early:
+* Initial consulting
+* Setup
+* Support & maintenance
+
+Mid:
+* Hosting
+* Pre-configured server
+* Customization (for large customers)
+
+Late:
+* Migration of existing data
+
+# Business Decisions
 
 ## Programming Language
 
@@ -168,8 +194,8 @@ In the following a ranking of numbers (1-10) will be used where 10 is the highes
 | Package management system               | 10         | 4         | 7          | ?         | 4          | 7         | 5          | ?          |
 | Webserver, Vserver, Rootserver support  | 10         | 7         | 7          | 7         | 7          | 7         | 7          | 8          |
 | Concurrency                             | "no"       | yes       | yes        | yes       | yes        | yes       | yes        | "no"       |
-| Community size for web applications     | 10         | 3         | 7          | 6         | 6          | 2         | 8          | 8          |
-| Community momentum                      | decreasing | stable    | increasing | stable    | decreasing | stable    | increasing | decreasing |
+| Community size for web applications     | 10         | 3         | 8          | 6         | 6          | 2         | 9          | 7          |
+| Community momentum                      | stable     | stable    | increasing | stable    | decreasing | stable    | increasing | decreasing |
 | Code execution                          | request    | running   | running    | running   | running    | running   | running    | request    |
 | Code quality tools                      | 10         | ?         | ?          | ?         | ?          | ?         | ?          | ?          |
 | Availability of libs (e.g. pdf, excel)  | 10         | ?         | ?          | ?         | ?          | ?         | ?          | ?          |
