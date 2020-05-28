@@ -25,6 +25,14 @@ Auditor
 - [ ] All logs show the differences
 - [ ] Logs by IP
 
+Jobs
+- [ ] Create and manage scheduled tasks/jobs
+- [ ] Reporting failed tasks/jobs
+
+Exchange
+- [ ] Import data from other software
+- [ ] Export data to other software
+
 Organization
 - [ ] Manage units
 - [ ] Manage departments
@@ -37,6 +45,13 @@ Dashboard
 - [ ] Default dashboards
 - [ ] Group specific dashboard
 - [ ] Customizable dashboards by users (e.g. elements and order)
+
+Profile
+- [ ] Handle visibility for other accounts/groups
+- [ ] Show content from other modules (e.g. media module)
+- [ ] Localization handling (e.g. language, units, number formats, currency, etc.)
+- [ ] Profile information (e.g. mail, birthday, etc.)
+- [ ] Password management
 
 Media
 - [ ] Upload media
@@ -135,6 +150,13 @@ Helper
 - [ ] Multi-language support
 - [ ] Export as print, pdf, word, ppt, csv possible
 - [ ] Tags for helper/templates
+
+News
+- [ ] Create and edit news
+- [ ] Links as "news" for information sharing
+- [ ] Tags for news
+- [ ] Optionally tagging news as featured
+- [ ] Timed news releases
 
 Navigation
 - [ ] Multi language
