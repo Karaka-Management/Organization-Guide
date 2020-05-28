@@ -3,6 +3,11 @@ General UI
 - [ ] Table sorting
 - [ ] Table filtering
 - [ ] Table export in excel and csv
+- [ ] Loads full page on first load
+- [ ] Loads only content on consecutive calls
+- [ ] Loads only data on table filtering, sorting, infinite scroll, pagination
+- [ ] Saves state in local storage on reboot
+- [ ] Suggests to install pwa
 
 Admin
 - [ ] Create accounts
