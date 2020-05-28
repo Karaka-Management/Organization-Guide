@@ -167,3 +167,24 @@ Navigation
 - [ ] Multi language
 - [ ] Manual links/endpoint definition
 - [ ] Renaming links
+
+Invoicing
+- [ ] 
+
+Purchasing
+- [ ] 
+
+Warehousing
+- [ ] 
+
+Stock Taking
+- [ ] 
+
+Banking
+- [ ]
+
+HumanResourceManagement
+- [ ]
+
+HumanResourceTimeManagement
+- [ ] 
