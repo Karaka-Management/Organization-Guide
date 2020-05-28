@@ -25,12 +25,26 @@ Auditor
 - [ ] All logs show the differences
 - [ ] Logs by IP
 
+Organization
+- [ ] Manage units
+- [ ] Manage departments
+- [ ] Manage positions
+- [ ] Organigram
+- [ ] Images for units, departments and positions
+- [ ] Optional automatic group creation for units, departments and positions
+
+Dashboard
+- [ ] Default dashboards
+- [ ] Group specific dashboard
+- [ ] Customizable dashboards by users (e.g. elements and order)
+
 Media
 - [ ] Upload media
 - [ ] Pausable media upload
 - [ ] Droppable upload
 - [ ] Media file creation (text, image)
-- [ ] Media changes (text, image, pdf)
+- [ ] Media changes (text, image)
+- [ ] PDF editor (comments, highlights and simple symbols)
 - [ ] File viewing (text, image, pdf, ppt, word, audio, video)
 - [ ] Virtual directories / collections which can reference files virtually preventing file duplication
 - [ ] Physical directories in media module
@@ -40,14 +54,6 @@ Media
 - [ ] Drag and drop of already uploaded files / directories (actual moving and creating references)
 - [ ] Copy, Insert, Delete (right mouse click and ctrl+c/v)
 - [ ] Tags for media elements
-
-Organization
-- [ ] Manage units
-- [ ] Manage departments
-- [ ] Manage positions
-- [ ] Organigram
-- [ ] Images for units, departments and positions
-- [ ] Optional automatic group creation for units, departments and positions
 
 Tasks
 - [ ] Can be assigned to multiple accounts
@@ -110,6 +116,27 @@ Editor
 - [ ] Tags for documents
 - [ ] Drag and drop of already created files / directories (actual moving and creating references)
 - [ ] Copy, Insert, Delete (right mouse click and ctrl+c/v)
+- [ ] Highlight which user wrote which content
+- [ ] Live colaboration
+- [ ] Versioning which shows who changed what
+- [ ] Multi language support
+- [ ] Multi tab support
+
+Draw
+- [ ] Create and edit drawing
+- [ ] Export as png, jpg, gif or bmp
 
 Helper
-- [ ] asdsadf
+- [ ] Templates as basis (= base logic) for individual helpers (e.g. reports)
+- [ ] Standalone templates which don't require additional data
+- [ ] Helpers which use templates (e.g. new report based on new data)
+- [ ] Direct database access
+- [ ] Own sqlite database for templates
+- [ ] Multi-language support
+- [ ] Export as print, pdf, word, ppt, csv possible
+- [ ] Tags for helper/templates
+
+Navigation
+- [ ] Multi language
+- [ ] Manual links/endpoint definition
+- [ ] Renaming links
