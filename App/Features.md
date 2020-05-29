@@ -93,6 +93,9 @@ Tasks
 - [ ] Analysis of tasks per group
 - [ ] Analysis of tasks per account
 - [ ] Analysis of tasks per tag
+- [ ] Without connection
+- [ ] Automatically create tasks
+- [ ] Re-usable task templates can be created
 
 Ticket
 - [ ] Inform users via email (also external) if wanted
@@ -106,6 +109,7 @@ Ticket
 - [ ] Analysis of tickets per group
 - [ ] Analysis of tickets per account
 - [ ] Analysis of tickets per tag
+- [ ] Without connection
 
 Calendar
 - [ ] Recurring events
@@ -116,6 +120,7 @@ Calendar
 - [ ] Event tagging
 - [ ] Event coloring
 - [ ] Room management (blocking rooms and handling room conflicts for meetings)
+- [ ] Without connection
 
 Messaging
 - [ ] Emails
@@ -124,6 +129,7 @@ Messaging
 - [ ] Automatic response messages (internal and external)
 - [ ] Spam detection
 - [ ] Asynchronus backround tasks send system messages about their status and link if applicable
+- [ ] Without connection
 
 Chat
 - [ ] Single user chat
@@ -146,10 +152,12 @@ Editor
 - [ ] Versioning which shows who changed what
 - [ ] Multi language support
 - [ ] Multi tab support
+- [ ] Without connection
 
 Draw
 - [ ] Create and edit drawing
 - [ ] Export as png, jpg, gif or bmp
+- [ ] Without connection
 
 Helper
 - [ ] Templates as basis (= base logic) for individual helpers (e.g. reports)
@@ -167,6 +175,7 @@ News
 - [ ] Tags for news
 - [ ] Optionally tagging news as featured
 - [ ] Timed news releases
+- [ ] Without connection
 
 Navigation
 - [ ] Multi language
@@ -204,7 +213,11 @@ EventManagement
 - [ ] 
 
 Checklist
-- [ ] 
+- [ ] Re-usable checklist templates
+- [ ] Automatlically create tasks
+- [ ] Track checklist completion based on tasks
+- [ ] Tags for checklists
+- [ ] Automatically create checklists
 
 DBEditor
 - [ ] Read the database
@@ -219,17 +232,19 @@ Search
 - [ ] Search within accounts or groups
 - [ ] External search
 
-Draw
-- [ ]
-
-Database
-- [ ] 
-
 Tag
-- [ ] 
+- [ ] Multi language
+- [ ] Account specific tags
+- [ ] Global tags
+- [ ] Colored
+- [ ] Merge tags (= combine multiple tags as one tag)
 
 CMS
-- [ ]
+- [ ] Upload, create, edit, delete all files in an application
+- [ ] Navigation handling
+- [ ] Localization handling
+- [ ] Permission handling
+- [ ] Content handling
 
 Banking
 - [ ] EBICS transfers
@@ -238,4 +253,17 @@ HumanResourceManagement
 - [ ]
 
 HumanResourceTimeManagement
-- [ ] 
+- [ ] Online time recording
+- [ ] Terminal time recording with bar/qr codes
+- [ ] Terminal time recording with RFID
+- [ ] Terminal time recording with id+pin
+- [ ] Customizable time types
+- [ ] Weekly overview
+- [ ] Monthly overview
+- [ ] Annual overview
+- [ ] Statistics (worked, sick, overtime, late, ... for unit, department and employees)
+- [ ] Showing present & missing employees (= status)
+- [ ] Defining business hours per unit, group, department, employee
+- [ ] Vacation tracking
+- [ ] Vacation request
+- [ ] Time correction request
