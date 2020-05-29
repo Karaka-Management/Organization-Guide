@@ -217,9 +217,61 @@ Purchasing
 - [ ] Invoices can reference other invoices
 
 Warehousing
-- [ ] 
+- [ ] Article locations
+- [ ] Article locations based on lot numbers
+- [ ] Label printing incl. bar/qr code
+- [ ] Stock bookings (move from one location to another)
+- [ ] Stock adjustments (e.g. found item, removed item with multiple reasons)
+
+Shipping
+- [ ]
 
 Stock Taking
+- [ ] 
+
+ClientManagement
+- [ ] 
+
+SupplierManagement
+- [ ] 
+
+Accounting
+- [ ] Multiple environments (e.g. GAAP, IFRS)
+- [ ] Stock evaluation
+- [ ] Doubtful accounts (single and general)
+- [ ] Automatic accounts payable/receivable asset/liability swap
+- [ ] Timed bookings (e.g. accrual resolution)
+- [ ] Booking templates
+- [ ] 
+
+P&L
+- [ ] 
+
+Balance
+- [ ] 
+
+AssetManagement
+- [ ] 
+
+Reporting
+- [ ] 
+
+Budgeting
+- [ ] 
+
+RiskManagement
+- [ ] 
+
+Cashflow
+- [ ] 
+
+Profitcenter
+- [ ] 
+
+Presentation
+- [ ] 
+
+Spreadsheet
 - [ ] 
 
 Workflows
