@@ -8,6 +8,9 @@ General UI
 - [ ] Loads only data on table filtering, sorting, infinite scroll, pagination
 - [ ] Saves state in local storage on reboot
 - [ ] Suggests to install pwa
+- [ ] Hotkey focus (quickly navigate page with hotkeys)
+- [ ] Accessible 
+- [ ] Mobile support
 
 Admin
 - [ ] Create accounts
@@ -20,7 +23,7 @@ Admin
 - [ ] Module settings
 - [ ] Allow admin login with account permissions in case of account request
 - [ ] Reset account password
-- [ ] Allow/disallow remote login
+- [ ] Allow/disallow remote login per account
 
 Auditor
 - [ ] Loggings of creates, changes, deletes (optionally also reads)
@@ -120,6 +123,7 @@ Messaging
 - [ ] Internal messages can access other modules and show the content in the mail (e.g. media, events, ...)
 - [ ] Automatic response messages (internal and external)
 - [ ] Spam detection
+- [ ] Asynchronus backround tasks send system messages about their status and link if applicable
 
 Chat
 - [ ] Single user chat
@@ -181,8 +185,54 @@ Warehousing
 Stock Taking
 - [ ] 
 
-Banking
+Workflows
+- [ ] 
+
+Kanban
+- [ ] 
+
+QA
+- [ ] 
+
+Wiki
+- [ ] 
+
+ProjectManagement
+- [ ] 
+
+EventManagement
+- [ ] 
+
+Checklist
+- [ ] 
+
+DBEditor
+- [ ] Read the database
+- [ ] Create and edit database queries which can be saved for future reference
+- [ ] Export results as excel, csv or json
+- [ ] Tags for database queries
+
+Search
+- [ ] Global internal search
+- [ ] Search within modules
+- [ ] Search within tables on current page
+- [ ] Search within accounts or groups
+- [ ] External search
+
+Draw
 - [ ]
+
+Database
+- [ ] 
+
+Tag
+- [ ] 
+
+CMS
+- [ ]
+
+Banking
+- [ ] EBICS transfers
 
 HumanResourceManagement
 - [ ]
