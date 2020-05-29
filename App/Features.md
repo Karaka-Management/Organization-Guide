@@ -182,11 +182,39 @@ Navigation
 - [ ] Manual links/endpoint definition
 - [ ] Renaming links
 
-Invoicing
-- [ ] 
+Billing
+- [ ] Re-usable templates
+- [ ] Re-usable texts
+- [ ] Types (offer, order confirmation, calculation, delivery note, proforma invoice, invoice, monthly invoice, advance invoice, partial invoice, credit note, invoice correction)
+- [ ] Creating invoices from existing invoices
+- [ ] Warning for unusual articles for a customer
+- [ ] Automatic (best) price selection for customer/article (quantity, customer, association, promotion)
+- [ ] Automatic emailing
+- [ ] Output as pdf, excel, word
+- [ ] Saving pdf in journal
+- [ ] Approval workflow for price changes
+- [ ] Approval workflow for credit limits/new customers
+- [ ] Approval workflow for invoice check (4 eye principle)
+- [ ] Attaching additional information and documents
+- [ ] Creating a collection of all invoices which belong together
+- [ ] Invoices can reference other invoices
 
 Purchasing
-- [ ] 
+- [ ] Re-usable templates
+- [ ] Re-usable texts
+- [ ] Types (order, offer, order confirmation, calculation, delivery note, proforma invoice, invoice, monthly invoice, advance invoice, partial invoice, credit note, invoice correction)
+- [ ] Creating invoices from existing invoices
+- [ ] Warning for unusual articles from a supplier
+- [ ] Automatic (best) price selection for customer/article (quantity, customer, association, promotion)
+- [ ] Automatic emailing
+- [ ] Output as pdf, excel, word
+- [ ] Saving pdf in journal
+- [ ] Approval workflow for price changes
+- [ ] Approval workflow for credit limits/new customers
+- [ ] Approval workflow for invoice check (4 eye principle)
+- [ ] Attaching additional information and documents
+- [ ] Creating a collection of all invoices which belong together
+- [ ] Invoices can reference other invoices
 
 Warehousing
 - [ ] 
@@ -195,22 +223,23 @@ Stock Taking
 - [ ] 
 
 Workflows
-- [ ] 
+- [ ] Tags for workflows
 
 Kanban
-- [ ] 
+- [ ] Tags for boards
+- [ ] Tags for cards
 
 QA
-- [ ] 
+- [ ] Tags for QA
 
 Wiki
-- [ ] 
+- [ ] Tags for wikis
 
 ProjectManagement
-- [ ] 
+- [ ] Tags for projects
 
 EventManagement
-- [ ] 
+- [ ] Tags for events
 
 Checklist
 - [ ] Re-usable checklist templates
