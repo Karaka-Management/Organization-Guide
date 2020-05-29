@@ -20,6 +20,7 @@ Admin
 - [ ] Module settings
 - [ ] Allow admin login with account permissions in case of account request
 - [ ] Reset account password
+- [ ] Allow/disallow remote login
 
 Auditor
 - [ ] Loggings of creates, changes, deletes (optionally also reads)
