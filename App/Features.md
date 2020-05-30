@@ -13,7 +13,7 @@ General UI
 - [ ] Mobile support
 - [ ] Saved forms befor submit in case of session/internet issues
 - [ ] Voice navigation/actions
-- [ ] 
+- [ ] Push messages (global)
 
 Admin
 - [ ] Create accounts
