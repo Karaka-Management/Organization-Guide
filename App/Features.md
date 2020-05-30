@@ -11,6 +11,7 @@ General UI
 - [ ] Hotkey focus (quickly navigate page with hotkeys)
 - [ ] Accessible 
 - [ ] Mobile support
+- [ ] Saved forms befor submit in case of session/internet issues
 
 Admin
 - [ ] Create accounts
@@ -394,6 +395,10 @@ CMS
 - [ ] Localization handling
 - [ ] Permission handling
 - [ ] Content handling
+- [ ] Default themes
+
+AppBuilder
+- [ ] Build apps / themes (uses json format) 
 
 Banking
 - [ ] EBICS transfers
