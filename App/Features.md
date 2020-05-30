@@ -12,6 +12,8 @@ General UI
 - [ ] Accessible 
 - [ ] Mobile support
 - [ ] Saved forms befor submit in case of session/internet issues
+- [ ] Voice navigation/actions
+- [ ] 
 
 Admin
 - [ ] Create accounts
