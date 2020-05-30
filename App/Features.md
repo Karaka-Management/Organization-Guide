@@ -85,6 +85,7 @@ Tasks
 - [ ] Can be CC 
 - [ ] Optionally editable
 - [ ] Optionally visible
+- [ ] Optionally none-closable (e.g. only other modules can close the task on action)
 - [ ] Due date or priority
 - [ ] Tags for tasks
 - [ ] Media attachment
@@ -93,9 +94,11 @@ Tasks
 - [ ] Analysis of tasks per group
 - [ ] Analysis of tasks per account
 - [ ] Analysis of tasks per tag
-- [ ] Without connection
 - [ ] Automatically create tasks
 - [ ] Re-usable task templates can be created
+- [ ] Message/email integration (can be handled via message responses)
+- [ ] Optional Message/email notification
+- [ ] Without connection
 
 Ticket
 - [ ] Inform users via email (also external) if wanted
@@ -109,6 +112,8 @@ Ticket
 - [ ] Analysis of tickets per group
 - [ ] Analysis of tickets per account
 - [ ] Analysis of tickets per tag
+- [ ] Message/email integration (can be handled via message responses)
+- [ ] Optional Message/email notification
 - [ ] Without connection
 
 Calendar
@@ -175,7 +180,9 @@ News
 - [ ] Tags for news
 - [ ] Optionally tagging news as featured
 - [ ] Timed news releases
+- [ ] Comment integration
 - [ ] Without connection
+- [ ] Optional Message/email notification
 
 Navigation
 - [ ] Multi language
@@ -219,7 +226,7 @@ Purchasing
 Warehousing
 - [ ] Article locations
 - [ ] Article locations based on lot numbers
-- [ ] Label printing incl. bar/qr code
+- [ ] Label printing incl. datamatrix/bar/qr code
 - [ ] Stock bookings (move from one location to another)
 - [ ] Stock adjustments (e.g. found item, removed item with multiple reasons)
 
@@ -227,6 +234,7 @@ Shipping
 - [ ]
 
 Stock Taking
+- [ ] Generate counting lists (electronic and printable)
 - [ ] 
 
 ClientManagement
@@ -242,7 +250,10 @@ Accounting
 - [ ] Automatic accounts payable/receivable asset/liability swap
 - [ ] Timed bookings (e.g. accrual resolution)
 - [ ] Booking templates
-- [ ] 
+- [ ] Lockable periods
+- [ ] Monthly closing
+- [ ] Annual closing
+- [ ] Custom fiscal year
 
 P&L
 - [ ] 
@@ -274,24 +285,81 @@ Presentation
 Spreadsheet
 - [ ] 
 
+Survey
+- [ ] Survey templates
+- [ ] Survey categories
+- [ ] Multiple choice
+- [ ] Input (text, drop down)
+- [ ] Task integration
+- [ ] Publish date
+- [ ] Public / private results
+- [ ] Analsis (response rate, time until completion, responses for different answers, email responses)
+- [ ] Message/email integration (can be handled via message responses)
+- [ ] Optional Message/email notification
+- [ ] Tags for surveys
+- [ ] Without connection
+
 Workflows
+- [ ] Re-usable template workflows
+- [ ] User generated workflows (not programming required)
 - [ ] Tags for workflows
 
 Kanban
 - [ ] Tags for boards
 - [ ] Tags for cards
+- [ ] Task integration
+- [ ] Event integration
+- [ ] Project integration
+- [ ] Calendar integration
+- [ ] Message integration (everythin is also a message and messages can be linked)
+
+Comments
+- [ ] Comment managing
+- [ ] Respond to other comments
 
 QA
 - [ ] Tags for QA
 
-Wiki
+Knowledgebase
+- [ ] Different wikis
 - [ ] Tags for wikis
 
 ProjectManagement
+- [ ] Project calendar
 - [ ] Tags for projects
+- [ ] Kanban integration
 
 EventManagement
+- [ ] Event calendar
 - [ ] Tags for events
+
+Chart
+- [ ] Bar chart
+- [ ] Bar chart stacked
+- [ ] Column chart
+- [ ] Column chart stacked
+- [ ] Line chart
+- [ ] Area chart
+- [ ] Area chart stacked
+- [ ] Calendar heat map
+- [ ] Gantt chart
+- [ ] BCG matrix
+- [ ] Scatter chart
+- [ ] Mixed charts (e.g. bar+line)
+- [ ] Pie chart
+- [ ] Donut chart
+- [ ] Gouge chart
+- [ ] Pyramid chart
+- [ ] Candlestick chart
+- [ ] Radar chart
+- [ ] Waterfall chart
+- [ ] Bridge chart
+- [ ] Venn diagram
+- [ ] Tree
+- [ ] Flow chart
+- [ ] Tree map
+- [ ] Node/Cluster diagram
+- [ ] Tags for charts
 
 Checklist
 - [ ] Re-usable checklist templates
