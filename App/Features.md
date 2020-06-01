@@ -423,3 +423,18 @@ HumanResourceTimeManagement
 - [ ] Vacation tracking
 - [ ] Vacation request
 - [ ] Time correction request
+
+Raspberry pi project
+- [ ] Light sensor
+- [ ] Humidity sensor
+- [ ] Water sensor
+- [ ] Camera
+- [ ] RFID
+- [ ] KeyPad
+- [ ] Fingerprint sensor
+- [ ] Touchscreen
+- [ ] Magnetic switch
+- [ ] Gas Sensor
+- [ ] Moisture sensor
+- [ ] Temperature sensor
+- [ ] Touch display
