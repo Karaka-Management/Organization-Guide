@@ -32,7 +32,7 @@
 * 1003200000 - OMS Supplier Management
 * 1003300000 - OMS Tools
 * 1003400000 - OMS MyPrivate
-* 1003500000 - 
+* 1003500000 -
 * 1003600000 - OMS Checklist
 * 1003700000 - OMS Address
 * 1003800000 - OMS Contact
@@ -73,3 +73,7 @@
 * 1007300000 - OMS CLM
 * 1007400000 - OMS DatabaseEditor
 * 1007500000 - OMS Tag
+* 1007600000 - OMS Search
+* 1007700000 - OMS Shop
+* 1007800000 - OMS CMS
+* 1007900000 - OMS ContractManagement

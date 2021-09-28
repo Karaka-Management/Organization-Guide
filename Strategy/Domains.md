@@ -2,8 +2,6 @@
 
 The following list shows the domains and their purpose/reasoning: 
 
-## Owned
-
 ### orange-management.org
 
 Organization page
@@ -66,12 +64,3 @@ Used by the support
 
 Same as .org just for marketing reasons but maybe used server environment in the future.
 
-## Not Owned
-
-### orange-management.blog
-
-There is no reason for a blog at this point and if there will be one, then it will be a dev-blog which will be located at the .dev tld.
-
-### orange-management.biz
-
-This domain is just not appealing.

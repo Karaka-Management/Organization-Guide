@@ -19,6 +19,14 @@ Core JavaScript libraries
 * License: https://github.com/mbostock/d3/blob/master/LICENSE
 * Source: https://github.com/mbostock/d3
 
+### ChartJs
+
+* Files: chartjs/*
+* License: https://github.com/chartjs/Chart.js/blob/master/LICENSE.md
+* Source: https://github.com/chartjs/Chart.js
+
+## Images
+
 ### Orange Fruit Pieces ###
 * Files: module_teaser_small.png
 * Author: Evan Amos
