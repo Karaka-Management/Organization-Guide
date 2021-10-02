@@ -134,7 +134,7 @@ Todos/tasks which are not important enough to be part of the milestones.
 | medium   |      | **Unit tests**<br />All Modules/\*\*/Models/\*, Modules/Controller/\* |
 | medium   |      | **Modules**<br />Find a way to handle optional modules (e.g. comment module in the news module) in the past the Mapper was modified (comments were removed) if the comment module was installed. Somehow this is no longer available but maybe another solution could be a different Mapper which is replaced if the comment module is installed. But instead of replacing a complete file, a diff should be generated between the files and the ADDED lines should be merged. How to handle uninstall because here it doesn't work? I would need to know exactly what to remove. |
 | medium   |      | **DataMapper**<br />In the DataMapper implement iterable fetch. Currently all models are returned in one go, additionally an iterator should be returned for iterable access in case of MANY results (e.g. Exchange module) |
-| low      |      | **Unit tests**<br />[phpOMS] ModuleManager->installApplications<br />[phpOMS] StatusAbstract->installRoutes<br />[phpOMS] StatusAbstract->installHooks<br />[phpOMS] StatusAbstract->activateHooks<br />[phpOMS] StatusAbstract->deactivateHooks<br />[phpOMS] StatusAbstract->uninstallHooks<br />[phpOMS] ModuleAbstract->createModels<br />[phpOMS] ModuleAbstract->updateModel<br />[phpOMS] ModuleAbstract->createModel<br />[phpOMS] ModuleAbstract->getLocalization<br />[phpOMS] InstallerAbstract->createTables<br />[phpOMS] InstallerAbstract->reInit<br />[phpOMS] Graph->findAllReachableNodesDFS<br />[phpOMS] Graph->getAllPathsBetweenNodes<br />[phpOMS] Graph->countAllPathsBetweenNodes<br />[phpOMS] Graph->longestPathBetweenNodes<br />[phpOMS] Graph->shortestPathBetweenNodes<br />[phpOMS] Graph->isConnected<br />[phpOMS] Node->getEdgeByNeighbor<br />[Model] CoreSettings->create |
+| low      |      | **Unit tests**<br />[phpOMS] Graph->findAllReachableNodesDFS<br />[phpOMS] Graph->getAllPathsBetweenNodes<br />[phpOMS] Graph->countAllPathsBetweenNodes<br />[phpOMS] Graph->longestPathBetweenNodes<br />[phpOMS] Graph->shortestPathBetweenNodes<br />[phpOMS] Graph->isConnected<br />[phpOMS] Node->getEdgeByNeighbor |
 | low      |      | **ER diagrams**<br />Checklist<br />Contact<br />DatabaseEditor<br />Draw<br />Messages<br />Monitoring<br />Shop |
 | low      |      | **Code cleanup**<br />Many modules still have unnecessary getters/setters. This should be replaced with puplic members. Check the Developer-Guide on when to use getters/setters. |
 | low      |      | **UI tabs**<br />[Template] Fix tab indices's. On many pages the tab indices's are broken (tabs, table/list, links, forms) |
@@ -207,14 +207,14 @@ Todos/tasks which are not important enough to be part of the milestones.
 | low      |      | **DataMapperAbstract**<br />Implement data binding           |
 | low      |      | **DataMappers**<br />Use `Mapper::TABLE` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::TABLE` name is preferred in case of name changes. |
 | low      |      | **Email**<br />Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
-| low      |      | **SettingMapper & CoreSettings**<br />Consider to merge? Maybe only use the mapper, maybe let the CoreSettings use the `Setting` and `SettingMapper` |
 | low      |      | **Temp directory**<br />Consider to create a temp directory in the main directory (Orange-Management) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files` |
 
 #### Archived
 
-| Priority | Done | Task |
-| -------- | ---- | ---- |
-|          |      |      |
+| Priority | Done       | Task                                                         |
+| -------- | ---------- | ------------------------------------------------------------ |
+| low      | 2021.10.02 | **Unit tests**<br />[phpOMS] ModuleManager->installApplications<br />[phpOMS] StatusAbstract->installRoutes<br />[phpOMS] StatusAbstract->installHooks<br />[phpOMS] StatusAbstract->activateHooks<br />[phpOMS] StatusAbstract->deactivateHooks<br />[phpOMS] StatusAbstract->uninstallHooks<br />[phpOMS] ModuleAbstract->createModels<br />[phpOMS] ModuleAbstract->updateModel<br />[phpOMS] ModuleAbstract->createModel<br />[phpOMS] ModuleAbstract->getLocalization<br />[phpOMS] InstallerAbstract->createTables<br />[phpOMS] InstallerAbstract->reInit<br />[Model] CoreSettings->create |
+| low      | 2021.10.02 | **SettingMapper & CoreSettings**<br />Consider to merge? Maybe only use the mapper, maybe let the CoreSettings use the `Setting` and `SettingMapper` |
 
 ## Features
 
@@ -477,7 +477,7 @@ class TestMapper extends DataMapperFactory
 
 #### New
 
-* 
+* Improved settings handling by using `Setting` and `SettingMapper` in the `CoreSettings` file
 
 #### Bug fixes
 
@@ -485,4 +485,6 @@ class TestMapper extends DataMapperFactory
 
 #### Other
 
-* 
+##### Tests
+
+* Added various tests (approx. 2% additional line coverage).
