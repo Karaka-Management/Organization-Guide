@@ -210,6 +210,7 @@ Todos/tasks which are not important enough to be part of the milestones.
 | low      |      | **DataMappers**<br />Use `Mapper::TABLE` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::TABLE` name is preferred in case of name changes. |
 | low      |      | **Email**<br />Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
 | low      |      | **SettingMapper & CoreSettings**<br />Consider to merge? Maybe only use the mapper, maybe let the CoreSettings use the `Setting` and `SettingMapper` |
+| low      |      | **Temp directory**<br />Consider to create a temp directory in the main directory (Orange-Management) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files` |
 
 #### Archived
 
