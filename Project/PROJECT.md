@@ -108,11 +108,9 @@ The estimated annual costs in the milestones are based on the total annual costs
 
 #### Archived
 
-| Deadline | Done       | Task                                                         |
-| -------- | ---------- | ------------------------------------------------------------ |
-|          | 2021.09.06 | **Admin**<br />[ModuleSettings] The module settings should have two tabs/pages. One containing a list of all settings for the module and the other a custom settings page where it's possible to give the impression of a customized setting view. The template itself is individual for the module but in the backend the list is still used. The reason for this customized settings template is that this allows to create a nicer input and form layout (e.g. media selector if a setting references a media file, show a preview output for images, custom input validation, ...) |
-|          | 2021.09.06 | **Media**<br />Change media_type from string to foreign key and create a media_type table where it's possible to create media types (this should have a localized table for type name). This allows us to upload media types such as contracts.<br />Create a installExternal binding for media_types (currently collections and uploads exist) |
-|          | 2021.09.18 | **Legal Pages**<br />Create Privacy Policy<br />Create Terms of Use<br />Create Imprint<br />Pages should be handled in the CMS module which becomes a standard module. |
+| Deadline | Done | Task |
+| -------- | ---- | ---- |
+|          |      |      |
 
 ## Todos
 
@@ -214,17 +212,9 @@ Todos/tasks which are not important enough to be part of the milestones.
 
 #### Archived
 
-| Priority | Done       | Task                                                         |
-| -------- | ---------- | ------------------------------------------------------------ |
-| medium   | 2021.09.04 | **Editor**<br />Add document type (e.g. phone, meeting, email). Maybe use tags? Or are tags something else?!<br />**Not implemented:** Such notes should be stored in their own table in the respective module! |
-| medium   | 2021.09.13 | **DataMapper**<br />The hasMany order should be customizable (ASC/DESC and also the row used for the order e.g. createdAt, ...). <br />*Solution:* Implemented `::sortBy()` |
-| high     | 2021.09.07 | **Permissions**<br />The admin group permissions cannot be changed<br />No user can remove himself from the admin group |
-| high     | 2021.09.07 | **DataMapper**<br />Create `deleteRelation` function as opposite to `createRelation`.<br />Create `ModuleAbstract` function `deleteModelRelation` as opposite to `createModelRelation` |
-| high     | 2021.09.09 | **Table**<br />If column is numeric sort numerically, not by character (1,2,3 vs, 1, 10, 11, 2)<br />The table sort is WAY too slow!!! (e.g. editor-list by title).One problem might be a bad algorithm (e.g. get content, and use sort() of js instead, check new order and re-sort the table rows based on the ordered array). Another problem could be that the browser is doing some stupid stuff because of UI calls?<br />If column is datetime sort by datetime, not by character (careful, datetime formats can be different) |
-| medium   | 2021.09.13 | **DataMapper**<br />Implement hasMany default parameters in mappers (e.g. sortBy, sortOrder).<br />Remove the `orderBy` functionality from the `::with()` function since this is now replaced with the `::sortBy()` function |
-| low      | 2021.09.18 | **Application**<br />Applications should be able to define module dependencies which are installed/checked during the installation process. |
-| low      | 2021.09.20 | **Application**<br />The application install should be defined in a similar class as the module installation (see `StatusAbstract.php` which is implemented by `Install.php` scripts in modules). This means Applications should have their own `Install.php` script! At the moment the CMS module, Admin Module and ApplicationManager are doing this. |
-| low      | 2021.09.27 | **Media**<br />Allow to stream large media files also for downloads. |
+| Priority | Done | Task |
+| -------- | ---- | ---- |
+|          |      |      |
 
 ## Features
 
@@ -276,10 +266,9 @@ Features to be implemented at a later stage *nice to haves*.
 
 #### Archived
 
-| Priority | Done       | Task                                                         |
-| -------- | ---------- | ------------------------------------------------------------ |
-| high     | 2021.09.04 | **Table**<br />Tables overflow on smaller screen resolutions. A fix is necessary!!!<br />**Solution:** make main `overflow-x: auto` |
-| low      | 2021.09.12 | **Module installation log**<br />Not all modules can create a installation log in the auditor since the auditor is only installed afterwards but it seems too many modules don't create a install log. This could be because even if the auditor is installed, the active routes are only changed on the file system but not in memory of the current request (install request). As a result NO audit logs are created during the install process. One solution could be to reload the routes manually in the install script after every module installation. |
+| Priority | Done | Task |
+| -------- | ---- | ---- |
+|          |      |      |
 
 ### Details
 
@@ -484,64 +473,16 @@ class TestMapper extends DataMapperFactory
 
 ## Most recent changelog
 
-### September 2021
+### October 2021
 
 #### New
 
-##### Admin
-
-* Module settings can have a custom settings page by defining it in the module routing file. The template file should be stored in `\Modules\{Module}\Admin\Settings`.
-* Settings now can have a regex pattern for validation. If it is not empty, setting changes must meet the pattern.
-* Settings can now be installed by providing a `Admin.install.json` to the Admin module.
-
-##### Media
-
-* The media_type is now a table for custom media types.
-* The media_type has a *installExternal* binding similar to uploading media files during module installation or collection creation.
-* Media files are now streamed to the user.
-
-##### phpOMS Framework
-
-* Created `deleteRelation` function as opposite to `createRelation`
-* Created `deleteModelRelation` as opposite to `createModelRelation`
-* `hasMany` definitions in mappers can now have an additional component `['sort' => ['orderBy' => 'memberName', 'sortOrder' => 'DESC/ASC']]` which allows default ordering behavior for hasMany relations. This is useful if a model expects a specific order most of the time.
-* Mappers can have a custom ordering which also overwrites the default mapper ordering behavior introduced in this update. The ordering can be called with `::sortBy($memberName, 'ASC/DESC', ...)`
-
-##### UI
-
-* The table UI sort recognizes *ISO 8601* format and sorts them accordingly. Since the template doesn't always output *ISO 8601* formatted times, it is recommended to use the `data-content` attribute to store the *ISO 8601* formatted time. This allows localized visualization but correct sorting behavior.
-
-##### Applications & CMS
-
-* Applications are now installed through the CMS module.
-* Applications can have dependencies.
-* Applications can provide for other modules.
-* Applications can install routes.
-* Applications can install navigation elements.
-* Applications can install pages.
-* Applications can have their own controllers
-* Applications have their own install scripts
+* 
 
 #### Bug fixes
 
-##### UI
-
-* Tables are now overflowing with scroll bars below if the horizontal screen size is smaller than the table.
-* Table UI sort performance got improved. The previous sort didn't terminate properly resulting in a infinite loop.
-* The table UI sort recognizes pure numeric values and sorts them accordingly instead of alphabetical.
-
-##### Auditor
-
-* Audit logs are created during module status changes incl. module installation.
-* Audit logs are now also created during the installation process.
+* 
 
 #### Other
 
-##### Admin
-
-* The admin group permissions can no longer get modified, which ensures there is always a admin group with sufficient permissions.
-* A user can no longer remove himself from the admin group in order to prevent mistakes.
-
-##### UI
-
-* The install script has improved highlighting for mandatory input fields.
+* 
