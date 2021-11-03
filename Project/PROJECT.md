@@ -66,7 +66,7 @@ The estimated annual costs in the milestones are based on the total annual costs
 
 | Deadline   | Done | Task                                                         |
 | ---------- | ---- | ------------------------------------------------------------ |
-| 2021.08.27 |      | **Define scope**<br />Which modules should be developed first<br />Which features must be part of the modules at the start<br />What is the expected timeline for the different modules |
+| 2022.08.27 |      | **Define scope**<br />Which modules should be developed first<br />Which features must be part of the modules at the start<br />What is the expected timeline for the different modules |
 |            |      | **Navigation**<br />Allow to hide navigation elements even if the module is installed.<br />Also disable routing for front end. This way only the functionality is available (API). |
 |            |      | **Customer Management**<br />Names<br />Address<br />Contact elements<br />Custom fields<br />Contract import from CRM system (maintenance contract)? (SD specific)<br />Add note types (e.g. phone, email, meeting, ...) |
 |            |      | **Job**<br />Create jobs<br />Manage jobs<br />Create a job which runs exchange scripts |
@@ -119,6 +119,7 @@ Todos/tasks which are not important enough to be part of the milestones.
 | Priority | Done | Task                                                         |
 | -------- | ---- | ------------------------------------------------------------ |
 | high     |      | **Email**<br />Continue implementation of email sending and receiving. Especially receiving needs much more work. |
+| high     |      | **Media**<br />Allow to overwrite files on upload.           |
 | high     |      | **Search**<br />Implement a tag search hook which finds content based on tags<br />Implement module specific search (e.g. :tasks title ...)<br />Implement global search hook (every module performs a search based on the search)<br />Create a api search filter which allows to search in a specific module only (e.g. in the shop app only search the shop, in the QA app only search in QA) |
 | high     |      | **UI input**<br />In the AdvancedInput, implement predefined values (e.g. predefined/default tags)<br />In the AdvancedInput, implement mandatory predefined values (e.g. tags which cannot be deleted)<br />Implement AdvancedSelect (with auto filtering, none-element, multi-select, default-selects, must-have selects)<br />![Advanced select](img/todo/dropdown.png) |
 | high     |      | **UI change**<br />Find a way to load a different page after a successful form result (e.g. reload account creation page) |
@@ -134,7 +135,6 @@ Todos/tasks which are not important enough to be part of the milestones.
 | medium   |      | **Unit tests**<br />All Modules/\*\*/Models/\*, Modules/Controller/\* |
 | medium   |      | **Modules**<br />Find a way to handle optional modules (e.g. comment module in the news module) in the past the Mapper was modified (comments were removed) if the comment module was installed. Somehow this is no longer available but maybe another solution could be a different Mapper which is replaced if the comment module is installed. But instead of replacing a complete file, a diff should be generated between the files and the ADDED lines should be merged. How to handle uninstall because here it doesn't work? I would need to know exactly what to remove. |
 | medium   |      | **DataMapper**<br />In the DataMapper implement iterable fetch. Currently all models are returned in one go, additionally an iterator should be returned for iterable access in case of MANY results (e.g. Exchange module) |
-| low      |      | **Unit tests**<br />[phpOMS] Graph->findAllReachableNodesDFS<br />[phpOMS] Graph->getAllPathsBetweenNodes<br />[phpOMS] Graph->countAllPathsBetweenNodes<br />[phpOMS] Graph->longestPathBetweenNodes<br />[phpOMS] Graph->shortestPathBetweenNodes<br />[phpOMS] Graph->isConnected<br />[phpOMS] Node->getEdgeByNeighbor |
 | low      |      | **ER diagrams**<br />Checklist<br />Contact<br />DatabaseEditor<br />Draw<br />Messages<br />Monitoring<br />Shop |
 | low      |      | **Code cleanup**<br />Many modules still have unnecessary getters/setters. This should be replaced with puplic members. Check the Developer-Guide on when to use getters/setters. |
 | low      |      | **UI tabs**<br />[Template] Fix tab indices's. On many pages the tab indices's are broken (tabs, table/list, links, forms) |
@@ -208,12 +208,15 @@ Todos/tasks which are not important enough to be part of the milestones.
 | low      |      | **DataMappers**<br />Use `Mapper::TABLE` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::TABLE` name is preferred in case of name changes. |
 | low      |      | **Email**<br />Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
 | low      |      | **Temp directory**<br />Consider to create a temp directory in the main directory (Orange-Management) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files` |
+| low      |      | **Code Coverage**<br />Adding `pathCoverage="true"` to the PHPUnit `.xml` file for path and branch coverage causes a memory overflow. Fix it. |
 
 #### Archived
 
 | Priority | Done       | Task                                                         |
 | -------- | ---------- | ------------------------------------------------------------ |
+| high     |            | **Media**<br />Create an additional request parameter called filename which can be set to name the file differently than the media database entry. This will make everything long term much easier.<br />Consider to create non-random file names e.g. `MyFileName_1` if the file already exists, otherwise still create random file names. |
 | low      | 2021.10.02 | **Unit tests**<br />[phpOMS] ModuleManager->installApplications<br />[phpOMS] StatusAbstract->installRoutes<br />[phpOMS] StatusAbstract->installHooks<br />[phpOMS] StatusAbstract->activateHooks<br />[phpOMS] StatusAbstract->deactivateHooks<br />[phpOMS] StatusAbstract->uninstallHooks<br />[phpOMS] ModuleAbstract->createModels<br />[phpOMS] ModuleAbstract->updateModel<br />[phpOMS] ModuleAbstract->createModel<br />[phpOMS] ModuleAbstract->getLocalization<br />[phpOMS] InstallerAbstract->createTables<br />[phpOMS] InstallerAbstract->reInit<br />[Model] CoreSettings->create |
+| low      | 2021.10.09 | **Unit tests**<br />[phpOMS] Graph->findAllReachableNodesDFS<br />[phpOMS] Graph->getAllPathsBetweenNodes<br />[phpOMS] Graph->countAllPathsBetweenNodes<br />[phpOMS] Graph->longestPathBetweenNodes<br />[phpOMS] Graph->shortestPathBetweenNodes<br />[phpOMS] Graph->isConnected<br />[phpOMS] Node->getEdgeByNeighbor |
 | low      | 2021.10.02 | **SettingMapper & CoreSettings**<br />Consider to merge? Maybe only use the mapper, maybe let the CoreSettings use the `Setting` and `SettingMapper` |
 
 ## Features
@@ -479,12 +482,14 @@ class TestMapper extends DataMapperFactory
 
 * Improved settings handling by using `Setting` and `SettingMapper` in the `CoreSettings` file
 
-#### Bug fixes
+##### Media
 
-* 
+* It is possible to define the media title separately from the file name.
+
+#### Bug fixes
 
 #### Other
 
 ##### Tests
 
-* Added various tests (approx. 2% additional line coverage).
+* Added various tests. The total code coverage is at approx. 84%
