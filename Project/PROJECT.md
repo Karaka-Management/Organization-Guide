@@ -10,7 +10,7 @@
 
 ## Summary
 
-Last update of this file: 11.09.2021
+Last update of this file: 03.11.2021
 
 ### Timeline
 
@@ -21,6 +21,8 @@ Last update of this file: 11.09.2021
 ### Next steps
 
 Continue with milestone task implementation.
+
+Continue with increasing the test coverage of the modules.
 
 ## Milestones
 
@@ -212,12 +214,9 @@ Todos/tasks which are not important enough to be part of the milestones.
 
 #### Archived
 
-| Priority | Done       | Task                                                         |
-| -------- | ---------- | ------------------------------------------------------------ |
-| high     |            | **Media**<br />Create an additional request parameter called filename which can be set to name the file differently than the media database entry. This will make everything long term much easier.<br />Consider to create non-random file names e.g. `MyFileName_1` if the file already exists, otherwise still create random file names. |
-| low      | 2021.10.02 | **Unit tests**<br />[phpOMS] ModuleManager->installApplications<br />[phpOMS] StatusAbstract->installRoutes<br />[phpOMS] StatusAbstract->installHooks<br />[phpOMS] StatusAbstract->activateHooks<br />[phpOMS] StatusAbstract->deactivateHooks<br />[phpOMS] StatusAbstract->uninstallHooks<br />[phpOMS] ModuleAbstract->createModels<br />[phpOMS] ModuleAbstract->updateModel<br />[phpOMS] ModuleAbstract->createModel<br />[phpOMS] ModuleAbstract->getLocalization<br />[phpOMS] InstallerAbstract->createTables<br />[phpOMS] InstallerAbstract->reInit<br />[Model] CoreSettings->create |
-| low      | 2021.10.09 | **Unit tests**<br />[phpOMS] Graph->findAllReachableNodesDFS<br />[phpOMS] Graph->getAllPathsBetweenNodes<br />[phpOMS] Graph->countAllPathsBetweenNodes<br />[phpOMS] Graph->longestPathBetweenNodes<br />[phpOMS] Graph->shortestPathBetweenNodes<br />[phpOMS] Graph->isConnected<br />[phpOMS] Node->getEdgeByNeighbor |
-| low      | 2021.10.02 | **SettingMapper & CoreSettings**<br />Consider to merge? Maybe only use the mapper, maybe let the CoreSettings use the `Setting` and `SettingMapper` |
+| Priority | Done | Task |
+| -------- | ---- | ---- |
+|          |      |      |
 
 ## Features
 
@@ -476,20 +475,18 @@ class TestMapper extends DataMapperFactory
 
 ## Most recent changelog
 
-### October 2021
+### November 2021
 
 #### New
 
-* Improved settings handling by using `Setting` and `SettingMapper` in the `CoreSettings` file
-
-##### Media
-
-* It is possible to define the media title separately from the file name.
+* 
 
 #### Bug fixes
+
+* 
 
 #### Other
 
 ##### Tests
 
-* Added various tests. The total code coverage is at approx. 84%
+* 
