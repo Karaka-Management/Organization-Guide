@@ -1,16 +1,16 @@
-# Executive Summary
+# Business Plan
 
-# Organization
+## Organization
 
 The Orange Management organization is located in Germany and founded in November 2015 by Dennis Eichhorn for developing the Orange Management application and sub-components which incorporates solutions such as CRM, SRM, CMS, ERP, Shop and many more.
 
 The main goal of the organization is to create solutions for companies and organizations of all sizes which allow them to seamless manage their operations from one application.
 
-## SWOT
+### SWOT
 
-### Strengths
+#### Strengths
 
-#### From Customer PoV
+##### From Customer PoV
 
 * Everything in one application. Organizations and businesses no longer have to use multiple services from different providers and potentially integrate them into their existing applications
 * Cheap for the customer compared to many other solutions
@@ -23,7 +23,7 @@ The main goal of the organization is to create solutions for companies and organ
 * Regular updates. Either manually or automatically
 * Large amount of modules and functionality
 
-#### Technical PoV
+##### Technical PoV
 
 * Modular structure is designed in a very scalable way
 * Multiple database support (mssql, mysql, postgresql)
@@ -31,51 +31,51 @@ The main goal of the organization is to create solutions for companies and organ
 * Easily scalable
 * Can be split across multiple servers
 
-### Weaknesses
+#### Weaknesses
 
-#### From Customer PoV
+##### From Customer PoV
 
 * Installation for non-tech people is "difficult" (not the actual app installation but the WAMP or LAMP installation)
 
-#### Technical PoV
+##### Technical PoV
 
 * Request based code execution. Database and cache connection is request based and not persistent etc. therefor slower and more complicated to maintain state
 * Concurrency is difficult to solve due to the request based code execution and state storage
 
-### Opportunities
+#### Opportunities
 
 * Continuous digitalization, automation and need to keep up with it
 * Price attractiveness for all sizes of organizations and businesses
 * Public free software tests (without registration)
 * Growing demand for managing data (also for small businesses)
 
-#### Technical PoV
+##### Technical PoV
 
 * Programming language performance improvement through parallelization/asynchronism implementation
 * Programming language performance improvement through usage of type hints during compilation
 * Switch to a different language (e.g. c, c++, c#) for higher perform, parallelization and state
 
-### Threats
+#### Threats
 
-#### External
+##### External
 
 * Regulations. There are many different regulations for different regions and business fields that must be upheld
 * Small customers still want to own software and not rent it and pay for it every year
 * Since software is intangible it is generally attributed with a lower value than tangible assets
 * Like for every programming language the general support for the language (updates, bug fixes, improvements)
 
-#### Internal
+##### Internal
 
 * Own organization size/workload. A large amount of modules and tools are required to reach the critical size to make a product which is beneficial for a large amount of organizations and businesses
 
-## Strategy & Vision
+### Strategy & Vision
 
-### Vision
+#### Vision
 
 * **Early:** Orange Management solutions are used by at least 1.000 organizations/businesses in 2025
 * **Late:** Orange Management is one of the industry standard solution provider for organizations and businesses
 
-#### Goal
+##### Goal
 
 1. Focus on the solution of the problem
 2. Financially attractiveness for as many end-users as possible
@@ -84,7 +84,7 @@ The main goal of the organization is to create solutions for companies and organ
 5. Accessible for everyone (desktop, tablet, phone, for disabled people, online/offline)
 6. Fast user interface feedback and good performance
 
-#### How To Achieve?
+##### How To Achieve?
 
 1. Use it during development incl. user feedback
 2. Modular system and fair pricing
@@ -93,11 +93,11 @@ The main goal of the organization is to create solutions for companies and organ
 5. Put the user experience above ease of implementation
 6. Specialized software implementations instead of generalized solutions.
 
-### Strategy
+#### Strategy
 
-#### Initial Phase
+##### Initial Phase
 
-##### Customer
+###### Customer
 
 In the beginning the goal is to reach a large amount of organizations no matter the size. As it is easier to address smaller organizations since they usually are less invested in existing software solutions they will be the initial target group. For them no customization will be done unless they can be integrated for everyone.
 
@@ -152,9 +152,9 @@ Recommended modules for businesses are:
 
 With these modules almost every small business could operate. Smart advertisements could help to sell extending modules such as charting, balancing, cost center accounting, cost object accounting, warehousing etc.
 
-# Products & Services
+## Products & Services
 
-## Products
+### Products
 
 Key solutions (consisting of multiple modules) which must be available are:
 
@@ -167,7 +167,7 @@ Key solutions (consisting of multiple modules) which must be available are:
 * BI
 * Office
 
-## Services
+### Services
 
 Key services that should be implemented are:
 
@@ -184,9 +184,9 @@ Mid:
 Late:
 * Migration of existing data
 
-# Business Decisions
+## Business Decisions
 
-## Programming Language
+### Programming Language
 
 In the following a ranking of numbers (1-10) will be used where 10 is the highest and 1 the lowest value. Many of these evaluations are pure subjective and based on the personal experiences made by the organization founder.
 
@@ -211,7 +211,7 @@ The decision why Orange Management decided to use PHP came down to the following
 1. Since the web applications are supposed to run on all sizes of organizations and businesses PHP has the advantage with availability on simple (cheap) webservers.
 2. The request based code execution makes it less susceptible against errors (re-starting and monitoring the application etc.) and therefore better for non-tech people.
 
-# Action Plan
+## Action Plan
 
 1. First real world tests on testing company (admin, organization, task & helper module)
 2. Create reports for the helper module for the testing company
