@@ -10,7 +10,7 @@
 
 ## Summary
 
-Last update of this file: 2021.11.20
+Last update of this file: 2021.12.04
 
 ### Timeline
 
@@ -110,18 +110,9 @@ The estimated annual costs in the milestones are based on the total annual costs
 
 #### Archived
 
-| Deadline | Done       | Task                                                         |
-| -------- | ---------- | ------------------------------------------------------------ |
-|          | 2021.11.14 | **Admin**<br />Implement password reset<br />Implement email sending<br />Implement global email server definition |
-|          | 2021.11.14 | **Customer Management**<br />Add note types (e.g. phone, email, meeting, ...). Maybe similar to MediaType? |
-|          | 2021.11.14 | **Job**<br />Created a job which runs exchange scripts<br />Create jobs |
-|          | 2021.11.15 | **System**<br />Implement maintenance mode where no one can edit anything. |
-|          | 2021.11.15 | **System**<br />*Duplicate:* Implement API only mode for modules, which disables UI interaction with a module completely (no navigation, no templates, ...) *solved with the navigation module settings incl. disabling routes* |
-|          | 2021.11.16 | **ContractManagement**<br />Create a new media type "contract" |
-|          | 2021.11.19 | **ContractManagement**<br />Contracts can have a different date of expiration and last renewal. (e.g. renewal needs to happen 1 month before contract end)<br />Define custom info deadline (global and optionally for a single contract)<br />Contracts can be assigned to a unit. |
-|          | 2021.11.19 | **Billing**<br />Save original net value and discounted net value (currently only discounted net value is stored)<br />Save discounts |
-|          | 2021.11.20 | **Media**<br />Create custom media types (e.g. contract) with l11n text/description<br />Create admin setting for handling media_type specifications |
-|          | 2021.11.20 | **Billing**<br />Save number-format and the rendered number in the bill, currently only the format is saved and rendered on the fly which is bad for searching and performance. Maybe even ONLY save the number? |
+| Deadline | Done | Task |
+| -------- | ---- | ---- |
+|          |      |      |
 
 ## Todos
 
@@ -139,8 +130,6 @@ Todos/tasks which are not important enough to be part of the milestones.
 | medium   |      | **Registration**<br />Allow users to register by themselves<br />Send a email after creating a profile/self-registration with login information |
 | medium   |      | **Url format**<br />Change the url format in most modules from query parameter to path (e.g. /module/profile?id=Admin to /module/Admin/profile) |
 | medium   |      | **Modules**<br />Many models would benefit from unit and app association. Sometimes models should only be available/associated with a specific unit (e.g. news article for website, backend, shop etc.) |
-| medium   |      | **DataMapper**<br />The ::with() function uses blacklisting it should be changed to whitelisting for relations |
-| medium   |      | **DataMapper**<br />This is useful for Item profile, Customer profile, Supplier profile etc. Alternatively find a way to implement it in `::withConditionals` ?! Or do we need a new function `::withParameters('memberName/columnName`?', [options]). Or just a `::with()` function which we also need  to specify for the future for which relations need to be loaded at all e.g. `::with('files', ['limit' => 5, 'sortBy' => 'createdAt', 'sortOrder' => 'ASC'], [Client::class])` I think the ::with(...) makes the most sense. Maybe this can also be combined with the withConditional. This way we can remove/merge withConditional. There is one problem, maybe we need a `::onlyWith` function, because we don't want to load all relations |
 | medium   |      | **ActionManager**<br />Implement listeners for child elements if the selector is specified |
 | medium   |      | **Action**<br />Create a action which adds/removes DOM elements<br />Log DOM changes to the user |
 | medium   |      | **Modules**<br />Find a way to handle optional modules (e.g. comment module in the news module) in the past the Mapper was modified (comments were removed) if the comment module was installed. Somehow this is no longer available but maybe another solution could be a different Mapper which is replaced if the comment module is installed. But instead of replacing a complete file, a diff should be generated between the files and the ADDED lines should be merged. How to handle uninstall because here it doesn't work? I would need to know exactly what to remove. |
@@ -153,11 +142,7 @@ Todos/tasks which are not important enough to be part of the milestones.
 | low      |      | **Modules/permissions**<br />In many places where permissions are used bad and different names are used. Sometimes the term "type" is used, sometimes the term "state" (PermissionState). Both actually represent a superficial category every module can define for permissions. (e.g. a state could be account, task, profile, tag, ...). The term "state" makes no sense since it isn't a state. The term "type" is also bad because in another place it is used to define (read, write, change, ...). Maybe we should simply call it PermissionCategory/category?! (files to change: NavElement, PermissionAbstract, PermissionState) |
 | low      |      | **Graph**<br />Implement missing functionality:<br />Find cycles using graph coloring<br />Find a negative cycle<br />Find cycles with n length<br />Find cycles with odd length<br />Find islands<br />Check if strongly connected<br />Find longest path<br />Get the girth<br />Get the circuit rank<br />Get the node connectivity<br />Get the edge connectivity<br />Check if bipartite<br />Check if triangle free |
 | low      |      | **QueryBuilder**<br />Implement missing functions such as sum, count, ... |
-| low      |      | **DataMapper**<br />Reconsider the order of the `get(*)` parameters (e.g. depths/fill) |
 | low      |      | **General**<br />Once read only variables become available many models can remove getter/setter function (e.g. ApplicationAbstract, ConnectionAbstract and various models) |
-| low      |      | **DataMapper**<br />In the DataMapper when using getQuery() and then making a ->where(...) the where will often fail because the table name is suffixed with an integer e.g. `_3`. This means you need to know the depth of the query in order to manually write it. The query builder should figure this out by himself. It knows the `_INT` value from the `FROM` clause and should just overwrite in the where clause where needed. See the GSD Importer from the exchange module for reference. |
-| low      |      | **DataMapper**<br />Only update changed relations (e.g. allow coder to tell the DataMapper what changed) |
-| low      |      | **DataMapper**<br />Implement get() where the coder can tell the DataMapper which fields and relations to fill (this might be solved with a better `::with()` function. |
 | low      |      | **Grammar**<br />Implement schema modification grammar (alter tables) |
 | low      |      | **Router, EventManager, Hook**<br />Instead of doing 100% regex matching, combine it with a tree search, this should be faster |
 | low      |      | **Text search algorithm**<br />Implement a decent full text search for files/variables which finds texts that are similar (e.g. similar spelling, only some words in between, maybe different word order, etc.) |
@@ -199,7 +184,6 @@ Todos/tasks which are not important enough to be part of the milestones.
 | low      |      | **UriFactory**<br />Consider to use `\urlencode()` on every query parameter in the UriFactory. |
 | low      |      | **ModuleMapper**<br />Implement module description, name, createdAt in the database table and use them. Currently they are available in the model but not yet implemented in the database schema. |
 | low      |      | **Templates**<br />In some forms there are 2 buttons which a user shouldn't accidentally press (a save and create button or delete button). Position them far apart by using flexbox positioning (e.g. Module->Support->Settings). |
-| low      |      | **ModuleMapper**<br />Create a `::limit()` function which is similar in concept to the existing function `::sortBy()`. As a result the limit can be removed from most other functions. |
 | low      |      | **ModuleInstaller**<br />In most module *Installer.php* scripts the `installExternal()` re-implements Api functionality. Instead of creating new functions maybe the installer scripts should mock the API requests? (e.g. CMS is using the API while Media is re-implementing many functions) |
 | low      |      | **CMS**<br />Make pages editable<br />Make posts editable    |
 | low      |      | **UI Slider**<br />Create a slider element with two elements which the user can slide (optionally also only one slider should be possible)<br />![Slider](img/todo/slider.png) |
@@ -215,7 +199,7 @@ Todos/tasks which are not important enough to be part of the milestones.
 | low      |      | **Media**<br />Find a way to allow file edits if the file is not in the database but just in the file directory. At the same time this should not be possible for database files. |
 | low      |      | **DataMapperAbstract**<br />The SQL query building seems to bee too complicated in some cases including unnecessary joins (e.g. see `TagMapper::get()`) |
 | low      |      | **DataMapperAbstract**<br />Implement data binding           |
-| low      |      | **DataMappers**<br />Use `Mapper::TABLE` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::TABLE` name is preferred in case of name changes. |
+| low      |      | **DataMappers**<br />Use `Mapper::class` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::class` name is preferred in case of name changes. |
 | low      |      | **Email**<br />Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
 | low      |      | **Temp directory**<br />Consider to create a temp directory in the main directory (Orange-Management) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files` |
 
@@ -223,9 +207,13 @@ Todos/tasks which are not important enough to be part of the milestones.
 
 | Priority | Done       | Task                                                         |
 | -------- | ---------- | ------------------------------------------------------------ |
-| medium   | 2021.11.14 | **Code cleanup**<br />Many modules still have unnecessary getters/setters. This should be replaced with puplic members. Check the Developer-Guide on when to use getters/setters. |
-| medium   | 2021.11.20 | **QA**<br />Make Questions QA App specific (check out WikiDoc)<br />Create different QA Apps (check out WikiApp) |
-| low      | 2021.11.20 | **Code Coverage**<br />Adding `pathCoverage="true"` to the PHPUnit `.xml` file for path and branch coverage causes a memory overflow. Fix it. *Solution: Create separate .cov files and combine them. However, this will not be implemented as default due to much slower testing* |
+| medium   | 2021.12.04 | **DataMapper**<br />The ::with() function uses blacklisting it should be changed to whitelisting for relations |
+| medium   | 2021.12.04 | **DataMapper**<br />This is useful for Item profile, Customer profile, Supplier profile etc. Alternatively find a way to implement it in `::withConditionals` ?! Or do we need a new function `::withParameters('memberName/columnName`?', [options]). Or just a `::with()` function which we also need  to specify for the future for which relations need to be loaded at all e.g. `::with('files', ['limit' => 5, 'sortBy' => 'createdAt', 'sortOrder' => 'ASC'], [Client::class])` I think the ::with(...) makes the most sense. Maybe this can also be combined with the withConditional. This way we can remove/merge withConditional. There is one problem, maybe we need a `::onlyWith` function, because we don't want to load all relations |
+| low      | 2021.12.04 | **DataMapper**<br />Reconsider the order of the `get(*)` parameters (e.g. depths/fill). *No longer relevant* |
+| low      | 2021.12.04 | **DataMapper**<br />In the DataMapper when using getQuery() and then making a ->where(...) the where will often fail because the table name is suffixed with an integer e.g. `_3`. This means you need to know the depth of the query in order to manually write it. The query builder should figure this out by himself. It knows the `_INT` value from the `FROM` clause and should just overwrite in the where clause where needed. See the GSD Importer from the exchange module for reference. *No longer relevant* |
+| low      | 2021.12.04 | **DataMapper**<br />Only update changed relations (e.g. allow coder to tell the DataMapper what changed) *Can be done with `->with(...)`* |
+| low      | 2021.12.04 | **DataMapper**<br />Implement get() where the coder can tell the DataMapper which fields and relations to fill (this might be solved with a better `::with()` function. *Can be done with `->with(...)`* |
+| low      | 2021.12.04 | **ModuleMapper**<br />Create a `::limit()` function which is similar in concept to the existing function `::sortBy()`. As a result the limit can be removed from most other functions. *No longer relevant* |
 
 ## Features
 
@@ -258,10 +246,9 @@ Features to be implemented at a later stage *nice to haves*.
 
 #### Archived
 
-| Priority | Done       | Task                                                         |
-| -------- | ---------- | ------------------------------------------------------------ |
-| low      | 2021.11.15 | **Tag**<br />*Not implemented:* Create a hook which gets triggered if a group is created. This hook also creates a tag. *Tags and groups are very different, this actually is a bad idea* |
-| low      | 2021.11.20 | **Navigation**<br />Consider to implement tabs in the side bar. *Decision: No! There are already too many menus/tabs. This becomes too complicated/confusing.* |
+| Priority | Done | Task |
+| -------- | ---- | ---- |
+|          |      |      |
 
 ## Bugs
 
@@ -269,7 +256,6 @@ Features to be implemented at a later stage *nice to haves*.
 
 | Priority | Done | Task                                                         |
 | -------- | ---- | ------------------------------------------------------------ |
-| high     |      | **DataMapper**<br />In some cases the array is required in the `::withConditional()` function. This seems to be the case if a model doesn't have the condition but a sub-model has it. The mapper should simply not use the conditional if it doesn't exist in the mapper (see `ItemManagement::BackendController` or `ClientManagement::BackendController` with the BillMapper, this is a stupid fix) |
 | medium   |      | **Human Resource Management**<br />Fix employee list (see comment at the bottom, query builder bug) |
 | low      |      | **KMeans**<br />In some weird cases the Cluster test fails. This happens approximately 5 / 100 test runs (invalid center coordinate value) |
 | low      |      | **Dashboard**<br />Why does admin not have a dashobard? Everyone should have it! |
@@ -278,9 +264,9 @@ Features to be implemented at a later stage *nice to haves*.
 
 #### Archived
 
-| Priority | Done       | Task                                                         |
-| -------- | ---------- | ------------------------------------------------------------ |
-| low      | 2021.11.14 | **FileLogger**<br />The logger is somehow *sometimes* logging in the main directory of OMS. Why? Debug it! |
+| Priority | Done | Task                                                         |
+| -------- | ---- | ------------------------------------------------------------ |
+| high     |      | **DataMapper**<br />In some cases the array is required in the `::withConditional()` function. This seems to be the case if a model doesn't have the condition but a sub-model has it. The mapper should simply not use the conditional if it doesn't exist in the mapper (see `ItemManagement::BackendController` or `ClientManagement::BackendController` with the BillMapper, this is a stupid fix) *No longer relevant* |
 
 ### Details
 
@@ -390,177 +376,29 @@ where ...
 // this will create a where condition generated by the PermissionAbstractMapper::class e.g. call PermissionAbstractMapper::createWith($query)
 ```
 
-### New DataMapper structure
-
-```php
-TestMapper::getAll()
-    ->with('profiles', limit: 10, sortBy: 'id', sortOrder: SortOrder::ASC)
-    ->with('profils/account')
-    ->limit(TestMapper::class, 5)
-    ->sortBy('id', SortOrder::ASC)
-    ->execute();
-
-TestMapper::getAll()
-	->depth(3)
-	->execute();
-
-abstract class DataMapperAbstract
-{
-	protected object $mapper;
-
-	protected static array $cache = [];
-
-	protected int $type = 0;
-
-	protected int $depth = 0;
-
-	public static function clear()
-	{
-		self::$cache = [];
-	}
-
-	public function __construct(object $mapper)
-	{
-		$this->mapper = $mapper;
-	}
-
-	abstract function execute();
-}
-
-class ReadMapper extends DataMapperAbstract
-{
-	private $members = [];
-
-	public function with(string $variable, int $limit = 0, $sortBy = '', $sortOrder = SortOrder::DESC) : self
-	{
-		// $split = \explode('/', $variable);
-		// maybe> $members[$split[0]] = [\implode('/', $split[1..n], $limit, $sortBy, $sortOrder];
-	}
-
-	public function get()
-	{
-		$this->type = MapperType::GET;
-	}
-
-	public function execute()
-	{
-		switch($this->type) {
-			case MapperType::GET:
-				return $this->executeGet();
-				break;
-		}
-	}
-}
-
-abstract class DataMapperFactory
-{
-	public const COLUMNS = [];
-
-	public static function get()
-	{
-		return (new ReadMapper(static))->get();
-	}
-
-	public static function getAll()
-	{
-		return (new ReadMapper(static))->getAll();
-	}
-
-	public static function update()
-	{
-		return (new UpdateMapper(static))->update();
-	}
-
-	public static function delete()
-	{
-		return (new DeleteMapper(static))->delete();
-	}
-}
-
-class TestMapper extends DataMapperFactory
-{
-	public const COLUMNS = [];
-}
-```
-
 ## Most recent changelog
 
-### November 2021
+### December 2021
 
 #### New
 
 ##### Framework
 
-* Sending basic emails with `mail`, `sendmail` and `SMTP` is possible
-* Sending signed emails is possible.
-* Reading and creating mailboxes with `IMAP` is possible
-* Reading mailboxes with `POP3` is possible
+* Implemented the new `DataMapper` / `DataMapperFactory`  pattern
+  * This solved various issues and todos (see archived todos for details)
 
 ##### Frontend
 
-* Frontend messages can be manually closed with a close button (x)
-* Frontend messages can be defined sticky
-* Frontend messages may omit the title
-
-##### Admin
-
-* Implemented basic server/admin email settings
-* Implemented password reset with reset emails
-* Implemented read-only/maintenance mode (configurable in the `Admin` settings)
-
-##### Billing
-
-* Bill can have notes (very helpful for additional remarks later on e.g. from accounting/sales/purchasing)
-* Bills have net/gross profit, sales, costs and discount as unnormalized values
-* Bills store the bill number and the number format in the model
-
-##### ContractManagement
-
-* Create a new media type "contract" during installation
-* Contracts can have  a renewal time in months set when the contract renewal must be done (latest).
-* Contracts can have a flag which indicates if the contract auto renews.
-* Added a global warning deadline until when users are informed before the renewal deadline runs out.
-* Contracts can be assigned to a unit.
-
-##### Editor
-
-* Implemented editor doc types (similar to media types)
-
-##### EventManagement
-
-* Events have planned and actual costs/earnings.
-* Accounts can be assigned to events with different purposes.
-* Events can have attributes (incl. default attributes)
-
-##### Job
-
-* Jobs can be created in the Job module
-* Created three jobs which run `monthly`, `weekly` and `daily` and execute some default tasks (e.g. email error logs to admin). These also have placeholders to run additional tasks (e.g. run exchange scripts)
-
-##### Marketing
-
-* Promotions have planned and actual costs/earnings.
-* Accounts can be assigned to promotions with different purposes.
-* Promotions can have attributes (incl. default attributes)
-
-##### ProjectManagement
-
-* Projects have planned and actual costs/earnings
-* Projects can have attributes (incl. default attributes)
+* 
 
 #### Bug fixes
 
-* Fixed a bug where the tests created a log file in the main directory
-* Fixed a bug where changing headers during the rendering process would conflict with already sent header information in the `WebApplication`. The response is now rendered independently, without sending it (first render data, then push the headers, then send the response).
-
-##### QA
-
-* Fixed a bug where the question and answer content where shorter than the score content on the side resulting in portlets without background color.
+* 
 
 #### Other
 
-* Removed many unnecessary getters and setters
+* 
 
 ##### Tests
 
-* The overall code coverage improved to 91.8% (mid of November, this will go down as now additional functionality will be implemented)
+* 
