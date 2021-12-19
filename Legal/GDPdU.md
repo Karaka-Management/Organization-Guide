@@ -7,7 +7,7 @@
 5. Encrypting sensitive data (recommended not regulated)
 6. Deleting of data older than x must be possible (not earlier)
 7. Getting all data related to one person or issue must be possible
-8. Not certificate required (for Germany)
+8. No certificate required (for Germany)
 9. Export control check (not GDPdU but still required)
 10. Deleting none business relevant data of user must be possible (EU law)
 11. Export of GDPdU files must be possible

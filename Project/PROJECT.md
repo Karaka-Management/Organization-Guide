@@ -134,6 +134,7 @@ Todos/tasks which are not important enough to be part of the milestones.
 | medium   |      | **Action**<br />Create a action which adds/removes DOM elements<br />Log DOM changes to the user |
 | medium   |      | **Modules**<br />Find a way to handle optional modules (e.g. comment module in the news module) in the past the Mapper was modified (comments were removed) if the comment module was installed. Somehow this is no longer available but maybe another solution could be a different Mapper which is replaced if the comment module is installed. But instead of replacing a complete file, a diff should be generated between the files and the ADDED lines should be merged. How to handle uninstall because here it doesn't work? I would need to know exactly what to remove. |
 | medium   |      | **DataMapper**<br />In the DataMapper implement iterable fetch. Currently all models are returned in one go, additionally an iterator should be returned for iterable access in case of MANY results (e.g. Exchange module) |
+| low      |      | **Framework: Schedule**<br />Use `Interval` for scheduler instead of string etc. |
 | low      |      | **Email**<br />Continue implementation of email sending and receiving. |
 | low      |      | **ER diagrams**<br />Checklist<br />Contact<br />DatabaseEditor<br />Draw<br />Messages<br />Monitoring<br />Shop |
 | low      |      | **UI tabs**<br />[Template] Fix tab indices's. On many pages the tab indices's are broken (tabs, table/list, links, forms) |
@@ -202,6 +203,7 @@ Todos/tasks which are not important enough to be part of the milestones.
 | low      |      | **DataMappers**<br />Use `Mapper::class` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::class` name is preferred in case of name changes. |
 | low      |      | **Email**<br />Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
 | low      |      | **Temp directory**<br />Consider to create a temp directory in the main directory (Orange-Management) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files` |
+| low      |      | **DataMapper - ModelFactory**<br />Some models may require special initialization. For such cases a model factory should be implemented and used by the data mapper. |
 
 #### Archived
 
@@ -257,10 +259,12 @@ Features to be implemented at a later stage *nice to haves*.
 | Priority | Done | Task                                                         |
 | -------- | ---- | ------------------------------------------------------------ |
 | medium   |      | **Human Resource Management**<br />Fix employee list (see comment at the bottom, query builder bug) |
+| medium   |      | **DataMapper**<br />The `limit()` function is not working for relations e.g. `limit(3, 'hasMany/childHasMany')` |
 | low      |      | **KMeans**<br />In some weird cases the Cluster test fails. This happens approximately 5 / 100 test runs (invalid center coordinate value) |
-| low      |      | **Dashboard**<br />Why does admin not have a dashobard? Everyone should have it! |
+| low      |      | **Dashboard**<br />Why does admin not have a dashboard? Everyone should have it! |
 | low      |      | **Table**<br />The table overflow was fixed with putting them in a scrollable container (in the portlet). This broke the `.sticky` head, since the table no longer knows the head is out of view. Since it's in an overflow container it doesn't know about its changed scroll position. If this cannot be solved don't revert back because overflowing tables are much worse! |
 | low      |      | **Rest**<br />There is a weird bug where the `multipart/form-data` cannot use the normal `boundary=` header to define the boundary. If this *correct* format is used the server somehow cannot populate the `php://input` correctly. If we move the `=` to a different position e.g. `bound=ary` this works fine. Currently this is solved by not using a `=` sign but `/`. This requires further inspections later on and could result in a bug with a different webserver (e.g. nginx). |
+| low      |      | **Wrong graph neighbors**<br />In directed graphs `getNeighbors()` might return wrong neighbors. |
 
 #### Archived
 
