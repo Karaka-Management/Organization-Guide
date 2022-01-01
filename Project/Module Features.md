@@ -299,21 +299,31 @@ The item management module is for handling item/article data for companies.
 
 The warehouse management module is for handling stocks for companies.
 
-| Functionality / Feature | Description |
-| ----------------------- | ----------- |
-|                         |             |
-|                         |             |
-|                         |             |
+| Functionality / Feature  | Description                                                  |
+| ------------------------ | ------------------------------------------------------------ |
+| Stocks                   | Create and manage different stocks (e.g. main stock, quarantine stock, customer stock, supplier stock, ...) |
+| Stock locations          | Create and manage different stock locations (e.g. local storage, external storage) |
+| Shelfs                   | Shelfs in a stock location                                   |
+| 2D warehouse structure   | 2D image of the warehouse structure with the different shelfs |
+| Picking list generation  | Generate picking lists from invoices with optimal walking distances |
+| Picking map              | Show walking map for more details (e.g. for new employees who need to see where the shelf is) |
+| Label scanning           | Document picking by scanning items (automatically documents and checks the correct item + lot + quantity) |
+| Incoming goods checklist | Check incoming goods by quantity, time, type and quality (e.g. packaging damaged, ...) + customizable checks that need to be done |
+| Incoming documentation   | Document incoming goods with images + driver signature       |
+| Scan incoming goods      | Use supplier label to scan goods                             |
+| Show free shelf          | Show free shelfs where to put incoming goods (optionally show map where to find that shelf) |
+| Incoming documents       | Scan all documents attached to the shipment (e.g. delivery note, ...) |
 
 ### Billing
 
 The billing module allows users to create ingoing and outgoing bills (e.g. invoices, delivery notes, ...).
 
-| Functionality / Feature | Description |
-| ----------------------- | ----------- |
-|                         |             |
-|                         |             |
-|                         |             |
+| Functionality / Feature | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Write bills             | Write bills for customers, internal bills for supplier invoices, stock movements, internal uses (e.g. to other departments for profit centers) |
+| Bill types              | Create multiple bill types which can have different layouts (e.g. outgoing invoice, delivery note, ...) |
+| Media                   | Bills can have additional media files attached (e.g. signed contract, phone note, ...) |
+|                         |                                                              |
 
 ### Purchasing
 

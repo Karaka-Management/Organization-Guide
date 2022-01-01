@@ -1,25 +1,24 @@
 # Project Status and Tasks
 
 - [Summary](#summary)
+- [Most recent changelog](#most-recent-changelog)
 - [Milestones](#milestones)
 - [Bugs](#bugs)
 - [Drafts, concepts & ideas](#drafts-concepts-ideas)
-- [Most recent changelog](#most-recent-changelog)
 
 ## Summary
 
-Last update of this file: 2021.12.31
+Last update of this file: 2022.01.01
 
 ## Most recent changelog
 
-### December 2021
+### January 2022
 
 #### New
 
 ##### Framework
 
-* Implemented the new `DataMapper` / `DataMapperFactory`  pattern
-  * This solved various issues and todos (see archived todos for details)
+* 
 
 ##### Frontend
 
@@ -30,10 +29,6 @@ Last update of this file: 2021.12.31
 * 
 
 #### Other
-
-* 
-
-##### Tests
 
 * 
 
@@ -328,6 +323,8 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium   | Modules                    | Find a way to handle optional modules (e.g. comment module in the news module) in the past the Mapper was modified (comments were removed) if the comment module was installed. Somehow this is no longer available but maybe another solution could be a different Mapper which is replaced if the comment module is installed. But instead of replacing a complete file, a diff should be generated between the files and the ADDED lines should be merged. How to handle uninstall because here it doesn't work? I would need to know exactly what to remove. |
 | medium   | DataMapper                 | In the DataMapper implement iterable fetch. Currently all models are returned in one go, additionally an iterator should be returned for iterable access in case of MANY results (e.g. Exchange module). Maybe add mapper function (`->iterable()` which then returns an iterator after `->execute()`) |
 | medium   | Editor             | Create immediate text preview similar to a rich text editor or Typora. |
+| medium | Editor | Add inline charts (e.g. [Mermaid](https://github.com/mermaid-js/mermaid) and [Toast UI Chart](https://github.com/nhn/tui.chart)) |
+| medium | Editor | Add math formulas (e.g. [Katex](https://katex.org/)) |
 | medium   | Admin              | Create a view where it's possible to create/activate, change and delete/deactivate hooks for events. |
 | low      | Forms                      | On change highlight the data/element that got changed (e.g. background color transition in and transition out) |
 | low      | Framework Schedule         | Use `Interval` for scheduler instead of string etc.          |
@@ -509,6 +506,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Media              | Implement external resources (URLs, dropbox, aws, ...)       |
 | low      | Media              | Allow to edit the breadcrumbs, which replaces them with a text field which can be changed then than automatically loads the new path |
 | low      | Media              | Implement temporary file storage (very useful for making files downloadable for a limited time). Maybe create a new temp file directory or database collection where a available_until timedate gets defined (must be handled in the database). The biggest problem is how to delete them, this requires a background process/task scheduler. Additionally, these files must have permissions because they may be only for one user or a group of users |
+| low | Media | List data from online drives such as dropbox, google drives, AWS |
+| low | Knowledgebase | Make docs versioned |
+| low | Editor | Make docs versioned |
 | low      | Messages           | Allow to transform a message as task                         |
 | low      | Messages           | Implement push notification                                  |
 | low      | Messages           | Users may be invited to old conversations                    |
@@ -528,6 +528,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low | Search | Consider to prioritize search results based on the page the user is currently on (e.g. help page -> first return help results)? The bad thing about this would be different search results for the same search term depending on the page the user is on. A solution could be to auto prefix the search with the module name and if the user wants a independent global search he just removes this prefix (or use a drop down like search filter like github where you can select repository, organization, ... before pressing enter). Alternatively create a prefix button which shows where the search is (e.g. button with globe as icon = global, module name = module...) and if someone clicks on that icon the person can change the search filter (or by typing :modulename which does the same but without clicking the button for people who want to use their keyboard only) |
 | low | Media uploader | The Media Controller/Uploader on the frontend should support multiple upload inputs in the same form, currently only one upload intput field is allowed. This is useful if a model can have multiple different media types. Maybe this also effects the backend? |
 | low | Media uploader (frontend) | The Media uploader on the frontend should check if the file size is reasonable (e.g. less than 50GB) and if the file type for that form is valid |
+| low | Media uploader | Implement resumable uploads |
 | low | Handheald device | Going a page (or tab) back should be done with swiping |
 | low | News | In order to show which news are seen and which are not seen the `NewsSeen` model needs also to reference the article, currently only the user is referenced. Of course this doesn't work! |
 | low | WarehouseManagement | Create StockMovement explanations (these are NOT `StockMovementTypes` but reasons why a stock booking happened e.g. destroy, return, ...). See `StockMevementType` at the end for some examples which should be turned into these explanations. |
@@ -549,17 +550,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 
 #### Archived
 
-| Priority | Done       | Category        | Task                                                         |
-| -------- | ---------- | --------------- | ------------------------------------------------------------ |
-| high     | 2021.12.30 |                 | **Table**<br />Implement drag sortable table rows (https://htmldom.dev/drag-and-drop-table-row/). Implement the same concept for other elements, maybe abstract it straight away! *Basic concept implemented* |
-| medium   | 2021.12.04 |                 | **DataMapper**<br />The ::with() function uses blacklisting it should be changed to whitelisting for relations |
-| medium   | 2021.12.04 |                 | **DataMapper**<br />This is useful for Item profile, Customer profile, Supplier profile etc. Alternatively find a way to implement it in `::withConditionals` ?! Or do we need a new function `::withParameters('memberName/columnName`?', [options]). Or just a `::with()` function which we also need  to specify for the future for which relations need to be loaded at all e.g. `::with('files', ['limit' => 5, 'sortBy' => 'createdAt', 'sortOrder' => 'ASC'], [Client::class])` I think the ::with(...) makes the most sense. Maybe this can also be combined with the withConditional. This way we can remove/merge withConditional. There is one problem, maybe we need a `::onlyWith` function, because we don't want to load all relations |
-| low      | 2021.12.04 |                 | **DataMapper**<br />Reconsider the order of the `get(*)` parameters (e.g. depths/fill). *No longer relevant* |
-| low      | 2021.12.04 |                 | **DataMapper**<br />In the DataMapper when using getQuery() and then making a ->where(...) the where will often fail because the table name is suffixed with an integer e.g. `_3`. This means you need to know the depth of the query in order to manually write it. The query builder should figure this out by himself. It knows the `_INT` value from the `FROM` clause and should just overwrite in the where clause where needed. See the GSD Importer from the exchange module for reference. *No longer relevant* |
-| low      | 2021.12.04 |                 | **DataMapper**<br />Only update changed relations (e.g. allow coder to tell the DataMapper what changed) *Can be done with `->with(...)`* |
-| low      | 2021.12.04 |                 | **DataMapper**<br />Implement get() where the coder can tell the DataMapper which fields and relations to fill (this might be solved with a better `::with()` function. *Can be done with `->with(...)`* |
-| low      | 2021.12.04 |                 | **ModuleMapper**<br />Create a `::limit()` function which is similar in concept to the existing function `::sortBy()`. As a result the limit can be removed from most other functions. *No longer relevant* |
-| low      | 2021.12.31 | jsOMS Framework | Consider to create a library function which finds the nearest element based on a select (horizontal and vertical search, `*.nearest()` does not work this way). *Not implemented: seems unnecessary* |
+| Priority | Done | Category | Task |
+| -------- | ---- | -------- | ---- |
+|          |      |          |      |
 
 ## Bugs
 
@@ -583,9 +576,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 
 #### Archived
 
-| Priority | Done | Category | Task                                                         |
-| -------- | ---- | -------- | ------------------------------------------------------------ |
-| high     |      |          | **DataMapper**<br />In some cases the array is required in the `::withConditional()` function. This seems to be the case if a model doesn't have the condition but a sub-model has it. The mapper should simply not use the conditional if it doesn't exist in the mapper (see `ItemManagement::BackendController` or `ClientManagement::BackendController` with the BillMapper, this is a stupid fix) *No longer relevant* |
+| Priority | Done | Category | Task |
+| -------- | ---- | -------- | ---- |
+|          |      |          |      |
 
 ### Details
 
