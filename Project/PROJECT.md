@@ -30,7 +30,9 @@ Last update of this file: 2022.01.01
 
 #### Other
 
-* 
+##### Installer
+
+* Added command line to developer documentation for generating cachegrind output during installation 
 
 ## Challenges & problems
 
@@ -57,8 +59,8 @@ Based on the pilot candidate with whom the functionality will be implemented.
 |          |      | Replace document/contract management from CRM          | 3,000 EUR      |                | 5,000 EUR      |
 |          |      | Implement invoice management process                   | 0 EUR          | 5,000 EUR      | 5,000 EUR      |
 |          |      | Replace QM from CRM                                    | 700 EUR        |                | 1,500 EUR      |
-|          |      | Replace workflows from CRM                             | 1,000 EUR      |                | 3,000 EUR      |
-|          |      | Move sales reps from CRM                               | 3,000 EUR      |                | 6,000 EUR      |
+|          |      | Replace workflows from CRM                             | 2,000 EUR      |                | 3,000 EUR      |
+|          |      | Move sales reps from CRM                               | 5,400 EUR      |                | 6,000 EUR      |
 |          |      | Replace Marketing events, seminars, shop data from CRM | 1,500 EUR      |                | 2,000 EUR      |
 |          |      | Sales analysis (replace D* from G*)                    | 1,000 EUR      |                | 3,000 EUR      |
 |          |      | Digitalizing human resource Human Resource Management  | 0 EUR          |                | 500 EUR        |
@@ -69,20 +71,22 @@ Based on the pilot candidate with whom the functionality will be implemented.
 |          |      | R&D + Quality control                                  | 0 EUR          | 10,000 EUR     | 10,000 EUR     |
 |          |      | Replace accounting from G*                             | 10,000 EUR     |                | 12,000 EUR     |
 |          |      | Replace asset management from G*                       | 500 EUR        |                | 500 EUR        |
-|          |      | Replace reporting from L*                              | 4,200 EUR      |                | 5,000 EUR      |
-|          |      | **Total**                                              | **55,600 EUR** | **15,000 EUR** | **89,500 EUR** |
+|          |      | Replace reporting from L*                              | 4,300 EUR      |                | 5,000 EUR      |
+|          |      | Replace time recording                                 | 1,500 EUR      |                | 2,000 EUR      |
+|          |      | **Total**                                              | **60,100 EUR** | **15,000 EUR** | **91,500 EUR** |
 
 ### Cost basis
 
 The estimated annual costs in the milestones above are based on the total annual costs from the software from the pilot candidate. 
 
-| Type      | License        | Customization  | Total          |
-| --------- | -------------- | -------------- | -------------- |
-| Z*        | 7,200 EUR      |                | 7,200 EUR      |
-| G*        | 26,600 EUR     | 8,400 EUR      | 35,000 EUR     |
-| L*        | 4,200 EUR      |                | 4,200 EUR      |
-| CRM       |                | 9,200 EUR      | 9,200 EUR      |
-| **Total** | **38,000 EUR** | **17,600 EUR** | **55,600 EUR** |
+| Type           | License        | Customization  | Total          |
+| -------------- | -------------- | -------------- | -------------- |
+| Z*             | 7,200 EUR      |                | 7,200 EUR      |
+| G*             | 26,600 EUR     | 8,400 EUR      | 35,000 EUR     |
+| L*             | 4,300 EUR      |                | 4,300 EUR      |
+| CRM            | 2,900 EUR      | 9,200 EUR      | 9,200 EUR      |
+| Time recording | 1,500 EUR      |                | 1,500 EUR      |
+| **Total**      | **42,500 EUR** | **17,600 EUR** | **60,100 EUR** |
 
 *Website costs are not included, they can be estimated at another 30,000 EUR per year*
 
@@ -93,13 +97,13 @@ The following overview tries to compare competitive software alternatives as fai
 | Type          | Current situation*     | Sage | Salesforce     | Datev     | Lexware        | OMS**          |
 | ------------- | ---------------------- | ---- | -------------- | --------- | -------------- | -------------- |
 | Ticket system | 7,200 EUR              |      |                |           |                | 5,000 EUR      |
-| CRM           | 9,200 EUR              |      | 11,250 EUR + ? |           |                | 10,000 EUR     |
+| CRM           | 2,900 EUR + 9,200 EUR  |      | 11,250 EUR + ? |           |                | 10,000 EUR     |
 | ERP           | 22,000 EUR + 8,000 EUR |      |                |           | 17,000 EUR + ? | 25,000 EUR     |
 | Accounting    | 4,600 EUR + 400 EUR    |      |                | 1,260 EUR | 5,000 EUR + ?  | 5,000 EUR      |
-| Reporting     | 4,200 EUR              |      |                |           |                | 5,000 EUR      |
-| **Total**     | **55,600 EUR**         |      |                |           |                | **50,000 EUR** |
+| Reporting     | 4,300 EUR              |      |                |           |                | 5,000 EUR      |
+| **Total**     | **58,600 EUR**         |      |                |           |                | **50,000 EUR** |
 
-*ERP calculation based on 35 licenses, accounting based on 10 licenses, CRM based on 75 licenses*
+*ERP calculation based on 50 licenses, accounting based on 10 licenses, analysis tool based on 10 licenses, CRM based on 75 licenses*
 
 \* Excluding future costs for additional software/features
 
@@ -473,7 +477,6 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Editor                     | The tools above should directly insert the markdown into the textarea |
 | low      | Kanban                     | The kanban board currently assumes up to 4 columns, however there should be a layout which allows more than 4 columns. Don't use flexbox but min-width and max-width combined with a horizontal scrollable board content |
 | low      | Media                      | Find a way to allow file edits if the file is not in the database but just in the file directory. At the same time this should not be possible for database files. |
-| low      | DataMapperAbstract         | The SQL query building seems to bee too complicated in some cases including unnecessary joins (e.g. see `TagMapper::get()`) |
 | low      | DataMapperAbstract         | Implement data binding                                       |
 | low      | DataMapper                 | Use `Mapper::class` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::class` name is preferred in case of name changes. |
 | low      | Email                      | Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
@@ -530,7 +533,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low | Media uploader (frontend) | The Media uploader on the frontend should check if the file size is reasonable (e.g. less than 50GB) and if the file type for that form is valid |
 | low | Media uploader | Implement resumable uploads |
 | low | Handheald device | Going a page (or tab) back should be done with swiping |
-| low | News | In order to show which news are seen and which are not seen the `NewsSeen` model needs also to reference the article, currently only the user is referenced. Of course this doesn't work! |
+|  |                            |                                                              |
 | low | WarehouseManagement | Create StockMovement explanations (these are NOT `StockMovementTypes` but reasons why a stock booking happened e.g. destroy, return, ...). See `StockMevementType` at the end for some examples which should be turned into these explanations. |
 | low | Workflow | Request IT permission changes (go to head of department, then IT?) |
 | low | Workflow | Article price changes |
@@ -543,16 +546,16 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Table                      | Tables have a re-ordering function, this should be generalized. This should not be part of a table but some general orderable container! (e.g. we also need it for sorting cards/columns in the kanban) |
 | low      | Table                      | Implement column visibility (save locally and apply locally only) |
 | low      | Table                      | Implement table filter<br /> > alphanumeric<br /> > greater<br /> > greater equals<br /> > lesser<br /> > lesser equals<br /> > contains<br /> > doesn't contain<br /> > in between<br /> > regex<br /> > pre-defined values/select<br /> > checkboxes if 0/1 values<br /> > consider other filters for data that is not shown in the table? Backend filter options? |
+| low | Table | Allow export by also based on selected elements (optionally in a different language) |
 | low      | UriFactory                 | In the frontend and backend there needs to be a way to only add query parameters if they have a value. The question is if we can implement that as default (very easy, just check if value available) or if we need to define it as `only if available`. The later option might be necessary because there could be situations where you want to add a query parameter without a value? Not sure though. |
 | low      | BasicOcr                   | Implement image reading for non-mnist files (either convert to mnist or use something else) |
 | low      | Directory                  | If the object oriented/node version of the local file handler changes files the already loaded nodes need to be updated (e.g. when calling delete, add, ...) |
-|          |                            |                                                              |
 
 #### Archived
 
-| Priority | Done | Category | Task |
-| -------- | ---- | -------- | ---- |
-|          |      |          |      |
+| Priority | Done       | Category | Task                                                         |
+| -------- | ---------- | -------- | ------------------------------------------------------------ |
+| low      | 2022.01.02 | News     | In order to show which news are seen and which are not seen the `NewsSeen` model needs also to reference the article, currently only the user is referenced. Of course this doesn't work! |
 
 ## Bugs
 
@@ -563,22 +566,21 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium   | Human Resource Management | Fix employee list (see comment at the bottom, query builder bug) |
 | medium   | DataMapper                | The `limit()` function is not working for relations e.g. `limit(3, 'hasMany/childHasMany')` (e.g. check `ItemManagement/BackendController->viewItemManagementSalesItem()`) |
 | low      | Navigation                | The sidebar navigation is not working properly if the content is too wide. In this case the sidebar becomes smaller than its defined width (test by resizing the window) |
-| low      | KMeans                    | In some weird cases the Cluster test fails. This happens approximately 5 / 100 test runs (invalid center coordinate value). Idea: Since the coordinates are chosen randomly a debug session with a loop might be necessary where the same test runs until it hits the bug. |
+| low      | KMeans                    | In some weird cases the Cluster test fails. This happens approximately 1 / 1,000,000 test runs (invalid center coordinate value). Idea: Since the coordinates are chosen randomly a debug session with a loop might be necessary where the same test runs until it hits the bug. |
 | low      | Dashboard                 | Why does admin not have a dashboard? Everyone should have it! |
 | low      | Table                     | The table overflow was fixed with putting them in a scrollable container (in the portlet). This broke the `.sticky` head, since the table no longer knows the head is out of view. Since it's in an overflow container it doesn't know about its changed scroll position. If this cannot be solved don't revert back because overflowing tables are much worse! |
 | low      | Rest                      | There is a weird bug where the `multipart/form-data` cannot use the normal `boundary=` header to define the boundary. If this *correct* format is used the server somehow cannot populate the `php://input` correctly. If we move the `=` to a different position e.g. `bound=ary` this works fine. Currently this is solved by not using a `=` sign but `/`. This requires further inspections later on and could result in a bug with a different webserver (e.g. nginx). |
 | low      | Graph                     | In directed graphs `getNeighbors()` might return wrong neighbors. |
 | low      | Forms                     | The FormManager expects a table/tbody for inline edits. This should not be the case, generalize! |
 | low      | VoiceManager              | If voice input is enabled check every x seconds if the service is still running. I think it stops automatically after some time?! |
-| low      | HttpUri                   | The url parser doesn't return the correct fragment/query for urls missing a query value, such as `https://127.0.0.1/test?something#frag |
-| low      | UriFactory                | In the frontend the `setupUriBuilder` is called on the page load which could be bad as the uri can change on the fly without a new page load. Move parts of it to the builder so that this happens on the fly (for: path, query, fragment). |
 | low      | ModuleManager             | The module `get()` function uses as return object. This is a workaround to fix static inspection. There is no inline docblock to type hint the correct function return since it can be so many. Howerver with object the code quality check tools at least don't complain in the different modules where we call `->get(...)` |
 
 #### Archived
 
-| Priority | Done | Category | Task |
-| -------- | ---- | -------- | ---- |
-|          |      |          |      |
+| Priority | Done       | Category   | Task                                                         |
+| -------- | ---------- | ---------- | ------------------------------------------------------------ |
+| low      | 2022.01.02 | UriFactory | In the frontend the `setupUriBuilder` is called on the page load which could be bad as the uri can change on the fly without a new page load. Move parts of it to the builder so that this happens on the fly (for: path, query, fragment). |
+| low      | 2022.01.02 | HttpUri    | The url parser doesn't return the correct fragment/query for urls missing a query value, such as `https://127.0.0.1/test?something#frag |
 
 ### Details
 
