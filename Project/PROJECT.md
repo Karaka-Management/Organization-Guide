@@ -680,6 +680,25 @@ where ...
   )
 ```
 
+Php sample usage:
+
+```php
+$where = PermissionAbstractMapper::helper()
+            ->group($groups)
+            ->account($account)
+            ->unit([null, 2])
+            ->app([null, 1])
+            ->...
+            ->permission(Permission::READ & Permission::WRITE)
+
+$obj = ThisMapper::get()
+		->with('hasMany')
+		->where('id', $request->getData('id', 'int') ?? 0)
+		->where('', $where)
+		->limit(1)
+		->execute();
+```
+
 #### Option 2
 
 1. Check if general permission exists -> just do query
