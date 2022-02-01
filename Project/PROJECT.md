@@ -32,7 +32,9 @@ Last update of this file: 2022.01.01
 
 ##### Installer
 
-* Added command line to developer documentation for generating cachegrind output during installation 
+* Added command line to developer documentation for generating cachegrind output during installation
+* The demo setup script now uses the correct row counts instead of estimations
+* Added API call counter to demo installer script
 
 ## Challenges & problems
 
@@ -118,6 +120,7 @@ The following overview tries to compare competitive software alternatives as fai
 | 2022.08.27 | Scope                                    | What is the expected timeline for the different modules      |
 |            | Navigation                               | Allow to hide navigation elements even if the module is installed |
 |            | Navigation                               | Also disable routing for front end. This way only the functionality is available (api) |
+|            | Permission                               | Make permissions NOT "bitfields" but individual boolean flags. Otherwise the database select is too slow. |
 |            | Customer Management                      | Implement names, address, contact elements                   |
 |            | Customer Management                      | Implement custom fields                                      |
 |            | Job                                      | Manage jobs                                                  |
@@ -315,6 +318,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | high     | Forms                      | Invalid api responses should undo the UI changes             |
 | high     | Forms                      | Adding a template to the DOM should modify its id/generate a custom/random id for the added element |
 | high     | Forms                      | If a form has unsaved content the browser should ask if the user really wants to change the page or close it (use beforeunload event). |
+| medium | Knowledgebase | Add org ID to wiki app (optional) and add a default flag. In the backend load the default wiki app for the current organization `$this->app->orgId` |
 | medium | Push/pull content | Auto update data changes in the backend (e.g. pull every x seconds, or use websockets for push) |
 | medium | Concurrency lock | Lock data for concurrency (e.g. table row lock or heartbeat) |
 | medium   | Logs                       | Immediately send errors also via email to the admin/server email address if it is configured that way (maybe create callback global and for different log levels). |
@@ -550,6 +554,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | UriFactory                 | In the frontend and backend there needs to be a way to only add query parameters if they have a value. The question is if we can implement that as default (very easy, just check if value available) or if we need to define it as `only if available`. The later option might be necessary because there could be situations where you want to add a query parameter without a value? Not sure though. |
 | low      | BasicOcr                   | Implement image reading for non-mnist files (either convert to mnist or use something else) |
 | low      | Directory                  | If the object oriented/node version of the local file handler changes files the already loaded nodes need to be updated (e.g. when calling delete, add, ...) |
+| low | ModuleManager | The basic module install function expects `dbPool`, `info`, ... while the external installer expects `app`. It makes more sense for both to expect the same data. Consider to pass `app` in the normal module installer as well. |
 
 #### Archived
 
@@ -582,44 +587,6 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | 2022.01.02 | UriFactory | In the frontend the `setupUriBuilder` is called on the page load which could be bad as the uri can change on the fly without a new page load. Move parts of it to the builder so that this happens on the fly (for: path, query, fragment). |
 | low      | 2022.01.02 | HttpUri    | The url parser doesn't return the correct fragment/query for urls missing a query value, such as `https://127.0.0.1/test?something#frag |
 
-### Details
-
-#### Joins on same tables
-
-Problem if joins on same tables (e.g. staff-list)
-
-The tabbed join is the problem, the second query is the solution. The problem is that you need a different alias which is hard to created since th alias usually is suffixed with the depths which is a problem in this case since the alias has nothing to do with the depth.
-
-A solution could be to index the joins by depths+join count e.g. account_2_1, account_2_2
-
-```sql
-SELECT `account_2`.`account_name1` as account_name1_2, `account_2`.`account_name2` as account_name2_2, `account_2`.`account_name3` as account_name3_2
-FROM `hr_staff` as hr_staff_4
-LEFT JOIN `media` as media_3 ON `hr_staff_4`.`hr_staff_image` = `media_3`.`media_id`
-LEFT JOIN `profile_account` as profile_account_3 ON `hr_staff_4`.`hr_staff_profile` = `profile_account_3`.`profile_account_id`
-        LEFT JOIN `account` as account_2 ON `media_3`.`media_created_by` = `account_2`.`account_id`
-        AND `profile_account_3`.`profile_account_account` = `account_2`.`account_id`
-LEFT JOIN `l11n` as l11n_1 ON `account_2`.`account_localization` = `l11n_1`.`l11n_id`
-LEFT JOIN `media` as media_2 ON `profile_account_3`.`profile_account_image` = `media_2`.`media_id`
-LEFT JOIN `account` as account_1 ON `media_2`.`media_created_by` = `account_1`.`account_id`;
-```
-
-```sql
-SELECT `account_2`.`account_name1` as account_name1_2, `account_2`.`account_name2` as account_name2_2, `account_2`.`account_name3` as account_name3_2
-FROM `hr_staff` as hr_staff_4
-LEFT JOIN `media` as media_3 ON `hr_staff_4`.`hr_staff_image` = `media_3`.`media_id`
-LEFT JOIN `profile_account` as profile_account_3 ON `hr_staff_4`.`hr_staff_profile` = `profile_account_3`.`profile_account_id`
-    LEFT JOIN `account` as account_3 ON `media_3`.`media_created_by` = `account_3`.`account_id`
-    LEFT JOIN `account` as account_2 ON `profile_account_3`.`profile_account_account` = `account_2`.`account_id`
-LEFT JOIN `l11n` as l11n_1 ON `account_2`.`account_localization` = `l11n_1`.`l11n_id`
-LEFT JOIN `media` as media_2 ON `profile_account_3`.`profile_account_image` = `media_2`.`media_id`
-LEFT JOIN `account` as account_1 ON `media_2`.`media_created_by` = `account_1`.`account_id`;
-```
-
-The problem is that every object needs to have a unique id so we could do this like `_d3_o5` as alias.
-The problem with that however is that this would work for the getQuery() function but in the populateAbstract we don't know the object id. But maybe we can solve it by also passing the object ID here?
-This seems like a full weekend test!!! Better focus on other things first.
-
 ## Drafts, concepts & ideas
 
 Drafts, concepts & ideas which are more complex or require more explanation.
@@ -651,41 +618,37 @@ Software:
 
 ### Database permission handling
 
-#### Option 1
-
-```sql
-select ...
-from ...
-where ...
-  (
-    account_permission_account = ACCOUNT
-    AND (account_permission_unit IS NULL OR account_permission_unit = 'UNIT')
-    AND (account_permission_app IS NULL OR account_permission_app = 'APP')
-    AND (account_permission_module IS NULL OR account_permission_module = 'MODULE')
-    AND (account_permission_type IS NULL OR account_permission_type = 'TYPE')
-    AND (account_permission_element IS NULL OR account_permission_element = 'THIS_ID')
-    AND (account_permission_component IS NULL OR account_permission_component = 'COMPONENT')
-    AND account_permission_permission = ???
-  )
-  OR
-  (
-    group_permission_group IN (...)
-    AND (group_permission_unit IS NULL OR group_permission_unit = 'UNIT')
-    AND (group_permission_app IS NULL OR group_permission_app = 'APP')
-    AND (group_permission_module IS NULL OR group_permission_module = 'MODULE')
-    AND (group_permission_type IS NULL OR group_permission_type = 'TYPE')
-    AND (group_permission_element IS NULL OR group_permission_element = 'THIS_ID')
-    AND (group_permission_component IS NULL OR group_permission_component = 'COMPONENT')
-    AND group_permission_permission = ???
-  )
-```
-
-#### Option 2
-
 1. Check if general permission exists -> just do query
+
 2. Check for specific element exists -> just do query but with column_id IN (... elements ...)
 
 ```php
-::with(PermissionAbstractMapper::class, $permissions)
-// this will create a where condition generated by the PermissionAbstractMapper::class e.g. call PermissionAbstractMapper::createWith($query)
+$mapper = MediaMapper::getAll()->...->limit(10);
+
+$hasPermission = $this->app->accountManager->get($request->header->account)
+    ->hasPermission(
+        PermissionType::READ,
+        $this->app->orgId,
+        $this->app->appName,
+        self::NAME,
+        PermissionState::MEDIA,
+        null // $request->getData('id', 'int')
+    );
+
+if (!$hasPermission) {
+    $permWhere = PermissionAbstractMapper::helper($this->app->dbPool->get('select'))
+        ->groups($this->app->accountManager->get($request->header->account)->getGroupIds())
+        ->account($request->header->account)
+        ->units([null, $this->app->orgId])
+        ->apps([null, 'Api', $this->app->appName])
+        ->modules([null, self::NAME])
+        ->types([null, PermissionState::MEDIA])
+        ->permission(PermissionType::READ)
+        ->query(MediaMapper::PRIMARYFIELD);
+    
+    $mapper->where($permWhere);
+}
+
+$results = $mapper->execute();
 ```
+

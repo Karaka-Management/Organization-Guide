@@ -305,6 +305,9 @@ The warehouse management module is for handling stocks for companies.
 | Stock locations          | Create and manage different stock locations (e.g. local storage, external storage) |
 | Shelfs                   | Shelfs in a stock location                                   |
 | 2D warehouse structure   | 2D image of the warehouse structure with the different shelfs |
+| LOT/SN                   | Items can have lot numbers or serial numbers or none. A item can have a external and internal LOT/SN. |
+| Track quantities         | Items can be tracked by stock amount or defined to have no stock amount (e.g. for services) |
+| Quantity modification    | Quantities can be manually changed in addition to invoices/delivery notes. |
 | Picking list generation  | Generate picking lists from invoices with optimal walking distances |
 | Picking map              | Show walking map for more details (e.g. for new employees who need to see where the shelf is) |
 | Label scanning           | Document picking by scanning items (automatically documents and checks the correct item + lot + quantity) |
@@ -313,6 +316,29 @@ The warehouse management module is for handling stocks for companies.
 | Scan incoming goods      | Use supplier label to scan goods                             |
 | Show free shelf          | Show free shelfs where to put incoming goods (optionally show map where to find that shelf) |
 | Incoming documents       | Scan all documents attached to the shipment (e.g. delivery note, ...) |
+
+### Stocktaking Module
+
+The stocktaking module is for performing the stocktaking process.
+
+| Functionality / Feature | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Counting lists          | Print or create digital counting lists based on stock/shelf locations. The digital counting lists allows to input the items and quantities directly in the application (e.g. use a cellphone). You may define further limitations of which items should be part of the stocktaking process (e.g. only articles in a specific product segment, only articles with LOT numbers, ...) |
+| Label scanning          | Optionally scan labels during the counting process instead of manually selecting the item and LOT/SN |
+| Analysis                | Show significant deviations to the expected result based on custom limits (e.g. quantities, value, product type, ...). Create end of stocktaking analysis of deviations. Show stock movement between stocktaking and a defined date. |
+| Re-counting             | Generate re-counting lists (e.g. in case of significant differences) |
+| Random stocktaking      | Random item counting lists can be generated with defined parameters (e.g. quantity) for perpetual stocktaking or random tests |
+| Overwrite               | Overwrite old stock with stock from stocktaking              |
+
+### Labeling
+
+The labeling module is for creating labels for items, assets, etc.
+
+| Functionality / Feature | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Label design            | Design labels in a drag and drop user interface              |
+| Reference fields        | Reference existing fields from items or assets to automatically print on the label (e.g. lot number, shelf life time, asset number, ...) |
+| Custom fields           | Create custom fields to be filled during the label printing process |
 
 ### Billing
 
@@ -323,59 +349,70 @@ The billing module allows users to create ingoing and outgoing bills (e.g. invoi
 | Write bills             | Write bills for customers, internal bills for supplier invoices, stock movements, internal uses (e.g. to other departments for profit centers) |
 | Bill types              | Create multiple bill types which can have different layouts (e.g. outgoing invoice, delivery note, ...) |
 | Media                   | Bills can have additional media files attached (e.g. signed contract, phone note, ...) |
-|                         |                                                              |
 
 ### Purchasing
 
 The purchasing module is for grouping together and providing purchasing activities.
 
-| Functionality / Feature | Description |
-| ----------------------- | ----------- |
-|                         |             |
-|                         |             |
-|                         |             |
+| Functionality / Feature | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Order suggestion        | Create order suggestion based on historic usage and pre-defined parameters (stock value, seasonal usage, minimum quantities, ...) |
+| Item analysis           | Purchase price development, out of stock, delivery delay, delivery reliability, order behaviour, total purchase development |
+| Supplier analysis       | Purchase price development, out of stock, delivery delay, delivery reliability, order behaviour, total turnover development |
 
 ### Sales
 
 The sales module is for grouping together and providing purchasing activities.
 
-| Functionality / Feature | Description |
-| ----------------------- | ----------- |
-|                         |             |
-|                         |             |
-|                         |             |
+| Functionality / Feature | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Item analysis           | Total, regional, client, sales rep: Sales price development, margin development , sales development, customer count, customer distribution, new customers, lost customers, top customers, potential customers |
+| Client analysis         | Total, item/segment: Sales price development, margin development , sales development, item count, item distribution, new items, lost items, top items, potential items |
 
 ### Support / Ticket Management
 
-The support module is for handling support/ticket requests either for internal or external purposes (e.g. customer support/tickets).
+The support module is for handling support/ticket requests either for internal (e.g. tickets for IT team) or external purposes (e.g. customer support/tickets).
 
-| Functionality / Feature | Description |
-| ----------------------- | ----------- |
-|                         |             |
-|                         |             |
-|                         |             |
+| Functionality / Feature | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Custom fields           | Custom fields for data entry                                 |
+| Custom account info     | Custom account fields (e.g. customer has maintenance contract) |
+| Analysis                | Person, category: Ticket development, response time, success rate, rating development, time until solved, ticket time |
+| Tasks                   | The module uses internally the tasks module and therefore provides most of the tasks functionality |
 
 ## Marketing Modules
 
-### Promotions
+### Promotion Management
 
-AAAAAAAAAAAAAAAAAAA
+The promotion module is for defining and controlling marketing promotions.
 
-| Functionality / Feature | Description |
-| ----------------------- | ----------- |
-|                         |             |
-|                         |             |
-|                         |             |
+| Functionality / Feature | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Promotion information   | Basic promotion information (e.g. promotion code(s), responsible person, promotion description, responsible person, start/end, ...) |
+| Participants            | Accounts who participated in the promotion                   |
+| Milestones/progress     | Define milestones (e.g. manual value, based on time, based on tasks, based on earnings) |
+| Budget                  | Define a budget for costs and earnings                       |
+| Calendar                | Promotions can have a calendar assigned                      |
+| Tasks                   | Promotions can have tasks assigend                           |
+| Kanban                  | Promotions can have a kanban board assigned                  |
+| Media                   | Promotions can have additional media files attached (e.g. signed contract, phone note, ...) |
+| Accounting              | Promotions can show costs and earnings through cost objects  |
 
-### Events
+### Event Management
 
-AAAAAAAAAAAAAAAAAAA
+The event module is for defining and controlling events (e.g. sales events, marketing events, seminars, ...).
 
-| Functionality / Feature | Description |
-| ----------------------- | ----------- |
-|                         |             |
-|                         |             |
-|                         |             |
+| Functionality / Feature | Description                                                  |
+| ----------------------- | ------------------------------------------------------------ |
+| Promotion information   | Basic event information (e.g. promotion code(s), responsible person, promotion description, responsible person, start/end, ...) |
+| Participants            | Accounts who participated in the promotion                   |
+| Milestones/progress     | Define milestones (e.g. manual value, based on time, based on tasks, based on earnings) |
+| Budget                  | Define a budget for costs and earnings                       |
+| Calendar                | Events can have a calendar assigned                          |
+| Tasks                   | Events can have tasks assigend                               |
+| Kanban                  | Events can have a kanban board assigned                      |
+| Media                   | Events can have additional media files attached (e.g. signed contract, phone note, ...) |
+| Accounting              | Events can show costs and earnings through cost objects      |
 
 ## QM, R&D and QS Modules
 
