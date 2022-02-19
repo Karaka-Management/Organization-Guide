@@ -15,8 +15,8 @@ This policy affects all organization members, participants and affiliates who ma
 
 Confidential information is defined as either
 
-* technical information, including patent, copyright, trade secret, and other proprietary information, techniques, sketches, drawings, models, inventions, know-how, processes, apparatus, equipment, algorithms, software programs, software source documents, and formulae related to the current, future and proposed products and services regarding "Orange Management", or
-* non-technical information relating to "Orange Management" products, including without limitation pricing, margins, merchandising plans and strategies, finances, financial and accounting data and information, suppliers, customers, customer lists, purchasing data, sales and marketing plans, future business plans and any other information which is proprietary and confidential to this project.
+* technical information, including patent, copyright, trade secret, and other proprietary information, techniques, sketches, drawings, models, inventions, know-how, processes, apparatus, equipment, algorithms, software programs, software source documents, and formulae related to the current, future and proposed products and services regarding "Karaka", or
+* non-technical information relating to "Karaka" products, including without limitation pricing, margins, merchandising plans and strategies, finances, financial and accounting data and information, suppliers, customers, customer lists, purchasing data, sales and marketing plans, future business plans and any other information which is proprietary and confidential to this project.
 
 Members, participants and affiliates may have different levels of authorized access to confidential information.
 
@@ -36,13 +36,13 @@ Members, participants and affiliates may have different levels of authorized acc
 
 ## Exceptions
 
-Confidential information may occasionally have to be disclosed for legitimate reasons. In such cases, the holder of the confidential information should document their disclosure procedure and collect all needed authorizations from senior organization members. During this process it may be required by the receiver of the confidential information to sign a non-compete and/or non-disclosure agreement (NDA). 
+Confidential information may occasionally have to be disclosed for legitimate reasons. In such cases, the holder of the confidential information should document their disclosure procedure and collect all needed authorizations from senior organization members. During this process it may be required by the receiver of the confidential information to sign a non-compete and/or non-disclosure agreement (NDA).
 
 Disclosing more information than needed must be avoided.
 
 ## Consequences
 
-Disrespecting this policy possibly leads to legal actions. 
+Disrespecting this policy possibly leads to legal actions.
 
 ## Survival
 

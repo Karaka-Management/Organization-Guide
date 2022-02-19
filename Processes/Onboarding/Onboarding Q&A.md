@@ -51,7 +51,7 @@ Yes, although only very few libraries.
 * Static code analysis (phpstan)
 * run: Build/Helper/testreport.sh
 * run: `php -d pcov.enabled=1 vendor/bin/phpunit tests/phpunit_default.xml`
-  * It's recommended to run this in the Orange-Management/* main directory
+  * It's recommended to run this in the Karaka/* main directory
   * Running this in the main directory will run all tests, also for the submodules (e.g. phpOMS, Modules, ...)
 
 **Where are the config files for the different developer tools**

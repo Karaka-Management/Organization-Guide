@@ -18,15 +18,20 @@ Last update of this file: 2022.01.01
 
 ##### Framework
 
-* 
+*
+
+##### Media
+
+* Added the reference media type (similar to collections) which allows to create references to existing media. This is ideal for showing the same media file in different places while making sure that deleting or changing the reference doesn't effect the actual media file.
+* Create collection directories recursively (similar to `mkdir` with a recursion flag set to true)
 
 ##### Frontend
 
-* 
+*
 
 #### Bug fixes
 
-* 
+*
 
 #### Other
 
@@ -49,11 +54,11 @@ Continue with milestone task implementation.
 
 ## Milestones
 
-Based on the pilot candidate with whom the functionality will be implemented. 
+Based on the pilot candidate with whom the functionality will be implemented.
 
-* The current costs are the annual value for the pilot candidate based on actual costs but subjectively split into more detailed cost positions (the invoices from the suppliers are not always detailed enough to differentiate between the different functions/modules). 
+* The current costs are the annual value for the pilot candidate based on actual costs but subjectively split into more detailed cost positions (the invoices from the suppliers are not always detailed enough to differentiate between the different functions/modules).
 * The future costs are costs that currently don't exist but are expected to come up in the future if the pilot candidate intends to implement **some** of the current software needs.
-* The new value is an estimation of how much the newly implemented software (Orange Management) will subjectively provide compared to current/future solutions. These are **NOT** the costs for the pilot candidate or cost savings. The costs for this will be discussed afterwards.
+* The new value is an estimation of how much the newly implemented software (Karaka) will subjectively provide compared to current/future solutions. These are **NOT** the costs for the pilot candidate or cost savings. The costs for this will be discussed afterwards.
 
 | Deadline | Done | Milestone                                              | Current Costs  | Future Costs   | New Value      |
 | -------- | ---- | ------------------------------------------------------ | -------------- | -------------- | -------------- |
@@ -79,7 +84,7 @@ Based on the pilot candidate with whom the functionality will be implemented.
 
 ### Cost basis
 
-The estimated annual costs in the milestones above are based on the total annual costs from the software from the pilot candidate. 
+The estimated annual costs in the milestones above are based on the total annual costs from the software from the pilot candidate.
 
 | Type           | License        | Customization  | Total          |
 | -------------- | -------------- | -------------- | -------------- |
@@ -205,6 +210,7 @@ The following overview tries to compare competitive software alternatives as fai
 |            | Sales                                    | Allow to create visitor report on cell phone by using location matching (geolocation) |
 |            | Sales                                    | Analyze reports per sales rep (e.g. use filter for export?)  |
 |            | Item Management                          | Implement Names, base data, media files                      |
+|            | Item Management                          | Implement parent item which can hold information (e.g. files) which can be used across all children |
 |            | Item Management (SD)                     | Expand GSD Exchange importer to also import articles *(SD specific)* |
 |            | Billing                                  | Basic invoice data (no stock movement)                       |
 |            | Billing (SD)                             | Expand GSD Exchange importer to bills *(SD specific)*        |
@@ -305,9 +311,9 @@ The following overview tries to compare competitive software alternatives as fai
 
 #### Archived
 
-| Deadline | Done | Category | Task |
-| -------- | ---- | -------- | ---- |
-|          |      |          |      |
+| Deadline | Done       | Category | Task                                                         |
+| -------- | ---------- | -------- | ------------------------------------------------------------ |
+|          | 2022.02.12 | Media    | Allow to create references (use type similar to 'collection' e.g. 'reference'). This way it is clear that it is only a reference and can never delete the actual file. |
 
 ## Todos
 
@@ -484,7 +490,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | DataMapperAbstract         | Implement data binding                                       |
 | low      | DataMapper                 | Use `Mapper::class` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::class` name is preferred in case of name changes. |
 | low      | Email                      | Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
-| low      | Temp directory             | Consider to create a temp directory in the main directory (Orange-Management) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files` |
+| low      | Temp directory             | Consider to create a temp directory in the main directory (Karaka) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files` |
 | low      | DataMapper / ModelFactory  | Some models may require special initialization. For such cases a model factory should be implemented and used by the data mapper. One solution could be to create a default `ModelFactory` which behaves as the current DataMapper functions which set/update the model members. This factory could be extended in case custom behavior becomes necessary. In the Mapper you would just have to define a `const FACTORY` constant which references the factory to use (instead of the default one). Since there hasn't been a situation where this was necessary it will not be implemented until we actually need this (it would additional overhead which maybe never becomes necessary) |
 | low      | Editor             | Create special markdown content (calendar, chart, task, news, comment, media, ...) |
 | low      | Editor             | Allow download as markdown, text, PDF, word                  |
@@ -513,7 +519,10 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Media              | Implement external resources (URLs, dropbox, aws, ...)       |
 | low      | Media              | Allow to edit the breadcrumbs, which replaces them with a text field which can be changed then than automatically loads the new path |
 | low      | Media              | Implement temporary file storage (very useful for making files downloadable for a limited time). Maybe create a new temp file directory or database collection where a available_until timedate gets defined (must be handled in the database). The biggest problem is how to delete them, this requires a background process/task scheduler. Additionally, these files must have permissions because they may be only for one user or a group of users |
+| low | Media | Show virtual path in media view, maybe similar to the table view. This allows the user to jump to any parent directory |
 | low | Media | List data from online drives such as dropbox, google drives, AWS |
+| low | Media | Mark media elements as system elements (e.g. to prevent delete/name changes) |
+| low | Media | Mark elements as deleted (this way the element can still exist with references but the content is removed). Maybe change the purpose of `isHidden` to `status` with different status codes (e.g. hidden, active, deleted) |
 | low | Knowledgebase | Make docs versioned |
 | low | Editor | Make docs versioned |
 | low      | Messages           | Allow to transform a message as task                         |
@@ -555,12 +564,17 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | BasicOcr                   | Implement image reading for non-mnist files (either convert to mnist or use something else) |
 | low      | Directory                  | If the object oriented/node version of the local file handler changes files the already loaded nodes need to be updated (e.g. when calling delete, add, ...) |
 | low | ModuleManager | The basic module install function expects `dbPool`, `info`, ... while the external installer expects `app`. It makes more sense for both to expect the same data. Consider to pass `app` in the normal module installer as well. |
+| low | TextAnalysis | Implement text similarity algorithms (https://medium.com/@adriensieg/text-similarities-da019229c894) |
+| low | Image | Implement image de-noising (consider https://www.hindawi.com/journals/complexity/2021/5578788/) |
+| low | Image | Fix kernel 5x5 implementation with `imagecolersat` and `imagecolerat` (https://rosettacode.org/wiki/Image_convolution). Currently not doing anything. |
+| low | Image | Improve adaptive thresholding (consider https://homepages.inf.ed.ac.uk/rbf/HIPR2/flatjavasrc/AdapThresh.java) |
 
 #### Archived
 
 | Priority | Done       | Category | Task                                                         |
 | -------- | ---------- | -------- | ------------------------------------------------------------ |
 | low      | 2022.01.02 | News     | In order to show which news are seen and which are not seen the `NewsSeen` model needs also to reference the article, currently only the user is referenced. Of course this doesn't work! |
+| medium   | 2022.02.13 | Media    | Create recursive collection creator function similar to mkdir with the recursive flag. |
 
 ## Bugs
 
@@ -609,7 +623,7 @@ Steps:
    2. Create sub definitions such as quantity/unit, single price, total price, ...
    3. How to identify end of list?
    4. How to handle multiline line elements (e.g. detailed article/service description)
-   5. How to automatically find account (e.g. article number, description, template definition)? 
+   5. How to automatically find account (e.g. article number, description, template definition)?
 
 Software:
 
@@ -645,7 +659,7 @@ if (!$hasPermission) {
         ->types([null, PermissionState::MEDIA])
         ->permission(PermissionType::READ)
         ->query(MediaMapper::PRIMARYFIELD);
-    
+
     $mapper->where($permWhere);
 }
 

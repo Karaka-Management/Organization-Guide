@@ -2,7 +2,7 @@
 
 ## Organization
 
-The Orange Management organization is located in Germany and founded in November 2015 by Dennis Eichhorn for developing the Orange Management application and sub-components which incorporates solutions such as CRM, SRM, CMS, ERP, Shop and many more.
+The Karaka organization is located in Germany and founded in November 2015 by Dennis Eichhorn for developing the Karaka application and sub-components which incorporates solutions such as CRM, SRM, CMS, ERP, Shop and many more.
 
 The main goal of the organization is to create solutions for companies and organizations of all sizes which allow them to seamless manage their operations from one application.
 
@@ -72,8 +72,8 @@ The main goal of the organization is to create solutions for companies and organ
 
 #### Vision
 
-* **Early:** Orange Management solutions are used by at least 1.000 organizations/businesses in 2025
-* **Late:** Orange Management is one of the industry standard solution provider for organizations and businesses
+* **Early:** Karaka solutions are used by at least 1.000 organizations/businesses in 2025
+* **Late:** Karaka is one of the industry standard solution provider for organizations and businesses
 
 ##### Goal
 
@@ -206,7 +206,7 @@ In the following a ranking of numbers (1-10) will be used where 10 is the highes
 | Easy to install on own server/pc       | no        | yes     | yes        | yes     | yes        | yes     | no         | no         |
 | Availability on third party hosts      | 10        | 7       | 7          | 7       | 7          | 7       | 8          | 9          |
 
-The decision why Orange Management decided to use PHP came down to the following points:
+The decision why Karaka decided to use PHP came down to the following points:
 
 1. Since the web applications are supposed to run on all sizes of organizations and businesses PHP has the advantage with availability on simple (cheap) webservers.
 2. The request based code execution makes it less susceptible against errors (re-starting and monitoring the application etc.) and therefore better for non-tech people.

@@ -2,7 +2,7 @@
 
 **How to initially setup the codebase?**
 
-* run: `git clone -b develop https://github.com/Orange-Management/Orange-Management.git`
+* run: `git clone -b develop https://github.com/Karaka-Management/Karaka.git`
 * run: `git submodule update --init --recursive`
 * run: `git submodule foreach git checkout develop`
 
@@ -20,10 +20,10 @@ js: Jasmine
 
 **How to run unit tests?**
 
-* php: 
+* php:
   * run in main directory: `php -d pcov.enabled=1 vendor/bin/phpunit -c tests/phpunit_no_coverage.xml `
   * also possible for submodules if you want to test only a specific submodule (e.g. phpOMS)
-* js: 
+* js:
 
 **How to run code inspection?**
 

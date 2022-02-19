@@ -276,6 +276,9 @@ The client management module is for handling client data for companies.
 | ----------------------- | ------------------------------------------------------------ |
 | Profile                 | Client profile view showing customer data                    |
 | Analysis                | Sales analysis (sales, profit, cross selling potential, purchasing behavior, ...) |
+| Accounts                | Accounts can be assigned to clients which allows a client to manage its own data to an extend (e.g. download invoices) |
+| References              | Create references to other clients/suppliers                 |
+| Attributes              | Custom attributes which can be created and filled (optional or mandatory) |
 
 ### Supplier Management
 
@@ -285,6 +288,9 @@ The supplier management module is for handling supplier data for companies.
 | ----------------------- | ------------------------------------------------------------ |
 | Profile                 | Supplier profile view showing supplier data                  |
 | Analysis                | Purchase analysis (costs, profit with purchased goods, prize increases, purchasing behavior, ...) |
+| Accounts                | Accounts can be assigned to suppliers which allows a supplier to manage its own data to an extend |
+| References              | Create references to other clients/suppliers                 |
+| Attributes              | Custom attributes which can be created and filled (optional or mandatory) |
 
 ### Item Management
 
@@ -294,6 +300,13 @@ The item management module is for handling item/article data for companies.
 | ----------------------- | ------------------------------------------------------------ |
 | Profile                 | Item profile view showing item data                          |
 | Analysis                | Item analysis (sales, costs, prize increases, purchasing behavior, ...) |
+| Parent items            | Parent items allow to share files across child items without duplicating the files (e.g. data sheets) |
+| Part list               | Items used by/for this article (e.g. for production)         |
+| Machine list            | Machines assigned for production/processing                  |
+| Process list            | Create process/production steps to be followed               |
+| Lot/SN                  | Items may have a LOT/SN and version (e.g. for documents)     |
+| Garbage                 | Information about the materials used for the product (e.g. for disposal regulations) |
+| Attributes              | Custom attributes which can be created and filled (optional or mandatory) |
 
 ### Warehouse Management
 
