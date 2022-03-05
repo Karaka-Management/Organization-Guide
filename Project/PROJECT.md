@@ -16,22 +16,10 @@ Last update of this file: 2022.01.01
 
 #### New
 
-##### Framework
-
-*
-
 ##### Media
 
 * Added the reference media type (similar to collections) which allows to create references to existing media. This is ideal for showing the same media file in different places while making sure that deleting or changing the reference doesn't effect the actual media file.
 * Create collection directories recursively (similar to `mkdir` with a recursion flag set to true)
-
-##### Frontend
-
-*
-
-#### Bug fixes
-
-*
 
 #### Other
 
@@ -125,6 +113,7 @@ The following overview tries to compare competitive software alternatives as fai
 | 2022.08.27 | Scope                                    | What is the expected timeline for the different modules      |
 |            | Navigation                               | Allow to hide navigation elements even if the module is installed |
 |            | Navigation                               | Also disable routing for front end. This way only the functionality is available (api) |
+|            | Navigation/CMS                           | Allow to install navigation translations in the CMS module   |
 |            | Permission                               | Make permissions NOT "bitfields" but individual boolean flags. Otherwise the database select is too slow. |
 |            | Customer Management                      | Implement names, address, contact elements                   |
 |            | Customer Management                      | Implement custom fields                                      |
@@ -325,6 +314,10 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | high     | Forms                      | Adding a template to the DOM should modify its id/generate a custom/random id for the added element |
 | high     | Forms                      | If a form has unsaved content the browser should ask if the user really wants to change the page or close it (use beforeunload event). |
 | medium | Knowledgebase | Add org ID to wiki app (optional) and add a default flag. In the backend load the default wiki app for the current organization `$this->app->orgId` |
+| medium | Tasks | Allow to create a reminder for a task (e.g. small bell next to the user name which highlights the task/removes the has_seen flag + says somewhere you got remindered) |
+| medium | Tasks | Create different overviews list by date + list by priority (very high + next day, high + next 2 days, medium + next 5 days, low + next 10 days, very low + remaining). Of course the grouping may change based on how long ago the creation date is. |
+| medium | Tasks | Show stats at the top (e.g. open, in progress, maybe even open high priority) |
+| medium | Billing | Allow to define multiple documents which are created upon invoice completion. Right now only the internal invoice document is generated. |
 | medium | Push/pull content | Auto update data changes in the backend (e.g. pull every x seconds, or use websockets for push) |
 | medium | Concurrency lock | Lock data for concurrency (e.g. table row lock or heartbeat) |
 | medium   | Logs                       | Immediately send errors also via email to the admin/server email address if it is configured that way (maybe create callback global and for different log levels). |
@@ -340,6 +333,8 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium | Editor | Add inline charts (e.g. [Mermaid](https://github.com/mermaid-js/mermaid) and [Toast UI Chart](https://github.com/nhn/tui.chart)) |
 | medium | Editor | Add math formulas (e.g. [Katex](https://katex.org/)) |
 | medium   | Admin              | Create a view where it's possible to create/activate, change and delete/deactivate hooks for events. |
+| low | Tasks | Show which tasks have a file attached (similar to emails) |
+| low | Tasks | Show in the different task overviews who the task is for. |
 | low      | Forms                      | On change highlight the data/element that got changed (e.g. background color transition in and transition out) |
 | low      | Framework Schedule         | Use `Interval` for scheduler instead of string etc.          |
 | low      | Email                      | Continue implementation of email sending and receiving       |
@@ -449,6 +444,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Tasks                      | Create a user calender for tasks which only shows when tasks are due |
 | low      | Tasks                      | Don't show Tasks in dashboard which are far into the future, maybe create another list for this? |
 | low      | Tasks                      | Implement has seen and unseen (use system where every task has a seen flag for a user if it is seen) |
+| low | Tasks | Allow users to unset the seen flag. |
 | low      | Tasks                      | First show open tasks to the user, then show open tasks to other users, then show all closed/canceled/finished tasks |
 | low      | Calendar                   | Load events back to a fixed amount of months (e.g. current month, previous month and next month) |
 | low      | Calendar                   | Implement event popup in the UI on click                     |
