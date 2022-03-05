@@ -12,22 +12,33 @@ Last update of this file: 2022.01.01
 
 ## Most recent changelog
 
-### January 2022
+### March 2022
 
 #### New
 
-##### Media
+##### Framework
 
-* Added the reference media type (similar to collections) which allows to create references to existing media. This is ideal for showing the same media file in different places while making sure that deleting or changing the reference doesn't effect the actual media file.
-* Create collection directories recursively (similar to `mkdir` with a recursion flag set to true)
+* Started to create C++ framework
+
+##### Billing
+
+* Allow to upload invoices as PDFs for invoice recognition
+  * Invoice pre-processing 75% completed, can be used as is but improvements are recommended
+  * Invoice layout recognition and parsing outstanding as well as manual layout definition
+
+##### Frontend
+
+* Created a tool which pre-processes invoice images
+
+#### Bug fixes
+
+*
 
 #### Other
 
 ##### Installer
 
-* Added command line to developer documentation for generating cachegrind output during installation
-* The demo setup script now uses the correct row counts instead of estimations
-* Added API call counter to demo installer script
+* 
 
 ## Challenges & problems
 
@@ -300,9 +311,9 @@ The following overview tries to compare competitive software alternatives as fai
 
 #### Archived
 
-| Deadline | Done       | Category | Task                                                         |
-| -------- | ---------- | -------- | ------------------------------------------------------------ |
-|          | 2022.02.12 | Media    | Allow to create references (use type similar to 'collection' e.g. 'reference'). This way it is clear that it is only a reference and can never delete the actual file. |
+| Deadline | Done | Category | Task |
+| -------- | ---- | -------- | ---- |
+|          |      |          |      |
 
 ## Todos
 
@@ -567,10 +578,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 
 #### Archived
 
-| Priority | Done       | Category | Task                                                         |
-| -------- | ---------- | -------- | ------------------------------------------------------------ |
-| low      | 2022.01.02 | News     | In order to show which news are seen and which are not seen the `NewsSeen` model needs also to reference the article, currently only the user is referenced. Of course this doesn't work! |
-| medium   | 2022.02.13 | Media    | Create recursive collection creator function similar to mkdir with the recursive flag. |
+| Priority | Done | Category | Task |
+| -------- | ---- | -------- | ---- |
+|          |      |          |      |
 
 ## Bugs
 
@@ -592,10 +602,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 
 #### Archived
 
-| Priority | Done       | Category   | Task                                                         |
-| -------- | ---------- | ---------- | ------------------------------------------------------------ |
-| low      | 2022.01.02 | UriFactory | In the frontend the `setupUriBuilder` is called on the page load which could be bad as the uri can change on the fly without a new page load. Move parts of it to the builder so that this happens on the fly (for: path, query, fragment). |
-| low      | 2022.01.02 | HttpUri    | The url parser doesn't return the correct fragment/query for urls missing a query value, such as `https://127.0.0.1/test?something#frag |
+| Priority | Done | Category | Task |
+| -------- | ---- | -------- | ---- |
+|          |      |          |      |
 
 ## Drafts, concepts & ideas
 
@@ -625,40 +634,4 @@ Software:
 
 1. Tesseract + OpenCV + above mentioned steps
 2. Some Api (e.g. google vision ai, amazon textract, amazon recognition)
-
-### Database permission handling
-
-1. Check if general permission exists -> just do query
-
-2. Check for specific element exists -> just do query but with column_id IN (... elements ...)
-
-```php
-$mapper = MediaMapper::getAll()->...->limit(10);
-
-$hasPermission = $this->app->accountManager->get($request->header->account)
-    ->hasPermission(
-        PermissionType::READ,
-        $this->app->orgId,
-        $this->app->appName,
-        self::NAME,
-        PermissionState::MEDIA,
-        null // $request->getData('id', 'int')
-    );
-
-if (!$hasPermission) {
-    $permWhere = PermissionAbstractMapper::helper($this->app->dbPool->get('select'))
-        ->groups($this->app->accountManager->get($request->header->account)->getGroupIds())
-        ->account($request->header->account)
-        ->units([null, $this->app->orgId])
-        ->apps([null, 'Api', $this->app->appName])
-        ->modules([null, self::NAME])
-        ->types([null, PermissionState::MEDIA])
-        ->permission(PermissionType::READ)
-        ->query(MediaMapper::PRIMARYFIELD);
-
-    $mapper->where($permWhere);
-}
-
-$results = $mapper->execute();
-```
 
