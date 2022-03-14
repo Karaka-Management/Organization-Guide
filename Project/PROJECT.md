@@ -90,7 +90,7 @@ The estimated annual costs in the milestones above are based on the total annual
 | Z*             | 7,200 EUR      |                | 7,200 EUR      |
 | G*             | 26,600 EUR     | 8,400 EUR      | 35,000 EUR     |
 | L*             | 4,300 EUR      |                | 4,300 EUR      |
-| CRM            | 2,900 EUR      | 9,200 EUR      | 9,200 EUR      |
+| CRM            | 2,900 EUR      | 9,200 EUR      | 12,100 EUR     |
 | Time recording | 1,500 EUR      |                | 1,500 EUR      |
 | **Total**      | **42,500 EUR** | **17,600 EUR** | **60,100 EUR** |
 
