@@ -12,96 +12,27 @@ Last update of this file: 2022.03.05
 
 ## Most recent changelog
 
-### March 2022
+### April 2022
 
 #### New
 
 ##### Application
 
-* Created basic `ConsoleApplication` which will be used for example to create async. code executions from web requests
-* Renamed the console application to `CliApplication` and the Cli interface to `cli.php`
-* The account mapper no longer auto-loads the password since it got removed from the mapper. In order to load an account with password or change the password, one must use the `AccountCredentialMapper` 
-* Improved naming conventions in permissions. "Type" is replaced by "Category"
-* The `installExternal` scripts are now mostly using the Api end points through internal Api requests
-* During the installation the application checks if the Cli application is callable and sets the settings accordingly
-  * This is for example used by the event offloading/asynchronous event handling
+* 
 
 ##### Framework
 
-* Started to create C++ framework
-* Created a `pdf2text` parser function
-* Turned permission flag internally into booleans for read, create, change delete, permission. This allows faster DB reads in certain cases
-  * Externally it still uses flags
-
-##### Billing
-
-* Allow to upload invoices as Pdfs for invoice recognition
-  * Invoice pre-processing 75% completed, can be used as is but improvements are recommended
-  * Invoice layout recognition and parsing still need to get implemented as well as manual layout definition
-
-##### Media
-
-* Reduced middle-man function for multiple file uploads and replaced it with loops (removed: `createDbEntries`)
-  * File uploads can no optionally be related to accounts. This is not always wanted/necessary
-* Automatically save the contents of a text file (txt, md), word file (doc, docx) or pdf in the database
-  * Pdfs either use the text which is stored inside of them or if the pdf is an "image" OCR is used with pre-processing
-* Media files can have a status (hidden, active/normal, deleted)
-* The media view now shows the virtual path as a directory path, similar to the list view
-
-##### Dashboard
-
-* The dashboard can receive data from other modules. This way new components automatically get added to the default board (board id 1).
-
-##### Editor
-
-* Support text versioning by creating a history table and custom version field
-
-##### Knowledgebase
-
-* Support text versioning by creating a history table and custom version field
-
-##### Q&A
-
-* Implemented basic voting
-* Implemented basic answer accepting
-* Optimized score table by adding who a vote is cast for, not just the answer/question id (= easier score calculation per account)
-
-##### Frontend
-
-* Created a tool which pre-processes invoice images
-
-##### Demo setup
-
-* Created async. install option for the demo application. 
-  * Cli command:`php demoSetup/setup.php -a 0`
-  * Remark: This most likely maxes out the CPU usage at 100% for 1 hour since almost all setup scripts are execute in parallel.
+* 
 
 #### Bug fixes
 
 ##### Framework
 
-* Fixed limit and sort bug for has many elements
-* Uri query parameters where no value could be found are removed. Query parameters where no value is specified remain.
-  * `?para1=123&para2={?NOT_FOUND}` => `?para1=123`
-  * `?para1=123&para2` => `?para1=123&para2`
-
-##### Media
-
-* Implemented `\urlencode` to fix file path bug for Pdf viewer + adjusted `viewer.js` url decoding in Resources
-
-##### Dashboard
-
-* Fixed bug where the admin didn't have a dashboard. Now the default dashboard is created during the install process (see changelog above).
-
-##### CMS
-
-* Created reserved application names `cli`, `backend`, `api`.
+* 
 
 #### Other
 
-##### Installer
 
-* Implemented `GroupPermissionMapper` to create default permissions instead of hard coded permission setup
 
 ## Challenges & problems
 
@@ -372,10 +303,9 @@ The following overview tries to compare competitive software alternatives as fai
 
 #### Archived
 
-| Deadline | Done       | Category       | Task                                                         |
-| -------- | ---------- | -------------- | ------------------------------------------------------------ |
-|          | 2022.03.05 | Navigation/CMS | Allow to install navigation translations in the CMS module (api only) |
-|          | 2022.03.05 | Permission     | Make permissions NOT "bitfields" but individual boolean flags. Otherwise the database select is too slow |
+| Deadline | Done | Category | Task |
+| -------- | ---- | -------- | ---- |
+|          |      |          |      |
 
 ## Todos
 
@@ -623,31 +553,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 
 #### Archived
 
-| Priority | Done       | Category            | Task                                                         |
-| -------- | ---------- | ------------------- | ------------------------------------------------------------ |
-| low      | 2022.03.17 | CMS                 | Make `CLI` a reserved application name which cannot be used by others. |
-| low      | 2022.03.17 | Image               | Improve adaptive thresholding (consider https://homepages.inf.ed.ac.uk/rbf/HIPR2/flatjavasrc/AdapThresh.java). *Not implemented, current implementation is good* |
-| low      | 2022.03.17 | ModuleManager       | The basic module install function expects `dbPool`, `info`, ... while the external installer expects `app`. It makes more sense for both to expect the same data. Consider to pass `app` in the normal module installer as well. |
-| low      | 2022.03.17 | UriFactory          | In the frontend and backend there needs to be a way to only add query parameters if they have a value. The question is if we can implement that as default (very easy, just check if value available) or if we need to define it as `only if available`. The later option might be necessary because there could be situations where you want to add a query parameter without a value? Not sure though. |
-| low      | 2022.03.17 | Support             | Allow support/tickets to be transformed to Q&A question and answers. *Not implemented, since I feel like it will be abused/cause more problems than benefits.* |
-| low      | 2022.03.17 | News                | The name of the directory for media uploads in the news should have the name of the document. Currently only the ID is used. *Not implemented, names will be too long* |
-| low      | 2022.03.17 | Editor              | The name of the directory for media uploads in the editor should have the name of the document. Currently only the ID is used. *Not implemented, names will be too long* |
-| low      | 2022.03.17 | Knowledgebase       | The name of the directory for media uploads in the knowledgebase should have the name of the document. Currently only the ID is used. *Not implemented, names will be too long* |
-| low      | 2022.03.17 | Knowledgebase       | Make docs versioned                                          |
-| low      | 2022.03.17 | Editor              | Make docs versioned                                          |
-| low      | 2022.03.17 | Media               | Mark elements as deleted (this way the element can still exist with references but the content is removed). Maybe change the purpose of `isHidden` to `status` with different status codes (e.g. hidden, active, deleted) |
-| low      | 2022.03.17 | Media               | Mark media elements as system elements (e.g. to prevent delete/name changes) |
-| low      | 2022.03.17 | Media               | Show virtual path in media view, maybe similar to the table view. This allows the user to jump to any parent directory |
-| low      | 2022.03.17 | Temp directory      | Consider to create a temp directory in the main directory (Karaka) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files`. *Not implemented, a project temp directory might be misused, rather use `\sys_get_temp_dir()`*. |
-| low      | 2022.03.17 | DataMapper          | Use `Mapper::class` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::class` name is preferred in case of name changes. *No, this is no longer the case* |
-| low      | 2022.03.17 | Media               | Find a way to allow file edits if the file is not in the database but just in the file directory. At the same time this should not be possible for database files. *Not implemented, if the file is not indexed in the database, it should not be possible to edit!* |
-| low      | 2022.03.17 | Admin               | The default Account mapper should not have a password reference, there should be a AccountLoginMapper which is used if anything needs to be done regarding the account password. Alternatively, think about a private field modifier which requires the programmer to specifically request the read/write permission for that field (password field). The reason for this is that otherwise the password hash might be dumped in case of an error |
-| low      | 2022.03.17 | Modules/permissions | In many places where permissions are used bad and different names are used. Sometimes the term "type" is used, sometimes the term "state" (PermissionState). Both actually represent a superficial category every module can define for permissions. (e.g. a state could be account, task, profile, tag, ...). The term "state" makes no sense since it isn't a state. The term "type" is also bad because in another place it is used to define (read, write, change, ...). Maybe we should simply call it PermissionCategory/category?! (files to change: NavElement, PermissionAbstract, PermissionState) |
-| low      | 2022.03.19 | Profile             | Define a default image for new profiles. However, don't create a new media file whenever a new profile is created but instead define one global image which than is loaded for all profiles which don't have a custom image. This makes it easy to replace the default image for all existing profiles and saves a lot of space. |
-| low      | 2022.03.19 | Q&A                 | Implement voting                                             |
-| low      | 2022.03.19 | Q&A                 | Implement accepting answers                                  |
-| low      | 2022.03.19 | Q&A                 | Make votes contain for who the vote is, this way the vote score sum for accounts is MUCH easier and faster |
-| low      | 2022.03.26 | ModuleInstaller     | In most module *Installer.php* scripts the `installExternal()` re-implements Api functionality. Instead of creating new functions maybe the installer scripts should mock the api requests? (e.g. CMS is using the api while Media is re-implementing many functions) |
+| Priority | Done | Category | Task |
+| -------- | ---- | -------- | ---- |
+|          |      |          |      |
 
 ## Bugs
 
@@ -666,11 +574,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 
 #### Archived
 
-| Priority | Done       | Category                  | Task                                                         |
-| -------- | ---------- | ------------------------- | ------------------------------------------------------------ |
-| medium   | 2022.03.17 | DataMapper                | The `limit()` function is not working for relations e.g. `limit(3, 'hasMany/childHasMany')` (e.g. check `ItemManagement/BackendController->viewItemManagementSalesItem()`) |
-| medium   | long ago   | Human Resource Management | Fix employee list (see comment at the bottom, query builder bug) |
-| low      | 2022.03.17 | Dashboard                 | Why does admin not have a dashboard? Everyone should have it! |
+| Priority | Done | Category | Task |
+| -------- | ---- | -------- | ---- |
+|          |      |          |      |
 
 ## Drafts, concepts & ideas
 
