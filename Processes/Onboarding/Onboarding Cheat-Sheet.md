@@ -18,7 +18,7 @@ php: PHPUnit
 
 js: Jasmine
 
-**How to run unit tests?**
+**How to run unit/integration tests?**
 
 * php:
   * run in main directory: `php -d pcov.enabled=1 vendor/bin/phpunit -c tests/phpunit_no_coverage.xml `
@@ -27,7 +27,8 @@ js: Jasmine
 
 **How to run code inspection?**
 
-* run phpstan + phpcs: `Build/Helper/testreport.sh`
+* run phpstan + phpcs + eslint: `Build/Helper/testreport.sh`
 * run phpstan: `php vendor/bin/phpstan analyse --autoload-file=phpOMS/Autoloader.php -l 8 -c Build/Config/phpstan.neon ./`
 * run phpcs: `php vendor/bin/phpcs ./ --standard="Build/Config/phpcs.xml" -s --report-junit=Build/test/junit_phpcs.xml`
+* run eslint: `npx eslint jsOMS/ -c Build/Config/.eslintrc.json`
 

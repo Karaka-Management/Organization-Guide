@@ -4,7 +4,7 @@
 
 ### Risk
 
-Risks are characterized by probability of occurrence and consequence. Through risk management, GDF applies resources to lessen the likelihood of a future event occurring and/or the consequence should it occur. As risks increase in probability, GDF should anticipate that the events will occur and should put plans in place early to mitigate the consequences.
+Risks are characterized by probability of occurrence and consequence. Through risk management, the company applies resources to lessen the likelihood of a future event occurring and/or the consequence should it occur. As risks increase in probability, the company should anticipate that the events will occur and should put plans in place early to mitigate the consequences.
 
 ### Risk Components 
 
@@ -51,6 +51,8 @@ The intent of risk identification is to answer the question “What can go wrong
 * Analyzing negative trends
 
 Risk identification is the activity that examines each element of the company to identify associated causes, begin their documentation, and set the stage for their successful management. Risk identification begins as early as possible and continues with regular analyses.
+
+**Company:** The identification is performed constantly, however formally once a year.
 
 ### Risk Categories
 
@@ -143,27 +145,15 @@ Risk monitoring includes a continuous process to systematically track and evalua
 
 Risk monitoring includes recording, maintaining, and reporting risks, risk analysis, risk mitigation, and tracking results. If a risk changes significantly, the company should adjust the risk mitigation strategy accordingly. If the risk is lower than previously analyzed, the company may reduce or cancel risk mitigation activities and consider freeing resources for other uses. If risk severity increases, appropriate risk mitigation efforts should be developed and implemented. 
 
+**Company:** The monitoring is performed constantly, however formally once a year.
+
 ## Review
 
-The Risk Management System needs to be reviewed on a regular basis in terms of effectiveness and efficiency. The review should be performed by independent personnel (either internal or external) and adjusted to changes accordingly.
+The Risk Management System needs to be reviewed on a regular basis in terms of effectiveness and efficiency. The review should be performed by independent personnel (either internal or external) and adjusted to changes accordingly. 
 
-The review should be performed on an annual basis.
+**Company:** The review is performed annually.
 
-## Risk Register
 
-The risk register is a central repository to describe and track risks as well as record actions. It includes information for each risk such as risk category, likelihood, consequence, mitigation measures, risk owner and documentation of changes.
 
-| Risk No. | O    | Category         | S      | Risk Event                                                   | L    | C    | Mitigation Strategy                                          | Changes | Comments                                                     |
-| -------- | ---- | ---------------- | ------ | ------------------------------------------------------------ | ---- | ---- | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ |
-| 1        | DE   | Operational Risk | Active | Loss of source code                                          | 1    | 5    | Avoiding: Store source code in cloud (github). At least one local developer PC and project server. |         |                                                              |
-| 2        | DE   | Operational Risk | Active | Source code leak                                             | 5    | 1    | Controlling: The programming language is compiled at runtime. The value of the software lies in the updates, support and licenses. |         | Many companies transferred the revenue model to subscriptions (e.g. Adobe, Microsoft) in order to avoid similar problems. |
-| 3        | DE   | Operational Risk | Active | User acquires additional permissions without authorization (every software which uses permissions) | 2    | 5    | Avoiding: Permissions can only be granted by users which have received the permissions to do so. Users which can change permissions may also only have the permission to change specific users/permissions (single application elements, not the whole application.). We provide a documentation on who to manage permissions incl. best practices. Customers with a maintenance contract also receive additional advice based on their account permission handling. We also check regularly if features can be used by default without the necessary permissions. |         | The consequences or severities depend on the permissions which can be acquired. |
-| 4        | DE   | Operational Risk | Active | User code execution (every software which allows data upload/input) | 3    | 5    | Avoiding: User provided code is a critical part of some modules (e.g. Helper, Job). These modules provided by OMS execute code user code in iframes. We provide guidelines regarding this sensitive topic which explains that only developers in a company should have access to such functionalities. |         |                                                              |
-| 5        | DE   | Operational Risk | Active | Data leak (e.g. database data, file uploads) (every software which stores data) | 2    | 5    | Avoiding: We regularly check if users have access to data without the necessary permissions. Our modules may use encryption for extremely sensitive data. Media files are only accessible through the media module which allows to check the necessary reading permissions. We also provide a general policy for customers who to secure and maintain their servers. |         | This is a big problem for almost every company working with data. The biggest known leaks happened among others to Adobe, ebay, Equifax, LinkedIn, Yahoo, ... |
-| 6        | DE   | Operational Risk | Active | Corrupt/malicious data injection (every software which accepts data input) | 3    | 3    | Avoiding: Data is validated client side (minimal protection) and server side. Generally, user input is only accepted if it matches the specified allowed format. Data is usually not sanitized to avoid mistakes during the sanitizing process. Database query statements are prepared and encoded. |         |                                                              |
+2022.01.01 - Version 1.0
 
-Abbreviations:
-
-* O: Owner
-* L: Likelihood
-* C: Consequence

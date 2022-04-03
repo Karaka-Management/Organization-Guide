@@ -30,26 +30,26 @@ In the respective Application (e.g. Backend/Application)
 
 **Which frameworks are used for this project?**
 
-Only the in-house frameworks (phpOMS, jsOMS, cssOMS)
+Only the in-house frameworks (phpOMS, jsOMS, cssOMS, cOMS)
 
-**Does the project use external / third-party resources?**
+**Does the release version (not the development tools) use external / third-party resources?**
 
-Yes, although only very few libraries.
+Yes, although only very few libraries. They can be found in Resources/ and Libraries/.
 
 ## Code Inspections
 
 **How can you check the code style for code you wrote?**
 
 * Guidelines
-* Just run the phpcs dev tool with the provided config
+* Just run the phpcs and eslint dev tool with the provided config
 * run: `Build/Helper/testreport.sh`
 
 **How can you check the code quality for code you wrote?**
 
 * Guidelines
 * Unit / integration tests (php: PHPUnit, js: jasmine)
-* Static code analysis (phpstan)
-* run: Build/Helper/testreport.sh
+* Static code analysis (phpstan, eslint)
+* run: `Build/Helper/testreport.sh`
 * run: `php -d pcov.enabled=1 vendor/bin/phpunit tests/phpunit_default.xml`
   * It's recommended to run this in the Karaka/* main directory
   * Running this in the main directory will run all tests, also for the submodules (e.g. phpOMS, Modules, ...)
@@ -58,4 +58,5 @@ Yes, although only very few libraries.
 
 * phpcs: Build repository
 * phpstan: Build repository
+* eslint: Build repository
 * PHPUnit: respective repository
