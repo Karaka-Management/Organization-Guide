@@ -16,29 +16,92 @@ Last update of this file: 2022.03.05
 
 #### New
 
+##### Application
+
+* Created basic `ConsoleApplication` which will be used for example to create async. code executions from web requests
+* Renamed the console application to `CliApplication` and the Cli interface to `cli.php`
+* The account mapper no longer auto-loads the password since it got removed from the mapper. In order to load an account with password or change the password, one must use the `AccountCredentialMapper` 
+* Improved naming conventions in permissions. "Type" is replaced by "Category"
+* The `installExternal` scripts are now mostly using the Api end points through internal Api requests
+* During the installation the application checks if the Cli application is callable and sets the settings accordingly
+  * This is for example used by the event offloading/asynchronous event handling
+
 ##### Framework
 
 * Started to create C++ framework
+* Created a `pdf2text` parser function
+* Turned permission flag internally into booleans for read, create, change delete, permission. This allows faster DB reads in certain cases
+  * Externally it still uses flags
 
 ##### Billing
 
-* Allow to upload invoices as PDFs for invoice recognition
+* Allow to upload invoices as Pdfs for invoice recognition
   * Invoice pre-processing 75% completed, can be used as is but improvements are recommended
-  * Invoice layout recognition and parsing outstanding as well as manual layout definition
+  * Invoice layout recognition and parsing still need to get implemented as well as manual layout definition
+
+##### Media
+
+* Reduced middle-man function for multiple file uploads and replaced it with loops (removed: `createDbEntries`)
+  * File uploads can no optionally be related to accounts. This is not always wanted/necessary
+* Automatically save the contents of a text file (txt, md), word file (doc, docx) or pdf in the database
+  * Pdfs either use the text which is stored inside of them or if the pdf is an "image" OCR is used with pre-processing
+* Media files can have a status (hidden, active/normal, deleted)
+* The media view now shows the virtual path as a directory path, similar to the list view
+
+##### Dashboard
+
+* The dashboard can receive data from other modules. This way new components automatically get added to the default board (board id 1).
+
+##### Editor
+
+* Support text versioning by creating a history table and custom version field
+
+##### Knowledgebase
+
+* Support text versioning by creating a history table and custom version field
+
+##### Q&A
+
+* Implemented basic voting
+* Implemented basic answer accepting
+* Optimized score table by adding who a vote is cast for, not just the answer/question id (= easier score calculation per account)
 
 ##### Frontend
 
 * Created a tool which pre-processes invoice images
 
+##### Demo setup
+
+* Created async. install option for the demo application. 
+  * Cli command:`php demoSetup/setup.php -a 0`
+  * Remark: This most likely maxes out the CPU usage at 100% for 1 hour since almost all setup scripts are execute in parallel.
+
 #### Bug fixes
 
-*
+##### Framework
+
+* Fixed limit and sort bug for has many elements
+* Uri query parameters where no value could be found are removed. Query parameters where no value is specified remain.
+  * `?para1=123&para2={?NOT_FOUND}` => `?para1=123`
+  * `?para1=123&para2` => `?para1=123&para2`
+
+##### Media
+
+* Implemented `\urlencode` to fix file path bug for Pdf viewer + adjusted `viewer.js` url decoding in Resources
+
+##### Dashboard
+
+* Fixed bug where the admin didn't have a dashboard. Now the default dashboard is created during the install process (see changelog above).
+
+##### CMS
+
+* Created reserved application names `cli`, `backend`, `api`.
 
 #### Other
 
 ##### Installer
 
-* 
+* Implemented `GroupPermissionMapper` to create default permissions instead of hard coded permission setup
 
 ## Challenges & problems
 
@@ -49,7 +112,7 @@ Last update of this file: 2022.03.05
 
 ## Next steps
 
-Continue with milestone task implementation.
+Continue with milestone implementation.
 
 ## Milestones
 
@@ -124,8 +187,6 @@ The following overview tries to compare competitive software alternatives as fai
 | 2022.08.27 | Scope                                    | What is the expected timeline for the different modules      |
 |            | Navigation                               | Allow to hide navigation elements even if the module is installed |
 |            | Navigation                               | Also disable routing for front end. This way only the functionality is available (api) |
-|            | Navigation/CMS                           | Allow to install navigation translations in the CMS module   |
-|            | Permission                               | Make permissions NOT "bitfields" but individual boolean flags. Otherwise the database select is too slow. |
 |            | Customer Management                      | Implement names, address, contact elements                   |
 |            | Customer Management                      | Implement custom fields                                      |
 |            | Job                                      | Manage jobs                                                  |
@@ -238,7 +299,7 @@ The following overview tries to compare competitive software alternatives as fai
 |            | Sales Analysis (item)                    | Amount of new customers                                      |
 |            | Sales Analysis (item)                    | Amount of lost customers                                     |
 |            | Job                                      | Create job which can automatically create checklists (e.g. end of month checklists) |
-|            | Checklist                                | Create moduel                                                |
+|            | Checklist                                | Create module                                                |
 |            | Checklist                                | Checklists can create tasks, the tasks can (optionally) have an effect on the checklist status |
 |            | Checklist                                | Checklists can be modified by assigned users/all users who have permission for the checklist |
 |            | Checklists                               | Allow to define recurring date/time                          |
@@ -311,9 +372,10 @@ The following overview tries to compare competitive software alternatives as fai
 
 #### Archived
 
-| Deadline | Done | Category | Task |
-| -------- | ---- | -------- | ---- |
-|          |      |          |      |
+| Deadline | Done       | Category       | Task                                                         |
+| -------- | ---------- | -------------- | ------------------------------------------------------------ |
+|          | 2022.03.05 | Navigation/CMS | Allow to install navigation translations in the CMS module (api only) |
+|          | 2022.03.05 | Permission     | Make permissions NOT "bitfields" but individual boolean flags. Otherwise the database select is too slow |
 
 ## Todos
 
@@ -324,6 +386,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | high     | Forms                      | Invalid api responses should undo the UI changes             |
 | high     | Forms                      | Adding a template to the DOM should modify its id/generate a custom/random id for the added element |
 | high     | Forms                      | If a form has unsaved content the browser should ask if the user really wants to change the page or close it (use beforeunload event). |
+| medium | CMS | Create functionality which allows to replace application files. Instead of just overwriting them they get backed up in a backup directory. |
 | medium | Knowledgebase | Add org ID to wiki app (optional) and add a default flag. In the backend load the default wiki app for the current organization `$this->app->orgId` |
 | medium | Tasks | Allow to create a reminder for a task (e.g. small bell next to the user name which highlights the task/removes the has_seen flag + says somewhere you got remindered) |
 | medium | Tasks | Create different overviews list by date + list by priority (very high + next day, high + next 2 days, medium + next 5 days, low + next 10 days, very low + remaining). Of course the grouping may change based on how long ago the creation date is. |
@@ -332,11 +395,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium | Push/pull content | Auto update data changes in the backend (e.g. pull every x seconds, or use websockets for push) |
 | medium | Concurrency lock | Lock data for concurrency (e.g. table row lock or heartbeat) |
 | medium   | Logs                       | Immediately send errors also via email to the admin/server email address if it is configured that way (maybe create callback global and for different log levels). |
-| medium   | Registration               | Allow users to register by themselves (if activated in the backend) |
-| medium   | Registration               | Send a email after creating a profile/self-registration with login information |
 | medium   | Url format                 | Change the url format in most modules from query parameter to path (e.g. `/module/profile?id=Admin` to `/module/Admin/profile`) |
 | medium   | Modules                    | Many models would benefit from unit and app association. Sometimes models should only be available/associated with a specific unit (e.g. news article for website, backend, shop etc.) |
-| medium   | Frontend Action            | Create a action which adds/removes DOM elements              |
+| medium   | Frontend Action            | Create an action which adds/removes DOM elements             |
 | medium   | Frontend Action            | Log DOM changes to the user                                  |
 | medium   | Modules                    | Find a way to handle optional modules (e.g. comment module in the news module) in the past the Mapper was modified (comments were removed) if the comment module was installed. Somehow this is no longer available but maybe another solution could be a different Mapper which is replaced if the comment module is installed. But instead of replacing a complete file, a diff should be generated between the files and the ADDED lines should be merged. How to handle uninstall because here it doesn't work? I would need to know exactly what to remove. |
 | medium   | DataMapper                 | In the DataMapper implement iterable fetch. Currently all models are returned in one go, additionally an iterator should be returned for iterable access in case of MANY results (e.g. Exchange module). Maybe add mapper function (`->iterable()` which then returns an iterator after `->execute()`) |
@@ -344,23 +405,19 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium | Editor | Add inline charts (e.g. [Mermaid](https://github.com/mermaid-js/mermaid) and [Toast UI Chart](https://github.com/nhn/tui.chart)) |
 | medium | Editor | Add math formulas (e.g. [Katex](https://katex.org/)) |
 | medium   | Admin              | Create a view where it's possible to create/activate, change and delete/deactivate hooks for events. |
+| medium | EventManagement | Use Cli application for async event handling, alternatively web requests via curl, alternatively at runtime of the main process. This should depend on the configuration of the application. |
+| low | Registration | Allow users to register by themselves (if activated in the backend) |
+| low | Registration | Send an email after creating a profile/self-registration with login information |
 | low | Tasks | Show which tasks have a file attached (similar to emails) |
 | low | Tasks | Show in the different task overviews who the task is for. |
 | low      | Forms                      | On change highlight the data/element that got changed (e.g. background color transition in and transition out) |
 | low      | Framework Schedule         | Use `Interval` for scheduler instead of string etc.          |
 | low      | Email                      | Continue implementation of email sending and receiving       |
-| low      | ER diagram                 | Checklist                                                    |
-| low      | ER diagram                 | Contact                                                      |
-| low      | ER diagram                 | DatabaseEditor                                               |
-| low      | ER diagram                 | Draw                                                         |
-| low      | ER diagram                 | Messages                                                     |
-| low      | ER diagram                 | Monitoring                                                   |
-| low      | ER diagram                 | Shop                                                         |
+| low      | ER diagrams                | Update/Create for all modules                   |
 | low      | UI tabs                    | [Template] Fix tab indices's. On many pages the tab indices's are broken (tabs, table/list, links, forms) |
 | low      | Surveys                    | Currently the demo (demoSetup/\*) only uses one language (en). Generate surveys with multiple languages similar to other module demos (e.g. Wiki, News). In that case also prefix the text with the language so it's easy to see which language is loaded e.g. `EN:` (like in the tag module demo) |
 | low      | Surveys                    | Consider to add a closing paragrah. The description comes at the end, but maybe a paragraph at the end of the survey should be added?! |
 | low      | Modules                    | The modules use the module name for identification in many places where the module id should be used for performance reasons |
-| low      | Modules/permissions        | In many places where permissions are used bad and different names are used. Sometimes the term "type" is used, sometimes the term "state" (PermissionState). Both actually represent a superficial category every module can define for permissions. (e.g. a state could be account, task, profile, tag, ...). The term "state" makes no sense since it isn't a state. The term "type" is also bad because in another place it is used to define (read, write, change, ...). Maybe we should simply call it PermissionCategory/category?! (files to change: NavElement, PermissionAbstract, PermissionState) |
 | low      | Framework graph            | Implement find cycles using graph coloring                   |
 | low      | Framework graph            | Implement find negative cycle                                |
 | low      | Framework graph            | Implement find cycles with n length                          |
@@ -398,7 +455,6 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Logs                       | The "Log" tabs in many models should have a separate permission which hides them. Maybe a user needs to have read permissions of the monitoring module in order to see them? Alternatively it could be a *_MONITOR permission for the specific model in every module. This is a little bit finer but also expands the permission complexity |
 | low      | UI sections/portlets       | Sections/portlets with a footer sometimes have problems with floated elements. e.g. a right floated button will break the layout if the left element(s) are too long causing wrapping.<br />> Solution: create flexbox with margin |
 | low      | Admin: Settings template   | In the Settings->Localization->Numeric the number format (decimal, thousands) don't have a spacer in between. Margin left doesn't work. |
-| low      | Admin                      | The default Account mapper should not have a password reference, there should be a AccountLoginMapper which is used if anything needs to be done regarding the account password. Alternatively, think about a private field modifier which requires the programmer to specifically request the read/write permission for that field (password field). The reason for this is that otherwise the password hash might be dumped in case of an error |
 | low      | Auditor                    | Consider to create foldable/tree view for json logs e.g. https://www.cssscript.com/json-data-tree-view/ |
 | low      | Auditor                    | Implement blockchain for the auditor. This either requires database locking (slow),modification of audit logs after inserts (slow) or a background process which calculates theblockchain (OK) |
 | low      | Auditor                    | Create printable reports based on specific changes           |
@@ -427,13 +483,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Organigram                 | Create better organigram (better grouping, maybe as SVG)     |
 | low      | Organigram                 | Make the organigram printable                                |
 | low      | Organigram                 | Make the organigram versioned/approved (e.g. for ISO)        |
-| low      | Profile                    | Define a default image for new profiles. However, don't create a new media file whenever a new profile is created but instead define one global image which than is loaded for all profiles which don't have a custom image. This makes it easy to replace the default image for all existing profiles and saves a lot of space. |
 | low      | Quality Assurance          | Implement module                                             |
-| low      | Q&A                        | Implement voting                                             |
-| low      | Q&A                        | Implement accepting answers                                  |
 | low      | Q&A                        | Implement question create view                               |
 | low      | Q&A                        | Add question answer component/like comment in question       |
-| low      | Q&A                        | Make votes contain for who the vote is, this way the vote score sum for accounts is MUCH easier and faster |
 | low      | Q&A                        | Create Q&A app with login                                    |
 | low      | Supplier Management        | Create a view where you can see all bills of the supplier    |
 | low      | Supplier Management        | Create a view where you can see all items of the supplier    |
@@ -478,7 +530,6 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | UriFactory                 | Consider to use `\urlencode()` on every query parameter in the UriFactory |
 | low      | Module Mapper              | Implement module description, name, createdAt in the database table and use them. Currently they are available in the model but not yet implemented in the database schema |
 | low      | Templates                  | In some forms there are 2 buttons which a user shouldn't accidentally press (a save and create button or delete button). Position them far apart by using flexbox positioning (e.g. Module->Support->Settings) |
-| low      | ModuleInstaller            | In most module *Installer.php* scripts the `installExternal()` re-implements Api functionality. Instead of creating new functions maybe the installer scripts should mock the api requests? (e.g. CMS is using the api while Media is re-implementing many functions) |
 | low      | CMS                        | Make pages editable                                          |
 | low      | CMS                        | Make posts editable                                          |
 | low      | UI Slider                  | Create a slider element with two elements which the user can slide (optionally also only one slider should be possible) (https://codepen.io/thebabydino/pen/NWWerZG)<br />![Slider](img/todo/slider.png) |
@@ -493,15 +544,12 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Billing                    | Customers and suppliers should have default invoice and delivery addresses which should be used if no other address or custom input is used |
 | low      | Editor                     | The tools above should directly insert the markdown into the textarea |
 | low      | Kanban                     | The kanban board currently assumes up to 4 columns, however there should be a layout which allows more than 4 columns. Don't use flexbox but min-width and max-width combined with a horizontal scrollable board content |
-| low      | Media                      | Find a way to allow file edits if the file is not in the database but just in the file directory. At the same time this should not be possible for database files. |
+| low | Media | Allow to index a local file if it is not in the database (e.g. button with text "Add to Application"). Un-indexed files cannot be changed/moved/deleted. |
 | low      | DataMapperAbstract         | Implement data binding                                       |
-| low      | DataMapper                 | Use `Mapper::class` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::class` name is preferred in case of name changes. |
 | low      | Email                      | Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
-| low      | Temp directory             | Consider to create a temp directory in the main directory (Karaka) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files` |
 | low      | DataMapper / ModelFactory  | Some models may require special initialization. For such cases a model factory should be implemented and used by the data mapper. One solution could be to create a default `ModelFactory` which behaves as the current DataMapper functions which set/update the model members. This factory could be extended in case custom behavior becomes necessary. In the Mapper you would just have to define a `const FACTORY` constant which references the factory to use (instead of the default one). Since there hasn't been a situation where this was necessary it will not be implemented until we actually need this (it would additional overhead which maybe never becomes necessary) |
 | low      | Editor             | Create special markdown content (calendar, chart, task, news, comment, media, ...) |
 | low      | Editor             | Allow download as markdown, text, PDF, word                  |
-| low      | Editor             | Implement versioning                                         |
 | low      | Event Management   | Implement goal definition. Goals could be based on tasks (every completed task represents x%), linear time line (every day represents x%), value based (a calculated value represents x%), manual input based (the user decides the completion %) |
 | low      | Event Management   | Add milestones                                               |
 | low      | Project Management | Implement goal definition. Goals could be based on tasks (every completed task represents x%), linear time line (every day represents x%), value based (a calculated value represents x%), manual input based (the user decides the completion %) |
@@ -526,12 +574,10 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Media              | Implement external resources (URLs, dropbox, aws, ...)       |
 | low      | Media              | Allow to edit the breadcrumbs, which replaces them with a text field which can be changed then than automatically loads the new path |
 | low      | Media              | Implement temporary file storage (very useful for making files downloadable for a limited time). Maybe create a new temp file directory or database collection where a available_until timedate gets defined (must be handled in the database). The biggest problem is how to delete them, this requires a background process/task scheduler. Additionally, these files must have permissions because they may be only for one user or a group of users |
-| low | Media | Show virtual path in media view, maybe similar to the table view. This allows the user to jump to any parent directory |
+| low | Media | Allow to rename files/directories virtually and actually |
+| low | Media | Allow to move/cut/delete files/directories virtually and actually |
 | low | Media | List data from online drives such as dropbox, google drives, AWS |
-| low | Media | Mark media elements as system elements (e.g. to prevent delete/name changes) |
-| low | Media | Mark elements as deleted (this way the element can still exist with references but the content is removed). Maybe change the purpose of `isHidden` to `status` with different status codes (e.g. hidden, active, deleted) |
-| low | Knowledgebase | Make docs versioned |
-| low | Editor | Make docs versioned |
+| low      | Knowledgebase              | Consider to use the Editor module for the content instead of handling the content separately in the wiki module. |
 | low      | Messages           | Allow to transform a message as task                         |
 | low      | Messages           | Implement push notification                                  |
 | low      | Messages           | Users may be invited to old conversations                    |
@@ -541,8 +587,6 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Navigation         | Consider to implement child elements on hover (sidebar and content) |
 | low      | News               | Implement email/message notification on create               |
 | low      | Profile            | Find a way to hide some contact/address information for some modules. Some information are only meant for specific modules (e.g. private address, phone number e.g. HR module) The reason why this is difficult is that this information should not be part of the model table but in the relation (many-to-many). At the moment the information in the relation table is not used apart from the relations it self. A solution could be to specify a filter in the relation in the mapper. Empty = all relations, filter = only populate the model array with relations which match the filter. |
-| low      | Support            | Allow support/tickets to be transformed to Q&A question and answers |
-| low      | Support            | Allow Q&A to be transformed to support                       |
 | low      | Support            | Create support app with login                                |
 | low      | Support            | TicketAttributeTypes should specify which datatype they expect. The ApiController needs to validate if a value can be created for an attribute type (check validation pattern, datatype, is required) |
 | low      | Tag                | Create settings with a set of default colors                 |
@@ -553,7 +597,6 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low | Media uploader (frontend) | The Media uploader on the frontend should check if the file size is reasonable (e.g. less than 50GB) and if the file type for that form is valid |
 | low | Media uploader | Implement resumable uploads |
 | low | Handheald device | Going a page (or tab) back should be done with swiping |
-|  |                            |                                                              |
 | low | WarehouseManagement | Create StockMovement explanations (these are NOT `StockMovementTypes` but reasons why a stock booking happened e.g. destroy, return, ...). See `StockMevementType` at the end for some examples which should be turned into these explanations. |
 | low | Workflow | Request IT permission changes (go to head of department, then IT?) |
 | low | Workflow | Article price changes |
@@ -567,50 +610,73 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Table                      | Implement column visibility (save locally and apply locally only) |
 | low      | Table                      | Implement table filter<br /> > alphanumeric<br /> > greater<br /> > greater equals<br /> > lesser<br /> > lesser equals<br /> > contains<br /> > doesn't contain<br /> > in between<br /> > regex<br /> > pre-defined values/select<br /> > checkboxes if 0/1 values<br /> > consider other filters for data that is not shown in the table? Backend filter options? |
 | low | Table | Allow export by also based on selected elements (optionally in a different language) |
-| low      | UriFactory                 | In the frontend and backend there needs to be a way to only add query parameters if they have a value. The question is if we can implement that as default (very easy, just check if value available) or if we need to define it as `only if available`. The later option might be necessary because there could be situations where you want to add a query parameter without a value? Not sure though. |
 | low      | BasicOcr                   | Implement image reading for non-mnist files (either convert to mnist or use something else) |
 | low      | Directory                  | If the object oriented/node version of the local file handler changes files the already loaded nodes need to be updated (e.g. when calling delete, add, ...) |
-| low | ModuleManager | The basic module install function expects `dbPool`, `info`, ... while the external installer expects `app`. It makes more sense for both to expect the same data. Consider to pass `app` in the normal module installer as well. |
 | low | TextAnalysis | Implement text similarity algorithms (https://medium.com/@adriensieg/text-similarities-da019229c894) |
 | low | Image | Implement image de-noising (consider https://www.hindawi.com/journals/complexity/2021/5578788/) |
 | low | Image | Fix kernel 5x5 implementation with `imagecolersat` and `imagecolerat` (https://rosettacode.org/wiki/Image_convolution). Currently not doing anything. |
-| low | Image | Improve adaptive thresholding (consider https://homepages.inf.ed.ac.uk/rbf/HIPR2/flatjavasrc/AdapThresh.java) |
+| low | ModuleManager | The function `initRequestModules` pre-loads all modules based on path. However it should also be possible to define the application for this. Otherwise modules will be loaded on the same uri even if it is a different application which only has the same uri on accident. |
+| low | cOMS | Create tool which checks size and form of defined objects (in multiple orientations) with other elements. No match -> error |
+| low | cOMS | Create a tool which measures the volume and volume distribution in containers (incl. x-ray images). Define objects (in multiple orientations) and where the low and high levels are. If volume below or above threshold or volume distribution is bad (e.g. bubbles) -> error |
+| low | cOMS | Create tool which matches texts and layouts (e.g. labels). Define layouts with mandatory elements, optional elements, colors, sizes, regex text. No match -> error |
+| low | Application | Api and backend use different ways how to return information from a controller. One is modifying a response and the other one is returning a view. Both should be unified so that the information flow is always the same. Suggestion: Either always modify the response or always return a response. |
 
 #### Archived
 
-| Priority | Done | Category | Task |
-| -------- | ---- | -------- | ---- |
-|          |      |          |      |
+| Priority | Done       | Category            | Task                                                         |
+| -------- | ---------- | ------------------- | ------------------------------------------------------------ |
+| low      | 2022.03.17 | CMS                 | Make `CLI` a reserved application name which cannot be used by others. |
+| low      | 2022.03.17 | Image               | Improve adaptive thresholding (consider https://homepages.inf.ed.ac.uk/rbf/HIPR2/flatjavasrc/AdapThresh.java). *Not implemented, current implementation is good* |
+| low      | 2022.03.17 | ModuleManager       | The basic module install function expects `dbPool`, `info`, ... while the external installer expects `app`. It makes more sense for both to expect the same data. Consider to pass `app` in the normal module installer as well. |
+| low      | 2022.03.17 | UriFactory          | In the frontend and backend there needs to be a way to only add query parameters if they have a value. The question is if we can implement that as default (very easy, just check if value available) or if we need to define it as `only if available`. The later option might be necessary because there could be situations where you want to add a query parameter without a value? Not sure though. |
+| low      | 2022.03.17 | Support             | Allow support/tickets to be transformed to Q&A question and answers. *Not implemented, since I feel like it will be abused/cause more problems than benefits.* |
+| low      | 2022.03.17 | News                | The name of the directory for media uploads in the news should have the name of the document. Currently only the ID is used. *Not implemented, names will be too long* |
+| low      | 2022.03.17 | Editor              | The name of the directory for media uploads in the editor should have the name of the document. Currently only the ID is used. *Not implemented, names will be too long* |
+| low      | 2022.03.17 | Knowledgebase       | The name of the directory for media uploads in the knowledgebase should have the name of the document. Currently only the ID is used. *Not implemented, names will be too long* |
+| low      | 2022.03.17 | Knowledgebase       | Make docs versioned                                          |
+| low      | 2022.03.17 | Editor              | Make docs versioned                                          |
+| low      | 2022.03.17 | Media               | Mark elements as deleted (this way the element can still exist with references but the content is removed). Maybe change the purpose of `isHidden` to `status` with different status codes (e.g. hidden, active, deleted) |
+| low      | 2022.03.17 | Media               | Mark media elements as system elements (e.g. to prevent delete/name changes) |
+| low      | 2022.03.17 | Media               | Show virtual path in media view, maybe similar to the table view. This allows the user to jump to any parent directory |
+| low      | 2022.03.17 | Temp directory      | Consider to create a temp directory in the main directory (Karaka) which can be used by all modules etc. Alternatively create this temp directory in `Modules/Media/Files`. *Not implemented, a project temp directory might be misused, rather use `\sys_get_temp_dir()`*. |
+| low      | 2022.03.17 | DataMapper          | Use `Mapper::class` or string names in the mappers. At the moment both can be found. This is not concise. The `Mapper::class` name is preferred in case of name changes. *No, this is no longer the case* |
+| low      | 2022.03.17 | Media               | Find a way to allow file edits if the file is not in the database but just in the file directory. At the same time this should not be possible for database files. *Not implemented, if the file is not indexed in the database, it should not be possible to edit!* |
+| low      | 2022.03.17 | Admin               | The default Account mapper should not have a password reference, there should be a AccountLoginMapper which is used if anything needs to be done regarding the account password. Alternatively, think about a private field modifier which requires the programmer to specifically request the read/write permission for that field (password field). The reason for this is that otherwise the password hash might be dumped in case of an error |
+| low      | 2022.03.17 | Modules/permissions | In many places where permissions are used bad and different names are used. Sometimes the term "type" is used, sometimes the term "state" (PermissionState). Both actually represent a superficial category every module can define for permissions. (e.g. a state could be account, task, profile, tag, ...). The term "state" makes no sense since it isn't a state. The term "type" is also bad because in another place it is used to define (read, write, change, ...). Maybe we should simply call it PermissionCategory/category?! (files to change: NavElement, PermissionAbstract, PermissionState) |
+| low      | 2022.03.19 | Profile             | Define a default image for new profiles. However, don't create a new media file whenever a new profile is created but instead define one global image which than is loaded for all profiles which don't have a custom image. This makes it easy to replace the default image for all existing profiles and saves a lot of space. |
+| low      | 2022.03.19 | Q&A                 | Implement voting                                             |
+| low      | 2022.03.19 | Q&A                 | Implement accepting answers                                  |
+| low      | 2022.03.19 | Q&A                 | Make votes contain for who the vote is, this way the vote score sum for accounts is MUCH easier and faster |
+| low      | 2022.03.26 | ModuleInstaller     | In most module *Installer.php* scripts the `installExternal()` re-implements Api functionality. Instead of creating new functions maybe the installer scripts should mock the api requests? (e.g. CMS is using the api while Media is re-implementing many functions) |
 
 ## Bugs
 
 ### Tasks & decisions
 
-| Priority | Category                  | Task                                                         |
-| -------- | ------------------------- | ------------------------------------------------------------ |
-| medium   | Human Resource Management | Fix employee list (see comment at the bottom, query builder bug) |
-| medium   | DataMapper                | The `limit()` function is not working for relations e.g. `limit(3, 'hasMany/childHasMany')` (e.g. check `ItemManagement/BackendController->viewItemManagementSalesItem()`) |
-| low      | Navigation                | The sidebar navigation is not working properly if the content is too wide. In this case the sidebar becomes smaller than its defined width (test by resizing the window) |
-| low      | KMeans                    | In some weird cases the Cluster test fails. This happens approximately 1 / 1,000,000 test runs (invalid center coordinate value). Idea: Since the coordinates are chosen randomly a debug session with a loop might be necessary where the same test runs until it hits the bug. |
-| low      | Dashboard                 | Why does admin not have a dashboard? Everyone should have it! |
-| low      | Table                     | The table overflow was fixed with putting them in a scrollable container (in the portlet). This broke the `.sticky` head, since the table no longer knows the head is out of view. Since it's in an overflow container it doesn't know about its changed scroll position. If this cannot be solved don't revert back because overflowing tables are much worse! |
-| low      | Rest                      | There is a weird bug where the `multipart/form-data` cannot use the normal `boundary=` header to define the boundary. If this *correct* format is used the server somehow cannot populate the `php://input` correctly. If we move the `=` to a different position e.g. `bound=ary` this works fine. Currently this is solved by not using a `=` sign but `/`. This requires further inspections later on and could result in a bug with a different webserver (e.g. nginx). |
-| low      | Graph                     | In directed graphs `getNeighbors()` might return wrong neighbors. |
-| low      | Forms                     | The FormManager expects a table/tbody for inline edits. This should not be the case, generalize! |
-| low      | VoiceManager              | If voice input is enabled check every x seconds if the service is still running. I think it stops automatically after some time?! |
-| low      | ModuleManager             | The module `get()` function uses as return object. This is a workaround to fix static inspection. There is no inline docblock to type hint the correct function return since it can be so many. Howerver with object the code quality check tools at least don't complain in the different modules where we call `->get(...)` |
+| Priority | Category      | Task                                                         |
+| -------- | ------------- | ------------------------------------------------------------ |
+| low      | Navigation    | The sidebar navigation is not working properly if the content is too wide. In this case the sidebar becomes smaller than its defined width (test by resizing the window) |
+| low      | KMeans        | In some weird cases the Cluster test fails. This happens approximately 1 / 1,000,000 test runs (invalid center coordinate value). Idea: Since the coordinates are chosen randomly a debug session with a loop might be necessary where the same test runs until it hits the bug. |
+| low      | Table         | The table overflow was fixed with putting them in a scrollable container (in the portlet). This broke the `.sticky` head, since the table no longer knows the head is out of view. Since it's in an overflow container it doesn't know about its changed scroll position. If this cannot be solved don't revert back because overflowing tables are much worse! |
+| low      | Rest          | There is a weird bug where the `multipart/form-data` cannot use the normal `boundary=` header to define the boundary. If this *correct* format is used the server somehow cannot populate the `php://input` correctly. If we move the `=` to a different position e.g. `bound=ary` this works fine. Currently this is solved by not using a `=` sign but `/`. This requires further inspections later on and could result in a bug with a different webserver (e.g. nginx). |
+| low      | Graph         | In directed graphs `getNeighbors()` might return wrong neighbors. |
+| low      | Forms         | The FormManager expects a table/tbody for inline edits. This should not be the case, generalize! |
+| low      | VoiceManager  | If voice input is enabled check every x seconds if the service is still running. I think it stops automatically after some time?! |
+| low      | ModuleManager | The module `get()` function uses `object` as return. This is a workaround to fix static inspection. There is no inline docblock to type hint the correct function return since it can be so many. Howerver with object the code quality check tools at least don't complain in the different modules where we call `->get(...)` |
 
 #### Archived
 
-| Priority | Done | Category | Task |
-| -------- | ---- | -------- | ---- |
-|          |      |          |      |
+| Priority | Done       | Category                  | Task                                                         |
+| -------- | ---------- | ------------------------- | ------------------------------------------------------------ |
+| medium   | 2022.03.17 | DataMapper                | The `limit()` function is not working for relations e.g. `limit(3, 'hasMany/childHasMany')` (e.g. check `ItemManagement/BackendController->viewItemManagementSalesItem()`) |
+| medium   | long ago   | Human Resource Management | Fix employee list (see comment at the bottom, query builder bug) |
+| low      | 2022.03.17 | Dashboard                 | Why does admin not have a dashboard? Everyone should have it! |
 
 ## Drafts, concepts & ideas
 
 Drafts, concepts & ideas which are more complex or require more explanation.
 
-### Invoice OCR
+### Invoice OCR (already started with the implementation!)
 
 Steps:
 
@@ -635,3 +701,10 @@ Software:
 1. Tesseract + OpenCV + above mentioned steps
 2. Some Api (e.g. google vision ai, amazon textract, amazon recognition)
 
+### Form
+
+1. A form has 2 parts:
+   1. Data representation (e.g. table)
+   2. Data add/update (e.g. inline or external form) **already solved**
+      1. Inline: input elements are created in the data representation
+      2. External: single or multiple external forms
