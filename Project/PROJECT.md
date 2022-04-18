@@ -3,6 +3,8 @@
 - [Summary](#summary)
 - [Most recent changelog](#most-recent-changelog)
 - [Milestones](#milestones)
+- [Milestone tasks](#milestone-tasks)
+- [Todos](#todos)
 - [Bugs](#bugs)
 - [Drafts, concepts & ideas](#drafts-concepts-ideas)
 
@@ -316,7 +318,9 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | high     | Forms                      | Invalid api responses should undo the UI changes             |
 | high     | Forms                      | Adding a template to the DOM should modify its id/generate a custom/random id for the added element |
 | high     | Forms                      | If a form has unsaved content the browser should ask if the user really wants to change the page or close it (use beforeunload event). |
+| medium | Job | Consider to run jobs through the cli application. This means a job executes `php cli.php put:/admin/job -i 3` which runs the command of job 3. This would allow to log the job execution time and response. If you don't want to wait for the execution to finish you may as well run it async (this means of course no execution time or output can be logged, but at least the start time). |
 | medium | CMS | Create functionality which allows to replace application files. Instead of just overwriting them they get backed up in a backup directory. |
+| medium | UI select | Bind data to select options such as visible elements and data pre-fills. When an option is selected certain ui elements become visible and get filled out with default values. |
 | medium | Knowledgebase | Add org ID to wiki app (optional) and add a default flag. In the backend load the default wiki app for the current organization `$this->app->orgId` |
 | medium | Tasks | Allow to create a reminder for a task (e.g. small bell next to the user name which highlights the task/removes the has_seen flag + says somewhere you got remindered) |
 | medium | Tasks | Create different overviews list by date + list by priority (very high + next day, high + next 2 days, medium + next 5 days, low + next 10 days, very low + remaining). Of course the grouping may change based on how long ago the creation date is. |
@@ -606,11 +610,3 @@ Software:
 
 1. Tesseract + OpenCV + above mentioned steps
 2. Some Api (e.g. google vision ai, amazon textract, amazon recognition)
-
-### Form
-
-1. A form has 2 parts:
-   1. Data representation (e.g. table)
-   2. Data add/update (e.g. inline or external form) **already solved**
-      1. Inline: input elements are created in the data representation
-      2. External: single or multiple external forms

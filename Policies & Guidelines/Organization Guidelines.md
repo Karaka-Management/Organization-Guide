@@ -15,3 +15,11 @@ We are always open to accept talented or striving people to the organization. We
 ## Products & Services
 
 Our goal is to provide products and services at the highest quality to make our customers, members and partners in general happy. Our products are constantly improved and revised. While providing a high quality product is very important to us; at least as important to us are the services we provide.
+
+## Enforcement
+
+Disrespecting this policy possibly leads to a warning and potnetially excluding the involved person from any further activities of the organization. Depending on the severness legal actions may follow.
+
+
+
+2022.01.01 - Version 1.0

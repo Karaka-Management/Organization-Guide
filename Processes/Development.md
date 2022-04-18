@@ -28,11 +28,29 @@ Code changes must follow the [style guidelines](https://github.com/Karaka-Manage
 
 In rare  cases errors, failures or warnings during the automatic inspection are  acceptable. Reasons can be changes in the programming language, special  cases which cannot, are difficult or must be individually configured in the inspection settings. If this is the case for a code change and if inspection configuration changes are necessary are decided by the senior developer performing the code review. 
 
+Automated checks which are run during the review process:
+
+```sh
+php ./vendor/bin/phpcs ./ --standard="Build/Config/phpcs.xml"
+npx eslint ./ -c ./Build/Config/.eslintrc.json
+```
+
 ### Tests
 
 Code changes must follow the inspection guidelines (i.e. code coverage) mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md). Developers should check if the code changes comply with the inspection guidelines before submitting them. 
 
 In rare cases it might be not  possible to follow the inspection guidelines. In such cases the senior  developer performing the code review may decide if the code change still gets accepted.
+
+Automated tests which are run during the review process:
+
+```sh
+php ./vendor/bin/phpunit -c tests/PHPUnit/phpunit_default.xml
+php ./vendor/bin/phpstan analyse --autoload-file=phpOMS/Autoloader.php -l 9 -c Build/Config/phpstan.neon ./
+npx jasmine-node ./
+./cOMS/tests/test.sh
+```
+
+Additional inspections which are run but might be ignored during the review depending on the use case are mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md) as other checks.
 
 ### Demo
 
@@ -50,7 +68,7 @@ If the code reviewer only finds minor issues with the proposed code change the r
 
 Code changes must be performed in a new branch. A new branch can be created with:
 
-```ssh
+```sh
 git checkout -b new-branch-name
 ```
 

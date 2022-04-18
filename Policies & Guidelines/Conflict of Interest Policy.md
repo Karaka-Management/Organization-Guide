@@ -28,6 +28,10 @@ In general it is advised to refrain from letting personal and/or financial inter
 
 All conflicts of interest will be resolved as fairly as possible. Senior organization members have the responsibility of the final decision when a solution can be found.
 
-## Consequences
+## Enforcement
 
-Disrespecting this policy possibly leads to legal actions or excluding the involved person from any further activities of the organization if no solution can be found.
+Disrespecting this policy possibly leads to a warning and potnetially excluding the involved person from any further activities of the organization. Depending on the severness legal actions may follow.
+
+
+
+2022.01.01 - Version 1.0

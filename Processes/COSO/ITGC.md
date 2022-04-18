@@ -36,8 +36,6 @@
 | 4    | Changes are approved for their migration to the production environment |                 |                                                              |          |
 | 5    | Procedures are in place for preventing/detecting unauthorized changes to the production environment |                 |                                                              |          |
 
-
-
 ## System Security (Access Control)
 
 ### Points to consider
@@ -81,7 +79,7 @@
 
 | No.  | Question                                                     | Situation                                                   | Evidence |
 | ---- | ------------------------------------------------------------ | ----------------------------------------------------------- | -------- |
-| 1    | Poliicies and procedures for backups                         | Exists                                                      |          |
+| 1    | Policies and procedures for backups                          | Exists                                                      |          |
 | 2    | Completion of backup is ensured                              | All backup job records are reviewed by monitoring personnel |          |
 | 3    | Backup and recovery are periodically tested                  |                                                             |          |
 | 4    | Policies and procedures for job operation are described in a documentation |                                                             |          |

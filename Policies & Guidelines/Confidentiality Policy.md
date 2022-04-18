@@ -40,10 +40,14 @@ Confidential information may occasionally have to be disclosed for legitimate re
 
 Disclosing more information than needed must be avoided.
 
-## Consequences
+## Enforcement
 
-Disrespecting this policy possibly leads to legal actions.
+Disrespecting this policy possibly leads to a warning and potnetially excluding the involved person from any further activities of the organization. Depending on the severness legal actions may follow.
 
 ## Survival
 
 This policy is binding even after separation.
+
+
+
+2022.01.01 - Version 1.0
