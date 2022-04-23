@@ -8,6 +8,12 @@ The setup and configuration of the development environment is in the hands of ev
 
 Every organization member and contributor to the organization must follow the [code of conduct](../Policies & Guidelines/Code of conduct.md).
 
+## Becoming a contributor
+
+For public repositories you can immediately start by creating forks and pull requests. For private repositories which are necessary to setup the complete developer environment, feel free to request access. Please not that we may not immediately give you access to private repositories and instead will give you smaller tasks regarding public repositories. Please contact spl1nes.com@googlemail.com for more details.
+
+For all contributions our [Contributor License Agreement ("CLA")](https://github.com/Karaka-Management/Organization-Guide/blob/develop/legal/individual contributor license agreement.md) comes into effect.
+
 ## Code changes
 
 ### Topics / Tasks / Todos
@@ -54,7 +60,7 @@ Additional inspections which are run but might be ignored during the review depe
 
 ### Demo
 
-Some code changes may also require changes or  extensions in the demo setup scripts. The demo setup script try to  simulate a real world use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The  demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is  recommended to run this only sporadically.
+Some code changes may also require changes or extensions in the demo setup scripts. The demo setup script try to  simulate a real world use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The  demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is  recommended to run this only sporadically.
 
 ### Code review
 

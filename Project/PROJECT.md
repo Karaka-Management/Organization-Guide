@@ -3,14 +3,14 @@
 - [Summary](#summary)
 - [Most recent changelog](#most-recent-changelog)
 - [Milestones](#milestones)
-- [Milestone tasks](#milestone-tasks)
+- [Key tasks](#key-tasks)
 - [Todos](#todos)
 - [Bugs](#bugs)
 - [Drafts, concepts & ideas](#drafts-concepts-ideas)
 
 ## Summary
 
-Last update of this file: 2022.04.03
+Last update of this file: 2022.04.23
 
 ## Most recent changelog
 
@@ -43,75 +43,7 @@ Last update of this file: 2022.04.03
 * Adding existing events to dynamically added DOM elements becomes a real problem.
   * Solution: Implement event bubbling
 
-## Next steps
-
-Continue with milestone implementation.
-
-## Milestones
-
-Based on the pilot candidate with whom the functionality will be implemented.
-
-* The current costs are the annual value for the pilot candidate based on actual costs but subjectively split into more detailed cost positions (the invoices from the suppliers are not always detailed enough to differentiate between the different functions/modules).
-* The future costs are costs that currently don't exist but are expected to come up in the future if the pilot candidate intends to implement **some** of the current software needs.
-* The new value is an estimation of how much the newly implemented software (Karaka) will subjectively provide compared to current/future solutions. These are **NOT** the costs for the pilot candidate or cost savings. The costs for this will be discussed afterwards.
-
-| Deadline | Done | Milestone                                              | Current Costs  | Future Costs   | New Value      |
-| -------- | ---- | ------------------------------------------------------ | -------------- | -------------- | -------------- |
-|          |      | Replace ticket system from Z*                          | 7,200 EUR      |                | 8,000 EUR      |
-|          |      | Replace document/contract management from CRM          | 3,000 EUR      |                | 5,000 EUR      |
-|          |      | Implement invoice management process                   | 0 EUR          | 5,000 EUR      | 5,000 EUR      |
-|          |      | Replace QM from CRM                                    | 700 EUR        |                | 1,500 EUR      |
-|          |      | Replace workflows from CRM                             | 2,000 EUR      |                | 3,000 EUR      |
-|          |      | Move sales reps from CRM                               | 5,400 EUR      |                | 6,000 EUR      |
-|          |      | Replace Marketing events, seminars, shop data from CRM | 1,500 EUR      |                | 2,000 EUR      |
-|          |      | Sales analysis (replace D* from G*)                    | 1,000 EUR      |                | 3,000 EUR      |
-|          |      | Digitalizing human resource Human Resource Management  | 0 EUR          |                | 500 EUR        |
-|          |      | Replace billing from G*                                | 15,000 EUR     |                | 20,000 EUR     |
-|          |      | Replace stock from G*                                  | 7,500 EUR      |                | 8,000 EUR      |
-|          |      | Replace inventory from G*                              | 500 EUR        |                | 1,000 EUR      |
-|          |      | Replace manufacturing from G*                          | 500 EUR        |                | 1,000 EUR      |
-|          |      | R&D + Quality control                                  | 0 EUR          | 10,000 EUR     | 10,000 EUR     |
-|          |      | Replace accounting from G*                             | 10,000 EUR     |                | 12,000 EUR     |
-|          |      | Replace asset management from G*                       | 500 EUR        |                | 500 EUR        |
-|          |      | Replace reporting from L*                              | 4,300 EUR      |                | 5,000 EUR      |
-|          |      | Replace time recording                                 | 1,500 EUR      |                | 2,000 EUR      |
-|          |      | **Total**                                              | **60,100 EUR** | **15,000 EUR** | **91,500 EUR** |
-
-### Cost basis
-
-The estimated annual costs in the milestones above are based on the total annual costs from the software from the pilot candidate.
-
-| Type           | License        | Customization  | Total          |
-| -------------- | -------------- | -------------- | -------------- |
-| Z*             | 7,200 EUR      |                | 7,200 EUR      |
-| G*             | 26,600 EUR     | 8,400 EUR      | 35,000 EUR     |
-| L*             | 4,300 EUR      |                | 4,300 EUR      |
-| CRM            | 2,900 EUR      | 9,200 EUR      | 12,100 EUR     |
-| Time recording | 1,500 EUR      |                | 1,500 EUR      |
-| **Total**      | **42,500 EUR** | **17,600 EUR** | **60,100 EUR** |
-
-*Website costs are not included, they can be estimated at another 30,000 EUR per year*
-
-### Software vendor comparison
-
-The following overview tries to compare competitive software alternatives as fairly as possible. However, in many cases additional costs for maintenance, support and **especially** customizations are not known.
-
-| Type          | Current situation*     | Sage | Salesforce     | Datev     | Lexware        | OMS**          |
-| ------------- | ---------------------- | ---- | -------------- | --------- | -------------- | -------------- |
-| Ticket system | 7,200 EUR              |      |                |           |                | 5,000 EUR      |
-| CRM           | 2,900 EUR + 9,200 EUR  |      | 11,250 EUR + ? |           |                | 10,000 EUR     |
-| ERP           | 22,000 EUR + 8,000 EUR |      |                |           | 17,000 EUR + ? | 25,000 EUR     |
-| Accounting    | 4,600 EUR + 400 EUR    |      |                | 1,260 EUR | 5,000 EUR + ?  | 5,000 EUR      |
-| Reporting     | 4,300 EUR              |      |                |           |                | 5,000 EUR      |
-| **Total**     | **58,600 EUR**         |      |                |           |                | **50,000 EUR** |
-
-*ERP calculation based on 50 licenses, accounting based on 10 licenses, analysis tool based on 10 licenses, CRM based on 75 licenses*
-
-\* Excluding future costs for additional software/features
-
-\*\* Incl. features mentioned in new value and basic support & customizations (e.g. installation, software training, invoice layout)
-
-### Milestone tasks
+## Key tasks
 
 | Priority   | Category                                 | Task                                                         |
 | ---------- | ---------------------------------------- | ------------------------------------------------------------ |
@@ -338,6 +270,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium   | Editor             | Create immediate text preview similar to a rich text editor or Typora. |
 | medium | Editor | Add inline charts (e.g. [Mermaid](https://github.com/mermaid-js/mermaid) and [Toast UI Chart](https://github.com/nhn/tui.chart)) |
 | medium | Editor | Add math formulas (e.g. [Katex](https://katex.org/)) |
+| medium | Editor | Add emojis |
 | medium   | Admin              | Create a view where it's possible to create/activate, change and delete/deactivate hooks for events. |
 | medium | EventManagement | Use Cli application for async event handling, alternatively web requests via curl, alternatively at runtime of the main process. This should depend on the configuration of the application. |
 | low | Registration | Allow users to register by themselves (if activated in the backend) |
@@ -610,3 +543,83 @@ Software:
 
 1. Tesseract + OpenCV + above mentioned steps
 2. Some Api (e.g. google vision ai, amazon textract, amazon recognition)
+
+### Workflow
+
+* Listen to multiple event triggers (a state might get triggered from different triggers)
+* Every state needs to load the workflow instance globally for that state
+* A workflow must have multiple events such as
+  * events must have a name/id
+  * events can have a description
+  * if (with true and false branches and with simple && and || connections)
+    * Comparisons:
+      * equals
+      * not equals
+      * exists
+      * doesn't exist
+      * greater than
+      * lesser than
+      * greater or equals than
+      * lesser or equals than
+      * contains
+      * doesn't contain
+      * in between (inclusive)
+    * Connections
+      * Only simple && and ||
+      * No complex sub conditions e.g. (a && b) || (b  && (c || d))
+  * Function
+    * Call
+      * function from module
+      * function from static script
+      * function from workflow
+      * simulate api call (internally populate request/response)
+    * Define variable names in order of function parameters
+    * Define response variable name
+  * Data definition (important for naming and defining values for follow up steps)
+    * Fixed values
+    * Dynamic re-assigning/copying
+      * take old variable and re-name it
+      * allow array path e.g. `varname/key1/key2 => newvarname`
+      * the same variable can be copied to many different new variable names
+  * Event trigger
+    * similar to function but trigger event
+  * Routing
+    * similar to function but run routing into dispatcher
+  * Rest request
+    * similar to function but using rest
+  * Execute script assigned to workflow template 
+    * This way workflow could be completely defined in a custom script if it is very complicated
+  * Response message population
+  * Create workflow diagram (see example below)
+
+```mermaid
+flowchart LR
+	subgraph A
+    A_TRIGGER[State1: Event Triggers]-->IF{if}
+    IF-->|TRUE|IF_TRUE1[Run]
+    	IF_TRUE1-->RUN1[Collect result]
+    	RUN1-->NEW_VAR[Assign data]
+    	NEW_VAR-->TRIGGER2[Execute Event]
+    	NEW_VAR-->MESSAGE[Populate Message]
+    IF-->|TRUE|RUN2[Run]
+    	RUN2-->OTHER1[...]
+    IF-->|FALSE|ELSEIF{if}
+    	ELSEIF-->|TRUE|ELSE_TRUE[Run]
+    		ELSE_TRUE-->OTHER2[...]
+    	ELSEIF-->|FALSE|FALSE[Error]
+    end
+    
+    A-->|State Change|B
+    A-->|State Change|C
+    
+    subgraph B
+    B_TRIGGER[State2: Event Triggers]-->B_IF{...}
+    end
+    
+    B-->|State Change|C
+    
+    subgraph C
+    C_TRIGGER[State3: Event Triggers]-->C_IF{...}
+    end
+```
+

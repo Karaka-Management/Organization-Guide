@@ -1,4 +1,4 @@
-# Individual Contributor License Agreement ("CLA") 1.0
+# Individual Contributor License Agreement ("CLA")
 
 Thank you for your interest in Karaka-Management (the "Company"). In order to clarify the intellectual property license granted with Contributions from any person or entity, the Company must provide a Contributor License Agreement ("CLA") on file that has been made available to each Contributor. This license is for your protection as a Contributor as well as the protection of the Company and its users; it does not change your rights to use your own Contributions for any other purpose.
 
@@ -47,3 +47,7 @@ This Agreement shall be governed exclusively by German law. The courts of Hessen
 ## Entire Agreement
 
 This agreement constitutes the entire agreement and supersedes all prior or contemporaneous oral or written agreements concerning such Contribution. This agreement may only be changed by mutual agreement of authorized representatives of the parties in writing. You agree to notify the Company of any facts or circumstances of which you become aware that would make these representations inaccurate in any respect.
+
+
+
+2022.01.01 - Version 1.0
