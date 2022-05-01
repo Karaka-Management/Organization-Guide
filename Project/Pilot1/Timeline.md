@@ -8,12 +8,11 @@ gantt
     section Kick-Off
     	Planning					:crit, a, 2022-09-01, 5d
     section UI
-        Inline form C/U/C 			:1a1, after a, 30d
         Pull A/U/R/O 	 			:1a2, after a, 30d
         Push A/U/R/O 	 			:1a3, after a, 30d
-    	Data filter (local/remote)	:1b1, after 1a1, 30d
+    	Data filter 				:1b1, after 1a1, 30d
     	Data actions (bulk)			:1b2, after 1a1, 30d
-    	Data order   (local/remote)	:1b3, after 1a1, 30d
+    	Data order  				:1b3, after 1a1, 30d
     	Data export  				:1b4, after 1a1, 30d
     	Tag selector				:1c1, after 1b4, 10d
     	Drop down					:1c2, after 1b4, 10d

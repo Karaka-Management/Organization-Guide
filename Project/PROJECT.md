@@ -1,8 +1,7 @@
 # Project Status and Tasks
 
 - [Summary](#summary)
-- [Most recent changelog](#most-recent-changelog)
-- [Milestones](#milestones)
+- [Latest changelog](#latest-changelog)
 - [Key tasks](#key-tasks)
 - [Todos](#todos)
 - [Bugs](#bugs)
@@ -10,9 +9,9 @@
 
 ## Summary
 
-Last update of this file: 2022.04.23
+Last update of this file: 2022.05.30
 
-## Most recent changelog
+## Latest changelog
 
 ### April 2022
 
@@ -20,11 +19,25 @@ Last update of this file: 2022.04.23
 
 ##### Application
 
-* 
+* Add default export scripts (no API calls implemented yet)
+
+<img src="img/todo/export.png" alt="Export" style="zoom:50%;" />
+
+* Create filter UI draft (text, number, select, radio, checkbox) (no API calls and frontend logic implemented)
+
+<img src="img/todo/filter_ui.png" alt="Export" style="zoom:50%;" />
 
 ##### Framework
 
-* 
+* Form inline and external save, update, add implemented (no API calls implemented yet)
+
+<img src="img/todo/External add.gif" alt="External add" style="zoom: 50%;" /> <img src="img/todo/External update.gif" alt="External update" style="zoom: 50%;" />
+
+<img src="img/todo/Inline add.gif" alt="Inline add" style="zoom: 50%;" /> <img src="img/todo/Inline edit.gif" alt="Inline update" style="zoom: 50%;" />
+
+* Allow users to edit table column visibility (e.g. hide information they are not interested in) (no API calls necessary)
+
+<img src="img/todo/Column settings.gif" alt="Column settings" style="zoom:50%;" />
 
 #### Bug fixes
 
@@ -542,7 +555,26 @@ Steps:
 Software:
 
 1. Tesseract + OpenCV + above mentioned steps
-2. Some Api (e.g. google vision ai, amazon textract, amazon recognition)
+2. Some API (e.g. google vision ai, amazon textract, amazon recognition)
+
+### Search
+
+* page: {/base} (if search_type=page)
+  * search:
+    * &search={#search} (can be empty = normal list)
+    * &search_fields=id,module,action (can be empty = all fields)
+  * sort: (can be omitted)
+    * &sort_by=module
+    * &sort_order=desc
+  * filter1: (can be omitted)
+    * &filter1_type=text
+    * &filter1_value=myvalue
+  * filter2: (can be omitted)
+    * &filter2_type=number
+    * &filter2_value_1=12
+    * &filter2_value_2=33
+* global: {/root}search
+  * ...
 
 ### Workflow
 
@@ -572,7 +604,7 @@ Software:
       * function from module
       * function from static script
       * function from workflow
-      * simulate api call (internally populate request/response)
+      * simulate API call (internally populate request/response)
     * Define variable names in order of function parameters
     * Define response variable name
   * Data definition (important for naming and defining values for follow up steps)
@@ -591,6 +623,8 @@ Software:
     * This way workflow could be completely defined in a custom script if it is very complicated
   * Response message population
   * Create workflow diagram (see example below)
+* Main question: How to handle workflows during UI interaction instead of async?
+  * Solution 1: Define SYNC triggers which run the workflow runWorkflow command
 
 ```mermaid
 flowchart LR
