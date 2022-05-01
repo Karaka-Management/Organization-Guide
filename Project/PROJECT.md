@@ -9,35 +9,21 @@
 
 ## Summary
 
-Last update of this file: 2022.05.30
+Last update of this file: 2022.05.01
 
 ## Latest changelog
 
-### April 2022
+### May 2022
 
 #### New
 
 ##### Application
 
-* Add default export scripts (no API calls implemented yet)
-
-<img src="img/todo/export.png" alt="Export" style="zoom:50%;" />
-
-* Create filter UI draft (text, number, select, radio, checkbox) (no API calls and frontend logic implemented)
-
-<img src="img/todo/filter_ui.png" alt="Export" style="zoom:50%;" />
+* 
 
 ##### Framework
 
-* Form inline and external save, update, add implemented (no API calls implemented yet)
-
-<img src="img/todo/External add.gif" alt="External add" style="zoom: 50%;" /> <img src="img/todo/External update.gif" alt="External update" style="zoom: 50%;" />
-
-<img src="img/todo/Inline add.gif" alt="Inline add" style="zoom: 50%;" /> <img src="img/todo/Inline edit.gif" alt="Inline update" style="zoom: 50%;" />
-
-* Allow users to edit table column visibility (e.g. hide information they are not interested in) (no API calls necessary)
-
-<img src="img/todo/Column settings.gif" alt="Column settings" style="zoom:50%;" />
+* 
 
 #### Bug fixes
 
