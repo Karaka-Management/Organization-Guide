@@ -28,7 +28,9 @@ Tasks  currently in development are prefixed in the priority column with an  ast
 
 The open  tasks are reviewed once a month by a senior developer. The senior developer updates the project overview if necessary and requests  feedback regarding development status of important tasks under development. During this process important tasks may also get directly assigned to developers. This review is performed on a  judgmental bases of the senior basis.
 
-### Quality: Code style
+### Quality
+
+#### Code style
 
 Code changes must follow the [style guidelines](https://github.com/Karaka-Management/Developer-Guide/tree/develop/standards). Additionally, the automatic code style inspection tools must return no errors, failures or warnings. Developers should test their changes with inspection tools and configurations mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md) in advance before submitting them for review.
 
@@ -41,7 +43,7 @@ php ./vendor/bin/phpcs ./ --standard="Build/Config/phpcs.xml"
 npx eslint ./ -c ./Build/Config/.eslintrc.json
 ```
 
-### Quality: Tests
+#### Tests
 
 Code changes must follow the inspection guidelines (i.e. code coverage) mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md). Developers should check if the code changes comply with the inspection guidelines before submitting them.
 
@@ -58,7 +60,7 @@ npx jasmine-node ./
 
 Additional inspections which are run but might be ignored during the review depending on the use case are mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md) as other checks.
 
-### Quality: Code review
+#### Code review
 
 In addition to the automatic code review performed by the various inspection tools such as (phpcs, phpstan, phpunit, eslint and custom scripts) a senior developer must check the proposed code change before it is merged with the respective `develop` branch. Only upon the approval by the reviewer a code change requests gets merged as no other developers have permission in the software to make such code merges.
 
@@ -66,7 +68,7 @@ In case a code change request is not approved the reviewer states the reason for
 
 If the code reviewer only finds minor issues with the proposed code change the reviewer may make small changes to the proposed code change and inform the contributor to speed up the implementation process. Code reviewers are encouraged to do this with new contributors to avoid long iteration processes and to not discourage new developers. However, communication is key and severe issues with code change requests or if the contributor already made multiple code change requests in the past the reviewer should not implement the improvements by himself and rather decline the code change requests with his reasoning.
 
-### Demo
+#### Demo
 
 Some code changes may also require changes or extensions in the demo setup scripts. The demo setup script try to simulate a real world use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is recommended to run this only sporadically.
 
