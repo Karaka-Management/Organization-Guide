@@ -22,7 +22,7 @@
 
 * PHP:
 
-  
+
 
 - [ ] The server hardware, software and assigned resources fulfill the recommendations
 
@@ -32,7 +32,7 @@
 
 ### Application statistics
 
-* Application version: 
+* Application version:
 * Active employee accounts:
 * Active accounts:
 * Storage usage:
@@ -149,4 +149,4 @@ Supervised by (customer):
 
 
 
-2022.01.01 - Version 1.0
+2022-01-01 - Version 1.0

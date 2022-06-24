@@ -13,13 +13,13 @@ Last update of this file: 2022.05.01
 
 ## Latest changelog
 
-### May 2022
+### June 2022
 
 #### New
 
 ##### Application
 
-* 
+* Implement table sorting
 
 ##### Framework
 
@@ -412,6 +412,8 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Kanban                     | The kanban board currently assumes up to 4 columns, however there should be a layout which allows more than 4 columns. Don't use flexbox but min-width and max-width combined with a horizontal scrollable board content |
 | low | Media | Allow to index a local file if it is not in the database (e.g. button with text "Add to Application"). Un-indexed files cannot be changed/moved/deleted. |
 | low      | DataMapperAbstract         | Implement data binding                                       |
+| low | DataMapperFactory | Handle column search/filter for columns which are not 1 to 1 members (e.g. columns are manipulated or the result of multiple data values). One solution could be to pass callbacks for such columns. |
+| low | DataMapperFactory | Consider to only allow search in fields which have `autocomplete => true` defined |
 | low      | Email                      | Find a way to localize some hard coded email content. Pass localization array? Manually overwrite email body if a hard coded/default message should be returned (maybe by checking for a flag/status code)? |
 | low      | DataMapper / ModelFactory  | Some models may require special initialization. For such cases a model factory should be implemented and used by the data mapper. One solution could be to create a default `ModelFactory` which behaves as the current DataMapper functions which set/update the model members. This factory could be extended in case custom behavior becomes necessary. In the Mapper you would just have to define a `const FACTORY` constant which references the factory to use (instead of the default one). Since there hasn't been a situation where this was necessary it will not be implemented until we actually need this (it would additional overhead which maybe never becomes necessary) |
 | low      | Editor             | Create special markdown content (calendar, chart, task, news, comment, media, ...) |

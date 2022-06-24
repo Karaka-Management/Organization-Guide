@@ -1,6 +1,6 @@
 # Organization Activity Policy
 
-Organization members are expected to do regular significant contributions to the project. 
+Organization members are expected to do regular significant contributions to the project.
 
 The organization doesn't define any fixed hours and expects the members to decide on their own commitment. Long leave times of more than 3 weeks should be communicated in advance so other members can organize tasks according to this.
 
@@ -12,4 +12,4 @@ Extremely few or insignificant contributions may lead to the exclusion from the 
 
 
 
-2022.01.01 - Version 1.0
+2022-01-01 - Version 1.0

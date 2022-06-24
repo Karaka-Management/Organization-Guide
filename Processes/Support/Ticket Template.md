@@ -1,6 +1,6 @@
 # Ticket
 
-**Date/Time:** 2022.01.01 -  11:00
+**Date/Time:** 2022-01-01 -  11:00
 
 **Customer:** 123456 - Test customer
 
@@ -26,9 +26,9 @@
 
 
 
-**Closed at:** 2022.01.01 - 13:30
+**Closed at:** 2022-01-01 - 13:30
 
 
 
-2022.01.01 - Version 1.0
+2022-01-01 - Version 1.0
 

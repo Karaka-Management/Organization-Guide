@@ -1,6 +1,6 @@
 # Conflict of Interest Policy
 
-This policy will outline the rules regarding conflict of interest and the responsibilities in resolving any such discrepancies. 
+This policy will outline the rules regarding conflict of interest and the responsibilities in resolving any such discrepancies.
 
 Conflict of interest may have significant implications on ones judgement and commitment to the organization, and by extension to the realization of its goals.
 
@@ -34,4 +34,4 @@ Disrespecting this policy possibly leads to a warning and potnetially excluding 
 
 
 
-2022.01.01 - Version 1.0
+2022-01-01 - Version 1.0

@@ -1,13 +1,8 @@
-# Inventory
+# Finance
 
-| No.  | Process step | Risks/Things to consider | Checks/Risk mitigation | R    | O    |
-| ---- | ------------ | ------------------------ | ---------------------- | ---- | ---- |
-|      |              |                          |                        |      |      |
-|      |              |                          |                        |      |      |
-|      |              |                          |                        |      |      |
+## Inventory
 
-Abbreviations:
+### Assets
 
-* R: Responsible
-* O: Occurrence
+### Merchandise
 

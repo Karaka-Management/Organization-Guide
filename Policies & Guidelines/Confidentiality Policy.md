@@ -50,4 +50,4 @@ This policy is binding even after separation.
 
 
 
-2022.01.01 - Version 1.0
+2022-01-01 - Version 1.0

@@ -10,7 +10,7 @@ Every relationship we have with customers, suppliers, organization members and e
 
 ## Members
 
-We are always open to accept talented or striving people to the organization. We encourage members to grow together with the organization in skills and passion. Open discussions and brainstorming are always encouraged to improve and innovate. 
+We are always open to accept talented or striving people to the organization. We encourage members to grow together with the organization in skills and passion. Open discussions and brainstorming are always encouraged to improve and innovate.
 
 ## Products & Services
 
@@ -22,4 +22,4 @@ Disrespecting this policy possibly leads to a warning and potnetially excluding 
 
 
 
-2022.01.01 - Version 1.0
+2022-01-01 - Version 1.0
