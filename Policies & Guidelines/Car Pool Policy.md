@@ -1,4 +1,4 @@
-# Car pool
+# Car Pool Policy
 
 ## Eligable positions
 

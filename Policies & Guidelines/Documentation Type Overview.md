@@ -1,4 +1,4 @@
-# Documentation Overview
+# Documentation Type Overview
 
 * Process: 
   * Describes what needs to be done
@@ -20,6 +20,7 @@
 
 * Policies & Guidelines
   * Describes rules and responsibilities
-
+  * Special Guidelines: Developer-Guide, User-Guide
+  
 * Forms
   * Forms to be used for certain organization activities

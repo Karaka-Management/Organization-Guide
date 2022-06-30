@@ -1,6 +1,6 @@
-# Onboarding: DO'S and DON'TS
+# Onboarding: Does and Don'ts
 
-## DO'S
+## Does
 
 1. Read the relevant documentation (guidelines, policies, processes, developer documentation)
 2. Ask questions
@@ -10,7 +10,7 @@
 6. Be respectful to others! This includes members, customers, business partners, third party developers, and in general everyone in relation to this project and organization
 7. Follow the code of conduct
 
-## DON'TS
+## Don'ts
 
 1. Don't be late to appointments. It can happen but it shouldn't be a normal occurrence
 2. Don't represent the project and organization in a bad light

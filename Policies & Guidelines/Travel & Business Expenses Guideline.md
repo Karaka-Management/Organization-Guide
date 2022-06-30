@@ -1,4 +1,4 @@
-# Travel & business expenses
+# Travel & Business Expenses Guidelines
 
 ## Booking
 
