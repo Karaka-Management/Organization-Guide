@@ -1,4 +1,4 @@
-# Onboarding: Cheat-Sheet
+# Developer Onboarding: Cheat-Sheet
 
 **How to initially setup the codebase?**
 
@@ -31,4 +31,8 @@ js: Jasmine
 * run phpstan: `php vendor/bin/phpstan analyse --autoload-file=phpOMS/Autoloader.php -l 8 -c Build/Config/phpstan.neon ./`
 * run phpcs: `php vendor/bin/phpcs ./ --standard="Build/Config/phpcs.xml" -s --report-junit=Build/test/junit_phpcs.xml`
 * run eslint: `npx eslint jsOMS/ -c Build/Config/.eslintrc.json`
+
+
+
+2022-01-01 - Version 1.0
 

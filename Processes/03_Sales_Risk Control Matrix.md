@@ -1,0 +1,13 @@
+# Sales Risk Control Matrix
+
+| No.  | R                               | Category                 | Risk Event                                                   | L    | C    | O                | Mitigation Type              | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   |
+| ---- | ------------------------------- | ------------------------ | ------------------------------------------------------------ | ---- | ---- | ---------------- | ---------------------------- | ------------------------------------------------------------ | ---- | ---- | ------- | -------- | ---- | ---- |
+| 1    | Head of Sales / Head of Finance | Operational Risk (Sales) | Prices too low / discounts too large                         | 1    | 5    | Many times a day | Preventing (System & Manual) | Default prices and standard discounts are stored in the IT system responsible for the offer generation. Deviations require additional electronical approval in the system by the head of sales or head of finance. Without this electronic approval the offer cannot get created. | 1    | 1    |         |          | yes  | yes  |
+| 2    | Head of Sales                   | Operational Risk (Sales) | Default prices are too low / default discounts are too large | 1    | 5    | Many times a day | Preventing (System & Manual) | Changes to default prices and default discounts can only be entered into the IT system by the head of sales or head of finance. | 1    | 1    |         |          | yes  | yes  |
+| 3    | Head of Sales                   | Operational Risk (Sales) | Other aspects of the offer are invalid (i.e. wrong customer, bad credit score of customer, ...) | 1    | 5    | Many times a day | Preventing (System)          | The offer is none-binding and only becomes binding with the order confirmation where additional checks are performed. | 1    | 1    |         |          | yes  | yes  |
+| 4    | Head of Sales                   | Operational Risk (Sales) | Invalid customer data                                        | 1    | 5    |                  | Preventing (System)          | Customer data gets compared with the information provided from credit rating agencies, company registration forms etc. | 1    | 1    |         |          | yes  | yes  |
+| 5    | Head of Sales                   | Operational Risk (Sales) | Customer default                                             | 1    | 5    |                  | Preventing (System)          | Only customers with a credit score of XXXX-Crefo / XXXX-Coface / XXXX-Schufa get approved during the order confirmation. | 1    | 1    |         |          | yes  | yes  |
+
+
+
+2022-01-01 - Version 1.0

@@ -6,3 +6,6 @@
 | 2    | See purchase approval table | Operational Risk (Purchase) | Unauthorized purchase (budget risks, fraud, compliance, ...) | 1    | 1    | Many times a day | Preventing (Manual)          | Authorize purchases according to the purchase approval table. This functions as control and separation of responsibilities. | 1    | 1    |         |          | yes  | yes  |
 | 3    | Purchase + Employee         | Operational Risk (Purchase) | Invalid invoice contents (formal or other mistakes)          | 1    | 1    | Many times a day | Preventing (Manual & System) | Automatic system checks and manual checks.                   | 1    | 1    |         |          | yes  | yes  |
 
+
+
+2022-01-01 - Version 1.0

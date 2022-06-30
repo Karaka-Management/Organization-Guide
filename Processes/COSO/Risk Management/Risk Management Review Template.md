@@ -4,9 +4,9 @@
 
 ### New risks
 
-| Risk No. | R    | Category | Risk Event | L    | C    | O    | Mitigation Strategy | L*   | C*   | Changes | Comments | ES   | EY   |
-| -------- | ---- | -------- | ---------- | ---- | ---- | ---- | ------------------- | ---- | ---- | ------- | -------- | ---- | ---- |
-|          |      |          |            |      |      |      |                     |      |      |         |          |      |      |
+| Risk No. | R    | Category | Risk Event | L    | C    | O    | Mitigation Type | Mitigation Strategy | L*   | C*   | Changes | Comments | ES   | EY   |
+| -------- | ---- | -------- | ---------- | ---- | ---- | ---- | --------------- | ------------------- | ---- | ---- | ------- | -------- | ---- | ---- |
+|          |      |          |            |      |      |      |                 |                     |      |      |         |          |      |      |
 
 Abbreviations:
 

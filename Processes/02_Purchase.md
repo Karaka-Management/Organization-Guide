@@ -2,7 +2,7 @@
 
 ## Inquiry / Offer
 
-Before purchasing employees must perform some research depending on the type and purchase amount. Generally, employees should always compare prices and also different vendors. For purchases above 1,000 EUR for single unit prices or above 50,000 EUR for total invoice expenses employees must always compare prices, argue why they choose a certain product and vendor and provide evidences of such research. Sometimes it can be applicable to not only compare different vendors but also different product types. This research may require to already request offers from potential suppliers and perform negotiations. Please use the **Vendor Comparison Form**. (R1)
+Before purchasing employees must perform some research depending on the type and purchase amount. Generally, employees should always compare prices and also different vendors. For purchases above 1,000 EUR for single unit prices or above 50,000 EUR for total invoice expenses employees must always compare prices, argue why they choose a certain product and vendor and provide evidences of such research. Sometimes it can be applicable to not only compare different vendors but also different product types. This research may require to already request offers from potential suppliers and perform negotiations. Please use the **Investment Form**. (R1)
 
 ## Offer approval
 
@@ -53,4 +53,4 @@ The IT system generates a monthly booking list with all invoices and their booki
 
 ### Payment
 
-The accountant starts the payment process by telling the IT system to genrate a list of all payment suggestions according to the invoice payment terms. The system automatically calculates cash back and forex differences. The accountant may add or remove invoices from the suggestion. Both the accountant and the head of finance sign off on the payments in the IT system.
+The accountant starts the payment process by telling the IT system to generate a list of all payment suggestions according to the invoice payment terms. The system automatically calculates cash back and forex differences. The accountant may add or remove invoices from the suggestion. Both the accountant and the head of finance sign off on the payments in the IT system.

@@ -1,4 +1,4 @@
-# Vendor Comparison Form
+# Investment Form
 
 | Type                | Vendor 1 | Vendor 2 | Vendor 3 |
 | ------------------- | -------- | -------- | -------- |
@@ -10,7 +10,7 @@
 
 Date: YYYY-MM-DD
 
-Employee: {YOUR_NAME}
+Employee: YOUR_NAME
 
 Signature:
 

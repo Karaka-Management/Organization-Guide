@@ -7,3 +7,6 @@
 | 3    | CTO/Code reviewer | Operational Risk (Development) | Inconsistent code styles (which increases frictions between developers) | 5    | 1    | Many times a day  | Preventing (System & Manual) | Code styles are automatically tested with code style checkers. | 2    | 1    |         | Not all code style options can be reasonably checked and defined. In some cases it's also possible to have false positive code style violations for edge cases. Manual checks during the code review by the responsible person may lead to additional code style changes or ignoring some code style "violations" if deemed reasonable. | yes  | yes  |
 | 4    | CTO/Code reviewer | Operational Risk (Development) | Faulty code due to code changes, additions, removal.         | 5    | 4    | Many times  a day | Preventing (System & Manual) | Static code analysis tools and written tests for automatic tests. Additionally, manual tests can be performed in a demo environment with self generated dummy data. | 2    | 1    |         |                                                              |      |      |
 
+
+
+2022-01-01 - Version 1.0

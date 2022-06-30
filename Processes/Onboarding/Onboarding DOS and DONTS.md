@@ -2,7 +2,7 @@
 
 ## DO'S
 
-1. Read the documentation 
+1. Read the relevant documentation (guidelines, policies, processes, developer documentation)
 2. Ask questions
 3. If you see a bug, missing, incomplete or wrong documentation, fix it
 4. If you have ideas for features, additional functionality etc. bring them forward for discussion
@@ -14,4 +14,8 @@
 
 1. Don't be late to appointments. It can happen but it shouldn't be a normal occurrence
 2. Don't represent the project and organization in a bad light
+
+
+
+2022-01-01 - Version 1.0
 
