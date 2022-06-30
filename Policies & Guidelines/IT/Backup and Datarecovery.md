@@ -1,4 +1,4 @@
-# Data and Datarecovery
+# Backup and Datarecovery
 
 The loss of data can have detrimental effects on the activities of the organization. Additionally, there are mandatory rules and regulations regarding data storage, which must be upheld. There are many possible reasons for data loss. Some could be:
 
