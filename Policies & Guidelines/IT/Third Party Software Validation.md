@@ -12,6 +12,10 @@ Before buying new software the following aspects must be checked:
 | Risks to be considered |  |
 | Alternative solution |  |
 | Supplier comparison (investment form) | ATTACHED |
+| Fullfilled goals |  |
+| Unfullfilled goals |  |
+| Manual black box testig | Successfull |
+| Support by vendor available |  |
 | Investment costs (investment form + offer) |  |
 | Annual fees (investment form + offer) |  |
 | Estimated required resources for implementation |  |
