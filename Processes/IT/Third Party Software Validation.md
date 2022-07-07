@@ -18,8 +18,8 @@ Before buying new software the following aspects must be checked:
 | Manual black box testig | Successfull | Validation Report |  |
 | Support by vendor available |  |  |  |
 | Data protection successfully checked | YES |  |  |
-| Investment costs |  | Investment Form + Offer |  |
-| Annual fees |  | Investment Form + Offer |  |
+| One-off net expenses |  | Investment Form + Offer |  |
+| Annual net expenses |  | Investment Form + Offer |  |
 | Estimated required resources for implementation |  |  |  |
 | Estimated time until operation |  | Timeline |  |
 | Estimated effects on work efficiency per year in days |  | Investment Form |  |
