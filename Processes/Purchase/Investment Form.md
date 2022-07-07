@@ -1,12 +1,26 @@
 # Investment Form
 
-| Type                | Vendor 1 | Vendor 2 | Vendor 3 |
-| ------------------- | -------- | -------- | -------- |
-| Vendor name         |          |          |          |
-| Product description |          |          |          |
-| Total net expenses  |          |          |          |
-| Pros                |          |          |          |
-| Cons                |          |          |          |
+## Reasons / Goals / Opportunities
+
+... To be filled ...
+
+## Comparison
+
+| Type                 | Vendor 1 | Vendor 2 | Vendor 3 | Vendor 4 | Vendor 5 |
+| -------------------- | -------- | -------- | -------- | -------- | -------- |
+| Vendor name          |          |          |          |          |          |
+| Product description  |          |          |          |          |          |
+| Website              |          |          |          |          |          |
+| One-off net expenses |          |          |          |          |          |
+| Annual net expenses  |          |          |          |          |          |
+| Pros                 |          |          |          |          |          |
+| Cons                 |          |          |          |          |          |
+
+## ROI
+
+... To be filled ...
+
+## Request
 
 Date: YYYY-MM-DD
 

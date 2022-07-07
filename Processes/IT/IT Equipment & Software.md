@@ -7,7 +7,7 @@
 | Type / Description          | Employee       	                                | Head of department   | Management	    |
 | ----------------------------------- | ----------------------------------------------- | -------------------- | -------------- |
 | Smartphone                          | Iphone 13 (only sales reps)                     | Iphone 13            | Iphone 13      |
-| Laptop (incl. docking station)      | < 2,000 EUR                                     | < 2,500 EUR          | < 2,500 EUR    |
+| Laptop or Tablet (incl. docking station) | < 2,000 EUR                                     | < 2,500 EUR          | < 2,500 EUR    |
 | PC                                  | < 2,000 EUR (if no laptop)                      | < 2,500 EUR          | < 2,500 EUR    |
 | Monitor(s)                          | < 500 EUR per Monitor (if < 2 monitors at desk) | < 1,500 EUR          | < 1,500 EUR    |
 | IT equipment (e.g. mouse, keyboard) | < 300 EUR                                       | < 500 EUR            | < 500 EUR      |

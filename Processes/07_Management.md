@@ -1,6 +1,13 @@
 # Management
 
+## Planning
 
+## Organizing
 
-2022-01-01 - Version 1.0
+### Implementation
 
+### Staffing
+
+## Leading
+
+## Controlling & Optimization
