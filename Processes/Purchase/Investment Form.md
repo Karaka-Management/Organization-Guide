@@ -10,6 +10,7 @@
 | -------------------- | -------- | -------- | -------- | -------- | -------- |
 | Vendor name          |          |          |          |          |          |
 | Product description  |          |          |          |          |          |
+| Website              |          |          |          |          |          |
 | One-off net expenses |          |          |          |          |          |
 | Annual net expenses  |          |          |          |          |          |
 | Pros                 |          |          |          |          |          |
