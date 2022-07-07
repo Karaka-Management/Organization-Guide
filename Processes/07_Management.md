@@ -1,13 +1,13 @@
 # Management
 
-| No.  | Process step | Risks/Things to consider | Checks/Risk mitigation | R    | O    |
-| ---- | ------------ | ------------------------ | ---------------------- | ---- | ---- |
-|      |              |                          |                        |      |      |
-|      |              |                          |                        |      |      |
-|      |              |                          |                        |      |      |
+## Planning
 
-Abbreviations:
+## Organizing
 
-* R: Responsible
-* O: Occurrence
+### Implementation
 
+### Staffing
+
+## Leading
+
+## Controlling & Optimization
