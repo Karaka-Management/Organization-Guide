@@ -1,8 +1,6 @@
-# Third Party Software Validation
+# Third Party Software Validation - New
 
-## New/Replacement Software
-
-Before buying new software the following aspects must be checked:
+Before buying/implementing a new software the following aspects must be checked:
 
 | To be considered | Result | Evidence / Basis | Responsible | Date |
 | ---- | ------ | ------ | ----------- | ------ |
@@ -27,5 +25,3 @@ Before buying new software the following aspects must be checked:
 | Estimated cost savings (one-off/annual) |  | Investment Form |  |
 | Estimated ROI in years |  | Investment Form |  |
 | Opinion project manager |  | See above |  |
-
-## Updates
