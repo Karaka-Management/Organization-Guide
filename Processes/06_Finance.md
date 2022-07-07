@@ -16,6 +16,8 @@ The approval of the budget is handled by the management and should be done until
 
 If amendments need to be made the management may approve a preliminary budget until the actual budget is finalized and approved. Examples for a preliminary budget could be the approval to work according to the budget for the first month but adjust the budget for the remaining 11 months. Another solution could be to work according to the budget of the previous year until the new budget got adjusted. The decision how the interim period until the budget is corrected and approved should be handled based on the decision of the management.
 
+The tasks and responsibilities can be found in the Budgeting Checklist. The checklist must be signed by every responsible person after completing the defined task.
+
 ### Forecast
 
 The basis of many figures and KPIs for the budgeted periods is the current fiscal year. For this reason the current fiscal year must be forecasted during the budgeting process. Information regarding the forecast should be collected in a similar way as for the budget figures. 
@@ -38,8 +40,6 @@ For the budget the gross profit margins per product group must be used. A total 
 
 #### OPEX
 
-Responsible: Finance + Management
-
 Operating expenses must contain the following information:
 
 * Costs per account
@@ -56,8 +56,6 @@ The following budget positions must be budgeted from the respective head of the 
 
 ##### HR
 
-Responsible: HR + Finance + Management
-
 The HR budget must contain the budget for every employee and all replacements as well as new budgeted positions. The HR budget should also be done per salary type. This also allows to accumulate the HR budget per department/cost center and compare changes with previous years.
 
 Planned salary increases should be already included in the budget (e.g. individual salary increases, general inflation increases, performance related increases, ...).
@@ -69,8 +67,6 @@ The following general adjustments should be included in the total budget:
 
 ##### Marketing
 
-Responsible: Marketing + Finance + Management
-
 The marketing budget must contain the budget for the different marketing types:
 
 * Print media
@@ -79,8 +75,6 @@ The marketing budget must contain the budget for the different marketing types:
 * Social media
 
 #### Investments
-
-Responsible: Finance + Management
 
 ##### Depreciations
 
@@ -93,3 +87,52 @@ Depreciations are calculated based on the existing assets and their depreciation
 #### Taxes
 
 The taxes should be estimated based on the EBIT and the local tax rate. Corrections regarding deductible and non-deductible expenses should be included as well.
+
+## Monthly closing
+
+### Deadline
+
+The deadline is the 4th work day of the following month.
+
+### Responsibilities
+
+The tasks and responsibilities can be found in the Monthly Closing Checklist. The checklist must be signed by every responsible person after completing the defined task.
+
+## Annual closing
+
+### Deadline
+
+The deadline is the 4th work day of the new fiscal year.
+
+### Responsibilities
+
+The tasks and responsibilities can be found in the Monthly Closing Checklist and additionally the Annual Closing Checklist. The checklists must be signed by every responsible person after completing the defined task.
+
+## Annual financial audit
+
+### Deadline
+
+The deadline for the audit preparation is 3 days before the audit takes place.
+
+### Responsibilities
+
+The tasks and responsibilities can be found in the Annual Audit Checklist. The checklist must be signed by every responsible person after completing the defined task.
+
+## Reporting
+
+The reporting for the organization is done once a month and shared with different employees depending on authorities and responsibilities.
+
+### Deadline
+
+The deadline is the 5th work day of the following month.
+
+### Responsibilities
+
+The tasks and responsibilities can be found in the Monthly Reporting Checklist. The checklist must be signed by every responsible person after completing the defined task.
+
+### Contents
+
+
+
+2022-01-01 - Version 1.0
+

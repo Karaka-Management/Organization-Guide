@@ -1,4 +1,4 @@
-# FAQ: Pitching
+# Pitching FAQ
 
 ## General
 * How long does this software exist in the market?
