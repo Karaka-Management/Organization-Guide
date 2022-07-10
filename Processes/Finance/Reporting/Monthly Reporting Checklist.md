@@ -19,6 +19,7 @@
 | Long term employee cost development per department incl. headcount | Head of Finance |             |           |      |
 | Long term free cash flow development                         | Head of Finance |             |           |      |
 | Status update on key projects and tasks                      | CTO + CFO       |             |           |      |
+| Explanation for sales and costs (provided by head of departments) | CFO             |             |           |      |
 
 
 

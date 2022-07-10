@@ -1,6 +1,10 @@
 # Support & Service
 
-Support or any other software related services are only allowed if the customer has signed the [Customer Data Protection Policy]() and the [Customer Service Agreement](). This ensures that customer data access is legally and contractually covered. The customer Customer Service Agreement regulates the responsibilities and  liabilities.
+Support or any other software related services are only allowed if the customer has signed the [Customer Data Protection Policy]() and the [Customer Service Agreement](). This ensures that customer data access is legally and contractually covered. The customer Customer Service Agreement regulates the responsibilities and liabilities.
+
+| Key Objective               | Target | Achieved |
+| --------------------------- | ------ | -------- |
+| Great customer satisfaction | >= 4.0 | YES      |
 
 ## Data migration
 
@@ -10,7 +14,9 @@ Only after the binding approval by the customer the order confirmation will be c
 
 ## Setup & configuration
 
-### Virtual environment
+### Environment
+
+The software envi
 
 ### Software installation and configuration on virtual environment
 

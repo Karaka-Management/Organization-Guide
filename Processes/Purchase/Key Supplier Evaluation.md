@@ -1,0 +1,17 @@
+# Key Supplier Evaluation
+
+| Name       | Products & Services                       | Description                 | Annual amount | Type            | Dependency risk | Alternative evaluation                                       | Quality evaluation                                           | Last evaluated by | Last evaluated |
+| ---------- | ----------------------------------------- | --------------------------- | ------------- | --------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------- | -------------- |
+| Oracle     | VirtualBox                                | Machine virtualization      | 0 EUR         | single purchase | very low        | Alternative solutions such as VMWare or KVM don't provide any significant benefits for the general use case. Customers can still choose a different solution regardless. | No significant issues                                        | Dennis Eichhorn   | 2022-01-01     |
+| PHPOffice  | PhpSpereadsheet, PHPWord, PHPPresentation | Office software             | 0 EUR         | single purchase | medium          | No alternative supplier could be found which combines all three products and same functionality. Solutions which cover a single aspect are available but more inconvenient to use. | No significant issues but the performance (e.g. memory usage) limits the use cases and requires parallelizing certain tasks. | Dennis Eichhorn   | 2022-01-01     |
+| mPDF       | mPDF                                      | PDF renderer                | 0 EUR         | single purchase | low             | Alternative solutions don't provide the same level of html/css rendering capabilities. Alternatives are also available through PHPWord or tcpdf. | No significant issues.                                       | Dennis Eichhorn   | 2022-01-01     |
+| Tecnick    | tcpdf                                     | PDF renderer                | 0 EUR         | single purchase | low             | Fastest php pdf renderer. Alternatives are also available through PHPWord or mpdf. | No significant issues.                                       | Dennis Eichhorn   | 2022-01-01     |
+| TeamViewer | TeamViewer                                | Remote desktop connection   |               | subscription    | very low        | No alternative is as conveniently to use or is as broadly implemented (works on many different OS). It is the most well established remote desktop connection tool for support purposes. Alternatives VNC solutions could work as a fall back in a worst case situation. | No significant issues.                                       | Dennis Eichhorn   | 2022-01-01     |
+| Microsoft  | github                                    | Source code version control | 0 EUR         | subscription    | very low        | The closest alternative is gitlab. However, github is the most established solution which is simple to use and provides the necessary functionality. It's also possible to host alternative solutions on the company servers in a worst case situation. | No significant issues.                                       | Dennis Eichhorn   | 2022-01-01     |
+
+> Single purchase can also mean one time download for software without any dependency on other services.
+
+
+
+2021-01-01 - Version 1.0
+

@@ -57,3 +57,7 @@
 | C++ compilation tool       | CMake          |
 | Remote connection          | ssh            |
 
+
+
+2022-01-01 - Version 1.0
+

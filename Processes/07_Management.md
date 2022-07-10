@@ -1,5 +1,9 @@
 # Management
 
+| Key Objective       | Target     | Achieved |
+| ------------------- | ---------- | -------- |
+| Reach budgeted EBIT | >= XXX EUR | YES      |
+
 ## Planning
 
 ## Organizing
@@ -11,3 +15,4 @@
 ## Leading
 
 ## Controlling & Optimization
+

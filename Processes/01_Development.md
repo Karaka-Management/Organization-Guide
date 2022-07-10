@@ -1,5 +1,13 @@
 # Development
 
+| Key Objective                    | Target                                                       | Achieved |
+| -------------------------------- | ------------------------------------------------------------ | -------- |
+| Tasks & todos get solved         | > 100 tasks/todos get solved per year                        | YES      |
+| Milestones are completed on time | > 80% of all milestones are completed with less than 20% delay | YES      |
+| Consistent code style            | < 10 code style errors exist in the latest release version   | YES      |
+| Code is tested                   | > 90% code coverage is achieved                              | YES      |
+| Code tests are successfull       | 100% of all tests are successful                             | YES      |
+
 ## Development environment
 
 The setup and configuration of the development environment is in the hands of every developer themselves. However, it is recommended to follow the setup instructions in the [Developer-Guide](https://github.com/Karaka-Management/Developer-Guide/blob/develop/general/setup.md).
@@ -28,11 +36,6 @@ Tasks currently in development are prefixed in the priority column with an aster
 
 The open tasks are reviewed once a month by a senior developer. The senior developer updates the project overview if necessary and requests feedback regarding development status of important tasks under development. During this process important tasks may also get directly assigned to developers. This review is performed on a  judgmental bases of the senior basis.
 
-| Objective                        | Target                                                       | Achieved |
-| -------------------------------- | ------------------------------------------------------------ | -------- |
-| Tasks & todos get solved         | > 100 tasks/todos get solved per year                        | YES      |
-| Milestones are completed on time | > 80% of all milestones are completed with less than 20% delay | YES      |
-
 ### Quality
 
 #### Code style
@@ -47,10 +50,6 @@ Automated checks which are run during the review process (**R4**):
 php ./vendor/bin/phpcs ./ --standard="Build/Config/phpcs.xml"
 npx eslint ./ -c ./Build/Config/.eslintrc.json
 ```
-
-| Objective             | Target                                                     | Achieved |
-| --------------------- | ---------------------------------------------------------- | -------- |
-| Consistent code style | < 10 code style errors exist in the latest release version | YES      |
 
 #### Tests
 
@@ -68,11 +67,6 @@ npx jasmine-node ./
 ```
 
 Additional inspections which are run but might be ignored during the review depending on the use case are mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md) as other checks. (**R7**)
-
-| Objective                  | Target                           | Achieved |
-| -------------------------- | -------------------------------- | -------- |
-| Code is tested             | > 90% code coverage is achieved  | YES      |
-| Code tests are successfull | 100% of all tests are successful | YES      |
 
 #### Code review
 
