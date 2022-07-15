@@ -14,7 +14,7 @@ graph TD;
     CHECK_INVOICE_2--Yes-->FORWARD_TO_ACCOUNTING;
     CHECK_INVOICE_2--No-->CLARIFY[Clarify with supplier];
     FORWARD_TO_ACCOUNTING-->BOOKING[Booking invoice];
-    BOOKING-->PAYING[Pay invoice];
+    BOOKING-->PAYING([Pay invoice]);
 ```
 
 ## Approval Flowchart
