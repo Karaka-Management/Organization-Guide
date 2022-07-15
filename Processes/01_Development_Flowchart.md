@@ -6,7 +6,7 @@ graph TD;
     HAS_ACCESS-- YES -->FORK[Dev: Fork or Pull];
     HAS_ACCESS-- NO -->REQUEST_ACCESS[Dev: Request access via mail];
     FORK-->NEW_BRANCH[Dev: Create new branch];
-    REQUEST_ACCESS-->FORK;
+    REQUEST_ACCESS--1-->HAS_ACCESS;
     NEW_BRANCH-->CHANGE[Dev: Make changes];
     CHANGE-->TEST_CHANGE[Dev: Test changes locally];
     TEST_CHANGE-->IS_SUCCESSFUL{Is successful?};
