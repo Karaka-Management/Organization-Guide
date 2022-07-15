@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD;
-    SETUP_DEV_ENV([Seup Dev Environment])-->HAS_ACCESS{Has code access?};
+    SETUP_DEV_ENV([Dev: Setup Dev Environment])-->HAS_ACCESS{Has code access?};
     HAS_ACCESS-- YES -->FORK[Dev: Fork or Pull];
     HAS_ACCESS-- NO -->REQUEST_ACCESS[Dev: Request access via mail];
     FORK-->NEW_BRANCH[Dev: Create new branch];
