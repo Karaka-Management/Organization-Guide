@@ -3,20 +3,20 @@
 ```mermaid
 graph TD;
     SETUP_DEV_ENV([Seup Dev Environment])-->HAS_ACCESS{Has code access?};
-    HAS_ACCESS-- YES -->FORK[Fork or Pull];
-    HAS_ACCESS-- NO -->REQUEST_ACCESS[Request access via mail];
-    FORK-->NEW_BRANCH[Create new branch];
+    HAS_ACCESS-- YES -->FORK[Dev: Fork or Pull];
+    HAS_ACCESS-- NO -->REQUEST_ACCESS[Dev: Request access via mail];
+    FORK-->NEW_BRANCH[Dev: Create new branch];
     REQUEST_ACCESS-->FORK;
-    NEW_BRANCH-->CHANGE[Make changes];
-    CHANGE-->TEST_CHANGE[Test changes locally];
+    NEW_BRANCH-->CHANGE[Dev: Make changes];
+    CHANGE-->TEST_CHANGE[Dev: Test changes locally];
     TEST_CHANGE-->IS_SUCCESSFUL{Is successful?};
-    IS_SUCCESSFUL-- YES -->PULL_REQUEST[Pull request];
-    IS_SUCCESSFUL-- NO -->FIX[Fix];
+    IS_SUCCESSFUL-- YES -->PULL_REQUEST[Dev: Pull request];
+    IS_SUCCESSFUL-- NO -->FIX[Dev: Fix errors];
     FIX-->TEST_CHANGE;
-    PULL_REQUEST-->AUTOMATIC_CHECKS[Automatic system checks]
-    AUTOMATIC_CHECKS-->MANUAL_CHECKS[Manual checks]
+    PULL_REQUEST-->AUTOMATIC_CHECKS[System: Automatic checks]
+    AUTOMATIC_CHECKS-->MANUAL_CHECKS[Reviewer: Manual checks]
     MANUAL_CHECKS-->IS_ACCEPTED{Is accepted?};
-    IS_ACCEPTED-- YES -->MERGE([Merge]);
+    IS_ACCEPTED-- YES -->MERGE([Reviewer: Merge]);
     IS_ACCEPTED-- NO -->FIX;
     FIX-->TEST_CHANGE;
 ```
