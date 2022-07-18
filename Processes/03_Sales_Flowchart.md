@@ -2,7 +2,8 @@
 
 ```mermaid
 graph TD;
-    OFFER([Offer to customer])-->ORDER[Order from customer];
+    REQUEST([Cusotmer request])-->OFFER[Offer to customer]
+    OFFER-->ORDER[Order from customer];
     ORDER-->VALID_ORDER{Is valid?};
     VALID_ORDER--YES?-->ORDER_CONFIRMATION[Order confirmation];
     ORDER_CONFIRMATION-->DELIVERY[Delivery to customer];
