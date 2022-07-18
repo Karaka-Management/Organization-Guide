@@ -1,7 +1,5 @@
 # Support & Service Flowchart
 
-## Support ticket
-
 ```mermaid
 graph TD;
     REQUEST([Cusotmer request])-->CHECK_REQUEST{Support: Check request}
