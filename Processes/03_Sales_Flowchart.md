@@ -19,7 +19,6 @@ graph TD;
     LAWYER-->LAWYER_PAID{Customer pays?};
     LAWYER_PAID--YES?-->BOOKING_PAYMENT;
     LAWYER_PAID--NO?-->BAD_DEBT;
-    
 ```
 
 2022-01-01 - Version 1.0
