@@ -2,13 +2,13 @@
 
 ## Chief Accountant
 
-### Title
+### Contract
 
-Chief Accountant
-
-### Salary
-
-50,000 EUR - 65,000 EUR
+|             | Contract |
+| ----------- | ----------- |
+| Title | Chief Accountant |
+| Salary | 50,000 EUR - 65,000 EUR |
+| Termination period | 3 months |
 
 ### Requirements
 
@@ -31,13 +31,13 @@ Chief Accountant
 
 ## Accounts Receivable
 
-### Title
+### Contract
 
-Accountant
-
-### Salary
-
-40,000 EUR - 45,000 EUR
+|             | Contract |
+| ----------- | ----------- |
+| Title | Accountant |
+| Salary | 40,000 EUR - 45,000 EUR |
+| Termination period | 4 weeks |
 
 ### Requirements
 
@@ -57,13 +57,13 @@ Accountant
 
 ## Accounts Payable
 
-### Title
+### Contract
 
-Accountant
-
-### Salary
-
-40,000 EUR - 45,000 EUR
+|             | Contract |
+| ----------- | ----------- |
+| Title | Accountant |
+| Salary | 40,000 EUR - 45,000 EUR |
+| Termination period | 4 weeks |
 
 ### Requirements
 
