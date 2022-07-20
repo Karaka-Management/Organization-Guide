@@ -33,9 +33,9 @@ Hourly rates must get invoiced in 15 minute increments.
 
 | Competency requirement | Maintenance Contract | No Maintenance Contract |
 | ---------------------- | -------------------- | ----------------------- |
-| 1st level              | 80 EUR/h*            | 100 EUR/h               |
-| 2nd level              | 120 EUR/h            | 150 EUR/h               |
-| 3rd level              | 200 EUR/h            | 250 EUR/h               |
+| 1st level              | 80 EUR/h*            | 200 EUR/h               |
+| 2nd level              | 120 EUR/h            | 250 EUR/h               |
+| 3rd level              | 200 EUR/h            | 300 EUR/h               |
 
 > \* Free hours from the maintenance contract can be used if the customer has a maintenance contract available.
 
@@ -44,7 +44,7 @@ Hourly rates must get invoiced in 15 minute increments.
 | Available hours         | Maintenance Contract | No Maintenance Contract |
 | ----------------------- | -------------------- | ----------------------- |
 | Free hours available    | 0 EUR/h              | N.A.                    |
-| No free hours available | 80 EUR/h             | 100 EUR/h               |
+| No free hours available | 80 EUR/h             | 250 EUR/h               |
 
 > N.A. = Not available.
 
@@ -52,6 +52,6 @@ Hourly rates must get invoiced in 15 minute increments.
 
 | Type                                  | Maintenance Contract | No Maintenance Contract |
 | ------------------------------------- | -------------------- | ----------------------- |
-| Theme design                          | 80 EUR/h             | 100 EUR/h               |
-| Application development/customization | 120 EUR/h            | 150 EUR/h               |
-| Module customization                  | 120 EUR/h            | 150 EUR/h               |
+| Theme design                          | 80 EUR/h             | 200 EUR/h               |
+| Application development/customization | 120 EUR/h            | 250 EUR/h               |
+| Module customization                  | 120 EUR/h            | 250 EUR/h               |

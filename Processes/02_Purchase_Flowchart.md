@@ -2,19 +2,19 @@
 
 ```mermaid
 graph TD;
-    INQUIRY([Inquiry by employee])-->OFFER[Offer from supplier];
+    INQUIRY([Employee: Inquiry])-->OFFER[Supplier: Creates offer];
     OFFER-->APPROVAL[[Approval]];
     APPROVAL-->APPROVED{Is approved?};
-    APPROVED-- Yes -->ORDER[Order by purchase department];
-    ORDER-->INVOICE[Invoice from supplier];
+    APPROVED-- Yes -->ORDER[Order from Supplier];
+    ORDER-->INVOICE[Supplier: Creates invoice];
     INVOICE-->CHECK_INVOICE{Is valid?};
     CHECK_INVOICE--Yes-->FORWARD_TO_ACCOUNTING[Forward to accounting];
-    CHECK_INVOICE--No-->FORWARD_TO_RESPONSIBLE[Forward to head of purchase and responsible head of];
-    FORWARD_TO_RESPONSIBLE-->CHECK_INVOICE_2{Is valid?};
+    CHECK_INVOICE--No-->FORWARD_TO_RESPONSIBLE[Forward to HOP and responsible HOD];
+    FORWARD_TO_RESPONSIBLE-->CHECK_INVOICE_2{HOP/HOD: Is valid?};
     CHECK_INVOICE_2--Yes-->FORWARD_TO_ACCOUNTING;
     CHECK_INVOICE_2--No-->CLARIFY[Clarify with supplier];
-    FORWARD_TO_ACCOUNTING-->BOOKING[Booking invoice];
-    BOOKING-->PAYING([Pay invoice]);
+    FORWARD_TO_ACCOUNTING-->BOOKING[Accounting: Booking invoice];
+    BOOKING-->PAYING([Accounting: Pay invoice]);
 ```
 
 ## Approval Flowchart
