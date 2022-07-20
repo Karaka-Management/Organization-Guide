@@ -4,7 +4,7 @@
 flowchart TD;
     subgraph CTO
         DEVELOPMENT[Development\nCTO *E];
-        SUPPORT_SERVICE[Support & Service\nHOCS *E];
+        SUPPORT_SERVICE[Support & Service\nHOCS];
         IT[IT\nHead of IT];
     end
     MANAGEMENT[Management\nCEO *E]---CTO;
