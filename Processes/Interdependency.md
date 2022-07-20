@@ -9,7 +9,7 @@
 | Management |||||||x||||
 | Support & Service |x||       |||x|x||||
 | Quality Management |x|||| x                 ||x||||
-| IT |             |          |       |            |                   |                    | x    |         |||
+| IT |             |          |       |            |                   |                    |      |         |||
 | Finance ||x|x||||x|| x    ||
 | HR |||||||x|x|||
 | Marketing ||| x     |            |                   |                    | x    |         |      ||
