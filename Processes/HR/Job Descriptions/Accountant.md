@@ -6,6 +6,10 @@
 
 Chief Accountant
 
+### Salary
+
+50,000 EUR - 65,000 EUR
+
 ### Requirements
 
 |             | Requirement |
@@ -31,6 +35,10 @@ Chief Accountant
 
 Accountant
 
+### Salary
+
+40,000 EUR - 45,000 EUR
+
 ### Requirements
 
 |             | Requirement |
@@ -52,6 +60,10 @@ Accountant
 ### Title
 
 Accountant
+
+### Salary
+
+40,000 EUR - 45,000 EUR
 
 ### Requirements
 
