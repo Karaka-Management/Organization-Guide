@@ -4,7 +4,7 @@
 | ------------------------------------------------------------ | ----------- | ---- |
 | Check process key objective achievement                      |             |      |
 | Check annual risk management review                          |             |      |
-| Check previous audit remarks                                 |             |      |
+| Previous audit remarks implemented                           |             |      |
 | Check that the processes, guidelines, policies, checklists and forms up to date |             |      |
 | Check if all document changes are approved if necessary      |             |      |
 | Is the Whistleblower System working according to design?     |             |      |
