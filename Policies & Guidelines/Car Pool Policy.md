@@ -5,7 +5,7 @@
 | Position             | Amount (gross)    |
 | -------------------- | ----------------- |
 | Management           | < 80,000.00 EUR   |
-| Head of Department   | < 65,000.00 EUR   |
+| Head of Department and C-level   | < 65,000.00 EUR   |
 | Travelling sales rep | < 50,000.00 EUR   |
 
 ## Other conditions
