@@ -1,4 +1,4 @@
-# Change Management
+# Permission Change Management
 
 ```mermaid
 graph TD;
