@@ -59,3 +59,8 @@
 ##### Internal
 
 * Own organization size/workload. A large amount of modules and tools are required to reach the critical size to make a product which is beneficial for a large amount of organizations and businesses
+
+
+
+2022-01-01 - Version 1.0
+

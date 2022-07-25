@@ -21,7 +21,7 @@ The following costs are only general guidelines and maximum amounts. Please note
 | Germany            | < 100 EUR         | < 250 EUR	        | < 350 EUR  	  |
 | International      | < 120 EUR         | < 300 EUR	        | < 450 EUR  	  |
 
-## Travelling
+## Traveling
 
 | Type               | Employee          | Head of department   | Management	   |
 | ------------------ | ----------------- | -------------------- | ---------------- |

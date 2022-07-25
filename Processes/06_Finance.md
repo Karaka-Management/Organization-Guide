@@ -7,21 +7,21 @@
 
 ## Budgeting
 
-The budgeting for the organization is done once a year and involves the cooperation of various departments to create a comprehensive budget with a solid basis for the included assumptions. (**R1**)
+The budgeting for the organization is done once a year and involves the cooperation of various departments to create a comprehensive budget with a solid basis for the included assumptions.
 
 ### Approval
 
 #### Deadline
 
-The deadline for the handover of the budget by the finance department to the management is December 15th. (**R2**)
+The deadline for the handover of the budget by the finance department to the management is December 15th. (**R1**)
 
 #### Responsibilities
 
-The approval of the budget is handled by the management and should be done until the start of the next fiscal year. (**R3**)
+The approval of the budget is handled by the management and should be done until the start of the next fiscal year. (**R2**)
 
-If amendments need to be made the management may approve a preliminary budget until the actual budget is finalized and approved (**R4**). Examples for a preliminary budget could be the approval to work according to the budget for the first month but adjust the budget for the remaining 11 months. Another solution could be to work according to the budget of the previous year until the new budget got adjusted. The decision how the interim period until the budget is corrected and approved should be handled based on the decision of the management.
+If amendments need to be made the management may approve a preliminary budget until the actual budget is finalized and approved (**R3**). Examples for a preliminary budget could be the approval to work according to the budget for the first month but adjust the budget for the remaining 11 months. Another solution could be to work according to the budget of the previous year until the new budget got adjusted. The decision how the interim period until the budget is corrected and approved should be handled based on the decision of the management.
 
-The tasks and responsibilities can be found in the Budgeting Checklist. The checklist must be signed by every responsible person after completing the defined task. (**R5a**) (**R5b**)
+The tasks and responsibilities can be found in the Budgeting Checklist. The checklist must be signed by every responsible person after completing the defined task. The CFO must ensure the checklist is filled out properly and the tasks in the checklist are taken care of. (**R4**)
 
 ### Forecast
 
@@ -29,7 +29,7 @@ The basis of many figures and KPIs for the budgeted periods is the current fisca
 
 ### Contents
 
-The budget must be created on a monthly basis (**R6**). During the budgeting process it may be helpful to only budget the full fiscal year and then split the total budget up into 12 months. While doing so variations in different months should be considered (e.g. audit fees in specific months, seasonal sales distribution, ...).
+The budget must be created on a monthly basis (**R5**). During the budgeting process it may be helpful to only budget the full fiscal year and then split the total budget up into 12 months. While doing so variations in different months should be considered (e.g. audit fees in specific months, seasonal sales distribution, ...).
 
 #### Sales
 
@@ -53,11 +53,14 @@ Operating expenses must contain the following information:
 
 ##### Information requested from all departments
 
-The following budget positions must be budgeted from the respective head of the department (**R7**):
+The following budget positions must be budgeted from the respective head of the department (**R6**):
 
 * Employee trainings
 * Investments
 * Employee changes (e.g. new position, ...)
+* Other information important for the budget
+
+Additional, department specific information are collected as described below.
 
 ##### HR
 
@@ -97,31 +100,31 @@ The taxes should be estimated based on the EBIT and the local tax rate. Correcti
 
 ### Deadline
 
-The deadline is the 4th work day of the following month. (**R8**)
+The deadline is the 4th work day of the following month.
 
 ### Responsibilities
 
-The tasks and responsibilities can be found in the [Monthly Closing Checklist](Finance/Financial%20Closing/Monthly%Closing%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R9**)
+The tasks and responsibilities can be found in the [Monthly Closing Checklist](Finance/Financial%20Closing/Monthly%Closing%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R7**)
 
 ## Annual closing
 
 ### Deadline
 
-The deadline is the 4th work day of the new fiscal year. (**R10**)
+The deadline is the 4th work day of the new fiscal year.
 
 ### Responsibilities
 
-The tasks and responsibilities can be found in the [Monthly Closing Checklist](Finance/Financial%20Closing/Monthly%Closing%20Checklist.md) and additionally the [Annual Closing Checklist](Finance/Financial%20Closing/Annual%Closing%20Checklist.md). The checklists must be signed by every responsible person after completing the defined task. (**R11**)
+The tasks and responsibilities can be found in the [Monthly Closing Checklist](Finance/Financial%20Closing/Monthly%Closing%20Checklist.md) and additionally the [Annual Closing Checklist](Finance/Financial%20Closing/Annual%Closing%20Checklist.md). The checklists must be signed by every responsible person after completing the defined task. (**R8**)
 
 ## Annual financial audit
 
 ### Deadline
 
-The deadline for the audit preparation is 3 days before the audit takes place. (**R12**)
+The deadline for the audit preparation is 3 days before the audit takes place.
 
 ### Responsibilities
 
-The tasks and responsibilities can be found in the [Annual Audit Checklist](Finance/Financial%20Closing/Annual%20Audit%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R13**)
+The tasks and responsibilities can be found in the [Annual Audit Checklist](Finance/Financial%20Closing/Annual%20Audit%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R9**)
 
 ## Reporting
 
@@ -129,11 +132,11 @@ The reporting for the organization is done once a month and shared with differen
 
 ### Deadline
 
-The deadline is the 5th work day of the following month. (**R14**)
+The deadline is the 5th work day of the following month.
 
 ### Responsibilities
 
-The tasks and responsibilities can be found in the [Monthly Reporting Checklist](Finance/Reporting/Monthly%20Reporting%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R15a**) (**R15b**)
+The tasks and responsibilities can be found in the [Monthly Reporting Checklist](Finance/Reporting/Monthly%20Reporting%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R10**)
 
 
 

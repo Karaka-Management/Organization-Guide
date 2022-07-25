@@ -50,6 +50,14 @@
 ### Revenue
 
 * Recurring software license fees
+
 * Maintenance contract fees
+
 * Hosting
+
 * Customizations
+
+  
+
+2022-01-01 - Version 1.0
+

@@ -20,7 +20,7 @@ The software environment setup can be done by either the customer themselves or 
 
 In case the customer requests a custom installation (not virtualized) or a custom configured virtualized environment the support & service employee must only do this together with the responsible person for IT on the customer side (e.g. Head of IT). (**R7**)
 
-Under no circumstances is the employee allowed to alter any permissions, change software or hardware settings on the servers of the customer or provide IT support/consultation which is unrelated to the setup of the software environment or third party software and not approved in the [Approved Customer Software]() (**R8**). Only the CTO is allowed to approve new customer software after testing, the testing is documented with the [Third Party Software Testing Form](). (**R9**).
+Under no circumstances is the employee allowed to alter any permissions, change software or hardware settings on the servers of the customer or provide IT support/consultation which is unrelated to the setup of the software environment or third party software and not approved in the [Approved Customer Software]() (**R8**). Only the CTO is allowed to approve new customer software after testing, the testing is documented with the [Third Party Software Validation - New]() and [Third Party Software Validation - Update](). (**R9**).
 
 ### Environment
 
@@ -56,7 +56,7 @@ If the customer requests additional software to be installed and/or configured t
 
 ### Main application & modules
 
-During the application installation the support & service employee has to perform the tasks defined in the [Application Install Checklist](./Support/Application%20Install%20Checklist.md). (**R12**)
+During the application installation the support & service employee has to perform the tasks defined in the [Application Install Checklist](./Support/Application%20Install%20Checklist.md). The checklist form can only get changed by the CTO. (**R12**)
 
 ## Customization
 
@@ -72,7 +72,7 @@ The training depends on the needs of the trainee. The following training program
 * End-User
 * Third party developer
 
-The different training programs put focus on different aspects of the application. The general training program defined by the CTO can be found in the [Training Manuals](./Support/). (**R13**)
+The different training programs put focus on different aspects of the application. The general training program defined by the CTO can be found in the [Training Manuals](./Support/Training%20Manuals). (**R13**)
 
 ## Maintenance
 
@@ -80,7 +80,7 @@ Customer maintenance is performed once a year per customer with a maintenance co
 
 The customer receives a copy of the maintenance report after it is completed from the support & service employee.
 
-Customers without a maintenance contract can also schedule a maintenance but have to pay higher fees according to the prices are defined in the [Pricing Polity]()
+Customers without a maintenance contract can also schedule a maintenance but have to pay higher fees according to the prices are defined in the [Pricing Policy]()
 
 ## Support
 
