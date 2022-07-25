@@ -7,9 +7,9 @@ graph TD;
   IT_CHECKS--Yes-->FORWARD[IT: Forward request];
   FORWARD-->APPROVAL_RESPONSIBLE[Approval by responsible person];
   APPROVAL_RESPONSIBLE-->VALIDATE{Is approved?};
+  IT_CHECKS--No-->VALIDATE;
   VALIDATE--Yes-->IMPLEMENT[IT: Implement permission changes];
   VALIDATE--No-->INFORM([IT: Inform employee and HOD]);
-  IT_CHECKS--No-->IMPLEMENT;
   IMPLEMENT-->INFORM;
 ```
 
