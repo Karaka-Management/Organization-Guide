@@ -6,6 +6,10 @@ Permission changes are sometimes necessary if a role of an employee changes or i
 
 Permissions should always be defined as low as possible and only get expanded if required. The IT department can decide to reject a permission change if they consider the request inappropriate.
 
+Potential documents to be changed are:
+
+* Permission List
+
 ### Flowchart
 
 ```mermaid
@@ -23,6 +27,23 @@ graph TD;
 ```
 
 ## Software
+
+Software changes include software updates, new software or functional/feature changes. Change requests can be made by any employee but must get approved by the respective HOD. If the change request is justified the IT department performs the change in a testing environment where the employee or HOD can test the change.
+
+The IT department can decide to reject a permission change if they consider the request inappropriate.
+
+Potential documents to be used are:
+
+* Third Party Software Validation - New.md
+* Third Party Software Validation - Update.md
+
+Potential documents to be changed are:
+
+* IT Equipment & Software
+* Automated Jobs
+* Permission List
+* Approved Customer Software
+* Key Supplier Evaluation
 
 ### Flowchart
 
