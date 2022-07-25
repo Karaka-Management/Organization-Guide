@@ -38,6 +38,15 @@ Updates are very important not only to implement the newest features but also to
 
 The server must use HTTPS for its internal and external communication.
 
+## Security software
+
+Security software which must be used on the main server are:
+
+* Iptables
+* Monitoring software (not defined)
+* fail2ban
+* Firewall (not defined)
+* Intrusion detection system (not defined)
 
 2022-01-01 - Version 1.0
 
