@@ -56,6 +56,10 @@
 | C++ compiler               | g++            |
 | C++ compilation tool       | CMake          |
 | Remote connection          | ssh            |
+| Firewall          | UFW            |
+| Firewall          | iptables            |
+| Intrusion prevention system          | fail2ban            |
+| Intrusion detection/prevention system          | snort            |
 
 
 
