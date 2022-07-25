@@ -8,6 +8,7 @@ Passwords protect confidential company data, as well as customer and supplier da
 * At least one upper case letter
 * At least one lower case letter
 * At least one special character
+* At least one numerical character
 
 ## Change interval
 
