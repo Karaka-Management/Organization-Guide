@@ -34,8 +34,8 @@ The IT department can decide to reject a permission change if they consider the 
 
 Potential documents to be used are:
 
-* Third Party Software Validation - New.md
-* Third Party Software Validation - Update.md
+* Third Party Software Validation - New
+* Third Party Software Validation - Update
 
 Potential documents to be changed are:
 
