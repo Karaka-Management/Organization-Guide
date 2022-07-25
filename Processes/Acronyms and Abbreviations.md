@@ -16,6 +16,7 @@
 | TBD                    | To be defined / To be decided / To be discussed            |
 | QM                     | Quality Management                                         |
 | QMR                    | Quality Management Representative                          |
+| RCM                    | Risk Control Matrix                                        |
 | A                      | Actual (often used in combination with financial figures)  |
 | B                      | Budget                                                     |
 | PY                     | Previous year (sometimes used to define any previous year) |
@@ -23,4 +24,3 @@
 | FTE                    | Full Time Equivalent                                       |
 
 2022-01-01 - Version 1.0
-
