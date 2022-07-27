@@ -15,7 +15,7 @@ This policy affects all organization members, participants and affiliates who ma
 
 Confidential information is defined as either
 
-* technical information, including patent, copyright, trade secret, and other proprietary information, techniques, sketches, drawings, models, inventions, know-how, processes, apparatus, equipment, algorithms, software programs, software source documents, and formulae related to the current, future and proposed products and services regarding "Karaka", or
+* technical information, including patent, copyright, trade secret, and other proprietary information, techniques, sketches, drawings, models, inventions, know-how, processes, apparatus, equipment, algorithms, software programs, software source documents, and formula related to the current, future and proposed products and services regarding "Karaka", or
 * non-technical information relating to "Karaka" products, including without limitation pricing, margins, merchandising plans and strategies, finances, financial and accounting data and information, suppliers, customers, customer lists, purchasing data, sales and marketing plans, future business plans and any other information which is proprietary and confidential to this project.
 
 Members, participants and affiliates may have different levels of authorized access to confidential information.
@@ -42,7 +42,7 @@ Disclosing more information than needed must be avoided.
 
 ## Enforcement
 
-Disrespecting this policy possibly leads to a warning and potnetially excluding the involved person from any further activities of the organization. Depending on the severness legal actions may follow.
+Disrespecting this policy possibly leads to a warning and potentially excluding the involved person from any further activities of the organization. Depending on the severeness legal actions may follow.
 
 ## Survival
 

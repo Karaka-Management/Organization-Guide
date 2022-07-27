@@ -2,28 +2,39 @@
 
 ## Acronyms and Abbreviations
 
-| Acronym / Abbreviation | Definition                                                 |
-| ---------------------- | ---------------------------------------------------------- |
-| CEO                    | Chief Executive Officer                                    |
-| CFO                    | Chief Financial Officer                                    |
-| CSO                    | Chief Sales Officer                                        |
-| CTO                    | Chief Technical Officer                                    |
-| HOD                    | Head of Department                                         |
-| HOP                    | Head of Procurement                                        |
-| DHR                    | Director Human Resources                                   |
-| DOD                    | Director of Development                                    |
-| DQM                    | Director of Quality Management                             |
-| HOM                    | Head of Marketing                                          |
-| HOCS                   | Head of Customer Service                                   |
-| TBD                    | To be defined / To be decided / To be discussed            |
-| QM                     | Quality Management                                         |
-| QMR                    | Quality Management Representative                          |
-| RCM                    | Risk Control Matrix                                        |
-| A                      | Actual (often used in combination with financial figures)  |
-| B                      | Budget                                                     |
-| PY                     | Previous year (sometimes used to define any previous year) |
-| FC                     | Forecast                                                   |
-| FTE                    | Full Time Equivalent                                       |
+| Acronym / Abbreviation | Definition                                                   |
+| ---------------------- | ------------------------------------------------------------ |
+| CEO                    | Chief Executive Officer                                      |
+| CFO                    | Chief Financial Officer                                      |
+| CSO                    | Chief Sales Officer                                          |
+| CTO                    | Chief Technical Officer                                      |
+| HOD                    | Head of Department                                           |
+| HOP                    | Head of Procurement                                          |
+| DHR                    | Director Human Resources                                     |
+| DOD                    | Director of Development                                      |
+| DQM                    | Director of Quality Management                               |
+| HOM                    | Head of Marketing                                            |
+| HOCS                   | Head of Customer Service                                     |
+| TBD                    | To be defined / To be decided / To be discussed              |
+| QM                     | Quality Management                                           |
+| QMR                    | Quality Management Representative                            |
+| RCM                    | Risk Control Matrix                                          |
+| EC                     | Executive Committee                                          |
+| ECM                    | Executive Committee Member                                   |
+| BOD                    | Board of Director                                            |
+| CoC                    | Code of Conduct                                              |
+| CLA                    | (Individual) Contributor License Agreement                   |
+| NDA                    | Non-disclosure agreement                                     |
+| TOS                    | (General) Terms of Service                                   |
+| TOU                    | (General) Terms of Use                                       |
+| A                      | Actual (often used in combination with financial figures)    |
+| B                      | Budget                                                       |
+| PY                     | Previous year (sometimes used to define any previous year)   |
+| FC                     | Forecast                                                     |
+| FTE                    | Full Time Equivalent                                         |
+| EBITDA                 | Earnings before interest, taxes, depreciation and amortization |
+| EBIT                   | Earnings before interest and taxes                           |
+| EBT                    | Earnings before taxes                                        |
 
 ## Key words to indicate requirement levels
 

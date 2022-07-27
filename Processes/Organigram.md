@@ -3,7 +3,7 @@
 ```mermaid
 flowchart TD;
     subgraph CTO
-        DEVELOPMENT[Development\nCTO *E];
+        DEVELOPMENT[Development\nCTO *ECM];
         DEVELOPMENT---TEAM_LEADER[Team Leader];
         TEAM_LEADER---SENIOR_DEVELOPER[Senior Developer &\nCode Reviewer];
         TEAM_LEADER---DEVELOPER[Developer];
@@ -15,13 +15,13 @@ flowchart TD;
         IT---IT_DEVOPS[DEVOPS];
         IT---IT_CLERK[IT Clerk];
     end
-    MANAGEMENT[Management\nCEO *E]---CTO;
+    MANAGEMENT[Management\nCEO *ECM]---CTO;
     subgraph CFO
-        FINANCE[Finance\nCFO *E];
+        FINANCE[Finance\nCFO *ECM];
         FINANCE---CHIEF_ACCOUNTANT[Chief Accountant];
         FINANCE---ACCOUNTS_RECEIVABLES[Accounts Receivables];
         FINANCE---ACCOUNTS_PAYABLE[Accounts Payables];
-        HR[HR\nDHR *E];
+        HR[HR\nDHR *ECM];
         HR---PAYROLL[Payroll]
         HR---HR_CLERK[HR Clerks];
         PURCHASE[Purchase\nHOP];
@@ -29,14 +29,14 @@ flowchart TD;
     end
     MANAGEMENT---CFO;
     subgraph CSO
-        SALES[Sales\nCSO *E];
+        SALES[Sales\nCSO *ECM];
         SALES---SALES_REP[Sales Reps];
         SALES---SALES_BACKOFFICE[Sales Backoffice];
         MARKETING[Marketing\nHOM];
         MARKETING---MARKETING_CLERK[Marketing Clerk]
     end
     MANAGEMENT---CSO;
-    MANAGEMENT---QM[Quality Management\nDQM *E];
+    MANAGEMENT---QM[Quality Management\nDQM *ECM];
     QM---QM_CLERK[QM Clerk];
 ```
 
@@ -70,6 +70,7 @@ flowchart TD;
 | Ladder Officer                |         |
 | Officer for Severely Disabled |         |
 | Internal Auditor              |         |
+| Compliance Manager            |         |
 
 ## Responsibilities
 

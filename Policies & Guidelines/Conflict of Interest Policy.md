@@ -30,7 +30,7 @@ All conflicts of interest will be resolved as fairly as possible. Senior organiz
 
 ## Enforcement
 
-Disrespecting this policy possibly leads to a warning and potnetially excluding the involved person from any further activities of the organization. Depending on the severness legal actions may follow.
+Disrespecting this policy possibly leads to a warning and potentially excluding the involved person from any further activities of the organization. Depending on the severeness legal actions may follow.
 
 
 

@@ -2,7 +2,7 @@
 
 ## Booking
 
-Every employee except the head of a department or the management is responsible for booking their own travels. Head of departments and management may deligate the booking to the secretariat.
+Every employee except the head of a department or the management is responsible for booking their own travels. Head of departments and management may delegate the booking to the secretariat.
 
 ## Costs
 
@@ -61,3 +61,6 @@ Entertainment expenses are calculated per day and are only paid if they are real
 | ---------------------------- | ----------- | -------------------- | ----------- |
 | per business partner per day | 50.00 EUR   | 120.00 EUR           | 200.00 EUR  |
 
+
+
+2022-01-01 - Version 1.0

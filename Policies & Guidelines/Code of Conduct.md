@@ -36,7 +36,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at spl1nes.com@gmail.com. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. 
 
-Disrespecting this policy possibly leads to a warning and potnetially excluding the involved person from any further activities of the organization. Depending on the severness legal actions may follow.
+Disrespecting this policy possibly leads to a warning and potentially excluding the involved person from any further activities of the organization. Depending on the severeness legal actions may follow.
 
 ## Attribution
 

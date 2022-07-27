@@ -1,12 +1,12 @@
 # Car Pool Policy
 
-## Eligable positions
+## Eligible positions
 
 | Position             | Amount (gross)    |
 | -------------------- | ----------------- |
 | Management           | < 80,000.00 EUR   |
 | Head of Department and C-level   | < 65,000.00 EUR   |
-| Travelling sales rep | < 50,000.00 EUR   |
+| Traveling sales rep | < 50,000.00 EUR   |
 
 ## Other conditions
 
@@ -28,7 +28,7 @@ Cleaning is paid by the company with up to 30 EUR per month.
 
 ## Fuel
 
-Every company car has its own card for refueling. Employees must only use this card only for refuling this company car.
+Every company car has its own card for refueling. Employees must only use this card only for fueling this company car.
 
 ## Drivers
 
@@ -40,4 +40,4 @@ All drivers are responsible for their traffic violations. This includes also bei
 
 ## Return
 
-The car must be returned in good condition by the end of the lease term or if the employement at the organization ends. Gross negligence including repairs for unreported damages must be paid by the employee.
+The car must be returned in good condition by the end of the lease term or if the employment at the organization ends. Gross negligence including repairs for unreported damages must be paid by the employee.
