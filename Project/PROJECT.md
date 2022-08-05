@@ -13,7 +13,7 @@ Last update of this file: 2022.05.01
 
 ## Latest changelog
 
-### June 2022
+### July 2022
 
 #### New
 
@@ -21,9 +21,13 @@ Last update of this file: 2022.05.01
 
 * Implement table sorting
 
+##### Auditor
+
+* Turned auditing data from text to blob and compressed it resulting in a storage reduction by approx. 75% - 80%
+
 ##### Framework
 
-* 
+* Hard limit JSON requests and urldata to 1MB
 
 #### Bug fixes
 
@@ -250,6 +254,8 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | high     | Forms                      | Adding a template to the DOM should modify its id/generate a custom/random id for the added element |
 | high     | Forms                      | If a form has unsaved content the browser should ask if the user really wants to change the page or close it (use beforeunload event). |
 | medium | Job | Consider to run jobs through the cli application. This means a job executes `php cli.php put:/admin/job -i 3` which runs the command of job 3. This would allow to log the job execution time and response. If you don't want to wait for the execution to finish you may as well run it async (this means of course no execution time or output can be logged, but at least the start time). |
+| medium | Form/Table | Implement a filter highlight function (either in forms or in tables, where the filter icon is highlighted, if a filter is defined). One solution could be to put an additional hidden filter checkbox in front of the filter icon and check for filter changes (bubble up) and then activate this hidden checkbox if a filter is defined. In css just define the filter icon as active/highlighted, if the hidden check box is active. This means we have two hidden checkboxes in front of the filter icon (one in case the filter menu is open = popup is visible and another one for highlighting the filter icon if a filter is defined). |
+| medium | Form/Table | How to preserve form filter data to the next page? Not an issue, in the future we don't want to reload the whole page, but only exchange the table/list content with the backend response -> the header/filter will not get changed and remains as defined. This means for tables (maybe even forms?) to setup content replacement earlier than for other pages?! |
 | medium | CMS | Create functionality which allows to replace application files. Instead of just overwriting them they get backed up in a backup directory. |
 | medium | UI select | Bind data to select options such as visible elements and data pre-fills. When an option is selected certain ui elements become visible and get filled out with default values. |
 | medium | phpOMS | Implement Redis / memcached sessions |

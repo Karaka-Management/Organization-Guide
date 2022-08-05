@@ -80,6 +80,10 @@ If the code reviewer only finds minor issues with the proposed code change the r
 
 Some code changes may also require changes or extensions in the demo setup scripts. The demo setup script try to simulate a real world use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is recommended to run this only sporadically. (**R9**)
 
+#### Documentation
+
+Occasionally new code or code changes also require new documentation or documentation changes. Developers should make sure that the new code is also reflected in the existing documentation ([Developer-Guide](), [User-Guide]() and/or module documentation) or if additional documentation is necessary. 
+
 ### Release flow
 
 Code changes must be performed in a new branch. A new branch can be created with:
@@ -119,6 +123,16 @@ The name of the branch can be chosen freely however it is recommended to follow 
 
 
 The senior developer who performs the code review merges the change request into the `develop` branch after their successful code review. Unsuccessful reviews lead to change requests by the original developer, other developers who can make the requested changes, changes by the senior developer who performed the review, or dismissal of the changed code. (**R10**)
+
+## Approved dependencies
+
+### Customer dependencies
+
+Developers may only rely on the dependencies defined in [Approved Customer Software]() when developing a solution. If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. (**R11**)
+
+### Developer dependencies
+
+Developers may only rely on the dependencies defined in [IT Equipment & Software](). If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. Changing the package managers such as `composer.json` or `package.json` is not allowed by anyone else than the CTO. (**R12**)
 
 
 

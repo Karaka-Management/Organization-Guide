@@ -10,6 +10,7 @@
 | PhpSpereadsheet, PHPWord, PHPPresentation                    | Office software                     |                                                   | 2022-01-01    |
 | mPDF                                                         | PDF renderer                        |                                                   | 2022-01-01    |
 | tcpdf                                                        | PDF renderer                        |                                                   | 2022-01-01    |
+| PDF.js | PDF renderer | | 2022-01-01 |
 | TeamViewer                                                   | Remote desktop connection           |                                                   | 2022-01-01    |
 | Tesseract-OCR                                                | OCR                                 |                                                   | 2022-01-01    |
 | Memcached                                                    | Memory cache                        |                                                   | 2022-01-01    |
@@ -25,6 +26,10 @@
 | pdftoppm                                                       | PDF to image converter                         |                                                   | 2022-01-01    |
 | Apache2                                                       | Web server                            |                                                   | 2022-01-01    |
 | Nginx                                                       | Web server                            |                                                   | 2022-01-01    |
+| Roboto | Font | | 2022-01-01 |
+| Linearicons | Font | | 2022-01-01 |
+| Lineicons                                                  | Font | | 2022-01-01 |
+| Font Awesome | Font | =4.0 | 2022-01-01 |
 
 Consider to update the [Key Supplier Evaluation](../Purchase/Key%20Supplier%20Evaluation.md) when changing this table.
 

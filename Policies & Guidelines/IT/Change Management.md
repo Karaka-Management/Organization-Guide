@@ -8,7 +8,7 @@ Permissions should always be defined as low as possible and only get expanded if
 
 Potential documents to be changed are:
 
-* Permission List
+* [Permission List](../../Processes/IT/Permission%20List.md)
 
 ### Flowchart
 
@@ -34,17 +34,17 @@ The IT department can decide to reject a permission change if they consider the 
 
 Potential documents to be used are:
 
-* Third Party Software Validation - New
-* Third Party Software Validation - Update
-* Investment Form
+* [Third Party Software Validation - New](../../Processes/IT/Third%20Party%20Software%20Validation%20-%20New.md)
+* [Third Party Software Validation - Update](../../Processes/IT/Third%20Party%20Software%20Validation%20-%20New.md)
+* [Investment Form](../../Processes/Purchase/Investment%20Form.md)
 
 Potential documents to be changed are:
 
-* IT Equipment & Software
-* Automated Jobs
-* Permission List
-* Approved Customer Software
-* Key Supplier Evaluation
+* [IT Equipment & Software](../../Processes/IT/IT%20Equipment%20&%20Software.md)
+* [Automated Jobs](../../Processes/IT/Automated%20Jobs.md)
+* [Permission List](../../Processes/IT/Permission%20List.md)
+* [Approved Customer Software](../../Processes/Support/Approved%20Customer%20Software.md)
+* [Key Supplier Evaluation](../../Processes/Purchase/Key%20Supplier%20Evaluation.md)
 
 ### Flowchart
 

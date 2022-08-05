@@ -104,3 +104,7 @@ This document and the information contained herein is provided on an “AS IS”
 ## Date Time Format
 
 The date time format in all documents must follow the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) standardization: `YYYY-MM-DD` or `YYYY-MM-DD HH:MM:SS` (sometimes written as `YYYY-MM-DD h:i:s`). 
+
+
+
+2022-01-01 - Version 1.0

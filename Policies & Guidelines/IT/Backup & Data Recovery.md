@@ -51,3 +51,23 @@ The data should be stored in such a way that only authorized personnel has acces
 ## Reconstruction
 
 The data reconstruction is documented in a reconstruction tutorial in the IT processes. During the reconstruction it may be necessary to put a higher priority on files and data which are more important for the ongoing organization activities (e.g. customer data, source code data). 
+
+## Flowchart (daily backup)
+
+```mermaid
+graph TD;
+	CHECK_CHANGES([System: Check changes])-->CREATE_LOCAL_BACKUP[System: Create/update backup];
+	CREATE_LOCAL_BACKUP-->VALIDATE_LOCAL[System: Validate local backup];
+	VALIDATE_LOCAL-->IS_VALID1{System: Is valid?};
+	IS_VALID1--Yes-->COPY_ONLINE[System: Copy backup to cloud];
+	IS_VALID1--No-->REPORT[System: Inform IT department];
+	COPY_ONLINE-->VALIDATE_ONLINE[System: Validate remote backup];
+	VALIDATE_ONLINE-->IS_VALID2{System: Is valid?};
+	IS_VALID2--No-->REPORT;
+```
+
+
+
+
+
+2022-01-01 - Version 1.0

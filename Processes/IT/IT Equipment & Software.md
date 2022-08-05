@@ -11,13 +11,13 @@
 | PC                                  | < 2,000 EUR (if no laptop)                      | < 2,500 EUR          | < 2,500 EUR    |
 | Monitor(s)                          | < 500 EUR per Monitor (if < 2 monitors at desk) | < 1,500 EUR          | < 1,500 EUR    |
 | IT equipment (e.g. mouse, keyboard) | < 300 EUR                                       | < 500 EUR            | < 500 EUR      |
-| Printer & Scanner                   | < 500 EUR (only sekretariat)                    | < 500 EUR            | < 500 EUR      |
+| Printer & Scanner                   | < 500 EUR (only secretariat)                   | < 500 EUR            | < 500 EUR      |
 
 ### Shared
 
 | Type              | Costs                            | Location(s)                                                  |
 | ----------------- | -------------------------------- | ------------------------------------------------------------ |
-| Printer & Scanner | < 1.500 EUR per machine per year | 1x Sekretariat<br />1x Finance department<br />1x HR department<br />1x Sales department |
+| Printer & Scanner | < 1.500 EUR per machine per year | 1x Secretariat<br />1x Finance department<br />1x HR department<br />1x Sales department |
 
 ## Software
 
