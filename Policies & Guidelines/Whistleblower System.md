@@ -27,7 +27,7 @@ The investigation should be conducted very carefully to avoid early opinion maki
 
 ## Conclusion
 
-The conclusion of the investigation must be reported to the executive committee who decide on further measures and steps which should be taken.
+The conclusion of the investigation must be reported to the executive committee who decide on further measures and steps which should be taken. The compliance complaint must be mentioned in the executive committee minutes.
 
 ## Compliance officers
 

@@ -93,6 +93,10 @@ All members report, that no new risks or benefits exist which require a risk ben
 
 All members report, that the resources are sufficient to ensure the ongoing of the normal business operations.
 
+## Compliance topics (by CEO/DHR)
+
+None
+
 ## Important upcoming events
 
 None
