@@ -141,3 +141,4 @@ Developers may only rely on the dependencies defined in [IT Equipment & Software
 * [Tutorials](./Development/Tutorials)
 
 2022-01-01 - Version 1.0
+

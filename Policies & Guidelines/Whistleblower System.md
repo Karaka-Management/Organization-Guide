@@ -1,6 +1,6 @@
 # Whistleblower System
 
-The whistleblower System is a way to allow anyone to report illegal behavior or behavior which goes against the processes, policies and guidelines by any affiliated person or affiliated company to the organization. The complaint can be done anonymous or with the name of the reporter. Generally, it is recommended to provide your name when making a complaint which allows the persons in charge of the whistleblower system to contact the reporting person in case of additional questions. If the name is not provided investigations can become difficult to complete. 
+The whistleblower system is a way to allow anyone to report illegal behavior or behavior which goes against the processes, policies and guidelines by any affiliated person or affiliated company to the organization. The complaint can be done anonymous or with the name of the reporter. Generally, it is recommended to provide your name when making a complaint which allows the persons in charge of the whistleblower system to contact the reporting person in case of additional questions. If the name is not provided investigations can become difficult to complete. 
 
 ## Contact system
 

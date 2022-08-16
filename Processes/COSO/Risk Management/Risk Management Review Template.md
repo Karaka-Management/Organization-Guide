@@ -32,9 +32,9 @@ For details see the [Risk Register](Risk%20Register.md) and the Risk Control Mat
 
 ### New risks
 
-| Risk No. | R    | Category | Risk Event | L    | C    | O    | Cause | Mitigation Type | Mitigation Strategy | L*   | C*   | Changes | Comments | ES   | EY   |
-| -------- | ---- | -------- | ---------- | ---- | ---- | ---- | ----- | --------------- | ------------------- | ---- | ---- | ------- | -------- | ---- | ---- |
-|          |      |          |            |      |      |      |       |                 |                     |      |      |         |          |      |      |
+| No.  | R    | Category | Risk Event | L    | C    | O    | Cause | Mitigation Type | Mitigation Strategy | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
+| ---- | ---- | -------- | ---------- | ---- | ---- | ---- | ----- | --------------- | ------------------- | ---- | ---- | ------- | -------- | ---- | ---- | --------- |
+|      |      |          |            |      |      |      |       |                 |                     |      |      |         |          |      |      |           |
 
 Abbreviations:
 
@@ -48,9 +48,9 @@ Abbreviations:
 
 ### Old risks (no longer applicable)
 
-| Risk No. | R    | Category | Risk Event | Reason for removal |
-| -------- | ---- | -------- | ---------- | ------------------ |
-|          |      |          |            |                    |
+| No.  | R    | Category | Risk Event | Reason for removal |
+| ---- | ---- | -------- | ---------- | ------------------ |
+|      |      |          |            |                    |
 
 Abbreviations:
 

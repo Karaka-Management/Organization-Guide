@@ -2,6 +2,7 @@
 
 | Task                     | Responsible                       | Shared with                                                  | Signature | Date |
 | ------------------------ | --------------------------------- | ------------------------------------------------------------ | --------- | ---- |
+| Product budget           | CTO                               | CEO + executive staff members + Head of Sales                |           |      |
 | Sales budget             | Head of Sales                     | CEO + executive staff members + Head of Sales                |           |      |
 | Marketing budget         | Head of Marketing + Head of Sales | CEO + executive staff members + Head of Marketing            |           |      |
 | HR budget                | Head of HR                        | CEO + executive staff members + Head of HR + Head of Departments (headcount changes only) |           |      |

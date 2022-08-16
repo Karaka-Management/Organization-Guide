@@ -94,7 +94,7 @@ While dealing with individual risks, decision makers should understand the overa
 
 During analysis, each risk should be evaluated in terms of impact should the risk be fully realized. Risk consequence is measured as a deviation against historic company or business specific baselines.
 
-| Level | Likelihood         | Cost over Budget | Schedule                                                     | Performance                                                  |
+| Level | Impact             | Cost over Budget | Schedule                                                     | Performance                                                  |
 | ----- | ------------------ | ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 5     | Critical Impact    | > 10%            | Schedule slip will require a major schedule rebaselining     | Degradation precludes system from meeting a KPP or key technical/supportability threshold. Unable to meet mission objectives |
 | 4     | Significant Impact | \> 5% ≤ 10%      | Schedule slip puts funding at risk                           | Degradation impairs ability to meet a KSA. Technical design or supportability margin exhausted in key areas. Significant performance impact affecting System-of System interdependencies. Work-arounds required to meet mission objectives |

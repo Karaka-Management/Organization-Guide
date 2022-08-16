@@ -11,7 +11,7 @@
 
 ## General
 
-| No.  | Component | Control Area | Question                                                     | Answer                                                       | Evidence                                        |
+| No.  | Component | Control Area | Question                                                     | Answer                                                       | Evidences                                       |
 | ---- | --------- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
 |      | IT        | IT Strategy  | Do you have a IT investment strategy or plan?                | Yes, investments are evaluated at least annually during the budget process. Additionally, resources are also checked regularly (e.g. executive committee meeting). | Budget<br />Executive Committee Meeting Minutes |
 |      | IT        | IT Strategy  | Are the IT investment strategies or plans reviewed and approved by the management? | Yes, during the budget process and if outside the budget in the executive committee meeting. | Budget<br />Executive Committee Meeting Minutes |
@@ -20,7 +20,7 @@
 
 ### Points to consider
 
-| Overview             | Component | Situation                                                    | Evidence                           |
+| Overview             | Component | Situation                                                    | Evidences                          |
 | -------------------- | --------- | ------------------------------------------------------------ | ---------------------------------- |
 | Frequency of changes | A         | Often changes are required for various reasons (e.g. functionality enhancement changes in business processes, etc.) | CHANGELOG<br />Software validation |
 | Frequency of changes | OS, DB    | Changes are made for each release of security patches/upgrades | Software validation                |
@@ -28,7 +28,7 @@
 
 ### Assessment of Design Effectiveness
 
-| No.  | Question                                                     | Component       | Situation                                                    | Evidence                                                     |
+| No.  | Question                                                     | Component       | Situation                                                    | Evidences                                                    |
 | ---- | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1    | Policies and procedures for development and maintenance are described in a formal way | A, OS, DB, N, O | Documentations are prepared by the IT team and authorized by the head of IT | Process: Development<br />Process: Support & Service<br />Policies: IT |
 | 2    | Roles and responsibilities concerning development and maintenance are clearly defined | A, OS, DB, N, O | IT personnel incl. service vendors perform changes           | Process: Development<br />Process: Support & Service<br />Organigram |
@@ -40,7 +40,7 @@
 
 ### Points to consider
 
-| Question                                                     | Component    | Situation                                                    | Evidence                        |
+| Question                                                     | Component    | Situation                                                    | Evidences                       |
 | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------ | ------------------------------- |
 | Number of users                                              | A            | Large number of users in large number of user locations/departments | Organigram<br />Permission List |
 | Number of users                                              | OS, DB, N, O | Number of users and user locations/departments is limited    | Organigram<br />Permission List |
@@ -48,7 +48,7 @@
 
 ### Assessment of Design Effectiveness
 
-| No.  | Question                                                     | Component       | Situation                                                    | Evidence                                                     |
+| No.  | Question                                                     | Component       | Situation                                                    | Evidences                                                    |
 | ---- | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1    | User authentication is required                              | A, OS, DB, N, O | User-ID and password are assigned on an individual basis     | Application login screen<br />OS login screen<br />DB login screen<br />Server login screen |
 | 2    | User and access rights granted to each user are documented   | A               | A list of users is prepared with the rights granted to each user. This list is generated from the system | Application permission List                                  |
@@ -69,42 +69,42 @@
 
 ### Points to consider
 
-| Question                              | Situation                                                    | Evidence |
-| ------------------------------------- | ------------------------------------------------------------ | -------- |
-| Frequency of problems/incidents       | Material failure such as miscalculation or malfunction of the system has not occurred. |          |
-| Frequency of changes to job schedules | Changes to job schedules occur frequently but most of them are those in execution date |          |
-| Frequency of Non/Scheduled job        | Non/Scheduled job is required in some cases but its frequency is low |          |
+| Question                              | Situation                                                    | Evidences |
+| ------------------------------------- | ------------------------------------------------------------ | --------- |
+| Frequency of problems/incidents       | Material failure such as miscalculation or malfunction of the system has not occurred. |           |
+| Frequency of changes to job schedules | Changes to job schedules occur frequently but most of them are those in execution date |           |
+| Frequency of Non/Scheduled job        | Non/Scheduled job is required in some cases but its frequency is low |           |
 
 ### Assessment of Design Effectiveness
 
-| No.  | Question                                                     | Situation                                                   | Evidence |
-| ---- | ------------------------------------------------------------ | ----------------------------------------------------------- | -------- |
-| 1    | Policies and procedures for backups                          | Exists                                                      |          |
-| 2    | Completion of backup is ensured                              | All backup job records are reviewed by monitoring personnel |          |
-| 3    | Backup and recovery are periodically tested                  | Every backup is automatically tested                        |          |
-| 4    | Policies and procedures for job operation are described in a documentation |                                                             |          |
-| 5    | Job schedule changes are approved                            |                                                             |          |
-| 6    | Procedures are in place for preventing/detecting unauthorized changes to job schedules |                                                             |          |
-| 7    | Completion of job execution is ensured                       |                                                             |          |
-| 8    | Requests for non-scheduled job execution are authorized      |                                                             |          |
-| 9    | Policies and procedures for identifying, resolving, reviewing, and analyzing IT operations problems or incidents are described in a documentation |                                                             |          |
-| 10   | IT operations problems or incidents are identified, resolved, reviewed, analyzed, and follow-ups are evidenced in a timely manner |                                                             |          |
+| No.  | Question                                                     | Situation                                                   | Evidences |
+| ---- | ------------------------------------------------------------ | ----------------------------------------------------------- | --------- |
+| 1    | Policies and procedures for backups                          | Exists                                                      |           |
+| 2    | Completion of backup is ensured                              | All backup job records are reviewed by monitoring personnel |           |
+| 3    | Backup and recovery are periodically tested                  | Every backup is automatically tested                        |           |
+| 4    | Policies and procedures for job operation are described in a documentation |                                                             |           |
+| 5    | Job schedule changes are approved                            |                                                             |           |
+| 6    | Procedures are in place for preventing/detecting unauthorized changes to job schedules |                                                             |           |
+| 7    | Completion of job execution is ensured                       |                                                             |           |
+| 8    | Requests for non-scheduled job execution are authorized      |                                                             |           |
+| 9    | Policies and procedures for identifying, resolving, reviewing, and analyzing IT operations problems or incidents are described in a documentation |                                                             |           |
+| 10   | IT operations problems or incidents are identified, resolved, reviewed, analyzed, and follow-ups are evidenced in a timely manner |                                                             |           |
 
 ## Outsourcing Contract Management
 
 ### Points to consider
 
-| Question                     | Situation                                                    | Evidence                  |
+| Question                     | Situation                                                    | Evidences                 |
 | ---------------------------- | ------------------------------------------------------------ | ------------------------- |
 | What services are outsourced | Some of the services are outsourced concerning development/maintenance related to ITGCs | Software vendor contracts |
 
 ### Assessment of Design Effectiveness
 
-| No.  | Question                                                     | Situation | Evidence |
-| ---- | ------------------------------------------------------------ | --------- | -------- |
-| 1    | Outsourced service are clearly defined and agreed with the service vendor in writing e.g. in contract and/or SLA |           |          |
-| 2    | Service vendor's compliance to the service level is periodically reviewed |           |          |
-| 3    | Regular review of service vendors is conducted in terms of appropriateness of the services defined, service vendor's ability to render the required service level, etc. |           |          |
+| No.  | Question                                                     | Situation | Evidences |
+| ---- | ------------------------------------------------------------ | --------- | --------- |
+| 1    | Outsourced service are clearly defined and agreed with the service vendor in writing e.g. in contract and/or SLA |           |           |
+| 2    | Service vendor's compliance to the service level is periodically reviewed |           |           |
+| 3    | Regular review of service vendors is conducted in terms of appropriateness of the services defined, service vendor's ability to render the required service level, etc. |           |           |
 
 
 

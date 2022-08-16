@@ -70,7 +70,7 @@ flowchart TD;
 | Ladder Officer                |         |
 | Officer for Severely Disabled |         |
 | Internal Auditor              |         |
-| Compliance Manager            |         |
+| Compliance Officer            |         |
 
 ## Responsibilities
 

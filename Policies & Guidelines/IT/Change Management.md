@@ -10,22 +10,6 @@ Potential documents to be changed are:
 
 * [Permission List](../../Processes/IT/Permission%20List.md)
 
-### Flowchart
-
-```mermaid
-graph TD;
-  REQUEST_HOD([Request from HOD])--->IT_CHECKS{IT: Other approvals necessary?};
-  REQUEST_STAFF([Request from employee])-->APPROVAL_HOD[Approval by HOD];
-  APPROVAL_HOD-->IT_CHECKS;
-  IT_CHECKS--Yes-->FORWARD[IT: Forward request];
-  FORWARD-->APPROVAL_RESPONSIBLE[Approval by responsible person];
-  APPROVAL_RESPONSIBLE-->VALIDATE{IT: Is approved and appropriate?};
-  IT_CHECKS--No-->VALIDATE;
-  VALIDATE--Yes-->IMPLEMENT[IT: Implement permission changes];
-  VALIDATE--No-->INFORM([IT: Inform employee and HOD]);
-  IMPLEMENT-->INFORM;
-```
-
 ## Software
 
 Software changes include software updates, new software or functional/feature changes. Change requests can be made by any employee but must get approved by the respective HOD. If the change request is justified the IT department performs the change in a testing environment where the employee or HOD can test the change.
@@ -46,24 +30,7 @@ Potential documents to be changed are:
 * [Approved Customer Software](../../Processes/Support/Approved%20Customer%20Software.md)
 * [Key Supplier Evaluation](../../Processes/Purchase/Key%20Supplier%20Evaluation.md)
 
-### Flowchart
 
-```mermaid
-graph TD;
-  REQUEST_HOD([Request from HOD])--->IT_CHECKS{IT: Other approvals necessary?};
-  REQUEST_STAFF([Request from employee])-->APPROVAL_HOD[Approval by HOD];
-  APPROVAL_HOD-->IT_CHECKS;
-  IT_CHECKS--Yes-->FORWARD[IT: Forward request];
-  FORWARD-->APPROVAL_RESPONSIBLE[Approval by responsible person];
-  APPROVAL_RESPONSIBLE-->VALIDATE{IT: Is approved and appropriate?};
-  IT_CHECKS--No-->VALIDATE;
-  VALIDATE--Yes-->IMPLEMENT[IT: Implement change in test environment];
-  VALIDATE--No-->INFORM([IT: Inform employee and HOD]);
-  IMPLEMENT-->INFORM;
-  INFORM-->TEST[Employee/HOD: Test change];
-  TEST-->VALIDATE_TEST[IT: Test successful?];
-  VALIDATE_TEST--Yes-->MIGRATE[IT: Migrate change to live];
-```
 
 2022-01-01 - Version 1.0
 

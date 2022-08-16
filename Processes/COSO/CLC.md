@@ -1,6 +1,6 @@
 # Company Level Controls (CLC)
 
-| No.  | Component                     | Control Area                          | Question                                                     | Answer                                                       | Evidence                                                     |
+| No.  | Component                     | Control Area                          | Question                                                     | Answer                                                       | Evidences                                                    |
 | ---- | ----------------------------- | ------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1    | Control Environment           | Principle of financial reporting      | Do you have basic financial reporting policies?              | Yes, the organization follows the German law regarding financial reporting and internal reporting guidelines. | Financial laws (i.e. HGB, AO, Ustg, ...)<br />Policies: Reporting<br />Process: Finance |
 | 2    | Control Environment           | Understanding accounting policies     | Are the selected accounting principles approved?             | Yes, employees are required to act according to the the German law and follow the accounting policies. | Financial laws (i.e. HGB, AO, Ustg, ...)<br />Policies: Accounting |

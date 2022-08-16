@@ -100,21 +100,21 @@ The taxes should be estimated based on the EBIT and the local tax rate. Correcti
 
 ### Deadline
 
-The deadline is the 4th work day of the following month.
+The deadline is the 5th work day of the following month.
 
 ### Responsibilities
 
-The tasks and responsibilities can be found in the [Monthly Closing Checklist](Finance/Financial%20Closing/Monthly%Closing%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R7**)
+The tasks and responsibilities can be found in the [Monthly Closing Checklist](./Finance/Financial%20Closing/Monthly%20Closing%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R7**)
 
 ## Annual closing
 
 ### Deadline
 
-The deadline is the 4th work day of the new fiscal year.
+The deadline is the 5th work day of the new fiscal year.
 
 ### Responsibilities
 
-The tasks and responsibilities can be found in the [Monthly Closing Checklist](Finance/Financial%20Closing/Monthly%Closing%20Checklist.md) and additionally the [Annual Closing Checklist](Finance/Financial%20Closing/Annual%Closing%20Checklist.md). The checklists must be signed by every responsible person after completing the defined task. (**R8**)
+The tasks and responsibilities can be found in the [Monthly Closing Checklist](./Finance/Financial%20Closing/Monthly%20Closing%20Checklist.md) and additionally the [Annual Closing Checklist](./Finance/Financial%20Closing/Annual%20Closing%20Checklist.md). The checklists must be signed by every responsible person after completing the defined task. (**R8**)
 
 ## Annual financial audit
 
@@ -124,7 +124,7 @@ The deadline for the audit preparation is 3 days before the audit takes place.
 
 ### Responsibilities
 
-The tasks and responsibilities can be found in the [Annual Audit Checklist](Finance/Financial%20Closing/Annual%20Audit%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R9**)
+The tasks and responsibilities can be found in the [Annual Audit Checklist](./Finance/Financial%20Closing/Annual%20Audit%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R9**)
 
 ## Reporting
 
@@ -136,7 +136,7 @@ The deadline is the 5th work day of the following month.
 
 ### Responsibilities
 
-The tasks and responsibilities can be found in the [Monthly Reporting Checklist](Finance/Reporting/Monthly%20Reporting%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R10**)
+The tasks and responsibilities can be found in the [Monthly Reporting Checklist](./Finance/Reporting/Monthly%20Reporting%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R10**)
 
 
 
