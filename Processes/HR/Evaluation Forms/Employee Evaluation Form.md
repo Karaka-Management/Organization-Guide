@@ -4,8 +4,8 @@ Name:
 
 | No.  | Topic                                                        | Very Confident | Fairly Confident | Not Very Confident | Not At All Confident | Notes |
 | ---- | ------------------------------------------------------------ | -------------- | ---------------- | ------------------ | -------------------- | ----- |
-| 1    | The employee has a broad and deep knowledge over his work field. |                |                  |                    |                      |       |
-| 2    | The employee is also considering other people and departments when doing his work. |                |                  |                    |                      |       |
+| 1    | The employee has a broad and deep knowledge over their work field. |                |                  |                    |                      |       |
+| 2    | The employee is also considering other people and departments when doing their work. |                |                  |                    |                      |       |
 | 3    | The employee is flexible.                                    |                |                  |                    |                      |       |
 | 4    | The employee is motivated.                                   |                |                  |                    |                      |       |
 | 5    | The employee is good at communicating.                       |                |                  |                    |                      |       |
@@ -18,7 +18,12 @@ Name:
 | 12   | The employee shows initiative.                               |                |                  |                    |                      |       |
 | 13   | The employee can work autonomously.                          |                |                  |                    |                      |       |
 | 14   | The employee is good at negotiating.                         |                |                  |                    |                      |       |
-| 15   | The employee is good at leading his subordinate.             |                |                  |                    |                      |       |
+| 15   | The employee is good at leading their subordinates.          |                |                  |                    |                      |       |
+| 16   | The employee is sufficiently qualified for their current job/tasks. |                |                  |                    |                      |       |
+
+## Other remarks
+
+....
 
 
 
