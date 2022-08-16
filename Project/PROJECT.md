@@ -20,6 +20,7 @@ Last update of this file: 2022.05.01
 ##### Application
 
 * Implement table sorting
+* Created alpha version of OCRImageOptimizerApp (cli for image optimization for OCR)
 
 ##### Auditor
 
@@ -28,6 +29,7 @@ Last update of this file: 2022.05.01
 ##### Framework
 
 * Hard limit JSON requests and urldata to 1MB
+* Add basic kernel support in cOMS
 
 #### Bug fixes
 

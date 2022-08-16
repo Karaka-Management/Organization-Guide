@@ -134,6 +134,10 @@ Developers may only rely on the dependencies defined in [Approved Customer Softw
 
 Developers may only rely on the dependencies defined in [IT Equipment & Software](). If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. Changing the package managers such as `composer.json` or `package.json` is not allowed by anyone else than the CTO. (**R12**)
 
+## Other related documents
 
+* [Confidentiality Policy](../Policies%20&%20Guidelines/Confidentiality%20Policy.md) 
+* [Organization Activity Policy](../Policies%20&%20Guidelines/Organization%20Activity%20Policy.md)
+* [Tutorials](./Development/Tutorials)
 
 2022-01-01 - Version 1.0

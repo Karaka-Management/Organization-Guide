@@ -23,7 +23,7 @@
 
 ### Single user
 
-| Position          | Office / Adobe PDF / Outlook / Typora / WinRar | Teams / Skype / Team Viewer | Firefox / Edge / Chrome / Opera | Sublime Text / Visual Studio Code / CMake / g++ / composer / npm / git / php / Memcached / Redis | Datev / Crefo / Coface | Adobe Illustrator / Adobe Photoshop | Sanction Monitor |
+| Position          | Office / Adobe PDF / Outlook / Typora / WinRar | Teams / Skype / Team Viewer | Firefox / Edge / Chrome / Opera | Sublime Text / Visual Studio Code / Visual Studio / CMake / g++ / composer / npm / git / php / Memcached / Redis | Datev / Crefo / Coface | Adobe Illustrator / Adobe Photoshop | Sanction Monitor |
 | ----------------- | ------ | - | ------------------------------- | - | - | - | - |
 | Management        | x      | x | x 							   | x |   |   |   |
 | CTO               | x      | x | x 							   | x |   |   |   |
