@@ -38,11 +38,14 @@ The following controlling instruments are implemented.
 * [Internal audits](./Quality%20Management/Internal%20Quality%Management%Audit%Form.md)
 * [Risk Management](./COSO/Risk%20Management) and Process Risk Control Matrices
 * [Whistleblower System](../Policies%20&%20Guidelines/Whistleblower%20System.md)
+* Executive Committee Meeting where all key people exchange information
 * [Regular meetings](./Information%20Flow.md) for information exchange
 * Checklists as described in the processes
 * External audits
-  * Tax audits
+  * Tax audits (approx. every 3-5 years)
   * Annual accounting audit
+* Monthly financial reporting (e.g. cash, investments, sales, costs, deviations to budget/previous year)
+* Quality control as defined in the quality management process
 
 ## Optimization
 
