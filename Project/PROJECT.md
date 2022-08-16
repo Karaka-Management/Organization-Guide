@@ -279,6 +279,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium | Editor | Add emojis |
 | medium   | Admin              | Create a view where it's possible to create/activate, change and delete/deactivate hooks for events. |
 | medium | EventManagement | Use Cli application for async event handling, alternatively web requests via curl, alternatively at runtime of the main process. This should depend on the configuration of the application. |
+| low | Markdown lists | Implement aligned ul https://stackoverflow.com/questions/10428720/how-to-keep-indent-for-second-line-in-ordered-lists-via-css for multiline list elements |
 | low | Registration | Allow users to register by themselves (if activated in the backend) |
 | low | Registration | Send an email after creating a profile/self-registration with login information |
 | low | Tasks | Show which tasks have a file attached (similar to emails) |
