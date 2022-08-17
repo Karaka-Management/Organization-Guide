@@ -84,6 +84,13 @@ Some code changes may also require changes or extensions in the demo setup scrip
 
 Occasionally new code or code changes also require new documentation or documentation changes. Developers should make sure that the new code is also reflected in the existing documentation ([Developer-Guide](), [User-Guide]() and/or module documentation) or if additional documentation is necessary. 
 
+#### Improvements, features, bugs
+
+If a developer (or employee in general) has an idea for an improvement, feature or finds a potential bug it should be reported at https://github.com/Karaka-Management/Karaka/issues. A senior developer has to check these issues and decide how to proceed with them. The decision how to proceed with the issue must be explained by the senior developer as a response in the issue. Possible steps are:
+
+* Accept the issue (and close it) and put the task into the [PROJECT.md](https://github.com/Karaka-Management/Organization-Guide/blob/master/Project/PROJECT.md)
+* Dismiss the issue with an explanation
+
 ### Release flow
 
 Code changes must be performed in a new branch. A new branch can be created with:

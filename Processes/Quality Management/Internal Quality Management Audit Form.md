@@ -1,11 +1,12 @@
 # Internal Quality Management Audit Form
 
-| Audit             | Comments |
-| ----------------- | -------- |
-| Auditor           |          |
-| Department        |          |
-| Documents audited |          |
-| Audit specifics   |          |
+| Audit                   | Comments |
+| ----------------------- | -------- |
+| Auditor                 |          |
+| Department              |          |
+| Process aspects audited |          |
+| Documents audited       |          |
+| Remarks                 |          |
 
 
 
