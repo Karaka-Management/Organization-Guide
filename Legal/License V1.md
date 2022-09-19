@@ -1,4 +1,6 @@
-The OMS License 1.0
+The OMS License 
+
+Version 1.1
 
 Copyright (c) <Dennis Eichhorn> All Rights Reserved
 

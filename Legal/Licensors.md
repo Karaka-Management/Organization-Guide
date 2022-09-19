@@ -99,6 +99,13 @@ Core PHP libraries
 * License: https://github.com/PHPOffice/PHPPresentation/blob/develop/LICENSE
 * Source: https://github.com/PHPOffice/PHPPresentation
 
+## C++
+
+### OpenCV
+
+* License: https://github.com/opencv/opencv/blob/master/LICENSE
+* Source: https://github.com/opencv/opencv
+
 ## Other
 
 Additional resources can be found in:

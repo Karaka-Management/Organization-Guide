@@ -28,7 +28,7 @@ Cleaning is paid by the company with up to 30 EUR per month.
 
 ## Fuel
 
-Every company car has its own card for refueling. Employees must only use this card only for fueling this company car.
+Every company car has its own card for refueling. Employees must only use this fueling card for fueling their company car.
 
 ## Drivers
 
@@ -36,13 +36,11 @@ Only employees or the spouse of an employee is allowed to drive the company car.
 
 ## Traffic violations
 
-All drivers are responsible for their traffic violations. This includes also being held responsible for all traffic fees, criminal charges etc. committed by the driver and the company car.
+All drivers are responsible for their traffic violations. This includes also being held responsible for all traffic fees, criminal charges etc. committed by the driver and/or with the company car.
 
 ## Return
 
 The car must be returned in good condition by the end of the lease term or if the employment at the organization ends. Gross negligence including repairs for unreported damages must be paid by the employee.
-
-
 
 
 

@@ -2,7 +2,7 @@
 
 ## Members
 
-Present: XXX (CEO), XXX (CFO), XXX (CSO), XXX (CTO), XXX (HR)
+Present: XXX (CEO), XXX (CFO), XXX (CSO), XXX (CTO), XXX (DHR)
 
 Guests: None
 
@@ -75,7 +75,7 @@ Customer satisfaction: XX
 
 No topics to report.
 
-## HR report (by Head of HR)
+## HR report (by DHR)
 
 ### Vacant positions
 
