@@ -278,7 +278,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium   | Editor             | Create immediate text preview similar to a rich text editor or Typora. |
 | medium | Editor | Add inline charts (e.g. [Mermaid](https://github.com/mermaid-js/mermaid) and [Toast UI Chart](https://github.com/nhn/tui.chart)) |
 | medium | Editor | Add math formulas (e.g. [Katex](https://katex.org/)) |
-| medium | Editor | Add emojis |
+| medium | Editor | Add emojis (https://www.freecodecamp.org/news/all-emojis-emoji-list-for-copy-and-paste/) |
 | medium   | Admin              | Create a view where it's possible to create/activate, change and delete/deactivate hooks for events. |
 | medium | EventManagement | Use Cli application for async event handling, alternatively web requests via curl, alternatively at runtime of the main process. This should depend on the configuration of the application. |
 | low | Markdown lists | Implement aligned ul https://stackoverflow.com/questions/10428720/how-to-keep-indent-for-second-line-in-ordered-lists-via-css for multiline list elements |
