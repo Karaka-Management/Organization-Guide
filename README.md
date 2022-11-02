@@ -51,7 +51,7 @@ Currently Karaka is still developing the first Alpha version. As soon as we have
 
 General updates can be found in our info section at https://karaka.app/info and developer updates can be found in our developer section at https://karaka.app/dev. In our developer section you can also check out the automatically generated reports such as code coverage, code style, static analysis etc. as well as our code style guide lines and developer documentation.
 
-* [Project Status](https://github.com/Karaka-Management/Organization-Guide/blob/master/Project/PROJECT.md)
+* [Project Status](https://github.com/Karaka-Management/Organization-Guide/blob/master/Workfiles/Projects/jingga/PROJECT.md)
 
 ## Tech stack
 

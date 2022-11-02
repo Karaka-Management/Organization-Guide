@@ -30,7 +30,7 @@ Generally, the development philosophy is result orientated. This means that anyo
 
 Developers are encouraged to pick open tasks with high priorities according to their own skill level. Senior developers may  directly assign tasks to developers based on their importance. New developers may find it easier to start with a task that has a low  priority as they often also have a lower difficulty.
 
-Open tasks can be found in the project overview: [PROJECT.md](https://github.com/Karaka-Management/Organization-Guide/blob/master/Project/PROJECT.md)
+Open tasks can be found in the project overview: [PROJECT.md](https://github.com/Karaka-Management/Organization-Guide/blob/master/Workfiles/Projects/jingga/PROJECT.md)
 
 Tasks currently in development are prefixed in the priority column with an asterisk `*` and a name tag in the task description of the developer who is working on the task.
 
@@ -82,13 +82,13 @@ Some code changes may also require changes or extensions in the demo setup scrip
 
 #### Documentation
 
-Occasionally new code or code changes also require new documentation or documentation changes. Developers should make sure that the new code is also reflected in the existing documentation ([Developer-Guide](), [User-Guide]() and/or module documentation) or if additional documentation is necessary. 
+Occasionally new code or code changes also require new documentation or documentation changes. Developers should make sure that the new code is also reflected in the existing documentation ([Developer-Guide](), [User-Guide]() and/or module documentation) or if additional documentation is necessary.
 
 #### Improvements, features, bugs
 
 If a developer (or employee in general) has an idea for an improvement, feature or finds a potential bug it should be reported at https://github.com/Karaka-Management/Karaka/issues. A senior developer has to check these issues and decide how to proceed with them. The decision how to proceed with the issue must be explained by the senior developer as a response in the issue. Possible steps are:
 
-* Accept the issue (and close it) and put the task into the [PROJECT.md](https://github.com/Karaka-Management/Organization-Guide/blob/master/Project/PROJECT.md)
+* Accept the issue (and close it) and put the task into the [PROJECT.md](https://github.com/Karaka-Management/Organization-Guide/blob/master/Workfiles/Projects/jingga/PROJECT.md)
 * Dismiss the issue with an explanation
 
 ### Release flow
@@ -143,7 +143,7 @@ Developers may only rely on the dependencies defined in [IT Equipment & Software
 
 ## Other related documents
 
-* [Confidentiality Policy](../Policies%20&%20Guidelines/Confidentiality%20Policy.md) 
+* [Confidentiality Policy](../Policies%20&%20Guidelines/Confidentiality%20Policy.md)
 * [Organization Activity Policy](../Policies%20&%20Guidelines/Organization%20Activity%20Policy.md)
 * [Tutorials](./Development/Tutorials)
 

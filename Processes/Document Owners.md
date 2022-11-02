@@ -61,9 +61,9 @@
 | Processes             | Quality Management: [Quality Management](./08_Quality%20Management.md) | DQM and CEO              | CEO             |
 | Processes             | Quality Management: [Quality Management Flow Chart](./08_Quality%20Management_Flowchart.md) | DQM and CEO              | CEO             |
 | Processes             | Quality Management: [Quality Management Risk Control Matrix](./08_Quality%20Management_Risk%20Control%20Matrix.md) | DQM and CEO              | CEO             |
-| Processes/COSO        | Quality Management: [Risk Management](./COSO/Risk%20Management) | CFO and DQM              | CEO             |
-| Processes/COSO        | Quality Management: [CLC](./COSO/CLC.md)                     | DQM and CEO              | CEO             |
-| Processes/COSO        | Quality Management: [ITGC](./COSO/ITGC.md)                   | Head of IT and DQM       | CEO             |
+| Processes/COSO        | Quality Management: [Risk Management](./Quality%20Management/COSO/Risk%20Management) | CFO and DQM              | CEO             |
+| Processes/COSO        | Quality Management: [CLC](./Quality%20Management/COSO/CLC.md)                     | DQM and CEO              | CEO             |
+| Processes/COSO        | Quality Management: [ITGC](./Quality%20Management/COSO/ITGC.md)                   | Head of IT and DQM       | CEO             |
 | Processes             | Development: [Tutorials](./Development/Tutorials)            | HOCS and CTO             | CTO             |
 | Processes             | Finance: [Budgeting](./Finance/Budgeting)                    | CFO                      | DQM or CEO      |
 | Processes             | Finance: [Financial Closing](./Finance/Financial%20Closing)  | CFO                      | DQM or CEO      |

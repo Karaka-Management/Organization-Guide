@@ -307,6 +307,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Framework graph            | Implement get the edge connectivity                          |
 | low      | Framework graph            | Implement check if bipartite                                 |
 | low      | Framework graph            | Implement check if triangle free                             |
+| low | OnlineResourceWatcher | Integrate same functionality as module (maybe re-use existing code/logic, maybe pull out server app to avoid rewriting same code) |
 | low      | QueryBuilder               | Implement sum                                                |
 | low      | QueryBuilder               | Implement count                                              |
 | low      | General                    | Once read only variables become available many models can remove getter/setter function (e.g. ApplicationAbstract, ConnectionAbstract and various models) |
