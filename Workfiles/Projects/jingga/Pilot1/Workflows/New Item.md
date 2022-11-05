@@ -1,3 +1,7 @@
+# New Item
+
+
+
 ```mermaid
 flowchart TB
     CREATE_PURCHASE[Create Purchase]-->FORWARD_SALES[Sales]

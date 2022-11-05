@@ -1,3 +1,5 @@
+# New Bill
+
 ```mermaid
 flowchart TB
     CREATE_BILL[Create bill]-->LOCKED{Is locked?}
