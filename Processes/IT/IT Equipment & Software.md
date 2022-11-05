@@ -4,7 +4,7 @@
 
 ### Single user
 
-| Type / Description          | Employee       	                                | Head of department   | Management	    |
+| Type / Description          | Employee                                           | Head of department   | Management        |
 | ----------------------------------- | ----------------------------------------------- | -------------------- | -------------- |
 | Smartphone                          | Iphone 13 (only sales reps)                     | Iphone 13            | Iphone 13      |
 | Laptop or Tablet (incl. docking station) | < 2,000 EUR                                     | < 2,500 EUR          | < 2,500 EUR    |
@@ -25,19 +25,19 @@
 
 | Position          | Office / Adobe PDF / Outlook / Typora / WinRar | Teams / Skype / Team Viewer | Firefox / Edge / Chrome / Opera | Sublime Text / Visual Studio Code / Visual Studio / CMake / g++ / composer / npm / git / php / Memcached / Redis | Datev / Crefo / Coface | Adobe Illustrator / Adobe Photoshop | Sanction Monitor |
 | ----------------- | ------ | - | ------------------------------- | - | - | - | - |
-| Management        | x      | x | x 							   | x |   |   |   |
-| CTO               | x      | x | x 							   | x |   |   |   |
-| CSO               | x      | x | x 							   | x |   |   |   |
-| CFO               | x      | x | x 							   | x |   |   |   |
-| Support & Service | x      | x | x 							   | x |   |   |   |
-| Developer         | x      | x | x 							   | x |   |   |   |
-| Purchasing        | x      | x | x 							   |   |   |   | x |
-| Sales             | x      | x | x 							   |   |   |   | x |
-| IT                | x      | x | x 							   | x |   |   | x |
-| Finance           | x      | x | x 							   |   | x |   | x |
-| HR                | x      | x | x 							   |   | x |   | x |
-| Marketing         | x      | x | x 							   |   |   | x |   |
-| Secretariat | x      | x | x 							   |   |   |   | x |
+| Management        | x      | x | x                                | x |   |   |   |
+| CTO               | x      | x | x                                | x |   |   |   |
+| CSO               | x      | x | x                                | x |   |   |   |
+| CFO               | x      | x | x                                | x |   |   |   |
+| Support & Service | x      | x | x                                | x |   |   |   |
+| Developer         | x      | x | x                                | x |   |   |   |
+| Purchasing        | x      | x | x                                |   |   |   | x |
+| Sales             | x      | x | x                                |   |   |   | x |
+| IT                | x      | x | x                                | x |   |   | x |
+| Finance           | x      | x | x                                |   | x |   | x |
+| HR                | x      | x | x                                |   | x |   | x |
+| Marketing         | x      | x | x                                |   |   | x |   |
+| Secretariat | x      | x | x                                |   |   |   | x |
 
 ### Server
 

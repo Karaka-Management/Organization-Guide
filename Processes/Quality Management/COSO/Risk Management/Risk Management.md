@@ -32,12 +32,12 @@ The following four-steps represent the management process
 ### Top-Level Guidelines for Effective Risk Management
 
 * Assess the causes of risks and develop strategies to manage these risks
-	* Identify as early as possible, and intensively manage those that critically affect OMS
-	* Include tests and evaluations as part of the risk management process.
+    * Identify as early as possible, and intensively manage those that critically affect OMS
+    * Include tests and evaluations as part of the risk management process.
 * Include industry knowledge in risk management. Likelihood and consequence should be compared with experiences from similar industries.
 * Use a proactive, structured risk assessment and analysis to identify and analyze root causes.
-	* Utilize risk assessment checklists if applicable
-	* Establish risk mitigation plans and obtain resources for such plans
+    * Utilize risk assessment checklists if applicable
+    * Establish risk mitigation plans and obtain resources for such plans
 * Include internal processes as part of risk assessment.
 * Clearly define a set of evaluation criteria for assigning risk ratings for identified root causes.
 

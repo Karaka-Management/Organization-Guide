@@ -16,26 +16,26 @@ The following costs are only general guidelines and maximum amounts. Please note
 
 ## Hotels
 
-| Type               | Employee          | Head of department   | Management	  |
+| Type               | Employee          | Head of department   | Management      |
 | ------------------ | ----------------- | -------------------- | --------------- |
-| Germany            | < 100 EUR         | < 250 EUR	        | < 350 EUR  	  |
-| International      | < 120 EUR         | < 300 EUR	        | < 450 EUR  	  |
+| Germany            | < 100 EUR         | < 250 EUR            | < 350 EUR        |
+| International      | < 120 EUR         | < 300 EUR            | < 450 EUR        |
 
 ## Traveling
 
-| Type               | Employee          | Head of department   | Management	   |
+| Type               | Employee          | Head of department   | Management       |
 | ------------------ | ----------------- | -------------------- | ---------------- |
-| Flight < 300 km    | not allowed       | Economy			    | Premium Economy  |
+| Flight < 300 km    | not allowed       | Economy                | Premium Economy  |
 | Flight >= 300 km   | Economy           | Premium Economy      | Business         |
-| Flight >= 3.000 km | Premium Economy   | Business     	    | Business   	   |
-| Train              | 2nd class         | 1st class  	        | 1st class  	   |
+| Flight >= 3.000 km | Premium Economy   | Business             | Business          |
+| Train              | 2nd class         | 1st class              | 1st class         |
 | Private car        | not allowed       | 0.30 EUR per km      | 0.30 EUR per km  |
-| Company car        | approved by HOD   | allowed              | allowed		   |
+| Company car        | approved by HOD   | allowed              | allowed           |
 | Taxi               | only within city  | only within city     | only within city |
 
 ## Per diems
 
-The per diems are paid according to the German regulation regarding per diems (Verpflegungsmehraufwendungen). 
+The per diems are paid according to the German regulation regarding per diems (Verpflegungsmehraufwendungen).
 
 For Germany they are:
 

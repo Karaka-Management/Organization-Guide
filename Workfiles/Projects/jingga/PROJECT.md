@@ -35,7 +35,7 @@ Last update of this file: 2022.05.01
 
 ##### Framework
 
-* 
+*
 
 #### Other
 
@@ -618,7 +618,7 @@ Software:
     * similar to function but run routing into dispatcher
   * Rest request
     * similar to function but using rest
-  * Execute script assigned to workflow template 
+  * Execute script assigned to workflow template
     * This way workflow could be completely defined in a custom script if it is very complicated
   * Response message population
   * Create workflow diagram (see example below)
@@ -627,30 +627,30 @@ Software:
 
 ```mermaid
 flowchart LR
-	subgraph A
+    subgraph A
     A_TRIGGER[State1: Event Triggers]-->IF{if}
     IF-->|TRUE|IF_TRUE1[Run]
-    	IF_TRUE1-->RUN1[Collect result]
-    	RUN1-->NEW_VAR[Assign data]
-    	NEW_VAR-->TRIGGER2[Execute Event]
-    	NEW_VAR-->MESSAGE[Populate Message]
+        IF_TRUE1-->RUN1[Collect result]
+        RUN1-->NEW_VAR[Assign data]
+        NEW_VAR-->TRIGGER2[Execute Event]
+        NEW_VAR-->MESSAGE[Populate Message]
     IF-->|TRUE|RUN2[Run]
-    	RUN2-->OTHER1[...]
+        RUN2-->OTHER1[...]
     IF-->|FALSE|ELSEIF{if}
-    	ELSEIF-->|TRUE|ELSE_TRUE[Run]
-    		ELSE_TRUE-->OTHER2[...]
-    	ELSEIF-->|FALSE|FALSE[Error]
+        ELSEIF-->|TRUE|ELSE_TRUE[Run]
+            ELSE_TRUE-->OTHER2[...]
+        ELSEIF-->|FALSE|FALSE[Error]
     end
-    
+
     A-->|State Change|B
     A-->|State Change|C
-    
+
     subgraph B
     B_TRIGGER[State2: Event Triggers]-->B_IF{...}
     end
-    
+
     B-->|State Change|C
-    
+
     subgraph C
     C_TRIGGER[State3: Event Triggers]-->C_IF{...}
     end

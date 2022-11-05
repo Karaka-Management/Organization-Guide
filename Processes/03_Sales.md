@@ -14,11 +14,11 @@ When making offers to customers the following aspects should always be included 
 * The product the customer is interested in
 * Product installation and configuration
 * Product training fee per hour
-	* Total hours for training should be estimated based on product and expected amount of people to train
+    * Total hours for training should be estimated based on product and expected amount of people to train
 * Support & maintenance contract
 * Payment terms:
-	* Generally, 10 days after invoice
-	* Maintenance contracts are invoiced for 12 months in advance
+    * Generally, 10 days after invoice
+    * Maintenance contracts are invoiced for 12 months in advance
 * Offers must be always non-binding
 
 Offers must be created in the IT system. In the IT system various default offers are available which can be copied and modified if applicable to create an offer (**R2**). If no applicable default offer is available individual offers can be created.
@@ -54,7 +54,7 @@ Invoices can be edited as long as they are not delivered to the customer (or mar
 
 ### Manual delivery/setup
 
-Some products either require manual "*delivery*" or the customer requests manual "*delivery/setup*". Examples are customer training, customization, support during the setup or configuration process, etc. 
+Some products either require manual "*delivery*" or the customer requests manual "*delivery/setup*". Examples are customer training, customization, support during the setup or configuration process, etc.
 
 In such a case the sales department coordinates with the necessary departments and the customer the delivery of the requested product or service.
 
@@ -108,7 +108,7 @@ If a customer pays during one of the three reminders he may continue to purchase
 
 ### Payment
 
-The IT system automatically tries to match the payments to unpaid accounts receivables and/or customers based on the provided information from the payment (**R16**). The accounts receivable accountant responsible for booking customer payments has to approve or adjust the IT system suggestions (**R17**). 
+The IT system automatically tries to match the payments to unpaid accounts receivables and/or customers based on the provided information from the payment (**R16**). The accounts receivable accountant responsible for booking customer payments has to approve or adjust the IT system suggestions (**R17**).
 
 #### Credit Card
 
@@ -149,7 +149,7 @@ Once a day every customer is automatically checked against sanction lists. (**R2
 
 Most prospect or customer initiated acquisition comes from one of the following main marketing measures:
 
-* online advertisements 
+* online advertisements
   * website / shop
   * search engines
   * social media advertisement
@@ -159,7 +159,7 @@ Most prospect or customer initiated acquisition comes from one of the following 
 
 ##### Purchased contact information
 
-The organization occasionally purchases contact addresses (email & mail addresses) which get contacted (cold acquisition). 
+The organization occasionally purchases contact addresses (email & mail addresses) which get contacted (cold acquisition).
 
 ##### Events
 
