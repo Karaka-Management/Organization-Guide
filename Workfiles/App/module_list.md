@@ -77,3 +77,4 @@
 * 1007700000 - OMS Shop
 * 1007800000 - OMS CMS
 * 1007900000 - OMS ContractManagement
+* 1008000000 - OMS OnlineResourceWatcher
