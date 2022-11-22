@@ -1,3 +1,5 @@
+# Module ID/name list
+
 * 1000100000 - OMS Admin
 * 1000200000 - OMS Backend Dashboard
 * 1000300000 - OMS Profile
@@ -77,3 +79,4 @@
 * 1007700000 - OMS Shop
 * 1007800000 - OMS CMS
 * 1007900000 - OMS ContractManagement
+* 1008000000 - OMS OnlineResourceWatcher
