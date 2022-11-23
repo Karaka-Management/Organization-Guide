@@ -82,7 +82,7 @@ Risk likelihood is the evaluated probability an event will occur given existing 
 | 5     | Near Certainty | \> 80%                    |
 | 4     | Highly likely  | \> 60% ≤ 80%              |
 | 3     | Likely         | \> 40% ≤ 60%              |
-| 2     | Low Likelihood | \> 20% ≤ 70%              |
+| 2     | Low Likelihood | \> 20% ≤ 40%              |
 | 1     | Not Likely     | \> 0% ≤ 20%               |
 
 
