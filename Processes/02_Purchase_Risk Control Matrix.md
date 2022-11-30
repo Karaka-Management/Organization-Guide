@@ -1,6 +1,6 @@
 # Purchase Risk Control Matrix
 
-| No.  | R                                      | Category                    | Risk Event                                                   | L    | C    | O                | Cause | Mitigation Type              | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
+| No.  | R                                      | Category                    | Risk Event                                                   | L    | C    | F                | Cause | Mitigation Type              | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
 | ---- | -------------------------------------- | --------------------------- | ------------------------------------------------------------ | ---- | ---- | ---------------- | ----- | ---------------------------- | ------------------------------------------------------------ | ---- | ---- | ------- | -------- | ---- | ---- | --------- |
 | 1    | Employee                               | Operational Risk (Purchase) | Purchasing not the optimal investment product due to no market research. *"Optimal" includes product/service quality, vendor reliability, price, ...* | 1    | 1    | Many times a day |       | Preventing (Manual)          | Compare products and vendors                                 | 1    | 1    |         |          | yes  | yes  |           |
 | 2    | See purchase approval table            | Operational Risk (Purchase) | Unauthorized purchase (budget risks, fraud, compliance, ...) | 1    | 1    | Many times a day |       | Preventing (Manual)          | Authorize purchases according to the purchase approval table. This functions as control and separation of responsibilities. | 1    | 1    |         |          | yes  | yes  |           |
@@ -30,12 +30,12 @@
 
 * L\*/C\*: Likelihood and Consequence after mitigation
 
-* O: Occurrence (many times a day, daily, weekly, monthly, annually)
+* F: Frequency (many times a day, daily, weekly, monthly, annually)
 
 * ES: Effective
 
 * EY: Efficient
 
-  
+
 
 2022-01-01 - Version 1.0

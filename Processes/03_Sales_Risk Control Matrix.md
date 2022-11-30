@@ -1,6 +1,6 @@
 # Sales Risk Control Matrix
 
-| No.  | R                               | Category                    | Risk Event                                                   | L    | C    | O                | Cause | Mitigation Type              | Mitigation Strategy                                          | L*   | C*   | Changes | Comments                                                     | ES   | EY   | Evidences |
+| No.  | R                               | Category                    | Risk Event                                                   | L    | C    | F                | Cause | Mitigation Type              | Mitigation Strategy                                          | L*   | C*   | Changes | Comments                                                     | ES   | EY   | Evidences |
 | ---- | ------------------------------- | --------------------------- | ------------------------------------------------------------ | ---- | ---- | ---------------- | ----- | ---------------------------- | ------------------------------------------------------------ | ---- | ---- | ------- | ------------------------------------------------------------ | ---- | ---- | --------- |
 | 1    | Sales                           | Operational Risk (Sales)    | Invalid offer                                                | 1    | 1    | Many times a day |       | Preventing (System)          | Use default offers.                                          | 1    | 1    |         |                                                              | yes  | yes  |           |
 | 2    | Sales                           | Operational Risk (Sales)    | No flexibility in case of none-standard customer requests.   | 1    | 1    | Many times a day |       | Preventing (Manual)          | Custom offers for customers.                                 | 1    | 1    |         |                                                              | yes  | yes  |           |
@@ -37,12 +37,12 @@
 
 * L\*/C\*: Likelihood and Consequence after mitigation
 
-* O: Occurrence (many times a day, daily, weekly, monthly, annually)
+* F: Frequency (many times a day, daily, weekly, monthly, annually)
 
 * ES: Effective
 
 * EY: Efficient
 
-  
+
 
 2022-01-01 - Version 1.0

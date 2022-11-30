@@ -1,6 +1,6 @@
 # HR Risk Control Matrix
 
-| No.  | R    | Category              | Risk Event                                                   | L    | C    | O    | Cause | Mitigation Type             | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
+| No.  | R    | Category              | Risk Event                                                   | L    | C    | F    | Cause | Mitigation Type             | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
 | ---- | ---- | --------------------- | ------------------------------------------------------------ | ---- | ---- | ---- | ----- | --------------------------- | ------------------------------------------------------------ | ---- | ---- | ------- | -------- | ---- | ---- | --------- |
 | 1    | DHR  | Operational Risk (HR) | Unauthorized search for new employees.                       | 1    | 1    |      |       | Preventing (Manual)         | Only selected people can authorize the employee search.      | 1    | 1    |         |          | yes  | yes  |           |
 | 2    | DHR  | Operational Risk (HR) | Job postings are not posted according to the legal requirements. | 1    | 1    |      |       | Preventing (Manual)         | Job postings must be posted internally and at the agency for labor. | 1    | 1    |         |          | yes  | yes  |           |
@@ -46,12 +46,12 @@
 
 * L\*/C\*: Likelihood and Consequence after mitigation
 
-* O: Occurrence (many times a day, daily, weekly, monthly, annually)
+* F: Frequency (many times a day, daily, weekly, monthly, annually)
 
 * ES: Effective
 
 * EY: Efficient
 
-  
+
 
 2022-01-01 - Version 1.0

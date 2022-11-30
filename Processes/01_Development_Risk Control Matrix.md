@@ -1,6 +1,6 @@
 # Development Risk Control Matrix
 
-| No.  | R                 | Category                       | Risk Event                                                   | L    | C    | O                 | Cause                         | Mitigation Type              | Mitigation Strategy                                          | L*   | C*   | Changes | Comments                                                     | ES   | EY   | Evidences |
+| No.  | R                 | Category                       | Risk Event                                                   | L    | C    | F                 | Cause                         | Mitigation Type              | Mitigation Strategy                                          | L*   | C*   | Changes | Comments                                                     | ES   | EY   | Evidences |
 | ---- | ----------------- | ------------------------------ | ------------------------------------------------------------ | ---- | ---- | ----------------- | ----------------------------- | ---------------------------- | ------------------------------------------------------------ | ---- | ---- | ------- | ------------------------------------------------------------ | ---- | ---- | --------- |
 | 1    | CTO               | Operational Risk (Development) | Unauthorized source code and development asset access.       | 1    | 1    | Many times a day  | Unmanaged access permissions. | Preventing (System & Manual) | Only authorized people gain access to confidential source code and development assets. | 1    | 1    |         | Not all source code and development assets are considered confidential and may be publicly accessible. The confidential aspects are determined by the CTO. | yes  | yes  |           |
 | 2    | CTO               | Operational Risk (Development) | Undefined terms of intellectual property for code contributions. | 1    | 3    | Many times a day  |                               | Preventing (Manual)          | The terms of intellectual property for all contributions are well defined. | 1    | 1    |         |                                                              | yes  | yes  |           |
@@ -23,12 +23,12 @@
 
 * L\*/C\*: Likelihood and Consequence after mitigation
 
-* O: Occurrence (many times a day, daily, weekly, monthly, annually)
+* F: Frequency (many times a day, daily, weekly, monthly, annually)
 
 * ES: Effective
 
 * EY: Efficient
 
-  
+
 
 2022-01-01 - Version 1.0

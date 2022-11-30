@@ -32,7 +32,7 @@ For details see the [Risk Register](Risk%20Register.md) and the Risk Control Mat
 
 ### New risks
 
-| No.  | R    | Category | Risk Event | L    | C    | O    | Cause | Mitigation Type | Mitigation Strategy | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
+| No.  | R    | Category | Risk Event | L    | C    | F    | Cause | Mitigation Type | Mitigation Strategy | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
 | ---- | ---- | -------- | ---------- | ---- | ---- | ---- | ----- | --------------- | ------------------- | ---- | ---- | ------- | -------- | ---- | ---- | --------- |
 |      |      |          |            |      |      |      |       |                 |                     |      |      |         |          |      |      |           |
 
@@ -42,7 +42,7 @@ Abbreviations:
 * L: Likelihood (1-5)
 * C: Consequence (1-5)
 * L\*/C\*: Likelihood and Consequence after mitigation
-* O: Occurrence (many times a day, daily, weekly, monthly, annually)
+* F: Frequency (many times a day, daily, weekly, monthly, annually)
 * ES: Effective
 * EY: Efficient
 

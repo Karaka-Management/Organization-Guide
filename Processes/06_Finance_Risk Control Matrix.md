@@ -1,6 +1,6 @@
 # Finance Risk Control Matrix
 
-| No.  | R    | Category                   | Risk Event                                                   | L    | C    | O    | Cause                                                        | Mitigation Type | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
+| No.  | R    | Category                   | Risk Event                                                   | L    | C    | F    | Cause                                                        | Mitigation Type | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   | Evidences |
 | ---- | ---- | -------------------------- | ------------------------------------------------------------ | ---- | ---- | ---- | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------ | ---- | ---- | ------- | -------- | ---- | ---- | --------- |
 | 1    | CFO  | Operational Risk (Finance) | The company doesn't have a budget as a basis for their operations. | 1    | 1    |      |                                                              |                 | The deadline for the budget finalization is defined with enough time until the new business year starts. | 1    | 1    |         |          | yes  | yes  |           |
 | 2    | CFO  | Operational Risk (Finance) | The budget is not approved/reviewed.                         | 1    | 1    |      |                                                              |                 | The budget must be approved by the management.               | 1    | 1    |         |          | yes  | yes  |           |
@@ -24,12 +24,12 @@
 
 * L\*/C\*: Likelihood and Consequence after mitigation
 
-* O: Occurrence (many times a day, daily, weekly, monthly, annually)
+* F: Frequency (many times a day, daily, weekly, monthly, annually)
 
 * ES: Effective
 
 * EY: Efficient
 
-  
+
 
 2022-01-01 - Version 1.0firefod

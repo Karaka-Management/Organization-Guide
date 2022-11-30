@@ -1,6 +1,6 @@
 # Management Risk Control Matrix
 
-| No.  | R    | Category                      | Risk Event                                                   | L    | C    | O    | Cause | Mitigation Type                 | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   | Evidences                                                    |
+| No.  | R    | Category                      | Risk Event                                                   | L    | C    | F    | Cause | Mitigation Type                 | Mitigation Strategy                                          | L*   | C*   | Changes | Comments | ES   | EY   | Evidences                                                    |
 | ---- | ---- | ----------------------------- | ------------------------------------------------------------ | ---- | ---- | ---- | ----- | ------------------------------- | ------------------------------------------------------------ | ---- | ---- | ------- | -------- | ---- | ---- | ------------------------------------------------------------ |
 | 1    | CEO  | Operational Risk (Management) | The business operations are not planned appropriately (risks, chances, resources, ...). |      |      |      |       | Preventing (Manual)             | Annual budget process as described in the finance process.   |      |      |         |          | yes  | yes  |                                                              |
 | 2    | CEO  | Operational Risk (Management) | Critical information are not appropriately shared in the company. |      |      |      |       | Preventing (Manual)             | Regular meetings such as executive committee meetings, head of department meetings and department meetings. Publicly available organization structure and processes which clearly communicate tasks and responsibilites. Annual employee evaluations for additional information sharing. |      |      |         |          | yes  | yes  |                                                              |
@@ -19,13 +19,13 @@
 
 * L\*/C\*: Likelihood and Consequence after mitigation
 
-* O: Occurrence (many times a day, daily, weekly, monthly, annually)
+* F: Frequency (many times a day, daily, weekly, monthly, annually)
 
 * ES: Effective
 
 * EY: Efficient
 
-  
+
 
 2022-01-01 - Version 1.0
 
