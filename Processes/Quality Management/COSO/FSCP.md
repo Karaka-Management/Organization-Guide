@@ -16,3 +16,5 @@
 | 12   | None-consolidation closing | Preparation and approval of non-consolidated financial information | Which financial analysis do you perform (e.g. comparison of actuals and budget/previous year, KPI analysis, ...)? | Actual vs. budget, actual vs. previous year and KPI figures are analysed. |                                                              |
 | 13   | Reporting package          | Preparation and approval of reporting package                | How do you ensure the necessary competencies for the employees involved in the creation of the financial closing and financial reporting? | This is done during the HR search and the employee evaluation. |                                                              |
 | 14   | Reporting package          | Preparation and approval of reporting package                | Who approves the reporting package or revisions thereof?     | CFO                                                          |                                                              |
+
+2022-01-01 - Version 1.0

@@ -13,8 +13,8 @@
 
 | No.  | Component | Control Area | Question                                                     | Answer                                                       | Evidences                                       |
 | ---- | --------- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
-|      | IT        | IT Strategy  | Do you have a IT investment strategy or plan?                | Yes, investments are evaluated at least annually during the budget process. Additionally, resources are also checked regularly (e.g. executive committee meeting). | Budget<br />Executive Committee Meeting Minutes |
-|      | IT        | IT Strategy  | Are the IT investment strategies or plans reviewed and approved by the management? | Yes, during the budget process and if outside the budget in the executive committee meeting. | Budget<br />Executive Committee Meeting Minutes |
+| 1    | IT        | IT Strategy  | Do you have a IT investment strategy or plan?                | Yes, investments are evaluated at least annually during the budget process. Additionally, resources are also checked regularly (e.g. executive committee meeting). | Budget<br />Executive Committee Meeting Minutes |
+| 2    | IT        | IT Strategy  | Are the IT investment strategies or plans reviewed and approved by the management? | Yes, during the budget process and if outside the budget in the executive committee meeting. | Budget<br />Executive Committee Meeting Minutes |
 
 ## System Development and Maintenance
 
@@ -105,7 +105,5 @@
 | 1    | Which outsourced IT services exist and how are they documented? | Outsourced service are clearly defined and agreed with the service vendor in writing e.g. in contract and/or SLA |           |
 | 2    | How do you ensure the compliance of vendors?                 | Service vendor's compliance to the service level is periodically reviewed |           |
 | 3    | How do you ensure the quality of the service vendors?        | Regular review of service vendors is conducted in terms of appropriateness of the services defined, service vendor's ability to render the required service level, etc. |           |
-
-
 
 2022-01-01 - Version 1.0

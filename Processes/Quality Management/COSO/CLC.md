@@ -37,6 +37,4 @@
 | 33   | Monitoring                    | Independent monitoring                | Are the ongoing monitoring activities operated appropriately according to the original designs and purposes | Yes.                                                         | Quality Management Audit Checklist                           |
 | 34   | Monitoring                    | Response to results of monitoring     | How are errors, material weakness of internal controls, etc. detected through the performance of control activities or noticed from outside the company timely reported to the management or senior managers and appropriately investigated and properly addressed? | This is ensured through the executive committee meeting, risk review, internal audit and Whistleblower system. | Executive Committee Meeting Minutes<br />Risk Review<br />Internal Quality Management Audit |
 
-
-
 2022-01-01 - Version 1.0
