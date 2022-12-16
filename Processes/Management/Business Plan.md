@@ -64,7 +64,7 @@ In the following a ranking of numbers (1-10) will be used where 10 is the highes
 | Community momentum                     | stable    | stable  | increasing | stable  | decreasing | stable  | increasing | decreasing |
 | Code execution                         | "request" | running | running    | running | running    | running | running    | "request"  |
 | Code quality tools                     | 10        | ?       | ?          | ?       | ?          | ?       | ?          | ?          |
-| Availability of libs (e.g. pdf, excel) | 10        | ?       | 10         | ?       | ?          | ?       | 10         | ?          |
+| Availability of libs (e.g. PDF, excel) | 10        | ?       | 10         | ?       | ?          | ?       | 10         | ?          |
 | Easy to install on own server/pc       | no        | yes     | yes        | yes     | yes        | yes     | no         | no         |
 | Availability on third party hosts      | 10        | 7       | 7          | 7       | 7          | 7       | 8          | 9          |
 

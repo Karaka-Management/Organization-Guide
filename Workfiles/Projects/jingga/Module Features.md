@@ -42,7 +42,7 @@ The media module is a important core module since it manages all media files (e.
 | Upload                  | Upload media files by Drag&Drop and file selector            |
 | Download                | Download files and directories (including virtual directories) |
 | Media storage           | Show media files in lists similar to an explorer view on an operating system |
-| File preview            | Show media content for many file types online (e.g. pdf, images, ...) |
+| File preview            | Show media content for many file types online (e.g. PDF, images, ...) |
 | Drag and Drop           | Drag & Drop file movement similar to local file management   |
 | Virtual files           | Similar to links to files in other directories to reduce storage needs and to allow referencing the same file |
 | Password protection     | Protect files with a user defined password                   |
@@ -133,14 +133,14 @@ The helper module lets authorized users upload self-coded scripts which make use
 | Templates               | Helpers always have a base template which provides the core functionality and core resources |
 | Instances               | Instances of a helper make use of the base template in combination with new input data and store this output |
 | Standalone templates    | Templates can be standalone, which means they don't need a instance which makes use of them |
-| Export templates        | Allow different export templates to export the helper output as pdf, word, print, csv or powerpoint |
+| Export templates        | Allow different export templates to export the helper output as PDF, word, print, csv or powerpoint |
 | Tags                    | Scripts can have tags                                        |
 
 Examples:
 
 * Business reports (the base template defines how the business report looks like but the instance allows you to upload new data e.g. csv files which then is used to create a new business report)
 * Design a newsletter template once with text input fields can be changed to create a new newsletter but always with the same design
-* Create a training certificate template for customers for your products once with input fields for the customer name which then can get exported as pdf (or print)
+* Create a training certificate template for customers for your products once with input fields for the customer name which then can get exported as PDF (or print)
 
 > Since you can upload whatever script you want this function should only be given to authorized people (e.g. only administrators).
 >

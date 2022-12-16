@@ -22,5 +22,5 @@
 20. IKS (cross check different areas e.g. P&L / Balance, allow to print checklists like all postings etc.)
 21. Document changes in settings (e.g. fiscal year change, change of invoice number layout)
 22. Check if documents are created correctly (all invoices where sent to customers)
-23. Exports need to be possible in excel and pdf
+23. Exports need to be possible in excel and PDF
 24. Documentation of workflows (technical and manual part)

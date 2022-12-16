@@ -22,8 +22,8 @@
 | Postgresql                                                   | Database                            |                                                   | 2022-01-01    |
 | SQLSrv                                                       | Database                            |                                                   | 2022-01-01    |
 | SQLite                                                       | Database                            |                                                   | 2022-01-01    |
-| pdftotext                                                       | PDF text extraction                            |                                                   | 2022-01-01    |
-| pdftoppm                                                       | PDF to image converter                         |                                                   | 2022-01-01    |
+| PDFtotext                                                       | PDF text extraction                            |                                                   | 2022-01-01    |
+| PDFtoppm                                                       | PDF to image converter                         |                                                   | 2022-01-01    |
 | Apache2                                                       | Web server                            |                                                   | 2022-01-01    |
 | Nginx                                                       | Web server                            |                                                   | 2022-01-01    |
 | Roboto | Font | | 2022-01-01 |

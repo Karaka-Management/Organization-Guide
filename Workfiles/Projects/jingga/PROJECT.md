@@ -71,7 +71,7 @@ Last update of this file: 2022.05.01
 |            | UI / Tables                              | Implement local + remote sort (make remote request, and add data to table) |
 |            | UI / Tables                              | Implement local + remote filter (make remote request, and add data to table) |
 |            | UI / Tables                              | Highlight filtered columns so the user can see the filtering |
-|            | UI / Tables                              | Implement export to excel, csv (maybe pdf?)                  |
+|            | UI / Tables                              | Implement export to excel, csv (maybe PDF?)                  |
 |            | UI / Badge Input                         | Implement default badges                                     |
 |            | UI / Badge Input                         | Implement mandatory badges                                   |
 |            | UI / Badge Input                         | Implement removing badges local + remote                     |
@@ -123,7 +123,7 @@ Last update of this file: 2022.05.01
 |            | Invoice Management                       | Allow notes                                                  |
 |            | Invoice Management                       | Allow questions to other users (reference tasks and or media messages) |
 |            | Invoice Management                       | Allow to add additional documents (maybe create root invoice element if multiple bills reference each other?) |
-|            | Invoice Management                       | Allow PDF modifcation (allow notes on pdf, approval stamps) **difficult**<br />  > This requires a JS live preview for adding this at a specific position (maybe PDFJSAnnotate, maybe customize pdf.js) |
+|            | Invoice Management                       | Allow PDF modifcation (allow notes on PDF, approval stamps) **difficult**<br />  > This requires a JS live preview for adding this at a specific position (maybe PDFJSAnnotate, maybe customize PDF.js) |
 |            | Invoice Management                       | Job/Schedule which checks unhandled invoices                 |
 |            | Invoice Management                       | Hooks/Workflows for invoices                                 |
 |            | Invoice Management                       | Job/Schedule which checks unhandled invoices                 |
@@ -144,11 +144,11 @@ Last update of this file: 2022.05.01
 |            | Billing                                  | Basic invoice data (no stock movement)                       |
 |            | Billing (SD)                             | Expand GSD Exchange importer to bills *(SD specific)*        |
 |            | Billing                                  | Bill expenses such as insurance, freight, etc. also need VAT percentages. Best would be to create cost types, this would allow to add multiple freight expenses and print them below the invoice |
-|            | Billing                                  | Show invoice pdf in preview on change                        |
+|            | Billing                                  | Show invoice PDF in preview on change                        |
 |            | Sales                                    | Sales rep ranking                                            |
 |            | Sales                                    | Individual rep sales analysis (e.g. top customers, sales by product group, lost customers, ...) |
 |            | Customer Management                      | Customer sales info/statistics (total sales, invoices, articles, groups) |
-|            | Customer Management (SD)                 | Invoice pdf importer from hard drive (without using the Exchange module) *(SD specific)* |
+|            | Customer Management (SD)                 | Invoice PDF importer from hard drive (without using the Exchange module) *(SD specific)* |
 |            | Customer Management                      | Create a view where you can see all bills of the customer    |
 |            | Customer Management                      | Create a view where you can see all items of the customer    |
 |            | Sales Analysis (customer)                | Sales + Gross profit                                         |
@@ -199,14 +199,14 @@ Last update of this file: 2022.05.01
 |            | Dashboard                                | Create default dashboard templates which can be used by users, changing them copies it for this user |
 |            | Dashboard                                | Allow people to modify a dashboard and automatically save it / reload it |
 |            | Dashboard                                | Implement a way for other modules to provide dashboard components (allow modules to register themselves in a database table) |
-|            | Billing                                  | Only create pdf preview if preview is visible?               |
+|            | Billing                                  | Only create PDF preview if preview is visible?               |
 |            | Billing                                  | [Analysis] Gross profit (total bill and elements)            |
 |            | Billing                                  | Show bill relations (on tab which shows all related bills)   |
-|            | Billing                                  | Create send as email button inside the bill. this opens the send email view where the email is pre-written with the attached pdf |
+|            | Billing                                  | Create send as email button inside the bill. this opens the send email view where the email is pre-written with the attached PDF |
 |            | Billing                                  | In the supplier and client view you should be able to select multiple bills and click print for printing |
 |            | Billing                                  | In the supplier and client view you should be able to select multiple bills and click send as email for email sending |
 |            | Billing                                  | The send bill as email should have a global settings where you can either define a global email or empty = user specific email |
-|            | Billing                                  | Sending emails should have a default email format and a default invoice naming convention, additionally there should be the option to define a user specific email text and pdf naming convention |
+|            | Billing                                  | Sending emails should have a default email format and a default invoice naming convention, additionally there should be the option to define a user specific email text and PDF naming convention |
 |            | Billing                                  | Clients should have a invoice_email address which is stored in the client |
 |            | Billing                                  | Allow to define re/usable templates (e.g. recurring invoices) |
 |            | Billing                                  | Allow to define re/usable texts                              |
@@ -255,7 +255,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | high     | Forms                      | If a form has unsaved content the browser should ask if the user really wants to change the page or close it (use beforeunload event). |
 | medium | DataMapper | Create join functionality for mappers which supports joining and filtering based on other tables (e.g. show all profiles which have written a news article) |
 | medium | Job | Consider to run jobs through the cli application. This means a job executes `php cli.php put:/admin/job -i 3` which runs the command of job 3. This would allow to log the job execution time and response. If you don't want to wait for the execution to finish you may as well run it async (this means of course no execution time or output can be logged, but at least the start time). |
-| medium | Form/Table | Implement a filter highlight function (either in forms or in tables, where the filter icon is highlighted, if a filter is defined). One solution could be to put an additional hidden filter checkbox in front of the filter icon and check for filter changes (bubble up) and then activate this hidden checkbox if a filter is defined. In css just define the filter icon as active/highlighted, if the hidden check box is active. This means we have two hidden checkboxes in front of the filter icon (one in case the filter menu is open = popup is visible and another one for highlighting the filter icon if a filter is defined). |
+| medium | Form/Table | Implement a filter highlight function (either in forms or in tables, where the filter icon is highlighted, if a filter is defined). One solution could be to put an additional hidden filter checkbox in front of the filter icon and check for filter changes (bubble up) and then activate this hidden checkbox if a filter is defined. In CSS just define the filter icon as active/highlighted, if the hidden check box is active. This means we have two hidden checkboxes in front of the filter icon (one in case the filter menu is open = popup is visible and another one for highlighting the filter icon if a filter is defined). |
 | medium | Form/Table | How to preserve form filter data to the next page? Not an issue, in the future we don't want to reload the whole page, but only exchange the table/list content with the backend response -> the header/filter will not get changed and remains as defined. This means for tables (maybe even forms?) to setup content replacement earlier than for other pages?! |
 | medium | CMS | Create functionality which allows to replace application files. Instead of just overwriting them they get backed up in a backup directory. |
 | medium | UI select | Bind data to select options such as visible elements and data pre-fills. When an option is selected certain ui elements become visible and get filled out with default values. |
@@ -331,7 +331,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | low      | Logs                       | The "Log" tabs in many models should have a separate permission which hides them. Maybe a user needs to have read permissions of the monitoring module in order to see them? Alternatively it could be a *_MONITOR permission for the specific model in every module. This is a little bit finer but also expands the permission complexity |
 | low      | UI sections/portlets       | Sections/portlets with a footer sometimes have problems with floated elements. e.g. a right floated button will break the layout if the left element(s) are too long causing wrapping.<br />> Solution: create flexbox with margin |
 | low      | Admin: Settings template   | In the Settings->Localization->Numeric the number format (decimal, thousands) don't have a spacer in between. Margin left doesn't work. |
-| low      | Auditor                    | Consider to create foldable/tree view for json logs e.g. https://www.cssscript.com/json-data-tree-view/ |
+| low      | Auditor                    | Consider to create foldable/tree view for JSON logs e.g. https://www.cssscript.com/json-data-tree-view/ |
 | low      | Auditor                    | Implement blockchain for the auditor. This either requires database locking (slow),modification of audit logs after inserts (slow) or a background process which calculates theblockchain (OK) |
 | low      | Auditor                    | Create printable reports based on specific changes           |
 | low      | Database Editor            | Implement basic functionality / queries in UI                |

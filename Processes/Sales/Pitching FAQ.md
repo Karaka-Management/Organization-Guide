@@ -77,8 +77,8 @@
 ## Features
 * Is it possible to export data to excel
   * Yes, most data can be exported to excel
-* Is it possible to export data as pdf
-  * Yes, a lot of data can be exported as pdf
+* Is it possible to export data as PDF
+  * Yes, a lot of data can be exported as PDF
 * Is it possible to import data from excel
   * Yes, most data can be imported/updated from excel
 * Is it possible to generate automated jobs / tasks
