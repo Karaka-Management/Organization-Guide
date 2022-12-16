@@ -2,7 +2,7 @@
 
 ## General
 
-- [ ] The application usage feels normal (decent response time, no errors, etc.)
+* [ ] The application usage feels normal (decent response time, no errors, etc.)
 
 **Comment:**
 
@@ -22,7 +22,7 @@
 
 * PHP:
 
-- [ ] The server hardware, software and assigned resources fulfill the recommendations
+* [ ] The server hardware, software and assigned resources fulfill the recommendations
 
 **Comment:**
 
@@ -41,11 +41,11 @@
 
 ### Updates
 
-- [ ] The application has the newest version
-- [ ] The customer wishes to remain on the current version
-- [ ] The customer requests to update the application
-  - [ ] The customer is informed to create a backup first
-  - [ ] The application is successfully updated
+* [ ] The application has the newest version
+* [ ] The customer wishes to remain on the current version
+* [ ] The customer requests to update the application
+  * [ ] The customer is informed to create a backup first
+  * [ ] The application is successfully updated
 
 **Comment:**
 
@@ -53,8 +53,8 @@
 
 ### Logs
 
-- [ ] Has logs: _____________________________________________
-  - [ ] Logs are sent to OMS after approval from customer for further checks
+* [ ] Has logs: _____________________________________________
+  * [ ] Logs are sent to OMS after approval from customer for further checks
 
 **Comment:**
 
@@ -75,10 +75,10 @@
 
 ## Tests
 
-- [ ] PHP framework tests pass
-- [ ] JS framework tests pass
-- [ ] Modules tests pass
-- [ ] Applications tests pass
+* [ ] PHP framework tests pass
+* [ ] JS framework tests pass
+* [ ] Modules tests pass
+* [ ] Applications tests pass
 
 **Comment:**
 
@@ -86,9 +86,9 @@
 
 ## Database
 
-- [ ] Database seems healthy
-- [ ] If cache is used, at least 50% of the requests hit the cache (query cache, data cache)
-- [ ] Average database response times are less than 50ms
+* [ ] Database seems healthy
+* [ ] If cache is used, at least 50% of the requests hit the cache (query cache, data cache)
+* [ ] Average database response times are less than 50ms
 
 **Comment:**
 
@@ -98,8 +98,8 @@
 
 ### Functions
 
-- [ ] The application has disabled function calls
-- [ ] The application has deprecated function calls
+* [ ] The application has disabled function calls
+* [ ] The application has deprecated function calls
 
 **Comment:**
 
@@ -107,10 +107,10 @@
 
 ### Integrity
 
-- [ ] PHP framework integrity is valid
-- [ ] JS framework integrity is valid
-- [ ] Modules integrity is valid
-- [ ] Applications integrity is valid
+* [ ] PHP framework integrity is valid
+* [ ] JS framework integrity is valid
+* [ ] Modules integrity is valid
+* [ ] Applications integrity is valid
 
 **Comment:**
 
@@ -118,10 +118,10 @@
 
 ### Unicode
 
-- [ ] PHP framework has no unicode
-- [ ] JS framework has no unicode
-- [ ] Modules have no unicode
-- [ ] Applications have no unicode
+* [ ] PHP framework has no unicode
+* [ ] JS framework has no unicode
+* [ ] Modules have no unicode
+* [ ] Applications have no unicode
 
 **Comment:**
 
