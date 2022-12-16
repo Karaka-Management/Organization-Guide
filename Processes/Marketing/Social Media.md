@@ -33,4 +33,3 @@ Posting interval: > 1 a month
 ## Google
 
 Link:
-

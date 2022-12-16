@@ -119,6 +119,4 @@ gantt
     Submit KPI to HOD         :         des17, 2022-08-05, 1h
 ```
 
-
-
 2022-01-01 - Version 1.0firefod

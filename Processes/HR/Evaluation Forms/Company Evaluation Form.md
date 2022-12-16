@@ -7,7 +7,4 @@
 | 3    | The company appreciates my work.       |                |                  |                    |                      |       |
 | 4    | The company is sucessfull.             |                |                  |                    |                      |       |
 
-
-
 2022-01-01 - Version 1.0
-

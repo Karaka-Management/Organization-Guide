@@ -12,7 +12,4 @@
 | Full income statement    | CFO + CEO                         | CEO + executive staff members                                |           |      |
 | Overall responsibility   | CEO + CFO                         |                                                              |           |      |
 
-
-
 2022-01-01 - Version 1.0
-

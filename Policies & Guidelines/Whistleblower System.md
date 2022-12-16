@@ -62,8 +62,4 @@ graph TD;
     REPORT-->TAKE_MEASURES([EC: Take measures]);
 ```
 
-
-
-
-
 2022-01-01 - Version 1.0

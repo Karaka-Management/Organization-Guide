@@ -33,7 +33,4 @@
 
 Consider to update the [Key Supplier Evaluation](../Purchase/Key%20Supplier%20Evaluation.md) when changing this table.
 
-
-
 2022-01-01 - Version 1.0
-

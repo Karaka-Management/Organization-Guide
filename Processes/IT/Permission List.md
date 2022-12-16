@@ -33,7 +33,4 @@ The following list only contains user permissions of A, OS, DB, N, O which are r
 * DB: DBMS
 * N: Network
 
-
-
 2022-01-01 - Version 1.0
-

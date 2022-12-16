@@ -61,7 +61,4 @@ Yes, although only very few libraries. They can be found in Resources/ and Libra
 * eslint: Build repository
 * PHPUnit: respective repository
 
-
-
 2022-01-01 - Version 1.0
-

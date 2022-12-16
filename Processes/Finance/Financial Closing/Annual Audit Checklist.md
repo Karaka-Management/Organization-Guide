@@ -45,7 +45,4 @@
 | Audit report e.g. taxes (if available)                       |                       |           |      |
 | Overall responsibility                                       | Head of Finance + CFO |           |      |
 
-
-
 2022-01-01 - Version 1.0
-

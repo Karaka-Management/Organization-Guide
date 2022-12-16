@@ -17,4 +17,3 @@ graph TD;
     DOCUMENT_OWNER_CHANGES([Owner: Draft document change])-->APPROVAL[Owner: Approval acc. to Document Owners list];
     APPROVAL-->UPDATE([DQM: Replace old document with new version]);
 ```
-

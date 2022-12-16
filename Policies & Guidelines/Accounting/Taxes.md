@@ -16,7 +16,4 @@ Revenues, expenses and assets are recognized net of the amount of sales tax, exc
 * in the case of receivables and payables that are stated with the amount of sales tax included The net amount of sales tax recoverable from, or payable to, the taxation authority is included as part of
   receivables or payables in the statement of financial position.
 
-
-
 2022-01-01 - Version 1.0
-

@@ -140,7 +140,4 @@ The deadline is the 5th work day of the following month.
 
 The tasks and responsibilities can be found in the [Monthly Reporting Checklist](./Finance/Reporting/Monthly%20Reporting%20Checklist.md). The checklist must be signed by every responsible person after completing the defined task. (**R10**)
 
-
-
 2022-01-01 - Version 1.0
-

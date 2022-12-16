@@ -13,7 +13,6 @@
 | 9    | CFO  | Operational Risk (Finance) | The annual financial audit tasks are not well defined.       | 1    | 1    |      |                                                              |                 | An audit checklist exists defining the responsibilities.     | 1    | 1    |         |          | yes  | yes  |           |
 | 10   | CFO  | Operational Risk (Finance) | The reporting tasks are not well defined.                    | 1    | 1    |      |                                                              |                 | A reporting checklist exists defining the responsibilities.  | 1    | 1    |         |          | yes  | yes  |           |
 
-
 ## Abbreviations
 
 * R: Responsible
@@ -29,7 +28,5 @@
 * ES: Effective
 
 * EY: Efficient
-
-
 
 2022-01-01 - Version 1.0firefod

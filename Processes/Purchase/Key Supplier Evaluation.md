@@ -30,7 +30,4 @@
 
 Consider to update the [Approved Customer Software](../Support/Approved%20Customer%20Software.md) when changing this table.
 
-
-
 2021-01-01 - Version 1.0
-

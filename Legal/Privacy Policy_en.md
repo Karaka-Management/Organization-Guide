@@ -39,7 +39,6 @@ In particular, personal data is used as follows:
   * If you make use of the possibility to send inquiries to us by means of our contact form, we will ask You for your name and e-mail address. Furthermore, you can enter Your individual message to Us in the message field.
   * Some SERVICES allow You to provide optional personal data such as Your name, address etc. If You choose to provide these information they will be stored by Us for the sole purpose of using them in Our SERVICES and internal statistics.
 
-
 ## Cookies
 
 Cookies are unique identifies that we transfer to Your DEVICE to enable Our systems to recognize Your device and to provide some of our SERVICES and WEBSITE functionality.

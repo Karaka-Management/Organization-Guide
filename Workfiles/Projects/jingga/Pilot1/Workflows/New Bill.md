@@ -30,4 +30,3 @@ flowchart TB
     UPDATE_BILL[Update bill]-->CHECK_THREASHOLDS{Change above threshold}
     CHECK_THREASHOLDS-->|TRUE|OPEN_TASKS[Update & re-open tasks]
 ```
-

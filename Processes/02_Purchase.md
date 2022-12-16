@@ -85,6 +85,4 @@ The IT system is performing a credit score check, a sanction check and a VAT ID 
 
 Once a day every supplier is automatically checked against sanction lists. (**R17**)
 
-
-
 2022-01-01 - Version 1.0

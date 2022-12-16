@@ -68,10 +68,6 @@ The risk management is implemented with reasonable amounts of human resources, l
 
 ## Summary
 
-
-
-
-
 NAME, LAST NAME
 
 2022-12-31

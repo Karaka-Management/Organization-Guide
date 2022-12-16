@@ -13,7 +13,4 @@
 
 > Positions can be empty (except the search approval) and to be defined (TBD) by HR.
 
-
-
 2022-01-01 - Version 1.0
-

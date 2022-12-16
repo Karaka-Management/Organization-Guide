@@ -51,4 +51,3 @@ All jobs must be logged and monitored to ensure their correct operations. In cas
 The overall responsibility for the IT operations lies with the head of IT. However, every IT employee is responsible within their area of work for upholding the IT guidelines and policies as well as a smooth operation of the IT.
 
 2022-01-01 - Version 1.0
-

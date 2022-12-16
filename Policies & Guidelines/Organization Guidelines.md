@@ -20,6 +20,4 @@ Our goal is to provide products and services at the highest quality to make our 
 
 Disrespecting this policy possibly leads to a warning and potentially excluding the involved person from any further activities of the organization. Depending on the severeness legal actions may follow.
 
-
-
 2022-01-01 - Version 1.0

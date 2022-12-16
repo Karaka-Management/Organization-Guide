@@ -15,7 +15,4 @@
 1. Don't be late to appointments. It can happen but it shouldn't be a normal occurrence
 2. Don't represent the project and organization in a bad light
 
-
-
 2022-01-01 - Version 1.0
-

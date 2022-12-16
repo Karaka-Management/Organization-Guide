@@ -64,6 +64,4 @@ This creates a pull request which is a request to put your code changes into the
 
 Please note that your code changes may not get accepted if they don't uphold the coding standards mentioned in the developer guide or if the code changes don't fit the goal of the code base.
 
-
-
 2021-01-01 - Version 1.0

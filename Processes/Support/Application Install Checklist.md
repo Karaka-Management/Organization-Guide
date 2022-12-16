@@ -15,7 +15,4 @@
 - [x] Hide unused modules (e.g. calendar module in navigation)
 - [x] Test basic functionality
 
-
-
 2022-01-01 - Version 1.0
-

@@ -48,6 +48,4 @@ Disrespecting this policy possibly leads to a warning and potentially excluding 
 
 This policy is binding even after separation.
 
-
-
 2022-01-01 - Version 1.0

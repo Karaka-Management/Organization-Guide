@@ -52,6 +52,4 @@ The data reconstruction is documented in a reconstruction tutorial in the IT pro
 
 The responsibility for the data backup lies with the head of IT. Other IT employees may only take over these tasks if the head of IT considers these employees sufficiently trained in this area. The responsible employees must control the data integrity of the backups once a quarter.
 
-
-
 2022-01-01 - Version 1.0

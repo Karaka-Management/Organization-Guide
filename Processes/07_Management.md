@@ -51,7 +51,4 @@ The following controlling instruments are implemented (**R6**).
 
 From the controlling activities optimizations arise which can be brought forward by anyone in [meetings](./Management/Information%20Flow.md) and changes can be made to the processes by the responsible persons defined in the [Document Owners](./Document%20Owners.md).
 
-
-
 2022-01-01 - Version 1.0
-

@@ -85,7 +85,4 @@ The decision why Karaka decided to use PHP came down to the following points:
 7. Further implement basic modules (news, profile, wiki, kanban, Q&A, calendar, messaging)
 8. Create new design
 
-
-
 2022-01-01 - Version 1.0
-

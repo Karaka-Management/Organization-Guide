@@ -10,7 +10,4 @@
 | Is the Whistleblower System working according to design?     |             |      |
 | Check if the annual internal quality management audit was performed |             |      |
 
-
-
 2022-01-01 - Version 1.0
-

@@ -1,6 +1,5 @@
 # Interdependency
 
-
 | | Development | Purchase | Sales | Management | Support & Service | Quality Management | IT | Finance | HR | Marketing |
 | - | - | - | - | - | - | - | - | - | - | - |
 | Development |             |          |       |            |                   |                    |x||||

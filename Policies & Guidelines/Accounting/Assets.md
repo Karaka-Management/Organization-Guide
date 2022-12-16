@@ -34,6 +34,4 @@ When value-in-use calculations are undertaken, management has to estimate the ex
 
 Work in progress is measured at the production costs considering a loss-free valuation. The production costs include the minimum components as prescribed under section 255 (2) HGB and mainly relate to personnel expenses and expenses for external services.
 
-
-
 2022-01-01 - Version 1.0

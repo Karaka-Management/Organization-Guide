@@ -28,7 +28,4 @@ Employee: YOUR_NAME
 
 Signature:
 
-
-
 2021-01-01 - Version 1.0
-

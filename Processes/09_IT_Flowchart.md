@@ -49,7 +49,4 @@ graph TD;
   VALIDATE_TEST--Yes-->MIGRATE[IT: Migrate change to live];
 ```
 
-
-
 2022-01-01 - Version 1.0
-

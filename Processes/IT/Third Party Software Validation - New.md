@@ -26,7 +26,4 @@ Before buying/implementing a new software the following aspects must be checked:
 | Estimated ROI in years |  | Investment Form |  ||
 | Opinion project manager |  | See above |  ||
 
-
-
 2022-01-01 - Version 1.0
-

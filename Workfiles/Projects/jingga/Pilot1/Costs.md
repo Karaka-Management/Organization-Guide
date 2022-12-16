@@ -63,4 +63,3 @@ The following overview tries to compare competitive software alternatives as fai
 \* Excluding future costs for additional software/features
 
 \*\* Incl. features mentioned in new value and basic support & customizations (e.g. installation, software training, invoice layout)
-

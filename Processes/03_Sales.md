@@ -165,6 +165,4 @@ The organization occasionally purchases contact addresses (email & mail addresse
 
 The organization occasionally visits events where it holds presentations with various topics. Additionally, the organization sometimes has a booth at trade fairs, seminars etc. where it presents their products.
 
-
-
 2022-01-01 - Version 1.0

@@ -22,8 +22,6 @@
 
 * PHP:
 
-
-
 - [ ] The server hardware, software and assigned resources fulfill the recommendations
 
 **Comment:**
@@ -146,7 +144,5 @@ Performed by (OMS):
 Customer:
 
 Supervised by (customer):
-
-
 
 2022-01-01 - Version 1.0

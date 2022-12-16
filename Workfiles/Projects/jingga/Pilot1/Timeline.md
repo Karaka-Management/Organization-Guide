@@ -68,4 +68,3 @@ gantt
     section Live
         Going live                    :milestone, 2023-08-31
 ```
-

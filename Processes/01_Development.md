@@ -127,8 +127,6 @@ The name of the branch can be chosen freely however it is recommended to follow 
        merge develop
 ```
 
-
-
 The senior developer who performs the code review merges the change request into the `develop` branch after their successful code review. Unsuccessful reviews lead to change requests by the original developer, other developers who can make the requested changes, changes by the senior developer who performed the review, or dismissal of the changed code. (**R10**)
 
 ## Approved dependencies
@@ -148,4 +146,3 @@ Developers may only rely on the dependencies defined in [IT Equipment & Software
 * [Tutorials](./Development/Tutorials)
 
 2022-01-01 - Version 1.0
-

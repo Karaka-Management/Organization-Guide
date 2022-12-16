@@ -10,6 +10,4 @@ Members should not spend more than 40 hours per week on the organization as we b
 
 Extremely few or insignificant contributions may lead to the exclusion from the organization based on judgmental basis by a senior member. A member can expect to receive a warning in advance in order to provide the chance to increase the activity or provide reasons for the past activities.
 
-
-
 2022-01-01 - Version 1.0

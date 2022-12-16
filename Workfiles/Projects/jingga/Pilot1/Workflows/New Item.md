@@ -1,7 +1,5 @@
 # New Item
 
-
-
 ```mermaid
 flowchart TB
     CREATE_PURCHASE[Create Purchase]-->FORWARD_SALES[Sales]
@@ -10,6 +8,3 @@ flowchart TB
     FORWARD_SALES-->MANAGEMENT[Management]
     MANAGEMENT-->QM[QM]
 ```
-
-
-

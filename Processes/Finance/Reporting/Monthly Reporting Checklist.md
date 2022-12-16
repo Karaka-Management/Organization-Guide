@@ -21,7 +21,4 @@
 | Status update on key projects and tasks                      | CTO + CFO       |             |           |      |
 | Explanation for sales and costs (provided by head of departments) | CFO             |             |           |      |
 
-
-
 2022-01-01 - Version 1.0
-

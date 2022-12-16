@@ -88,7 +88,4 @@ All customer support requests must be documented as customer tickets in the IT s
 
 Every closed support ticked gets followed up with a automatic email which asks the customer to rate his satisfaction with the support. (**R16**)
 
-
-
 2022-01-01 - Version 1.0
-

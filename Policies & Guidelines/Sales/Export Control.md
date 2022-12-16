@@ -106,7 +106,6 @@ Possible resources for checking tariff numbers are "Warenverzeichnis für die Au
 
 ## Sanction checks
 
-
 ## Annex
 
 "Export" means any cross-border transfer from Germany to other countries - also to other EC Member States - including non-tangible transfer by means of electronic media (cf. Art.2 No.2 iii Dual-Use Regulation) as well as including short-term exports (e.g. for trade fairs). Exports in the sense of these organizational instructions are also deemed to be exports if SDG does not act on its own behalf but, for example, on behalf of another domestic or foreign company in the SDG group. The inspection and action obligations set out in these organizational instructions also apply to such exports. 

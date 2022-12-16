@@ -34,4 +34,3 @@ Logging must be always enabled for errors and warnings. Additional logging can b
 The responsibility for the database lies with the head of IT. No other employee may directly interact witht the database except for backups and restarting the database in case of failures.
 
 2022-01-01 - Version 1.0
-

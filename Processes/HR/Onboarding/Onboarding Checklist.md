@@ -8,7 +8,6 @@
 | Explain DO'S and DON'TS | HR                 |      |      |
 | Introduction to team    | Head of department |      |      |
 
-
 ## Development sepecifc
 
 | Topic                                                        | Date               | By   | Done |
@@ -22,7 +21,4 @@
 | Q&A about the code base, application design, etc.            | Department         |      |      |
 | Handover of some basic issues/tasks/todos                    | Department         |      |      |
 
-
-
 2022-01-01 - Version 1.0
-

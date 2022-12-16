@@ -20,7 +20,4 @@
 | Car is taken care of                          |      | Fleet manager |      |
 | Training plan is taken care of                |      | Head of HR    |      |
 
-
-
 2022-01-01 - Version 1.0
-

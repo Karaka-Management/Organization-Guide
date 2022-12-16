@@ -43,4 +43,3 @@ Potential documents to be changed are:
 The responsibility for the data backup lies with the head of IT. Other IT employees may only take over these tasks if the head of IT considers these employees sufficiently trained in this area. The responsible employees must ensure the appropriatness of the changes and authorization.
 
 2022-01-01 - Version 1.0
-

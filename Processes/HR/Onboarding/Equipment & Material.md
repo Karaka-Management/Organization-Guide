@@ -35,6 +35,4 @@
 * Jug
 * Glass
 
-
-
 *\*All prices in net*

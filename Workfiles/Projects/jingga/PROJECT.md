@@ -39,8 +39,6 @@ Last update of this file: 2022.05.01
 
 #### Other
 
-
-
 ## Challenges & problems
 
 ### UI
@@ -656,4 +654,3 @@ flowchart LR
     C_TRIGGER[State3: Event Triggers]-->C_IF{...}
     end
 ```
-

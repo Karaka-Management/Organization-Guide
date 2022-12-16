@@ -8,7 +8,4 @@ graph TD;
     OPTIMIZE-->PLAN
 ```
 
-
-
 2022-01-01 - Version 1.0
-

@@ -31,7 +31,4 @@ graph TD;
     SWITCH_PRIVATE---LOCAL_BACKUP_SERVER[Local backup server];
 ```
 
-
-
 2022-01-01 - Version 1.0
-

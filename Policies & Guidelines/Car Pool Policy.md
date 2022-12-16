@@ -42,6 +42,4 @@ All drivers are responsible for their traffic violations. This includes also bei
 
 The car must be returned in good condition by the end of the lease term or if the employment at the organization ends. Gross negligence including repairs for unreported damages must be paid by the employee.
 
-
-
 2022-01-01 - Version 1.0

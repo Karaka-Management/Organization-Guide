@@ -58,8 +58,4 @@ $$
 ROA = \frac{Net Income}{Total Assets}
 $$
 
-
-
-
 2022-01-01 - Version 1.0
-

@@ -18,17 +18,8 @@
 
 ## Issue description
 
-
-
 ## Response / Solution
-
-
-
-
 
 **Closed at:** 2022-01-01 - 13:30
 
-
-
 2022-01-01 - Version 1.0
-

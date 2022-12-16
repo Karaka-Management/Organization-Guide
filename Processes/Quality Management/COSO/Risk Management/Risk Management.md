@@ -45,7 +45,6 @@ The following four-steps represent the management process
 
 The intent of risk identification is to answer the question “What can go wrong?” by:
 
-
 * Looking at current and proposed staffing, processes, suppliers, products, resources, dependencies, etc.
 * Reviewing potential shortfalls against expectations
 * Analyzing negative trends
@@ -66,7 +65,6 @@ Risk identification is the activity that examines each element of the company to
 
 Risk analysis answers the question “What are the likelihood and consequence of the risk?” and “How high is the risk?”. The following tasks are part of the risk analysis:
 
-
 * Estimate the likelihood the risk event will occur
 * Estimate the possible consequence in terms of cost, schedule and performance
 * Determine the resulting risk level and prioritize for mitigation
@@ -84,7 +82,6 @@ Risk likelihood is the evaluated probability an event will occur given existing 
 | 3     | Likely         | \> 40% ≤ 60%              |
 | 2     | Low Likelihood | \> 20% ≤ 40%              |
 | 1     | Not Likely     | \> 0% ≤ 20%               |
-
 
 The initial assessment of probability of occurrence needs to be considered in combination with consequences, should the event be realized, and also the effectiveness of mitigation actions when making decisions on whether a given probability level is too high and would preclude proceeding on a planned course of action. Depending on the circumstances, there may be cases in which a risk (probability and consequence) is high enough to change course, in the absence of assured mitigation.
 
@@ -153,7 +150,4 @@ The Risk Management System needs to be reviewed on a regular basis in terms of e
 
 **Company:** The review is performed annually.
 
-
-
 2022-01-01 - Version 1.0
-

@@ -1,7 +1,5 @@
 # Automated Jobs
 
-
-
 | Type / Description                  | Interval | Start | Comment                        |
 | ----------------------------------- | -------- | ----- | ------------------------------ |
 | Backup to NAS                       | Daily    | 02:00 |                                |
@@ -11,7 +9,4 @@
 | Push master branch to remote server | Daily    | 03:00 |                                |
 | Demo application setup              | Daily    | 03:00 |                                |
 
-
-
 2022-01-01 - Version 1.0
-

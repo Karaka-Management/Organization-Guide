@@ -76,7 +76,4 @@ flowchart TD;
 
 Additional responsibilities are defined in the respective process documentation, [Document Owners](./Document%20Owner.md) and individual employee contracts.
 
-
-
 2022-01-01 - Version 1.0
-

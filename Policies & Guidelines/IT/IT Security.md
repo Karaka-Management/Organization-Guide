@@ -71,4 +71,3 @@ Security software which must be used on the main server are:
 The responsibility for the IT security lies with the head of IT. Other IT employees may only take over these tasks if the head of IT considers these employees sufficiently trained in this area.
 
 2022-01-01 - Version 1.0
-

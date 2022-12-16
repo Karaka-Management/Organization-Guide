@@ -28,7 +28,4 @@ graph TD;
     SIGN_CONTRACT-->TRAIN([Department: Train employee])
 ```
 
-
-
 2022-01-01 - Version 1.0
-

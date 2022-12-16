@@ -61,7 +61,4 @@
 | Intrusion prevention system          | fail2ban            |
 | Intrusion detection/prevention system          | snort            |
 
-
-
 2022-01-01 - Version 1.0
-

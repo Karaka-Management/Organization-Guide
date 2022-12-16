@@ -14,6 +14,4 @@
 | Company presentation                                                     |      | HR                            |
 | Training of company processes, guidelines and quality management aspects |      | HR & QM                       |
 
-
 2022-01-01 - Version 1.0
-

@@ -62,4 +62,3 @@ IT support can be requested through the support portal (e..g faulty hardware) an
 Every employee is responsible for following this guideline.
 
 2022-01-01 - Version 1.0
-

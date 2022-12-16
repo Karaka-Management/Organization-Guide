@@ -5,7 +5,4 @@
 | Define audit schedule with auditors | Head of Finance |           |      |
 |                                     |                 |           |      |
 
-
-
 2022-01-01 - Version 1.0
-

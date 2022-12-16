@@ -38,7 +38,4 @@ The quality management department can improve some of the *deficiencies* by them
 
 The quality management department is responsible for ensuring the correctness, completeness and overall quality of the process documentation as well as the related documents. For this reason the quality management department has to check these documents once a year and ensure that all documents have the necessary approvals, are still up-to-date, correct and complete. The basis for this check is the [Document Owners](./Document%20Owners.md) list. (**R3**)
 
-
-
 2022-01-01 - Version 1.0
-
