@@ -17,12 +17,11 @@
 | Policies & Guidelines | IT: [Back & Data Recovery](../Policies%20&%20Guidelines/IT/Backup%20&%20Data%20Recovery.md) | Head of IT and CTO       | DQM or CEO      |
 | Policies & Guidelines | IT: [Change Management](../Policies%20&%20Guidelines/IT/Change%20Management.md) | Head of IT and CTO       | DQM or CEO      |
 | Policies & Guidelines | IT: [Database Guidelines](../Policies%20&%20Guidelines/IT/Database%20Guidelines.md) | Head of IT and CTO       | DQM or CEO      |
-| Policies & Guidelines | IT: [Development and Maintenance](../Policies%20&%20Guidelines/IT/Development%20and%20Maintenance.md) | Head of IT and CTO       | DQM or CEO      |
 | Policies & Guidelines | IT: [General Employee Guideline](../Policies%20&%20Guidelines/IT/General%20Employee%20Guideline.md) | Head of IT and CTO       | DQM or CEO      |
+| Policies & Guidelines | IT: [Infrastructure](../Policies%20&%20Guidelines/IT/Infrastructure.md) | Head of IT and CTO       | CTO             |
+| Policies & Guidelines | IT: [IT Security](../Policies%20&%20Guidelines/IT/IT%20Security.md) | Head of IT and CTO       | DQM or CEO      |
 | Policies & Guidelines | IT: [Operations Guidelines](../Policies%20&%20Guidelines/IT/Operations%20Guideline.md) | Head of IT and CTO       | DQM or CEO      |
-| Policies & Guidelines | IT: [Password Guideline](../Policies%20&%20Guidelines/IT/Password%20Guideline.md) | Head of IT and CTO       | DQM or CEO      |
-| Policies & Guidelines | IT: [Software Guidelines](../Policies%20&%20Guidelines/IT/Software%20Guidelines.md) | Head of IT and CTO       | DQM or CEO      |
-| Policies & Guidelines | IT: [Back & Data Recovery](../Policies%20&%20Guidelines/IT/Backup%20&%20Data%20Recovery.md) | Head of IT and CTO       | DQM or CEO      |
+| Policies & Guidelines | IT: [Outsourcing Guidelines](../Policies%20&%20Guidelines/IT/Outsourcing%20Guideliens.md) | Head of IT and CTO       | DQM or CEO      |
 | Policies & Guidelines | Sales: [Export Control](../Policies%20&%20Guidelines/Sales/Export%20Control.md) | Export Control Officer   | CEO             |
 | Policies & Guidelines | Sales: [Export Control](../Policies%20&%20Guidelines/Sales/Pricing%20Policy.md) | CSO                      | CEO             |
 | Policies & Guidelines | [Car Pool Policy](../Policies%20&%20Guidelines/Car%20Pool%20Policy.md) | Fleet Manager            | CEO             |
@@ -62,8 +61,8 @@
 | Processes             | Quality Management: [Quality Management Flow Chart](./08_Quality%20Management_Flowchart.md) | DQM and CEO              | CEO             |
 | Processes             | Quality Management: [Quality Management Risk Control Matrix](./08_Quality%20Management_Risk%20Control%20Matrix.md) | DQM and CEO              | CEO             |
 | Processes/COSO        | Quality Management: [Risk Management](./Quality%20Management/COSO/Risk%20Management) | CFO and DQM              | CEO             |
-| Processes/COSO        | Quality Management: [CLC](./Quality%20Management/COSO/CLC.md)                     | DQM and CEO              | CEO             |
-| Processes/COSO        | Quality Management: [ITGC](./Quality%20Management/COSO/ITGC.md)                   | Head of IT and DQM       | CEO             |
+| Processes/COSO        | Quality Management: [CLC](./Quality%20Management/COSO/CLC.md) | DQM and CEO              | CEO             |
+| Processes/COSO        | Quality Management: [ITGC](./Quality%20Management/COSO/ITGC.md) | Head of IT and DQM       | CEO             |
 | Processes             | Development: [Tutorials](./Development/Tutorials)            | HOCS and CTO             | CTO             |
 | Processes             | Finance: [Budgeting](./Finance/Budgeting)                    | CFO                      | DQM or CEO      |
 | Processes             | Finance: [Financial Closing](./Finance/Financial%20Closing)  | CFO                      | DQM or CEO      |

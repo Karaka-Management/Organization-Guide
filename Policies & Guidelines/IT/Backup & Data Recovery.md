@@ -40,10 +40,6 @@ This type of backup is done incrementally, meaning only changes are stored.
 
 Once a quarter a full data backup (clone) is created and stored on an external hard drive. The purpose of these backups are to provide long term backups which are not replaced/overwritten. Additionally, these backups provide some fall back solution for sleeper malware or malware which encrypts backup files. Only 4 quarters at a maximum are allowed to be stored on the same hard drive. The backup is stored in a separate building than the main backup or in a bank vault. 
 
-## Responsibility
-
-The responsibility for the data backup lies with the head of IT. Other IT employees may only take over these tasks if the head of IT considers these employees sufficiently trained in this area. The responsible employees must control the data integrity of the backups once a quarter.
-
 ## Data storage
 
 The data should be stored in such a way that only authorized personnel has access to the backup files. Authorized in this case means IT department and management. The data backups should be marked or labeled so that it is easily possible to identify the contents of the backup (i.e. Backup 2022-01.01 2:00:01).
@@ -51,6 +47,10 @@ The data should be stored in such a way that only authorized personnel has acces
 ## Reconstruction
 
 The data reconstruction is documented in a reconstruction tutorial in the IT processes. During the reconstruction it may be necessary to put a higher priority on files and data which are more important for the ongoing organization activities (e.g. customer data, source code data). 
+
+## Responsibility
+
+The responsibility for the data backup lies with the head of IT. Other IT employees may only take over these tasks if the head of IT considers these employees sufficiently trained in this area. The responsible employees must control the data integrity of the backups once a quarter.
 
 
 

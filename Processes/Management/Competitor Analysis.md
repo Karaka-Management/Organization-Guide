@@ -26,7 +26,7 @@
 | tricoma AG                        | tricoma                                 | 40        | ?                      |
 | weclapp SE                        | weclapp                                 | 100       | 7                      |
 
-### Branche overview
+### Branch overview
 
 | Name                                    | Production | Retail | Wholesale | Service | Other |
 | --------------------------------------- | ---------- | ------ | --------- | ------- | ----- |
@@ -73,106 +73,6 @@
 | TimeLine Enterprise                     | x       | x            | x                     |                  | x          | x               |       |
 | tricoma                                 | x       | x            | x                     | x                | x          | x               | x     |
 | weclapp                                 | x       | x            |                       | x                | x          | x               | x     |
-
-### Procurement functionality
-
-|                                  | 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------------------------------- | -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |
-| Supplier core data               |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Supplier analysis and evaluation |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Inquiry handling                 |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Offer comparison                 |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Order monitoring                 |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Master contracts with suppliers  |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Foreacsting procurement          |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Estimating order quantities      |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Electronic ordering              |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Quotation                        |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Delivery schedule                |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Alloy surcharge                  |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Provision                        |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Supplier integration/interface   |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-| Supplier login                   |          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |
-
-### Sales functionality
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### Production functionality
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### Quality Management functionality
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### Logistics functionality
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### Accounting functionality
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### Controlling functionality
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### HR functionality
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### Branch specific functionality
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### Technologies
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-
-### Other functionalities
-
-| 4SELLERS | ams.erp | APplus | e.bootis-ERP | lexbizz | HELIUM 5 | canias4.0 | JTL-Wawi | Microsoft Dynamics 365 | myfactory | oxaion | Pickware ERP | proALPHA ERP | PSIpenta | Sage 100 | AvERP | TimeLine Enterprise | tricoma | weclapp |
-| -------- | ------- | ------ | ------------ | ------- | -------- | --------- | -------- | ---------------------- | --------- | ------ | ------------ | ------------ | -------- | -------- | ----- | ------------------- | ------- | ------- |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
-|          |         |        |              |         |          |           |          |                        |           |        |              |              |          |          |       |                     |         |         |  |
 
 ## Disclaimer
 

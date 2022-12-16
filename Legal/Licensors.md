@@ -125,4 +125,3 @@ Additional resources can be found in:
 * The respective package.json files in the repositories
 * External/third party tools mentioned in the documentation
 * [Approved Customer Software](../Processes/Support/Approved%20Customer%20Software.md)
-

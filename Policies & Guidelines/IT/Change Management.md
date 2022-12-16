@@ -1,6 +1,14 @@
 # Change Management
 
-## Permissions
+In an organization employees change, tasks get transfered and new challenges arise. These changes often require changes in user permissions and new software needs.
+
+## Goal
+
+Changes to the IT system and permissions should be performed in such a way that they ensure the stability long-term operability of the IT environment without exposing the system to large risks such as unauthorized data access and data loss. For this purpose this authorization and documentation guidline must be followed.
+
+## Implementation
+
+### Permissions
 
 Permission changes are sometimes necessary if a role of an employee changes or if the employee has to take over additional tasks. Such permission requests must get approved by the respective HOD and verified by the IT department. If the change request is justified the IT department changes the permissions for the employee.
 
@@ -10,7 +18,7 @@ Potential documents to be changed are:
 
 * [Permission List](../../Processes/IT/Permission%20List.md)
 
-## Software
+### Software
 
 Software changes include software updates, new software or functional/feature changes. Change requests can be made by any employee but must get approved by the respective HOD. If the change request is justified the IT department performs the change in a testing environment where the employee or HOD can test the change.
 
@@ -30,7 +38,9 @@ Potential documents to be changed are:
 * [Approved Customer Software](../../Processes/Support/Approved%20Customer%20Software.md)
 * [Key Supplier Evaluation](../../Processes/Purchase/Key%20Supplier%20Evaluation.md)
 
+## Responsible
 
+The responsibility for the data backup lies with the head of IT. Other IT employees may only take over these tasks if the head of IT considers these employees sufficiently trained in this area. The responsible employees must ensure the appropriatness of the changes and authorization.
 
 2022-01-01 - Version 1.0
 

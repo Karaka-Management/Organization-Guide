@@ -44,7 +44,7 @@
 | ------------------------------------------------------------ | ------------ | ------------------------------------------------------------ | ------------------------------- |
 | What is the number of user?                                  | A            | Large number of users in large number of user locations/departments | Organigram<br />Permission List |
 | What is the number of user?                                  | OS, DB, N, O | Number of users and user locations/departments is limited    | Organigram<br />Permission List |
-| Frequency of "direct data change"<br /><br />(*"direct data change" means to change data with the utilities such as SQL software*) | N            | No direct change to data has been required since its implementation, as the system has been in stable operation |                                 |
+| Frequency of "direct data change"<br /><br />(*"direct data change" means to change data with the utilities such as SQL software*) | DB           | No direct change to data has been required since its implementation, as the system has been in stable operation |                                 |
 
 ### Assessment of Design Effectiveness
 
@@ -52,43 +52,43 @@
 | ---- | ------------------------------------------------------------ | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1    | Describe the user authentication process.                    | A, OS, DB, N, O | User-ID and password are assigned on an individual basis and necessary for accessing digital data. | Application login screen<br />OS login screen<br />DB login screen<br />Server login screen |
 | 2    | How are user and access rights granted to each user documented? | A               | A list of users is prepared with the rights granted to each user. This list is generated from the system | Application permission List                                  |
-| 2    | How are user and access rights granted to each user documented? | OS, DB, N, O    | A list of users is prepared with the rights granted to each user | Permission List                                              |
-| 3    | Do you have policies and procedures for user-ID administration? | A, OS, DB, N, O | Policies and procedures for user-ID administration (add, change, remove, and periodic user validation) are described in an authorized  documentation. The documentation is prepared and authorized by the head of IT |                                                              |
-| 4    | How do you perform user validation?                          | A, OS, DB, N, O | Periodic user validation is performed, this means each user's access rights are reviewed on a periodic basis. Performed both in terms of existence of user and the detailed access rights granted to each user-ID on an annual basis by the head of IT |                                                              |
-| 5    | How are user-ID administration requests approved?            | A, OS, DB, N, O | User-ID administration requests are approved by managers in user dpt. and/or IT dpt, as appropriate. Records are maintained in the change management |                                                              |
-| 6    | How do you handle access to IT functions?                    | A, OS, DB, N, O | Access to privileged IT functions is restricted to appropriate personnel. Logs of the use of such privileged user-IDs are reviewed annually |                                                              |
-| 7    | Describe the password/authentication complexity.             | A, OS, DB, N, O | Password complexity is configured based on a minimum length of 8, at least one upper case letter, at least one lower case letter, at least one special character and at least one numeric value. Password changes must happen every 3 months |                                                              |
-| 8    | Which policies and procedures for direct change to data do you have? | DB              | Only the head of IT may perform and authorize direct changes to the data |                                                              |
-| 9    | How do you handle direct data changes?                       | DB              | Direct changes to data must be authorized by the head of IT. No direct changes to data where made |                                                              |
-| 10   | Do you test data after direct changes?                       | DB              | Direct change to data are tested and documented. No direct changes to data where made |                                                              |
-| 11   | How do you restrict direct data changes?                     | DB              | Only the head of IT has write/change permissions to the DB   |                                                              |
-| 12   | How do you restrict access to applications and OS?           | A, OS           | Data and programs on a stand-alone PC are in control of the user. User permissions for applications, data on the server and OS are restricted appropriately. |                                                              |
-| 12   | How do you restrict access to server hardware and databases? | DB              | Server(s) are located in a machine room with appropriate physical access control. |                                                              |
+| 2    | How are user and access rights granted to each user documented? | OS, DB, N, O    | A list of users is prepared with the rights granted to each user / user group. The active permissions can be seen in the IT systems | Permission List                                              |
+| 3    | Do you have policies and procedures for user-ID administration? | A, OS, DB, N, O | Policies and procedures for user-ID administration (add, change, remove, and periodic user validation) are described in an authorized  documentation. The documentation is prepared and authorized by the head of IT | Permission Policy                                            |
+| 4    | How do you perform user validation?                          | A, OS, DB, N, O | Periodic user validation is performed, this means each user's access rights are reviewed on a periodic basis. Performed both in terms of existence of user and the detailed access rights granted to each user-ID on an annual basis by the head of IT | Permission Policy                                            |
+| 5    | How are user-ID administration requests approved?            | A, OS, DB, N, O | User-ID administration requests are approved by managers in user dpt. and/or IT dpt, as appropriate. Records are maintained in the change management | Change Management                                            |
+| 6    | How do you handle access to IT functions?                    | A, OS, DB, N, O | Access to privileged IT functions is restricted to appropriate personnel. Logs of the use of such privileged user-IDs are reviewed annually | Permission List<br />IT Security                             |
+| 7    | Describe the password/authentication complexity.             | A, OS, DB, N, O | Password complexity is configured based on a minimum length of 8, at least one upper case letter, at least one lower case letter, at least one special character and at least one numeric value. Password changes must happen every 3 months | IT Security                                                  |
+| 8    | Which policies and procedures for direct change to data do you have? | DB              | Only the head of IT may perform and authorize direct changes to the data | Database Guidelines                                          |
+| 9    | How do you handle direct data changes?                       | DB              | Direct changes to data must be authorized by the head of IT. No direct changes to data where made | Database Guidelines                                          |
+| 10   | Do you test data after direct changes?                       | DB              | Direct change to data are tested and documented. No direct changes to data where made | Database Guidelines                                          |
+| 11   | How do you restrict direct data changes?                     | DB              | Only the head of IT has write/change permissions to the DB   | Permission List                                              |
+| 12   | How do you restrict access to applications and OS?           | A, OS           | Data and programs on a stand-alone PC are in control of the user. User permissions for applications, data on the server and OS are restricted appropriately. | IT Security                                                  |
+| 12   | How do you restrict access to server hardware and databases? | DB              | Server(s) are located in a machine room with appropriate physical access control. | IT Security                                                  |
 
 ## System Operation and Administration
 
 ### Points to consider
 
-| Question                              | Situation                                                    | Evidences |
-| ------------------------------------- | ------------------------------------------------------------ | --------- |
-| Frequency of problems/incidents       | Material failure such as miscalculation or malfunction of the system has not occurred. |           |
-| Frequency of changes to job schedules | Changes to job schedules occur frequently but most of them are those in execution date |           |
-| Frequency of Non/Scheduled job        | Non/Scheduled job is required in some cases but its frequency is low |           |
+| Question                              | Situation                                                    | Evidences              |
+| ------------------------------------- | ------------------------------------------------------------ | ---------------------- |
+| Frequency of problems/incidents       | Material failure such as miscalculation or malfunction of the system has not occurred |                        |
+| Frequency of changes to job schedules | Changes to job schedules occur frequently but most of them are those in execution date/time | Change Management logs |
+| Frequency of Non/Scheduled job        | Non/Scheduled job is required in some cases but its frequency is low | Change Management logs |
 
 ### Assessment of Design Effectiveness
 
-| No.  | Question                                                     | Situation                                                   | Evidences |
-| ---- | ------------------------------------------------------------ | ----------------------------------------------------------- | --------- |
-| 1    | Do you have policies and procedures for backups?             | Exists                                                      |           |
-| 2    | How do you ensure the completion of backups?                 | All backup job records are reviewed by monitoring personnel |           |
-| 3    | How do you test backups?                                     | Every backup is automatically tested                        |           |
-| 4    | Which policies and procedures for job operation do you have? |                                                             |           |
-| 5    | How are job schedule changes approved?                       |                                                             |           |
-| 6    | How do you prevent/detect unauthorized changes to job schedules? |                                                             |           |
-| 7    | How is the completion of job execution ensured?              |                                                             |           |
-| 8    | Requests for non-scheduled job execution are authorized      |                                                             |           |
-| 9    | Which policies and procedures for identifying, resolving, reviewing, and analyzing IT operations problems or incidents exist? |                                                             |           |
-| 10   | How are IT operations problems or incidents identified, resolved, reviewed, analyzed, and follow-ups evidenced? |                                                             |           |
+| No.  | Question                                                     | Situation                                                    | Evidences                                  |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ |
+| 1    | Do you have policies and procedures for backups?             | A Backup & Data Recovery policy exists                       | Backup & Data Recovery                     |
+| 2    | How do you ensure the completion of backups?                 | All backup jobs are logged and failures are automatically forwarded to the IT department | Backup & Data Recovery                     |
+| 3    | How do you test backups?                                     | Every backup is automatically tested                         | Backup & Data Recovery                     |
+| 4    | Which policies and procedures for job operation do you have? | Job guidelines are defined in the Operations Guidelines      | Operations Guidelines                      |
+| 5    | How are job schedule changes approved?                       | Changes can only be performed by the IT department. In addition the head of IT is informed about such changes | Operations Guidelines                      |
+| 6    | How do you prevent/detect unauthorized changes to job schedules? | Only the IT department can change jobs                       | Operations Guidelines<br />Permission List |
+| 7    | How is the completion of job execution ensured?              | The completion is ensured through logs and automatic failure messages to the IT department | Operations Guidelines                      |
+| 8    | Requests for non-scheduled job execution are authorized      | Changes and non-scheduled jobs must be approved by the respective HOD and verified by the IT department | Operations Guidelines                      |
+| 9    | Which policies and procedures for identifying, resolving, reviewing, and analyzing IT operations problems or incidents exist? | A operations guideline exist                                 | Operations Guidelines                      |
+| 10   | How are IT operations problems or incidents identified, resolved, reviewed, analyzed, and follow-ups evidenced? |                                                              | Operations Guidelines                      |
 
 ## Outsourcing Contract Management
 
@@ -100,10 +100,10 @@
 
 ### Assessment of Design Effectiveness
 
-| No.  | Question                                                     | Situation                                                    | Evidences |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------- |
-| 1    | Which outsourced IT services exist and how are they documented? | Outsourced service are clearly defined and agreed with the service vendor in writing e.g. in contract and/or SLA |           |
-| 2    | How do you ensure the compliance of vendors?                 | Service vendor's compliance to the service level is periodically reviewed |           |
-| 3    | How do you ensure the quality of the service vendors?        | Regular review of service vendors is conducted in terms of appropriateness of the services defined, service vendor's ability to render the required service level, etc. |           |
+| No.  | Question                                                     | Situation                                                    | Evidences             |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------- |
+| 1    | Which outsourced IT services exist and how are they documented? | Outsourced service are clearly defined and agreed with the service vendor in writing e.g. in contract and/or SLA | Outsourced Services   |
+| 2    | How do you ensure the compliance of vendors?                 | Service vendor's compliance to the service level is periodically reviewed | Outsourcing Guideline |
+| 3    | How do you ensure the quality of the service vendors?        | Regular review of service vendors is conducted in terms of appropriateness of the services defined, service vendor's ability to render the required service level, etc. | Outsourcing Guideline |
 
 2022-01-01 - Version 1.0

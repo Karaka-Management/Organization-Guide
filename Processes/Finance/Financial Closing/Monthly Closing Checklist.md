@@ -14,11 +14,9 @@
 | Create investment report                    |                 |           |      |
 | Create cash reporting                       |                 |           |      |
 | Create HR reporting                         |                 |           |      |
-| Create KPI reportings                       |                 |           |      |
+| Create KPI reporting                        |                 |           |      |
 | Verify reporting                            |                 |           |      |
 | Submit reporting                            |                 |           |      |
-
-
 
 2022-01-01 - Version 1.0
 

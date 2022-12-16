@@ -6,8 +6,8 @@ The whistleblower system is a way to allow anyone to report illegal behavior or 
 
 Compliance complaints can arrive in the following three ways:
 
-* Email: [compliance@karaka.app](compliance@karaka.app) (is automatically sent to all compliance officers)
-* Letter in an enveloper addressed to: Compliance (handed over by the secretariat to any compliance officer. The secretariat sends a email to [compliance@karaka.app](compliance@karaka.app), that a compliance mail arrived and who received the letter)
+* Email: [compliance@jingga.app](compliance@jingga.app) (is automatically sent to all compliance officers)
+* Letter in an enveloper addressed to: Compliance (handed over by the secretariat to any compliance officer. The secretariat sends a email to [compliance@jingga.app](compliance@jingga.app), that a compliance mail arrived and who received the letter)
 * Direct contact to any compliance officer mentioned in the [Organigram](../Processes/Organigram.md).
 
 ## Information
