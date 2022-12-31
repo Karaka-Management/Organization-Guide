@@ -261,6 +261,7 @@ Todos/tasks which are not important enough to be part of the milestones (or don'
 | medium | UI select | Bind data to select options such as visible elements and data pre-fills. When an option is selected certain ui elements become visible and get filled out with default values. |
 | medium | phpOMS | Implement Redis / memcached sessions |
 | medium | Knowledgebase | Add org ID to wiki app (optional) and add a default flag. In the backend load the default wiki app for the current organization `$this->app->orgId` |
+| medium | Media | Localized images (e.g. shop page which shows images based on language and/or maybe even country). |
 | medium | Tasks | Allow to create a reminder for a task (e.g. small bell next to the user name which highlights the task/removes the has_seen flag + says somewhere you got remindered) |
 | medium | Tasks | Create different overviews list by date + list by priority (very high + next day, high + next 2 days, medium + next 5 days, low + next 10 days, very low + remaining). Of course the grouping may change based on how long ago the creation date is. |
 | medium | Tasks | Show stats at the top (e.g. open, in progress, maybe even open high priority) |
