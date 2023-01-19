@@ -80,3 +80,4 @@
 * 1007800000 - OMS CMS
 * 1007900000 - OMS ContractManagement
 * 1008000000 - OMS OnlineResourceWatcher
+* 1008100000 - OMS Finance
