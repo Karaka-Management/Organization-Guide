@@ -81,3 +81,4 @@
 * 1007900000 - OMS ContractManagement
 * 1008000000 - OMS OnlineResourceWatcher
 * 1008100000 - OMS Finance
+* 1008200000 - OMS Attribute
