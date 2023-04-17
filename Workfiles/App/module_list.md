@@ -34,7 +34,7 @@
 * 1003200000 - OMS Supplier Management
 * 1003300000 - OMS Tools
 * 1003400000 - OMS MyPrivate
-* 1003500000 -
+* 1003500000 - OMS FleetManagement
 * 1003600000 - OMS Checklist
 * 1003700000 - OMS Address
 * 1003800000 - OMS Contact
@@ -80,3 +80,5 @@
 * 1007800000 - OMS CMS
 * 1007900000 - OMS ContractManagement
 * 1008000000 - OMS OnlineResourceWatcher
+* 1008100000 - OMS Finance
+* 1008200000 - OMS Attribute
