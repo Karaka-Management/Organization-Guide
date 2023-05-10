@@ -8,6 +8,7 @@
 | Book wages                                  |                 |           |      |
 | Book general invoice accruals and deferrals |                 |           |      |
 | Book depreciations                          |                 |           |      |
+| Book asset changes                          |                 |           |      |
 | Create sales reporting                      |                 |           |      |
 | Create income statement                     |                 |           |      |
 | Create balance sheet                        |                 |           |      |

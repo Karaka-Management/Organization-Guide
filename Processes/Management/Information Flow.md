@@ -9,7 +9,7 @@ flowchart TD;
     HEAD_OF_DEPARTMENTS<--Monthly: Department Meetings-->EMPLOYEES[Employees / Teams]
     MANAGEMENT--Annually: Company Meeting-->EMPLOYEES
     EMPLOYEES--For compliance violations-->WHISTLEBLOWER[Whistleblower System]
-
+    WHISTLEBLOWER-->EXECUTIVE_COMMITTEE
 ```
 
 2022-01-01 - Version 1.0

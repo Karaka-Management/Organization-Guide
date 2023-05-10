@@ -21,6 +21,7 @@ The employee is responsible for the service of their car. This includes but is n
 * Tire changing
 * TÜV
 * Emission test (AU)
+* UVV
 
 ### Cleaning
 

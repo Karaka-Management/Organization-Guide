@@ -1,17 +1,21 @@
 # Annual Closing Checklist
 
-| Task                                 | Responsible     | Signature | Date |
-| ------------------------------------ | --------------- | --------- | ---- |
-| Define audit schedule with auditors  | Head of Finance |           |      |
-| Book employee bonuses                |                 |           |      |
-| Book countervailing charge           |                 |           |      |
-| Book taxes                           |                 |           |      |
-| Consolidate accounts                 |                 |           |      |
-| Accounts receivable devalutation     |                 |           |      |
-| Stock evaluation                     |                 |           |      |
-| Perform confirmation of balance      |                 |           |      |
-| Create management report             |                 |           |      |
-| Create management report addendum    |                 |           |      |
-| Prepare audit documents for auditors |                 |           |      |
+| Task                                                         | Responsible | Signature | Date |
+| ------------------------------------------------------------ | ----------- | --------- | ---- |
+| Deferred credits to income                                   |             |           |      |
+| Prepaid expenses and deferred charges                        |             |           |      |
+| Received prepayments                                         |             |           |      |
+| Paid prepayments                                             |             |           |      |
+| Accounts receivable and accounts payable with switching balance |             |           |      |
+| Financial obligation                                         |             |           |      |
+| Allowance for bad debts                                      |             |           |      |
+| 30% entertainment booking                                    |             |           |      |
+| Guarantee accruals                                           |             |           |      |
+| HR accruals                                                  |             |           |      |
+| General invoice accruals                                     |             |           |      |
+| Year-end accruals                                            |             |           |      |
+| Taxs (local commercial tax and corporate income tax)         |             |           |      |
+| Sales tax return / VAT return                                |             |           |      |
+| Deferred taxes                                               |             |           |      |
 
 2022-01-01 - Version 1.0

@@ -14,7 +14,7 @@
 
 |             | Requirement |
 | ----------- | ----------- |
-| Work experiance | >= 5 years |
+| Work experience | >= 5 years |
 | Language skills | German + English |
 | Training | Preferred: Certified management accountant or (assistant) tax consultant. |
 
@@ -43,7 +43,7 @@
 
 |             | Requirement |
 | ----------- | ----------- |
-| Work experiance | >= 3 years |
+| Work experience | >= 3 years |
 | Language skills | German + English |
 | Training |  |
 
@@ -69,7 +69,7 @@
 
 |             | Requirement |
 | ----------- | ----------- |
-| Work experiance | >= 3 years |
+| Work experience | >= 3 years |
 | Language skills | German + English |
 | Training |  |
 
