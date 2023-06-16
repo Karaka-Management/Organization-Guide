@@ -82,3 +82,4 @@
 * 1008000000 - OMS OnlineResourceWatcher
 * 1008100000 - OMS Finance
 * 1008200000 - OMS Attribute
+* 1008300000 - OMS LoanManagement
