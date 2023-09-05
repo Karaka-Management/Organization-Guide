@@ -38,7 +38,7 @@ This type of backup is done incrementally, meaning only changes are stored.
 
 ### Manual backup
 
-Once a quarter a full data backup (clone) is created and stored on an external hard drive. The purpose of these backups are to provide long term backups which are not replaced/overwritten. Additionally, these backups provide some fall back solution for sleeper malware or malware which encrypts backup files. Only 4 quarters at a maximum are allowed to be stored on the same hard drive. The backup is stored in a separate building than the main backup or in a bank vault. 
+Once a quarter a full data backup (clone) is created and stored on an external storage device. The purpose of these backups are to provide long term backups which are not replaced/overwritten. Additionally, these backups provide some fall back solution for sleeper malware or malware which encrypts backup files. Only 4 quarters at a maximum are allowed to be stored on the same hard drive. The backup is stored in a separate building than the main backup or in a bank vault. 
 
 ## Data storage
 

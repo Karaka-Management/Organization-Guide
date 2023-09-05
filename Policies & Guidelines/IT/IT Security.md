@@ -10,7 +10,7 @@ These security guidelines and policies should reduce the risk of a unauthorized 
 
 #### Format
 
-Passwords protect confidential company data, as well as customer and supplier data. The length and the combination of different character types (i.e. lower case letters, upper case letters, numerics and special characters) can have a significant impact on the strength of a password. For this reason the IT department should configure the password settings if possible in such a way that the following format must be used:
+Passwords protect confidential company data, as well as customer and supplier data. The length and the combination of different character types (i.e. lower case letters, upper case letters, numeric and special characters) can have a significant impact on the strength of a password. For this reason the IT department should configure the password settings if possible in such a way that the following format must be used:
 
 * At least 8 character length
 * At least one upper case letter
@@ -22,12 +22,6 @@ Passwords protect confidential company data, as well as customer and supplier da
 
 Additionally, if it is possible to define a password change interval it should be set to once a year. This way passwords don't become stale and in case of a password leak get rotated out. Shorter password change intervals could lead to friction for the employees resulting in a security fatigue. 
 
-#### Additional protection
-
-For direct server access ssh keys must be used instead of passwords. In addition, these ssh keys should be password protected according to the above mentioned format specifications. If possible second factor authentication should be enabled for direct server access. This second factor authentication should be bound to the owner of the ssh key (i.e. SMS authentication, app authentication, ...)
-
-Sometimes it becomes necessary for third party partners to access the servers (i.e. maintenance or support), in such a case second factor authentication is mandatory. The second factor authentication for third parties must be configured in such a way that only the head of IT can approve the access.
-
 ### Access Restrictions
 
 Every user must have their own user-ID and authentication. The user can be assigned to multiple groups. Permissions can be granted for groups and individual users. 
@@ -37,6 +31,12 @@ In general only whitelist user access permissions instead of blacklisting them. 
 #### Physical Server access
 
 The servers are located in a locked server room. Only the IT department has access to this room. Additionally, the server room has a camera recording the access.
+
+#### Remote Server access
+
+For remote server access ssh keys must be used instead of passwords. In addition, these ssh keys should be password protected according to the above mentioned format specifications. If possible second factor authentication should be enabled for direct server access. This second factor authentication should be bound to the owner of the ssh key (i.e. SMS authentication, app authentication, ...)
+
+Sometimes it becomes necessary for third party partners to access the servers (i.e. maintenance or support), in such a case second factor authentication is mandatory. The second factor authentication for third parties must be configured in such a way that only the head of IT can approve the access.
 
 ### Permissions
 
@@ -65,6 +65,15 @@ Security software which must be used on the main server are:
 * fail2ban
 * Firewall (not defined)
 * Intrusion detection system (not defined)
+
+### Server logs
+
+All bash commands from users on the server must be logged and backed up during the backup process.
+
+```bash
+# .bash_profile
+export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> /var/www/html/backup/bash/$(date "+%Y-%m-%d").log; fi'
+```
 
 ## Responsible
 
