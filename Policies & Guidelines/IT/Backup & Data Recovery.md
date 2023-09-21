@@ -10,7 +10,7 @@ The loss of data can have detrimental effects on the activities of the organizat
 
 ## Goal
 
-A complete mitigation of the risks is almost impossible. However, measures must be implemented which mitigate the risks as low as reasonably possible. Data backup should allow the organization to resume its activities as quickly as possible (ideally within 1-2 hours) without substantial loss of data. 
+A complete mitigation of the risks is almost impossible. However, measures must be implemented which mitigate the risks as low as reasonably possible. Data backup should allow the organization to resume its activities as quickly as possible (ideally within 1-2 hours) without substantial loss of data.
 
 ## Implementation
 
@@ -38,7 +38,7 @@ This type of backup is done incrementally, meaning only changes are stored.
 
 ### Manual backup
 
-Once a quarter a full data backup (clone) is created and stored on an external storage device. The purpose of these backups are to provide long term backups which are not replaced/overwritten. Additionally, these backups provide some fall back solution for sleeper malware or malware which encrypts backup files. Only 4 quarters at a maximum are allowed to be stored on the same hard drive. The backup is stored in a separate building than the main backup or in a bank vault. 
+Once a quarter a full data backup (clone) is created and stored on an external storage device. The purpose of these backups are to provide long term backups which are not replaced/overwritten. Additionally, these backups provide some fall back solution for sleeper malware or malware which encrypts backup files. Only 4 quarters at a maximum are allowed to be stored on the same hard drive. The backup is stored in a separate building than the main backup or in a bank vault.
 
 ## Data storage
 
@@ -46,7 +46,7 @@ The data should be stored in such a way that only authorized personnel has acces
 
 ## Reconstruction
 
-The data reconstruction is documented in a reconstruction tutorial in the IT processes. During the reconstruction it may be necessary to put a higher priority on files and data which are more important for the ongoing organization activities (e.g. customer data, source code data). 
+The data reconstruction is documented in a reconstruction tutorial in the IT processes. During the reconstruction it may be necessary to put a higher priority on files and data which are more important for the ongoing organization activities (e.g. customer data, source code data).
 
 ## Responsibility
 

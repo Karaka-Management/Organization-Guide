@@ -20,11 +20,11 @@ Passwords protect confidential company data, as well as customer and supplier da
 
 #### Change interval
 
-Additionally, if it is possible to define a password change interval it should be set to once a year. This way passwords don't become stale and in case of a password leak get rotated out. Shorter password change intervals could lead to friction for the employees resulting in a security fatigue. 
+Additionally, if it is possible to define a password change interval it should be set to once a year. This way passwords don't become stale and in case of a password leak get rotated out. Shorter password change intervals could lead to friction for the employees resulting in a security fatigue.
 
 ### Access Restrictions
 
-Every user must have their own user-ID and authentication. The user can be assigned to multiple groups. Permissions can be granted for groups and individual users. 
+Every user must have their own user-ID and authentication. The user can be assigned to multiple groups. Permissions can be granted for groups and individual users.
 
 In general only whitelist user access permissions instead of blacklisting them. In other words don't be afraid to create multiple accounts or user groups for single applications and only give them reading/writing/execution permissions to directories and files they need access to.
 
