@@ -83,3 +83,4 @@
 * 1008100000 - OMS Finance
 * 1008200000 - OMS Attribute
 * 1008300000 - OMS LoanManagement
+* 1008400000 - OMS CashManagement
