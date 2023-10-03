@@ -83,3 +83,7 @@
 * 1008100000 - OMS Finance
 * 1008200000 - OMS Attribute
 * 1008300000 - OMS LoanManagement
+* 1008400000 - OMS CashManagement
+* 1008500000 - OMS QualityManagement
+* 1008600000 - OMS QualityControl
+* 1008700000 - OMS QualityAssurance
