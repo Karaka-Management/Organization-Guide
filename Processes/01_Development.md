@@ -48,6 +48,7 @@ Automated checks which are run during the review process (**R4**):
 
 ```sh
 php ./vendor/bin/phpcs ./ --standard="Build/Config/phpcs.xml"
+php ./vendor/bin/rector process --dry-run --config Build/Config/rector.php ./
 npx eslint ./ -c ./Build/Config/.eslintrc.json
 ```
 
@@ -61,7 +62,7 @@ Automated tests which are run during the review process (**R7**):
 
 ```sh
 php ./vendor/bin/phpunit -c tests/PHPUnit/phpunit_default.xml
-php ./vendor/bin/phpstan analyse --autoload-file=phpOMS/Autoloader.php -l 9 -c Build/Config/phpstan.neon ./
+php ./vendor/bin/phpstan analyse --no-progress -l 9 -c Build/Config/phpstan.neon ./
 npx jasmine-node ./
 ./cOMS/tests/test.sh
 ```
@@ -102,21 +103,33 @@ git checkout -b new-branch-name
 The name of the branch can be chosen freely however it is recommended to follow the following branch naming conventions:
 
 * `feature-*` for feature implementations
+* `hotfix-*` for security related fixes/improvements
 * `bug-*` for bug fixes
 * `security-*` for security related fixes/improvements
-* `general-*` for general improvements (i.e. code documentation improvements, code style improvements)
+* `general-*` for general improvements (i.e. documentation, code style & performance improvements)
 
 ```mermaid
 %%{init: { 'gitGraph': {'mainBranchName': 'master'}} }%%
     gitGraph
        commit
+       branch hotfix-xxx
+       commit
+       checkout master
        branch develop
+       checkout master
+       merge hotfix-xxx
+       checkout develop
        branch bug-xxx
        commit
        commit
+       checkout hotfix-xxx
+       commit
+       checkout master
+       merge hotfix-xxx
        checkout develop
        merge bug-xxx
        commit
+       checkout develop
        branch feature-xxx
        commit
        commit
@@ -125,6 +138,19 @@ The name of the branch can be chosen freely however it is recommended to follow 
        merge feature-xxx
        checkout master
        merge develop
+       checkout develop
+       branch general-xxx
+       commit
+       checkout develop
+       merge general-xxx
+       branch security-xxx
+       commit
+       commit
+       checkout develop
+       merge security-xxx
+       checkout master
+       merge develop
+       
 ```
 
 The senior developer who performs the code review merges the change request into the `develop` branch after their successful code review. Unsuccessful reviews lead to change requests by the original developer, other developers who can make the requested changes, changes by the senior developer who performed the review, or dismissal of the changed code. (**R10**)

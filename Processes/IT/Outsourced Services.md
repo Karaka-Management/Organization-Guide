@@ -1,6 +1,6 @@
 # Outsourced Services
 
-| Service         | Description             | Vendor               |
-| --------------- | ----------------------- | -------------------- |
-| Hosting         | Website hosting         | ispOne business GmbH |
-| Version control | Version control hosting | Microsoft            |
+| Service         | Description             | Vendor    |
+| --------------- | ----------------------- | --------- |
+| Hosting         | Website hosting         | IONOS SE  |
+| Version control | Version control hosting | Microsoft |

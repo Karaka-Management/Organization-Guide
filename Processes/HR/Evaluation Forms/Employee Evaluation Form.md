@@ -21,7 +21,7 @@ Name:
 | 15   | The employee is good at leading their subordinates.          |                |                  |                    |                      |       |
 | 16   | The employee is sufficiently qualified for their current job/tasks. |                |                  |                    |                      |       |
 
-## Other remarks
+## Other remarks, requests, suggestions
 
 ....
 
