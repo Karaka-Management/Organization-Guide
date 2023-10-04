@@ -69,7 +69,7 @@ Karaka has a very open culture and we always welcome new people who share our ph
 * End-User documentation: https://github.com/Karaka-Management/Documentation
 * Developer documentation: https://github.com/Karaka-Management/Developer-Guide
 * Project documentation: https://github.com/Karaka-Management/Organization-Guide
-* Website: [https://karaka.app](https://karaka.app)
-* Demo: [https://karaka.app](https://karaka.app) (user: admin, pass: orange)
-* Dev: [https://karaka.app/dev](https://karaka.app/dev)
-* Contact: dennis@karaka.app
+* Website: [https://jingga.app](https://jingga.app)
+* Demo: [https://demo.jingga.app](https://jingga.app) (user: admin, pass: orange)
+* Dev: [https://jingga.app/dev](https://jingga.app/dev)
+* Contact: info@jingga.app
