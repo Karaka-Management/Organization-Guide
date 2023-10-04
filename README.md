@@ -7,8 +7,6 @@ With Karaka you have one partner who can provide all the tools and software solu
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Requirements](#requirements)
-  - [Developer tools](#developer-tools)
 - [Installation](#installation)
 - [Philosophy & Demo](#philosophy--demo)
 - [Development status](#development-status)
@@ -16,28 +14,12 @@ With Karaka you have one partner who can provide all the tools and software solu
 - [Become a contributor](#become-a-contributor)
 - [Misc](#misc)
 
-## Requirements
-
-* PHP 8.1
-* PHP extension: php8.1-dev php8.1-cli php8.1-common php8.1-mysql php8.1-pgsql php8.1-xdebug php8.1-opcache php8.1-pdo php8.1-sqlite php8.1-mbstring php8.1-curl php8.1-imap php8.1-bcmath php8.1-zip php8.1-dom php8.1-xml php8.1-phar php8.1-gd php-pear
-* apache2 (recommended) or nginx
-* mysql-server (recommended) or postgresql postgresql-contrib
-* Tools: tesseract-ocr, PDFtotext, PDFtoppm
-* Make sure that URL rewriting is active!
-
-### Developer tools
-
-* Php extension: xdebug
-* Tools: Composer, Npm
-* Composer tools: phpstan, phpunit, phpcs
-* Npm tools: eslint
-
 ## Installation
 
 Detailed installation instructions can be found at:
 
 * [Developer Setup](https://github.com/Karaka-Management/Developer-Guide/blob/develop/general/setup.md)
-* [User Setup](https://github.com/Karaka-Management/Documentation/blob/develop/setup/install.md)
+* [User Setup](https://github.com/Karaka-Management/User-Guide/blob/develop/setup/install.md)
 
 ## Philosophy & Demo
 
