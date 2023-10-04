@@ -25,7 +25,7 @@ Detailed installation instructions can be found at:
 
 We believe software should support a business in it's daily tasks and growth in a very efficient way without frustration. In order to achieve this we constantly take feedback from our customers and expand and improve our software solutions.
 
-You can find a freely available online demo at https://demo.karaka.app (user: admin, pass: orange) without any registration or inquiry.
+You can find a freely available online demo at https://demo.jingga.app (user: admin, pass: orange) without any registration or inquiry.
 
 ## Development status
 
