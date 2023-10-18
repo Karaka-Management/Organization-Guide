@@ -89,7 +89,7 @@ Occasionally new code or code changes also require new documentation or document
 
 If a developer (or employee in general) has an idea for an improvement, feature or finds a potential bug it should be reported at https://github.com/Karaka-Management/Karaka/issues. A senior developer has to check these issues and decide how to proceed with them. The decision how to proceed with the issue must be explained by the senior developer as a response in the issue. Possible steps are:
 
-* Accept the issue (and close it) and put the task into the [PROJECT.md](https://github.com/Karaka-Management/Organization-Guide/blob/master/Workfiles/Projects/jingga/PROJECT.md)
+* Accept the issue and put the task into the [Todos](https://github.com/orgs/Karaka-Management/projects/10)
 * Dismiss the issue with an explanation
 
 ### Release flow
