@@ -48,6 +48,8 @@ Automated checks which are run during the review process (**R4**):
 
 ```sh
 php ./vendor/bin/phpcs ./ --standard="Build/Config/phpcs.xml"
+php ./vendor/bin/php-cs-fixer fix ./ --config=Build/Config/.php-cs-fixer.php --allow-risky=yes
+php ./vendor/bin/phpcbf --standard=Build/Config/phpcs.xml ./
 php ./vendor/bin/rector process --dry-run --config Build/Config/rector.php ./
 npx eslint ./ -c ./Build/Config/.eslintrc.json
 ```
