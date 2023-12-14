@@ -47,18 +47,20 @@
 | Database                   | MariaDB server |
 | Database                   | Postgresql     |
 | Database                   | Sqlsrv         |
+| Database                   | SQLite         |
 | Memory cache               | Memcached      |
 | Memory cache               | Redis          |
 | Programming language       | php            |
 | Version control            | git            |
 | Javascript package manager | npm            |
 | Php package manager        | composer       |
+| C compiler                 | gcc            |
 | C++ compiler               | g++            |
 | C++ compilation tool       | CMake          |
 | Remote connection          | ssh            |
-| Firewall          | UFW            |
-| Firewall          | iptables            |
-| Intrusion prevention system          | fail2ban            |
-| Intrusion detection/prevention system          | snort            |
+| Firewall                   | UFW            |
+| Firewall                   | iptables       |
+| Intrusion prevention system | fail2ban            |
+| Intrusion detection/prevention system | snort            |
 
 2022-01-01 - Version 1.0
