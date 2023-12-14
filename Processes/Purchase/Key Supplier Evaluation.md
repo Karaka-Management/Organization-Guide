@@ -23,7 +23,7 @@
 | Fonticons, Inc. | Font Awesome | Icon font | 0 EUR | single purchase | very low | Alternative solutions are already implemented and ready for use. | No significant issues. | Dennis Eichhorn | 2022-01-01 |
 | Roonas | Linearicons | Icon font | 0 EUR | single purchase | very low | Alternative solutions are already implemented and ready for use. | No significant issues. | Dennis Eichhorn | 2022-01-01 |
 | Lineicons | Lineicons | Icon font | 0 EUR | single purchase | very low | Alternative solutions are already implemented and ready for use. | No significant issues. | Dennis Eichhorn | 2022-01-01 |
-| ispOne business GmbH | Hosting | Website hosting | 49.41 EUR per year | subscription | very low | Alternative solutions exist and can be implemented within 1 day. | No significant issues. | Dennis Eichhorn | 2022-01-01 |
+| IONOS SE | Hosting | Server | 42.02 EUR per month | subscription | very low | Alternative solutions exist and can be implemented within 1 day (e.g. ispOne business GmbH). | No significant issues. | Dennis Eichhorn | 2023-12-14 |
 | Namecheap, Inc. | Domain | Domain provider | 13.24 EUR per year | subscription | medium | Alternatvie solutions exist however losing the domain name would hurt the marketing. | No significant issues. | Dennis Eichhorn | 2022-01-01 |
 
 > Single purchase can also mean one time download for software without any dependency on other services.
