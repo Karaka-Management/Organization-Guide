@@ -71,6 +71,19 @@ npx jasmine-node ./
 
 Additional inspections which are run but might be ignored during the review depending on the use case are mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md) as other checks. (**R7**)
 
+#### Performance
+
+Developers should occasionaly check performance statistics. At this point no target metrics are defined.
+
+Since the primary application is a web based application a similar tool as the Google lighthouse tool can be used to inspect the application for best practicies which can significantly improve the application performance. The sitespeed.io tool shows potential performance improvements and slow pages. With the php trace and profiler enabled in the `php.ini` file the VM automatically generates profiling and trace reports for every web request. These can be found in the webgrind logs directory and inspected in webgrind and dropped into the trace visualizer for a flame chart visualization.
+
+1. Automatic trace and benchmark generation with every web request in `/var/www/html/webgrind/Logs`
+2. Webgrind view `http://vm_ip:82`
+3. Trace visualization `http://vm_ip:81`
+   1. Download the latest trace from `http://vm_ip:82/Logs`
+   2. Drag and drop that downloaded `*.xt` file in the trace visualizer
+4. `sitespeed.io ./Build/Helper/Scripts/sitespeedDemoUrls.txt -b chrome --outputFolder /var/www/html/sitespeed`
+
 #### Code review
 
 In addition to the automatic code review performed by the various inspection tools such as (phpcs, phpstan, phpunit, eslint and custom scripts) a senior developer must check the proposed code change before it is merged with the respective `develop` branch. Only upon the approval by the reviewer a code change requests gets merged as no other developers have permission in the software to make such code merges.
