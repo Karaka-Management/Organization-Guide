@@ -14,13 +14,13 @@ The setup and configuration of the development environment is in the hands of ev
 
 ## Code of conduct
 
-Every organization member and contributor to the organization must follow the [Code of Conduct](../Policies & Guidelines/Code of Conduct.md).
+Every organization member and contributor to the organization must follow the [Code of Conduct](../Policies%20&%20Guidelines/Code%20of%20Conduct.md).
 
 ## Becoming a contributor
 
 For public repositories you can immediately start by creating forks and pull requests. For private repositories which are necessary to setup the complete developer environment, feel free to request access. Please not that we may not immediately give you access to private repositories and instead will give you smaller tasks regarding public repositories. Please contact info@jingga.app for more details. (**R1**)
 
-For all contributions our [Contributor License Agreement \"CLA\"](https://github.com/Karaka-Management/Organization-Guide/blob/develop/legal/individual%20contributor%20license%20agreement.md) comes into effect. (**R2**)
+For all contributions our [Contributor License Agreement "CLA"](https://github.com/Karaka-Management/Organization-Guide/blob/develop/legal/individual%20contributor%20license%20agreement.md) comes into effect. (**R2**)
 
 ## Code changes
 
