@@ -112,7 +112,7 @@ If a developer (or employee in general) has an idea for an improvement, feature 
 In case SCSS/CSS or JS files got changed they must get re-built locally before comitting the code change:
 
 ```sh
-npx esbuild Web/Frontend/js/frontend.js --bundle --outfile=privateSetup/cms/Frontend/js/frontend.min.js --minify && npx esbuild Web/Backend/js/backend.js --bundle --outfile=Install/Application/Backend/js/backend.min.js --minify && cp Install/Application/Backend/js/backend.min.js Web/Backend/js/backend.min.js
+npx esbuild Web/Backend/js/backend.js --bundle --outfile=Install/Application/Backend/js/backend.min.js --minify
 scss cssOMS/styles.scss > cssOMS/styles.css
 ```
 
