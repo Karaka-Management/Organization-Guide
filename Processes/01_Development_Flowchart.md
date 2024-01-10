@@ -20,7 +20,7 @@ graph TD;
     AUTOMATIC_CHECKS-->MANUAL_CHECKS[Reviewer: Manual checks]
     MANUAL_CHECKS-->IS_ACCEPTED{Is accepted?};
     IS_ACCEPTED-- YES -->MERGE([Reviewer: Merge]);
-    FIX-->TEST_CHANGE;
+    IS_ACCEPTED-- NO -->FIX;
 ```
 
 2022-01-01 - Version 1.0
