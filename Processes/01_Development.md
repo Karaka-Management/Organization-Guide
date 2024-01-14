@@ -75,7 +75,7 @@ Additional inspections which are run but might be ignored during the review depe
 
 Developers should occasionaly check performance statistics. At this point no target metrics are defined.
 
-Since the primary application is a web based application a similar tool as the Google lighthouse tool can be used to inspect the application for best practicies which can significantly improve the application performance. The sitespeed.io tool shows potential performance improvements and slow pages. With the php trace and profiler enabled in the `php.ini` file the VM automatically generates profiling and trace reports for every web request. These can be found in the webgrind logs directory and inspected in webgrind and dropped into the trace visualizer for a flame chart visualization.
+Since the primary application is a web based application a similar tool as the Google lighthouse tool can be used to inspect the application for best practicies which can significantly improve the application performance. The sitespeed.io tool shows potential performance improvements and slow pages. With the php trace and profiler enabled in the `php.ini` file the VM automatically generates profiling and trace reports for every web request. These can be found in the webgrind logs directory and inspected in webgrind and dropped into the trace visualizer for a flame chart visualization. With mysqldumpslow you can inspect slow sql queries which may need optimization.
 
 1. Automatic trace and benchmark generation with every web request in `/var/www/html/webgrind/Logs`
 2. Webgrind view `http://vm_ip:82`
@@ -83,6 +83,12 @@ Since the primary application is a web based application a similar tool as the G
    1. Download the latest trace from `http://vm_ip:82/Logs`
    2. Drag and drop that downloaded `*.xt` file in the trace visualizer
 4. `sitespeed.io ./Build/Helper/Scripts/sitespeedDemoUrls.txt -b chrome --outputFolder /var/www/html/sitespeed`
+5. Slow query inspection.
+
+```sh
+mysqldumpslow -t 10 /var/log/mysql/mysql-slow.log
+mysqldumpslow -t 10 -s l /var/log/mysql/mysql-slow.log
+```
 
 #### Code review
 
@@ -95,6 +101,10 @@ If the code reviewer only finds minor issues with the proposed code change the r
 #### Demo
 
 Some code changes may also require changes or extensions in the demo setup scripts. The demo setup script try to simulate a real world use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is recommended to run this only sporadically. (**R9**)
+
+```sh
+sudo -u www-data php -dxdebug.remote_enable=1 -dxdebug.start_with_request=yes -dxdebug.mode=coverage,develop,debug demoSetup/setup.php
+```
 
 #### Documentation
 
