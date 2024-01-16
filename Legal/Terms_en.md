@@ -4,7 +4,7 @@
 
 For the purposes of these TERMS:
 
-* COMPANY (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to jingga, Gartenstr. 26, 61206 Woellstadt.
+* COMPANY (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to Jingga e. K., Kirchstr. 33, 61191 Rosbach.
 * SERVICE(S) refers to all deliveries, performances, offers including but not limited to the WEBSITE, APPLICATIONS, consulting and functionality offered by the Company
 * TERMS, POLICIES or AGREEMENT mean these terms that form the entire agreement between You and the Company.
 * DEVICE means any device that can access the SERVICE such as a computer, a cellphone or a digital tablet.
