@@ -4,15 +4,15 @@
 
 For the purposes of these TERMS:
 
-* COMPANY (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to Jingga e. K., Kirchstr. 33, 61191 Rosbach.
+* COMPANY or jingga (referred to as either "the Company", "We", "Us" or "Our" in this AGREEMENT) refers to Jingga e. K., Kirchstr. 33, 61191 Rosbach.
 * SERVICE(S) refers to all deliveries, performances, offers including but not limited to the WEBSITE, APPLICATIONS, consulting and functionality offered by the Company
 * TERMS, POLICIES or AGREEMENT mean these terms that form the entire agreement between You and the Company.
 * DEVICE means any device that can access the SERVICE such as a computer, a cellphone or a digital tablet.
 * Third-party Social Media Service means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the SERVICES and APPLICATIONS.
-* WEBSITE refers to jingga.app
+* WEBSITE refers to all websites owned by jingga
 * APPLICATION refers to all downloadable, online applications or installable content.
 * You means the individual accessing or using the SERVICES, or the company, or other legal entity on behalf of which such individual is accessing or using the SERVICE, as applicable.
-* PARTIES referes to You and the Company
+* PARTIES refers to You and the Company
 
 ## Acknowledgement
 
@@ -32,7 +32,7 @@ All offers of the Company are subject to change and non-binding. Offers of the C
 
 Drawings, illustrations, dimensions, weight or other performance data are only binding if they have been expressly agreed in writing.
 
-Details from brochures, price lists or the offer are not legally binding unless they have expressly become part of the contract. Verbal probmisis and ancillary agreements that go beyond the written contract are not permitted.
+Details from brochures, price lists or the offer are not legally binding unless they have expressly become part of the contract. Verbal promises and ancillary agreements that go beyond the written contract are not permitted.
 
 ## Copyright
 
@@ -52,7 +52,7 @@ The Company makes commercially reasonable efforts to ensure that their respectiv
 
 We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these TERMS.
 
-SERVICES free of charge may be terminated at any time if the Company decides to do so. Paid SERVICES may be terminated after a 30 days notice period before the end of the respective SERVICE contract by either PARTY.
+SERVICES free of charge may be terminated at any time if the Company decides to do so. Paid SERVICES may be terminated by either PARTY with a notice period of 30 days prior to the expiry of the respective contract, otherwise the contract term shall be extended by a further period.
 
 Upon termination, Your right to use the SERVICES will cease immediately unless the SERVICES represents a "offline" SERVICE, a SERVICE or APPLICATION which doesn't require any online connection. We have no control over third-party resources and services which may be necessary for some of Our SERVICES. Changes by these third-parties may lead to the termination of the SERVICES or reducing their functionality. You understand these dependencies and SERVICE  limitations and accept that the termination or reduced functionality cannot be used as reason for dispute, revocation or similarly.
 
@@ -76,7 +76,7 @@ Some jurisdictions do not allow the exclusion of certain types of warranties or 
 
 These TERMS and the entire legal relationship between the Company and You shall be governed by the laws of the Federal Republic of Germany, including the International Sales Convention (CISG).
 
-Insofar as You are a merchant within the meaning of the German Commercial Code, a legal entity under public law or a special fund under public law, the Companys registered office shall be the exclusive place of jurisdiction for all disputes arising directly or indirectly from the contractual relationship. The Company shall also be free to sue You at Your place of business.
+Insofar as You are a merchant within the meaning of the German Commercial Code, a legal entity under public law or a special fund under public law, the Company's registered office shall be the exclusive place of jurisdiction for all disputes arising directly or indirectly from the contractual relationship. The Company shall also be free to sue You at Your place of business.
 
 Should any provision of these TERMS be or become invalid, ineffective or unenforceable in whole or in part, the validity, effectiveness and enforceability of the remaining provisions shall not be affected thereby. In lieu of the void, invalid, unenforceable or unenforceable provision of these TERMS, the parties shall endeavor to agree by negotiation upon a provision that is reasonable in terms of place, time, measure and statute and case law and that, to the extent legally possible, comes as close as possible to what was intended by the parties in terms of the meaning and purpose of the invalid provision. The foregoing shall apply mutatis mutandis to any gaps in these TERMS.
 
@@ -114,4 +114,4 @@ By continuing to access or use Our SERVICE after those revisions become effectiv
 
 All agreements made between the Company and You for the purpose of executing any SERVICES shall be in writing.
 
-Version 2023-09-05
+Version 2024-01-16
