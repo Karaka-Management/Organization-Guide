@@ -65,4 +65,4 @@ If you have any questions, please contact our data protection officer at the abo
 
 We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.
 
-Version 2022-11-19
+Version 2024-01-16
