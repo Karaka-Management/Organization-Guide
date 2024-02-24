@@ -87,3 +87,4 @@
 * 1008500000 - OMS QualityManagement
 * 1008600000 - OMS QualityControl
 * 1008700000 - OMS QualityAssurance
+* 1008800000 - OMS Notification
