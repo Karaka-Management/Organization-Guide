@@ -4,7 +4,7 @@ Support or any other software related services are only allowed if the customer 
 
 | Key Objective               | Target | Achieved |
 | --------------------------- | ------ | -------- |
-| Great customer satisfaction | >= 4.0 | YES      |
+| Great customer satisfaction (CSAT) | >= 4.0 | YES      |
 
 In general, only people authorized by the customer are allowed to make any support or service requests. Authorized persons are defined in the Customer Service Agreement and can only be adjusted by the respective persons int the Customer Service Agreement. (**R3**)
 
@@ -88,4 +88,4 @@ All customer support requests must be documented as customer tickets in the IT s
 
 Every closed support ticked gets followed up with a automatic email which asks the customer to rate his satisfaction with the support. (**R16**)
 
-2022-01-01 - Version 1.0
+2024-03-20 - Version 2.0
