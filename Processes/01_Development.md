@@ -2,7 +2,7 @@
 
 | Key Objective                    | Target                                                       | Achieved |
 | -------------------------------- | ------------------------------------------------------------ | -------- |
-| Tasks & todos get solved         | > 100 tasks/todos get solved per year                        | YES      |
+| Tasks & todos get solved         | > 100 tasks/todos get solved per year (if available)         | YES      |
 | Milestones are completed on time | > 80% of all milestones are completed with less than 20% delay | YES      |
 | Consistent code style            | < 10 code style errors exist in the latest release version   | YES      |
 | Code is tested                   | > 90% code coverage is achieved                              | YES      |
