@@ -19,7 +19,6 @@
 | Katex                                                        | Math rendering library              |                                                   | 2024-03-20    |
 | Paypal                                                       | Paypal payment library              |                                                   | 2024-03-20    |
 | Strip                                                        | Stripe payment library              |                                                   | 2024-03-20    |
-| PhpOffice                                                    | Office library                      |                                                   | 2024-03-20    |
 | TeamViewer                                                   | Remote desktop connection           |                                                   | 2022-01-01    |
 | Tesseract-OCR                                                | OCR                                 |                                                   | 2022-01-01    |
 | Memcached                                                    | Memory cache                        |                                                   | 2022-01-01    |
