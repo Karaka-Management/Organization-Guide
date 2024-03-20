@@ -201,4 +201,4 @@ Developers may only rely on the dependencies defined in [IT Equipment & Software
 * [Organization Activity Policy](../Policies%20&%20Guidelines/Organization%20Activity%20Policy.md)
 * [Tutorials](./Development/Tutorials)
 
-2022-01-01 - Version 1.0
+2024-03-20 - Version 2.0
