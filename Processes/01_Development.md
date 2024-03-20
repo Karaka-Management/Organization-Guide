@@ -26,7 +26,7 @@ For all contributions our [Contributor License Agreement "CLA"](https://github.c
 
 ### Topics / Tasks / Todos
 
-Generally, the development philosophy is result orientated. This means that anyone can propose tasks, pick up existing tasks or right away implement their code changes. However, implementing code changes without consulting with a senior developer in advance has a much higher risk of code changes not getting admitted. The easiest way to discuss a code change idea in advance are the github [issues](https://github.com/Karaka-Management/Karaka/issues) or [discussions](https://github.com/Karaka-Management/Karaka/discussions).
+Generally, the development philosophy is result orientated. This means that anyone can propose tasks, pick up existing tasks or right away implement their code changes. However, implementing code changes without consulting with a senior developer in advance has a much higher risk of code changes not getting acepted. The easiest way to discuss a code change idea in advance are the github [issues](https://github.com/Karaka-Management/Karaka/issues) or [discussions](https://github.com/Karaka-Management/Karaka/discussions).
 
 Developers are encouraged to pick open tasks with high priorities according to their own skill level. Senior developers may  directly assign tasks to developers based on their importance. New developers may find it easier to start with a task that has a low  priority as they often also have a lower difficulty.
 
