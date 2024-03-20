@@ -1,5 +1,12 @@
 # Information Flow
 
+## Onboarding Meetings
+
+```mermaid
+flowchart TD;
+    MANAGEMENT[Management]<---->EMPLOYEES[New employees]
+```
+
 ## Regular Meetings
 
 ```mermaid
