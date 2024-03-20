@@ -98,7 +98,7 @@ If the code reviewer only finds minor issues with the proposed code change the r
 
 #### Demo
 
-Some code changes may also require changes or extensions in the demo setup scripts. The demo setup script try to simulate a real world use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is recommended to run this only sporadically. (**R9**)
+Some code changes may also require changes or extensions in the demo setup scripts. The demo setup script tries to simulate a "real world" use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is recommended to run this only sporadically. (**R9**)
 
 ```sh
 sudo -u www-data php -dxdebug.remote_enable=1 -dxdebug.start_with_request=yes -dxdebug.mode=coverage,develop,debug demoSetup/setup.php
@@ -120,11 +120,9 @@ If a developer (or employee in general) has an idea for an improvement, feature 
 In case SCSS/CSS or JS files got changed they must get re-built locally before comitting the code change:
 
 ```sh
-npx esbuild Web/Backend/js/backend.js --bundle --outfile=Install/Application/Backend/js/backend.min.js --minify
-scss cssOMS/styles.scss > cssOMS/styles.css
+npm build release # or npm build develop during testing
+npm build scss
 ```
-
-For JS you may also use the shorthand command `npm run build`.
 
 Code changes must be performed in a new branch. A new branch can be created with:
 
@@ -132,7 +130,7 @@ Code changes must be performed in a new branch. A new branch can be created with
 git checkout -b new-branch-name
 ```
 
-The name of the branch can be chosen freely however it is recommended to follow the following branch naming conventions:
+The name of the branch can be chosen freely however, it is recommended to follow the following branch naming conventions:
 
 * `feature-*` for feature implementations
 * `hotfix-*` for security related fixes/improvements
