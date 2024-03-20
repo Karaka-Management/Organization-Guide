@@ -3,9 +3,9 @@
 | Software                                                     | Description                         | Version                                           | Approval Date |
 | ------------------------------------------------------------ | ----------------------------------- | ------------------------------------------------- | ------------- |
 | Main application, resources in the Resource repository, the Build Repository and all official Karaka developed modules | Application                         | Latest / master branch                            | 2022-01-01    |
-| VirtualBox                                                   | Machine virtualization              |                                                   | 2022-01-01    |
-| VMWare                                                       | Machine virtualization              |                                                   | 2022-01-01    |
-| Hyper-V                                                      | Machine virtualization              |                                                   | 2022-01-01    |
+| VirtualBox                                                   | Machine virtualization              | 7.x                                               | 2022-01-01    |
+| VMWare                                                       | Machine virtualization              | 10.x                                              | 2022-01-01    |
+| Hyper-V                                                      | Machine virtualization              | Server 2019                                       | 2022-01-01    |
 | PhpSpereadsheet, PHPWord, PHPPresentation                    | Office software                     | see Resources repository                          | 2022-01-01    |
 | mPDF                                                         | PDF renderer                        | see Resources repository                          | 2022-01-01    |
 | tcpdf                                                        | PDF renderer                        | see Resources repository                          | 2022-01-01    |
