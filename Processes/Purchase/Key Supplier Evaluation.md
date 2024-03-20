@@ -25,6 +25,6 @@
 
 > Single purchase can also mean one time download for software without any dependency on other services.
 
-Consider to update the [Approved Customer Software](../Support/Approved%20Customer%20Software.md) when changing this table.
+Consider to update the [Approved Customer Software](../Support/Approved%20Customer%20Software.md) and [IT Equipment & Software](../IT/IT%20Equipment%20&%20Software.md) when changing this table.
 
-2021-01-01 - Version 1.0
+2024-03-20 - Version 1.1
