@@ -19,4 +19,4 @@ flowchart TD;
     WHISTLEBLOWER-->EXECUTIVE_COMMITTEE
 ```
 
-2024-03-20 - Version 1.0
+2024-03-20 - Version 2.0
