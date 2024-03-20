@@ -3,7 +3,6 @@
 | Software                                                     | Description                         | Version                                           | Approval Date |
 | ------------------------------------------------------------ | ----------------------------------- | ------------------------------------------------- | ------------- |
 | Main application, resources in the Resource repository, the Build Repository and all official Karaka developed modules | Application                         | Latest / master branch                            | 2022-01-01    |
-| Developer tools/package manager (npm & composer) and all tools defined in the respective package manager configuration | Package manager + tools             | Based on configuration files in the master branch | 2022-01-01    |
 | VirtualBox                                                   | Machine virtualization              |                                                   | 2022-01-01    |
 | VMWare                                                       | Machine virtualization              |                                                   | 2022-01-01    |
 | Hyper-V                                                      | Machine virtualization              |                                                   | 2022-01-01    |
