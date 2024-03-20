@@ -32,8 +32,6 @@ Developers are encouraged to pick open tasks with high priorities according to t
 
 Open tasks can be found in the project overview: [Todos](https://github.com/orgs/Karaka-Management/projects/10)
 
-Tasks currently in development are prefixed in the priority column with an asterisk `*` and a name tag in the task description of the developer who is working on the task.
-
 The open tasks are reviewed once a month by a senior developer. The senior developer updates the project overview if necessary and requests feedback regarding development status of important tasks under development. During this process important tasks may also get directly assigned to developers. This review is performed on a  judgmental bases of the senior basis.
 
 ### Quality
