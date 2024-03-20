@@ -25,7 +25,7 @@ The approval of offers and orders must be performed according to the below menti
 
 ## Purchasing
 
-Only if a offer/order is approved by the authorized employees a purchase can be made. (**R2**)
+Only if an offer/order is approved by the authorized employees a purchase can be made. (**R2**)
 
 The purchasing department creates an order in the IT system referring to the offer if available and forwards this order to the supplier. 
 
