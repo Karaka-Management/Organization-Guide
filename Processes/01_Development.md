@@ -189,11 +189,11 @@ The senior developer who performs the code review merges the change request into
 
 ### Customer dependencies
 
-Developers may only rely on the dependencies defined in [Approved Customer Software]() when developing a solution. If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. (**R11**)
+Developers may only rely on the dependencies defined in [Approved Customer Software](https://github.com/Karaka-Management/Organization-Guide/blob/master/Processes/Support/Approved%20Customer%20Software.md) when developing a solution. If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. (**R11**)
 
 ### Developer dependencies
 
-Developers may only rely on the dependencies defined in [IT Equipment & Software](). If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. Changing the package managers such as `composer.json` or `package.json` is not allowed by anyone else than the CTO. (**R12**)
+Developers may only rely on the dependencies defined in [IT Equipment & Software](https://github.com/Karaka-Management/Organization-Guide/blob/master/Processes/Support/Approved%20Customer%20Software.md). If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. Changing the package managers such as `composer.json` or `package.json` is not allowed by anyone else than the CTO. (**R12**)
 
 ## Other related documents
 
