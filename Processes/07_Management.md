@@ -39,7 +39,7 @@ The following controlling instruments are implemented (**R6**).
 * [Risk Management](./COSO/Risk%20Management) and Process Risk Control Matrices (risks)
 * [Whistleblower System](../Policies%20&%20Guidelines/Whistleblower%20System.md) (compliance)
 * Executive Committee Meeting (information sharing, controlling, planning and organizing)
-* [Regular meetings](./Management/Information%20Flow.md) (information sharing, controlling, planning and organizing)
+* [Meetings](./Management/Information%20Flow.md) (information sharing, controlling, planning and organizing)
 * Checklists as described in the processes (completeness)
 * External audits (completeness and correctness)
   * Tax audits (approx. every 3-5 years)
