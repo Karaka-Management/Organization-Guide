@@ -10,6 +10,16 @@
 | mPDF                                                         | PDF renderer                        |                                                   | 2022-01-01    |
 | tcpdf                                                        | PDF renderer                        |                                                   | 2022-01-01    |
 | PDF.js | PDF renderer | | 2022-01-01 |
+| MermaidJs                                                    | Charting library                    |                                                   | 2024-03-20    |
+| ChartJs                                                      | Charting library                    |                                                   | 2024-03-20    |
+| D3                                                           | SVG library                         |                                                   | 2024-03-20    |
+| Elastic                                                      | Search library                      |                                                   | 2024-03-20    |
+| HighlightJs                                                  | Code highlighting library           |                                                   | 2024-03-20    |
+| OpenLayers                                                   | Map library                         |                                                   | 2024-03-20    |
+| Katex                                                        | Math rendering library              |                                                   | 2024-03-20    |
+| Paypal                                                       | Paypal payment library              |                                                   | 2024-03-20    |
+| Strip                                                        | Stripe payment library              |                                                   | 2024-03-20    |
+| PhpOffice                                                    | Office library                      |                                                   | 2024-03-20    |
 | TeamViewer                                                   | Remote desktop connection           |                                                   | 2022-01-01    |
 | Tesseract-OCR                                                | OCR                                 |                                                   | 2022-01-01    |
 | Memcached                                                    | Memory cache                        |                                                   | 2022-01-01    |
