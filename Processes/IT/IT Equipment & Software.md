@@ -39,6 +39,10 @@
 | Marketing         | x      | x | x                                |   |   | x |   |
 | Secretariat | x      | x | x                                |   |   |   | x |
 
+### Customer Approved Software
+
+All [Customer Approved Software](https://github.com/Karaka-Management/Organization-Guide/blob/master/Processes/Support/Approved%20Customer%20Software.md) is also approved for single users.
+
 ### Server
 
 | Type / Description         | Software       |
