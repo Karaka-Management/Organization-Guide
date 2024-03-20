@@ -80,7 +80,8 @@
 | Processes             | HR: [Onboarding Does and Donts](./HR/Hiring/Onboarding/Onboarding%20Does%20and%20Donts.md) | DHR                      | DQM or CEO      |
 | Processes             | HR: [Sample Training Plan](./HR/Hiring/Onboarding/Sample%20Training%20Plan.md) | DHR                      | DQM or CEO      |
 | Processes             | IT: [Automated Jobs](./IT/Automated%20Jobs.md)               | Head of IT and CTO       | CTO or CEO      |
-| Processes             | IT [Equipment & Software](./IT/Equipment%20&%20Software.md)  | Head of IT and CTO       | CTO or CEO      |
+| Processes             | IT: [Equipment & Software](./IT/Equipment%20&%20Software.md)  | Head of IT and CTO       | CTO or CEO      |
+| Processes             | IT: [Outsourced Services](./IT/Outsourced%20Services.md)  | Head of IT and CTO       | CTO or CEO      |
 | Processes             | IT: [Permission List](./IT/Permission%20List.md)             | Head of IT and CTO       | CTO or CEO      |
 | Processes             | IT: [Third Party Software Validation - New](./IT/Third%20Party%20Software%20Validation%20-%20New.md) | Head of IT and CTO       | CTO or CEO      |
 | Processes             | IT: [Third Party Software Validation - Update]((./IT/Third%20Party%20Software%20Validation%20-%20Update.md)) | Head of IT and CTO       | CTO or CEO      |
