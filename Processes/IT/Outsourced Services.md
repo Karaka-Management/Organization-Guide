@@ -3,4 +3,4 @@
 | Service         | Description             | Vendor    |
 | --------------- | ----------------------- | --------- |
 | Hosting         | Website hosting         | IONOS SE  |
-| Version control | Version control hosting | Microsoft |
+| Version control | Version control hosting | Microsoft / Github |
