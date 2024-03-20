@@ -45,7 +45,7 @@
 | ------------------------------------------------------------ | ----------------------------------- | ------------------------------------------------- | ------------- |
 | Developer tools/package manager (npm & composer) and all tools defined in the respective package manager configuration | Package manager + tools             | Based on configuration files in the master branch | 2024-03-20    |
 
-### Customer Approved Software
+#### Customer Approved Software
 
 All [Customer Approved Software](https://github.com/Karaka-Management/Organization-Guide/blob/master/Processes/Support/Approved%20Customer%20Software.md) is also approved for single users.
 
@@ -72,5 +72,9 @@ All [Customer Approved Software](https://github.com/Karaka-Management/Organizati
 | Firewall                   | iptables       |
 | Intrusion prevention system | fail2ban            |
 | Intrusion detection/prevention system | snort            |
+
+#### Customer Approved Software
+
+All [Customer Approved Software](https://github.com/Karaka-Management/Organization-Guide/blob/master/Processes/Support/Approved%20Customer%20Software.md) is also approved for the server.
 
 2024-03-20 - Version 2.0
