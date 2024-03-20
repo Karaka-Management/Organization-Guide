@@ -43,7 +43,7 @@
 
 | Software                                                     | Description                         | Version                                           | Approval Date |
 | ------------------------------------------------------------ | ----------------------------------- | ------------------------------------------------- | ------------- |
-| Developer tools/package manager (npm & composer) and all tools defined in the respective package manager configuration | Package manager + tools             | Based on configuration files in the master branch | 2022-01-01    |
+| Developer tools/package manager (npm & composer) and all tools defined in the respective package manager configuration | Package manager + tools             | Based on configuration files in the master branch | 2024-03-20    |
 
 ### Customer Approved Software
 
@@ -73,4 +73,4 @@ All [Customer Approved Software](https://github.com/Karaka-Management/Organizati
 | Intrusion prevention system | fail2ban            |
 | Intrusion detection/prevention system | snort            |
 
-2022-01-01 - Version 1.0
+2024-03-20 - Version 2.0
