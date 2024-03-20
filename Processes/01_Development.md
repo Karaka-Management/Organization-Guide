@@ -40,7 +40,7 @@ The open tasks are reviewed once a month by a senior developer. The senior devel
 
 Code changes must follow the [style guidelines](https://github.com/Karaka-Management/Developer-Guide/tree/develop/standards) (**R3**). Additionally, the automatic code style inspection tools must return no errors, failures or warnings. Developers should test their changes with inspection tools and configurations mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md) in advance before submitting them for review. (**R4**)
 
-In rare cases errors, failures or warnings during the automatic inspection are acceptable. Reasons can be for example special cases which are difficult automatize or must be individually configured in the inspection settings. If this is the case for a code change and if inspection configuration changes are necessary are decided by the senior developer performing the code review. (**R5**)
+In rare cases errors, failures or warnings during the automatic inspection are acceptable. Reasons can be for example special cases which are difficult to automatize or must be individually configured in the inspection settings. If errors, failures or warnings for a code change are acceptable or if inspection configuration changes are necessary is decided by the senior developer performing the code review. (**R5**)
 
 Automated checks which are run during the review process (**R4**):
 
