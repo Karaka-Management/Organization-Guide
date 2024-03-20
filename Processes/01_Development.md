@@ -193,7 +193,7 @@ Developers may only rely on the dependencies defined in [Approved Customer Softw
 
 ### Developer dependencies
 
-Developers may only rely on the dependencies defined in [IT Equipment & Software](https://github.com/Karaka-Management/Organization-Guide/blob/master/Processes/Support/Approved%20Customer%20Software.md). If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. Changing the package managers such as `composer.json` or `package.json` is not allowed by anyone else than the CTO. (**R12**)
+Developers may only rely on the dependencies defined in [IT Equipment & Software](https://github.com/Karaka-Management/Organization-Guide/blob/master/Processes/IT/IT%20Equipment%20%26%20Software.md). If new software should be added to this list or a different version is required developers should make a request with their team leader/head of department who forwards this requests if appropriate to the CTO and explain the reasoning for the different dependency needs. The CTO can decide if the dependency will be accepted. Changing the package managers such as `composer.json` or `package.json` is not allowed by anyone else than the CTO. (**R12**)
 
 ## Other related documents
 
