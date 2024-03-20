@@ -19,21 +19,21 @@
 | Katex                                                        | Math rendering library              | see Resources repository                          | 2024-03-20    |
 | Paypal                                                       | Paypal payment library              | see Resources repository                          | 2024-03-20    |
 | Strip                                                        | Stripe payment library              | see Resources repository                          | 2024-03-20    |
-| TeamViewer                                                   | Remote desktop connection           |                                                   | 2022-01-01    |
-| Tesseract-OCR                                                | OCR                                 |                                                   | 2022-01-01    |
-| Memcached                                                    | Memory cache                        |                                                   | 2022-01-01    |
-| Redis                                                        | Memory cache                        |                                                   | 2022-01-01    |
+| TeamViewer                                                   | Remote desktop connection           | 15.x                                              | 2022-01-01    |
+| Tesseract-OCR                                                | OCR                                 | >4.1                                              | 2022-01-01    |
+| Memcached                                                    | Memory cache                        | >1.6.0                                            | 2022-01-01    |
+| Redis                                                        | Memory cache                        | >6.0.0                                            | 2022-01-01    |
 | PHP                                                          | Programming language                | >=8.2.x                                           | 2022-01-01    |
 | PHP extensions: php-dev php-cli php-common php-mysql php-pgsql php-xdebug php-opcache php-pdo php-sqlite php-mbstring php-curl php-imap php-bcmath php-zip php-dom php-xml php-phar php-gd php-pear | Extensions for programming language | >=8.2.x                                           | 2022-01-01    |
-| C++                                                          | Programming language                |                                                   | 2022-01-01    |
-| MariaDB                                                      | Database                            |                                                   | 2022-01-01    |
-| Postgresql                                                   | Database                            |                                                   | 2022-01-01    |
-| SQLSrv                                                       | Database                            |                                                   | 2022-01-01    |
-| SQLite                                                       | Database                            |                                                   | 2022-01-01    |
-| PDFtotext                                                       | PDF text extraction                            |                                                   | 2022-01-01    |
-| PDFtoppm                                                       | PDF to image converter                         |                                                   | 2022-01-01    |
-| Apache2                                                       | Web server                            |                                                   | 2022-01-01    |
-| Nginx                                                       | Web server                            |                                                   | 2022-01-01    |
+| C & C++                                                      | Programming language                | C23 & C++23                                       | 2022-01-01    |
+| MariaDB                                                      | Database                            | 8.x                                               | 2022-01-01    |
+| Postgresql                                                   | Database                            | 14.x                                              | 2022-01-01    |
+| SQLSrv                                                       | Database                            | 2022                                              | 2022-01-01    |
+| SQLite                                                       | Database                            | 3.x                                               | 2022-01-01    |
+| PDFtotext                                                       | PDF text extraction              | 22.x                                              | 2022-01-01    |
+| PDFtoppm                                                       | PDF to image converter            | 22.x                                              | 2022-01-01    |
+| Apache2                                                       | Web server                         | 2.4                                               | 2022-01-01    |
+| Nginx                                                       | Web server                           | 1.25                                              | 2022-01-01    |
 
 Consider to update the [Key Supplier Evaluation](../Purchase/Key%20Supplier%20Evaluation.md) when changing this table.
 
