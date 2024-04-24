@@ -69,6 +69,14 @@ npx jasmine-node ./
 
 Additional inspections which are run but might be ignored during the review depending on the use case are mentioned in the [inspection documentation](https://github.com/Karaka-Management/Developer-Guide/blob/develop/quality/inspections.md) as other checks. (**R7**)
 
+##### End-To-End tests
+
+End-To-End tests simulate the user interaction with the application in the browser. These tests can be found in `tests/Web` and can only be run on a machine with `Chrome` and a window manager installed (these tests don't run in a pure CLI environment). Currently, these tests can only be run manually and are optional.
+
+```sh
+node test/Web/Backend/Install.js
+```
+
 #### Performance
 
 Developers should occasionaly check performance statistics. At this point no target metrics are defined.
@@ -96,12 +104,36 @@ In case a code change request is not approved the reviewer states the reason for
 
 If the code reviewer only finds minor issues with the proposed code change the reviewer may make small changes to the proposed code change and inform the contributor to speed up the implementation process. Code reviewers are encouraged to do this with new contributors to avoid long iteration processes and to not discourage new developers. However, communication is key and severe issues with code change requests or if the contributor already made multiple code change requests in the past the reviewer should not implement the improvements by himself and rather decline the code change requests with his reasoning. (**R5**+**R8**)
 
+#### UI tests
+
+While UI tests can be part of unit, integration or system tests the `cssOMS` repository also includes a simple test suit at [http://127.0.0.1/cssOMS/tests/app](http://127.0.0.1/cssOMS/tests/app) which allows developers to manually test UI elements and check how they work. 
+
+In the demo application it is possible to highlight html and css warnings (e.g. missing attributes, deprecated tags, inline styles, ...). In order to activate the live debugging add `&debug=true` to the end of your url.
+
 #### Demo
 
 Some code changes may also require changes or extensions in the demo setup scripts. The demo setup script tries to simulate a "real world" use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is recommended to run this only sporadically. (**R9**)
 
 ```sh
 sudo -u www-data php -dxdebug.remote_enable=1 -dxdebug.start_with_request=yes -dxdebug.mode=coverage,develop,debug demoSetup/setup.php
+```
+
+#### Test Classification
+
+```mermaid
+quadrantChart;
+    x-axis Low Level --> High Level;
+    y-axis Low Importance --> High Importance;
+    PHPStan: [0.1, 0.5];
+    PHPCS/Fixer: [0.1, 0.1];
+    PHPCBF: [0.12, 0.05];
+    Rector: [0.01, 0.1];
+    eslint: [0.1, 0.01];
+    PHPUnit: [0.5, 0.75];
+    cOMS/tests.sh: [0.4, 0.1];
+    Jasmine: [0.5, 0.5];
+    Selenium: [0.9, 0.9];
+    Sitespeed: [0.75, 0.25];
 ```
 
 #### Documentation
