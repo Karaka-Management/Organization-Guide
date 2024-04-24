@@ -133,7 +133,7 @@ quadrantChart;
     *Selenium: [0.9, 0.9];
     *Sitespeed: [0.75, 0.25];
     *Demo: [0.95, 0.95];
-    *Other: [0.05, 0.05];
+    *Other: [0.05, 0.3];
 ```
 
 \* Optional and/or manual
