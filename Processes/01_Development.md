@@ -50,7 +50,7 @@ php ./vendor/bin/php-cs-fixer fix ./ --config=Build/Config/.php-cs-fixer.php --a
 php ./vendor/bin/phpcbf --standard=Build/Config/phpcs.xml ./
 php ./vendor/bin/rector process --dry-run --config Build/Config/rector.php ./
 npx eslint ./ -c ./Build/Config/.eslintrc.json
-find . -regex'.*\.\(cpp|h\)' -exec clang-format -style=file:Build/Config/.clang-format -i {} \;
+find . -regex '.*\.\(cpp\|h\)' -exec clang-format -style=file:Build/Config/.clang-format -i {} \;
 ```
 
 #### Tests
@@ -107,7 +107,7 @@ If the code reviewer only finds minor issues with the proposed code change the r
 
 #### UI tests
 
-While UI tests can be part of unit, integration or system tests the `cssOMS` repository also includes a simple test suit at [http://127.0.0.1/cssOMS/tests/app](http://127.0.0.1/cssOMS/tests/app) which allows developers to manually test UI elements and check how they work. 
+While UI tests can be part of unit, integration or system tests the `cssOMS` repository also includes a simple test suit at [http://127.0.0.1/cssOMS/tests/app](http://127.0.0.1/cssOMS/tests/app) which allows developers to manually test UI elements and check how they work.
 
 In the demo application it is possible to highlight html and css warnings (e.g. missing attributes, deprecated tags, inline styles, ...). In order to activate the live debugging add `&debug=true` to the end of your url.
 
@@ -141,11 +141,11 @@ quadrantChart;
 
 #### Documentation
 
-Occasionally new code or code changes also require new documentation or documentation changes. Developers should make sure that the new code is also reflected in the existing documentation ([Developer-Guide](), [User-Guide]() and/or module documentation) or if additional documentation is necessary.
+Occasionally new code or code changes also require new documentation or documentation changes. Developers should make sure that the new code is also reflected in the existing documentation ([Developer-Guide](https://github.com/Karaka-Management/Developer-Guide), [User-Guide](https://github.com/Karaka-Management/User-Guide) and/or module documentation) or if additional documentation is necessary.
 
 #### Improvements, features, bugs
 
-If a developer (or employee in general) has an idea for an improvement, feature or finds a potential bug it should be reported at https://github.com/Karaka-Management/Karaka/issues. A senior developer has to check these issues and decide how to proceed with them. The decision how to proceed with the issue must be explained by the senior developer as a response in the issue. Possible steps are:
+If a developer (or employee in general) has an idea for an improvement, feature or finds a potential bug it should be reported at [https://github.com/Karaka-Management/Karaka/issues](https://github.com/Karaka-Management/Karaka/issues). A senior developer has to check these issues and decide how to proceed with them. The decision how to proceed with the issue must be explained by the senior developer as a response in the issue. Possible steps are:
 
 * Accept the issue and put the task into the [Todos](https://github.com/orgs/Karaka-Management/projects/10)
 * Dismiss the issue with an explanation
