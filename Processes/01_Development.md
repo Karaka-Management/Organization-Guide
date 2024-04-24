@@ -124,17 +124,19 @@ sudo -u www-data php -dxdebug.remote_enable=1 -dxdebug.start_with_request=yes -d
 quadrantChart;
     x-axis Low Level --> High Level;
     y-axis Low Importance --> High Importance;
-    PHPStan: [0.1, 0.5];
-    PHPCS/Fixer: [0.1, 0.1];
-    PHPCBF: [0.12, 0.05];
-    Rector: [0.01, 0.1];
-    eslint: [0.1, 0.01];
+    PHPStan: [0.2, 0.5];
+    *UI tests: [0.8, 0.05];
+    PHPCS/CBF/Fixer/Rector/eslint: [0.1, 0.1];
     PHPUnit: [0.5, 0.75];
-    cOMS/tests.sh: [0.4, 0.1];
-    Jasmine: [0.5, 0.5];
-    Selenium: [0.9, 0.9];
-    Sitespeed: [0.75, 0.25];
+    cOMS/tests.sh: [0.2, 0.2];
+    Jasmine: [0.3, 0.5];
+    *Selenium: [0.9, 0.9];
+    *Sitespeed: [0.75, 0.25];
+    *Demo: [0.95, 0.95];
+    *Other: [0.05, 0.05];
 ```
+
+\* Optional and/or manual
 
 #### Documentation
 
