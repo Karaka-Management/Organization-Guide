@@ -63,7 +63,7 @@ Automated tests which are run during the review process (**R7**):
 ```sh
 php ./vendor/bin/phpunit -c tests/PHPUnit/phpunit_default.xml
 php ./vendor/bin/phpstan analyse --no-progress -l 9 -c Build/Config/phpstan.neon ./
-npx jasmine-node ./
+./Build/Config/jasmine_build.sh && npx jasmine --config=Build/Config/jasmine.json
 ./cOMS/tests/test.sh
 ```
 
