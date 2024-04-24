@@ -50,6 +50,7 @@ php ./vendor/bin/php-cs-fixer fix ./ --config=Build/Config/.php-cs-fixer.php --a
 php ./vendor/bin/phpcbf --standard=Build/Config/phpcs.xml ./
 php ./vendor/bin/rector process --dry-run --config Build/Config/rector.php ./
 npx eslint ./ -c ./Build/Config/.eslintrc.json
+find . -regex'.*\.\(cpp|h\)' -exec clang-format -style=file:Build/Config/.clang-format -i {} \;
 ```
 
 #### Tests
@@ -126,7 +127,7 @@ quadrantChart;
     y-axis Low Importance --> High Importance;
     PHPStan: [0.2, 0.5];
     *UI tests: [0.8, 0.05];
-    PHPCS/CBF/Fixer/Rector/eslint: [0.1, 0.1];
+    Code Style: [0.1, 0.1];
     PHPUnit: [0.5, 0.75];
     cOMS/tests.sh: [0.2, 0.2];
     Jasmine: [0.3, 0.5];
