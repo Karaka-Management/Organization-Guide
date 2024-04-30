@@ -111,6 +111,15 @@ While UI tests can be part of unit, integration or system tests the `cssOMS` rep
 
 In the demo application it is possible to highlight html and css warnings (e.g. missing attributes, deprecated tags, inline styles, ...). In order to activate the live debugging add `&debug=true` to the end of your url.
 
+In the demo application it is also possible to generate a list of html and css warnings by running a script which automatically traverses the application and searches for potentially bad html or css.
+
+1. Open the website in your browser
+2. Log into the (demo) application
+3. Copy the entire content of `tests/Web/Backend/Debug.js`
+4. Paste the content into the console in your browser and press enter
+5. Wait until the browser is done loading all the pages (see limit pageLimit)
+6. At the end of the console output you should find a table with stats regarding potentially problematic html/css
+
 #### Demo
 
 Some code changes may also require changes or extensions in the demo setup scripts. The demo setup script tries to simulate a "real world" use case by generating and modifying mostly random data. This is also a good way to setup and “manually” test the code changes in a larger picture. The demo setup script can be found in the [demoSetup](https://github.com/Karaka-Management/demoSetup) repository. The demo setup script takes a long time due to the large amount of user input simulated data which is generated. Therefore it is recommended to run this only sporadically. (**R9**)
