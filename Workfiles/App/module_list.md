@@ -39,7 +39,7 @@
 * 1003700000 - OMS Address
 * 1003800000 - OMS Contact
 * 1003900000 - OMS Reporting
-* 1004000000 - OMS Shipping
+* 1004000000 - OMS Logistics
 * 1004100000 - OMS Chart
 * 1004200000 - OMS Event Management
 * 1004300000 - OMS Production
