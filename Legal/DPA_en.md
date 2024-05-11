@@ -91,3 +91,5 @@ The liability provision agreed between the parties in the GTCs shall also apply 
 2. maps: https://openlayers.org/ (if address data is provided by the client, for display on maps)
 3. geo location: https://nominatim.org/ (if address data is provided by the client, for conversion to geolocation)
 4. VAT validation: https://ec.europa.eu/taxation_customs/vies/#/vat-validation (if VAT is validated by the customer)
+
+Version 2024-05-11
