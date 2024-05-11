@@ -24,6 +24,8 @@ By accessing or using the SERVICES You agree to be bound by these TERMS. If You 
 
 Your access to and use of the SERVICES is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the SERVICES and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our SERVICES.
 
+Insofar as the COMPANY acts for YOU as a processor within the meaning of Art. 28 para. 3 GDPR, special regulations on the order processing agreement apply in addition to these General Terms and Conditions, which can be accessed under DPA.
+
 These TERMS shall also apply to all future business relations, unless otherwise specified.
 
 ## Offers and contracts
