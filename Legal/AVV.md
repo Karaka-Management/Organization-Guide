@@ -16,9 +16,9 @@ Zwecke der Verarbeitung sind alle zur Erbringung der vertraglich vereinbarten Le
 
 ## Art der personenbezogenen Daten und Kategorien von Betroffenen
 
-Die Art der verarbeiteten Daten bestimmt der Auftraggeber durch die Produktwahl, die Konfiguration, die Nutzung der Dienste und die Übermittlung von Daten. Siehe hierzu auch die  Leistungsbeschreibung Anhang 1.
+Die Art der verarbeiteten Daten bestimmt der Auftraggeber durch die Produktwahl, die Konfiguration, die Nutzung der Dienste und die Übermittlung von Daten.
 
-Die Kategorien von Betroffenen bestimmt der Auftraggeber durch die Produktwahl, die Konfiguration, die Nutzung der Dienste und die Übermittlung von Daten. Siehe hierzu auch die Leistungsbeschreibung Anhang 1.
+Die Kategorien von Betroffenen bestimmt der Auftraggeber durch die Produktwahl, die Konfiguration, die Nutzung der Dienste und die Übermittlung von Daten.
 
 ## Verantwortlichkeit und Verarbeitung auf dokumentierte Weisungen
 
