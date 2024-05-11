@@ -70,6 +70,7 @@ All [Customer Approved Software](https://github.com/Karaka-Management/Organizati
 | Remote connection          | ssh            |
 | Firewall                   | UFW            |
 | Firewall                   | iptables       |
+| 2FA                   | google-authenticator |
 | Intrusion prevention system | fail2ban            |
 | Intrusion detection/prevention system | snort            |
 
