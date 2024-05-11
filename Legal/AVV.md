@@ -66,9 +66,10 @@ Der Auftragnehmer unterrichtet den Auftraggeber unverzüglich über jeden Antrag
 ## Subunternehmer (weitere Auftragsverarbeiter)
 
 1. Der Auftraggeber erteilt dem Auftragnehmer die allgemeine Genehmigung, weitere Auftragsverarbeiter im Sinne des Art. 28 DSGVO zur Vertragserfüllung einzusetzen.
-2. Der Auftragnehmer informiert den Auftraggeber, wenn er eine Änderung in Bezug auf die Hinzuziehung oder die Ersetzung weiterer Auftragsverarbeiter beabsichtigt. Der Auftraggeber kann gegen derartige Änderungen Einspruch erheben. 
-3. Der Einspruch gegen die beabsichtigte Änderung kann nur aus einem sachlichen Grund innerhalb von 14 Tagen nach Zugang der Information über die Änderung gegenüber dem Auftragnehmer erhoben werden. Im Fall des Einspruchs kann der Auftragnehmer nach eigener Wahl die Leistung ohne die beabsichtigte Änderung erbringen oder - sofern die Erbringung der Leistung ohne die beabsichtigte Änderung für den Auftragnehmer nicht zumutbar ist - die von der Änderung betroffene Leistung gegenüber dem Auftraggeber innerhalb einer angemessenen Frist (mindestens 14 Tage) nach Zugang des Einspruchs einstellen. Mit dem Zeitpunkt der Leistungseinstellung durch den Auftragnehmer entfällt die Entgeltpflicht des Auftraggebers.
-4. Erteilt der Auftragnehmer Aufträge an weitere Auftragsverarbeiter, so obliegt es dem Auftragnehmer, seine datenschutzrechtlichen Pflichten aus diesem Vertrag auf den weiteren Auftragsverarbeiter zu übertragen. Der Auftragnehmer stellt insbesondere durch regelmäßige Überprüfungen sicher, dass die weiteren Auftragsverarbeiter die technischen und organisatorischen Maßnahmen einhalten. 
+2. Die aktuell eingesetzten weiteren Auftragsverarbeiter sind in Anhang 1 aufgeführt. Der Auftraggeber erklärt sich mit deren Einsatz einverstanden.
+3. Der Auftragnehmer informiert den Auftraggeber, wenn er eine Änderung in Bezug auf die Hinzuziehung oder die Ersetzung weiterer Auftragsverarbeiter beabsichtigt. Der Auftraggeber kann gegen derartige Änderungen Einspruch erheben. 
+4. Der Einspruch gegen die beabsichtigte Änderung kann nur aus einem sachlichen Grund innerhalb von 14 Tagen nach Zugang der Information über die Änderung gegenüber dem Auftragnehmer erhoben werden. Im Fall des Einspruchs kann der Auftragnehmer nach eigener Wahl die Leistung ohne die beabsichtigte Änderung erbringen oder - sofern die Erbringung der Leistung ohne die beabsichtigte Änderung für den Auftragnehmer nicht zumutbar ist - die von der Änderung betroffene Leistung gegenüber dem Auftraggeber innerhalb einer angemessenen Frist (mindestens 14 Tage) nach Zugang des Einspruchs einstellen. Mit dem Zeitpunkt der Leistungseinstellung durch den Auftragnehmer entfällt die Entgeltpflicht des Auftraggebers.
+5. Erteilt der Auftragnehmer Aufträge an weitere Auftragsverarbeiter, so obliegt es dem Auftragnehmer, seine datenschutzrechtlichen Pflichten aus diesem Vertrag auf den weiteren Auftragsverarbeiter zu übertragen. Der Auftragnehmer stellt insbesondere durch regelmäßige Überprüfungen sicher, dass die weiteren Auftragsverarbeiter die technischen und organisatorischen Maßnahmen einhalten. 
 
 ## Haftung und Schadensersatz
 
@@ -83,3 +84,9 @@ Die zwischen den Parteien im Hauptvertrag zur Leistungserbringung vereinbarte Ha
 3. Der Auftraggeber erkennt diese Vereinbarung  als Teil der AGB über die/das von ihm gebuchte/n Produkt/e an.  Bei etwaigen Widersprüchen gehen Regelungen dieser Vereinbarung zur Auftragsverarbeitung den Regelungen des Hauptvertrages vor. Sollten einzelne Teile dieser Vereinbarung unwirksam sein, so berührt dies die Wirksamkeit der Vereinbarungen im Übrigen nicht.
 4. Ausschließlicher Gerichtsstand für alle Streitigkeiten aus und im Zusammenhang mit diesem Vertrag ist der Sitz des Auftragnehmers. Dieser gilt vorbehaltlich eines etwaigen ausschließlich gesetzlichen Gerichtsstandes. Dieser Vertrag unterliegt den gesetzlichen Bestimmungen der Bundesrepublik Deutschland.
 5. Sollten die Daten des Auftraggebers beim Auftragnehmer durch Pfändung oder Beschlagnahme, durch ein Insolvenz- oder Vergleichsverfahren oder durch sonstige Ereignisse oder Maßnahmen Dritter gefährdet werden, so hat der Auftragnehmer den Auftraggeber unverzüglich darüber zu informieren. Der Auftragnehmer wird alle in diesem Zusammenhang Verantwortlichen unverzüglich darüber informieren, dass die Hoheit und das Eigentum an den Daten ausschließlich beim Auftraggeber als »Verantwortlicher « im Sinne der DSGVO liegen.
+
+# Anhang 1
+
+1. Server hosting: IONOS SE - Elgendorfer Str. 57 56410 Montabaur
+2. Maps: https://openlayers.org/ (falls Addressdaten vom Auftraggeber bereitgestellt werden)
+3. VAT validation: https://ec.europa.eu/taxation_customs/vies/#/vat-validation (falls VAT von Kunden validiert werden)
