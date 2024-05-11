@@ -89,3 +89,5 @@ Die zwischen den Parteien in den AGBs vereinbarte Haftungsregelung gilt auch fü
 2. Maps: https://openlayers.org/ (falls Addressdaten vom Auftraggeber bereitgestellt werden, zur darstellung auf Maps)
 3. Geo location: https://nominatim.org/ (falls Addressdaten vom Auftraggeber bereitgestellt werden, zur Umwandlung zu Geolocation)
 4. VAT validation: https://ec.europa.eu/taxation_customs/vies/#/vat-validation (falls VAT von Kunden validiert werden)
+
+Version 2024-05-11
