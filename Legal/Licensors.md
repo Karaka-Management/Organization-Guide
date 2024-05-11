@@ -4,29 +4,29 @@ The following **key** licensors are used in the project (end user relevant libra
 
 ## Fonts ##
 
-### Font Awesome ###
-
-* Files: fontawesome/*
-* License: https://fortawesome.github.io/Font-Awesome/license/
-* Source: https://fortawesome.github.io
-
-### Linearicons
-
-* Files: linearicons/*
-* License: https://linearicons.com/free/license
-* Source: https://linearicons.com/
-
 ### Lineicons
 
-* Files: lineicons/*
+* Files: fonts/lineicons/*
 * License: https://lineicons.com/download/
 * Source: https://lineicons.com/license/
 
 ### Roboto
 
-* Files: Roboto/*
+* Files: fonts/Roboto/*
 * License: https://github.com/googlefonts/roboto/blob/main/LICENSE
 * Source: https://github.com/googlefonts/roboto
+
+### Lato
+
+* Files: fonts/lato/*
+* License: https://www.latofonts.com/lato-free-fonts/
+* Source: https://www.latofonts.com/lato-free-fonts/
+
+### Google icons
+
+* Files: lineicons/*
+* License: https://github.com/google/material-design-icons/blob/master/LICENSE
+* Source: [https://lineicons.com/license/](https://fonts.google.com/icons)
 
 ## JavaScript ##
 
@@ -51,11 +51,35 @@ Core JavaScript libraries
 * License: https://github.com/mermaid-js/mermaid/blob/develop/LICENSE
 * Source: https://github.com/mermaid-js/mermaid
 
+### OpenLayers
+
+* Files: OpenLayers/*
+* License: https://www.tldrlegal.com/license/bsd-2-clause-license-freebsd
+* Source: https://openlayers.org/
+
+### Katex
+
+* Files: katex/*
+* License: https://github.com/KaTeX/KaTeX?tab=MIT-1-ov-file#readme
+* Source: https://katex.org/
+
 ### PDF.js
 
-* Files: mermaid/*
+* Files: mozilla/*
 * License: https://github.com/mozilla/pdf.js/blob/master/LICENSE
 * Source: https://github.com/mozilla/pdf.js
+
+### ZXing
+
+* Files: zxing/*
+* License: https://github.com/zxing-js/library/blob/master/LICENSE
+* Source: https://github.com/zxing-js/library
+
+### highlight.js
+
+* Files: highlightjs/*
+* License: https://github.com/highlightjs/highlight.js/blob/main/LICENSE
+* Source: https://highlightjs.org/
 
 ## Images
 
@@ -108,6 +132,12 @@ Core PHP libraries
 * Files: PHPPresentation/*
 * License: https://github.com/PHPOffice/PHPPresentation/blob/develop/LICENSE
 * Source: https://github.com/PHPOffice/PHPPresentation
+
+### Stripe
+
+* Files: stripe/*
+* License: https://github.com/stripe/stripe-php?tab=MIT-1-ov-file#readme
+* Source: https://github.com/stripe/stripe-php
 
 ## C++
 
