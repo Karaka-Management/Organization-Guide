@@ -12,7 +12,7 @@ Die Dauer der Verarbeitung richtet sich nach der tatsächlichen Verarbeitung per
 
 Die Art der Verarbeitung umfasst alle Arten von Verarbeitungen im Sinne der DSGVO zur Erfüllung des Auftrags.
 
-Zwecke der Verarbeitung sind alle zur Erbringung der vertraglich vereinbarten Leistung (siehe hierzu auch Anhang 1 Leistungsbeschreibung), insbesondere im Bereich Cloud-Dienstleistungen, Hosting, Software as a Service (SaaS) und IT-Support, erforderlichen Zwecke.
+Zwecke der Verarbeitung sind alle zur Erbringung der vertraglich vereinbarten Leistung, insbesondere im Bereich Cloud-Dienstleistungen, Hosting, Software as a Service (SaaS) und IT-Support, erforderlichen Zwecke.
 
 ## Art der personenbezogenen Daten und Kategorien von Betroffenen
 
@@ -66,10 +66,9 @@ Der Auftragnehmer unterrichtet den Auftraggeber unverzüglich über jeden Antrag
 ## Subunternehmer (weitere Auftragsverarbeiter)
 
 1. Der Auftraggeber erteilt dem Auftragnehmer die allgemeine Genehmigung, weitere Auftragsverarbeiter im Sinne des Art. 28 DSGVO zur Vertragserfüllung einzusetzen.
-2. Die aktuell eingesetzten weiteren Auftragsverarbeiter sind in Anhang 2 aufgeführt. Der Auftraggeber erklärt sich mit deren Einsatz einverstanden.
-3. Der Auftragnehmer informiert den Auftraggeber, wenn er eine Änderung in Bezug auf die Hinzuziehung oder die Ersetzung weiterer Auftragsverarbeiter beabsichtigt. Der Auftraggeber kann gegen derartige Änderungen Einspruch erheben. 
-4. Der Einspruch gegen die beabsichtigte Änderung kann nur aus einem sachlichen Grund innerhalb von 14 Tagen nach Zugang der Information über die Änderung gegenüber dem Auftragnehmer erhoben werden. Im Fall des Einspruchs kann der Auftragnehmer nach eigener Wahl die Leistung ohne die beabsichtigte Änderung erbringen oder - sofern die Erbringung der Leistung ohne die beabsichtigte Änderung für den Auftragnehmer nicht zumutbar ist - die von der Änderung betroffene Leistung gegenüber dem Auftraggeber innerhalb einer angemessenen Frist (mindestens 14 Tage) nach Zugang des Einspruchs einstellen. Mit dem Zeitpunkt der Leistungseinstellung durch den Auftragnehmer entfällt die Entgeltpflicht des Auftraggebers.
-5. Erteilt der Auftragnehmer Aufträge an weitere Auftragsverarbeiter, so obliegt es dem Auftragnehmer, seine datenschutzrechtlichen Pflichten aus diesem Vertrag auf den weiteren Auftragsverarbeiter zu übertragen. Der Auftragnehmer stellt insbesondere durch regelmäßige Überprüfungen sicher, dass die weiteren Auftragsverarbeiter die technischen und organisatorischen Maßnahmen einhalten. 
+2. Der Auftragnehmer informiert den Auftraggeber, wenn er eine Änderung in Bezug auf die Hinzuziehung oder die Ersetzung weiterer Auftragsverarbeiter beabsichtigt. Der Auftraggeber kann gegen derartige Änderungen Einspruch erheben. 
+3. Der Einspruch gegen die beabsichtigte Änderung kann nur aus einem sachlichen Grund innerhalb von 14 Tagen nach Zugang der Information über die Änderung gegenüber dem Auftragnehmer erhoben werden. Im Fall des Einspruchs kann der Auftragnehmer nach eigener Wahl die Leistung ohne die beabsichtigte Änderung erbringen oder - sofern die Erbringung der Leistung ohne die beabsichtigte Änderung für den Auftragnehmer nicht zumutbar ist - die von der Änderung betroffene Leistung gegenüber dem Auftraggeber innerhalb einer angemessenen Frist (mindestens 14 Tage) nach Zugang des Einspruchs einstellen. Mit dem Zeitpunkt der Leistungseinstellung durch den Auftragnehmer entfällt die Entgeltpflicht des Auftraggebers.
+4. Erteilt der Auftragnehmer Aufträge an weitere Auftragsverarbeiter, so obliegt es dem Auftragnehmer, seine datenschutzrechtlichen Pflichten aus diesem Vertrag auf den weiteren Auftragsverarbeiter zu übertragen. Der Auftragnehmer stellt insbesondere durch regelmäßige Überprüfungen sicher, dass die weiteren Auftragsverarbeiter die technischen und organisatorischen Maßnahmen einhalten. 
 
 ## Haftung und Schadensersatz
 
