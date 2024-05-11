@@ -17,7 +17,6 @@
 | HighlightJs                                                  | Code highlighting library           | see Resources repository                          | 2024-03-20    |
 | OpenLayers                                                   | Map library                         | see Resources repository                          | 2024-03-20    |
 | Katex                                                        | Math rendering library              | see Resources repository                          | 2024-03-20    |
-| Paypal                                                       | Paypal payment library              | see Resources repository                          | 2024-03-20    |
 | Strip                                                        | Stripe payment library              | see Resources repository                          | 2024-03-20    |
 | TeamViewer                                                   | Remote desktop connection           | 15.x                                              | 2022-01-01    |
 | Tesseract-OCR                                                | OCR                                 | >4.1                                              | 2022-01-01    |
@@ -34,6 +33,7 @@
 | PDFtoppm                                                       | PDF to image converter            | 22.x                                              | 2022-01-01    |
 | Apache2                                                       | Web server                         | 2.4                                               | 2022-01-01    |
 | Nginx                                                       | Web server                           | 1.25                                              | 2022-01-01    |
+| imagemagick                                                  | Image stats & manipulation                           | 6.x                                              | 2024-05-11    |
 
 Consider to update the [Key Supplier Evaluation](../Purchase/Key%20Supplier%20Evaluation.md) when changing this table.
 
