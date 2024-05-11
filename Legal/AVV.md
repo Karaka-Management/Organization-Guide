@@ -4,7 +4,7 @@ Nach Art. 28 Abs. 3 Datenschutz-Grundverordnung (DSGVO)
 
 ## Gegenstand und Dauer der Verarbeitung
 
-Gegenstand der Vereinbarung sind die Rechte und Pflichten der Parteien im Rahmen der Leistungserbringung gemäß Leistungsbeschreibung  und AGB (nachfolgend Hauptvertrag), soweit eine Verarbeitung von personenbezogenen Daten durch IONOS (nachfolgend Auftragnehmer) als Auftragsverarbeiter für den Kunden als Verantwortlicher (nachfolgend Auftraggeber) gemäß Art. 28 DSGVO erfolgt. Dies umfasst alle Tätigkeiten, die der Auftragnehmer zur Erfüllung des Auftrags erbringt und die eine Auftragsverarbeitung darstellen. Dies gilt auch, sofern der Auftrag nicht ausdrücklich auf diese Vereinbarung zur Auftragsverarbeitung verweist. 
+Gegenstand der Vereinbarung sind die Rechte und Pflichten der Parteien im Rahmen der Leistungserbringung gemäß Leistungsbeschreibung und AGB (nachfolgend Hauptvertrag), soweit eine Verarbeitung von personenbezogenen Daten durch Jingga e.K. (nachfolgend Auftragnehmer) als Auftragsverarbeiter für den Kunden als Verantwortlicher (nachfolgend Auftraggeber) gemäß Art. 28 DSGVO erfolgt. Dies umfasst alle Tätigkeiten, die der Auftragnehmer zur Erfüllung des Auftrags erbringt und die eine Auftragsverarbeitung darstellen. Dies gilt auch, sofern der Auftrag nicht ausdrücklich auf diese Vereinbarung zur Auftragsverarbeitung verweist. 
 
 Die Dauer der Verarbeitung richtet sich nach der tatsächlichen Verarbeitung personenbezogener Daten des Auftraggebers durch den Auftragnehmer.
 
