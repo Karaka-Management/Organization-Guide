@@ -34,7 +34,7 @@ Alle Angebote des UNTERNEHMENs sind freibleibend und unverbindliche. Angebote de
 
 Zeichnungen, Abbildungen, Maße, Gewicht oder sonstige Leistungsdaten sind nur verbindlich, wenn diese ausdrücklich schriftlich vereinbart sind.
 
-Angaben aus Prospoekten, Preislisten oder dem Angebot sind nicht rechtsverbindlich, es sei denn, sie sind ausdrücklich Vertragsbestandteil geworden. Mündliche Zusagen und Nebenabreden, die über den schriftlichen Vertrag hinausgehen sind nicht zulässig.
+Angaben aus Prospekten, Preislisten oder dem Angebot sind nicht rechtsverbindlich, es sei denn, sie sind ausdrücklich Vertragsbestandteil geworden. Mündliche Zusagen und Nebenabreden, die über den schriftlichen Vertrag hinausgehen sind nicht zulässig.
 
 ## Copyright
 
