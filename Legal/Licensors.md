@@ -94,10 +94,10 @@ Core JavaScript libraries
 * License: https://undraw.co/license
 * Source: https://undraw.co/
 
-### Water Droplets on Window
+### Stock images for demo application
 
 * License: https://www.pexels.com/creative-commons-images/
-* Source: https://www.pexels.com/photo/abstract-blur-bubble-cold-459439/
+* Source: https://www.pexels.com/@dennis-eichhorn-570154924/collections/
 
 ## PHP
 
