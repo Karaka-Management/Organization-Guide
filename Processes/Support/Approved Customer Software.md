@@ -34,6 +34,7 @@
 | Apache2                                                       | Web server                         | 2.4                                               | 2022-01-01    |
 | Nginx                                                       | Web server                           | 1.25                                              | 2022-01-01    |
 | imagemagick                                                  | Image stats & manipulation                           | 6.x                                              | 2024-05-11    |
+| wkhtmltopdf                                                  | Html to pdf                           | 0.x                                              | 2024-05-11    |
 
 Consider to update the [Key Supplier Evaluation](../Purchase/Key%20Supplier%20Evaluation.md) when changing this table.
 
