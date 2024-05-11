@@ -88,5 +88,6 @@ Die zwischen den Parteien im Hauptvertrag zur Leistungserbringung vereinbarte Ha
 # Anhang 1
 
 1. Server hosting: IONOS SE - Elgendorfer Str. 57 56410 Montabaur
-2. Maps: https://openlayers.org/ (falls Addressdaten vom Auftraggeber bereitgestellt werden)
-3. VAT validation: https://ec.europa.eu/taxation_customs/vies/#/vat-validation (falls VAT von Kunden validiert werden)
+2. Maps: https://openlayers.org/ (falls Addressdaten vom Auftraggeber bereitgestellt werden, zur darstellung auf Maps)
+3. Geo location: https://nominatim.org/ (falls Addressdaten vom Auftraggeber bereitgestellt werden, zur Umwandlung zu Geolocation)
+4. VAT validation: https://ec.europa.eu/taxation_customs/vies/#/vat-validation (falls VAT von Kunden validiert werden)
