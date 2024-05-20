@@ -1,6 +1,6 @@
 The OMS License
 
-Version 2.1
+Version 2.2
 
 1. Definitions
 
@@ -26,7 +26,7 @@ Version 2.1
 
 2. Grant of Copyright License
 
-Subject to the terms and conditions of this License, each Contributor grants to You after purchase a perpetual, worldwide, non-exclusive, irrevocable copyright license to prepare Derivative Works of, publicly display, publicly perform the Work and such Derivative Works in Source or Object form. You are not allowed to sublicense, reproduce, or distribute the Work and such Derivative Works in Source or Object form.
+Subject to the terms and conditions of this License, each Contributor grants to You after purchase a temporary, worldwide, non-exclusive copyright license to publicly display or publicly perform the Work in Source or Object form. You are not allowed to sublicense, reproduce, or distribute the Work and such Derivative Works in Source or Object form.
 
 3. Redistribution
 
